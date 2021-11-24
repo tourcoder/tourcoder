@@ -1,0 +1,56 @@
+baseURL = "/"
+languageCode = "en-us"
+
+title = "代码旅行"
+copyright = "TOURCODER.COM"
+
+theme = "tchugo"
+
+publishDir = "public"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Bin HUA" #replace with your name
+  lazyImage = true
+  slogan = "Do Faith No Fear | 信仰永恒，无所畏惧 :)"
+  description = "代码旅行是我的个人博客，它集合了我的学习笔记，播客以及视频的内容。分享我的所学，所思，所想，所玩。"
+  keywords = "代码旅行, tourcoder, 代码, 旅行, 推特, twitter, 播客, podcast, 博客, blog, blogger, youtube, github, 开源, opensource"
+
+[permalinks]
+  post = "/:slug"
+  extend = "/:slug"
+
+[menu]
+  [[menu.main]]
+  name = "书影"
+  url = "/booklist"
+  [[menu.main]]
+  name = "短文"
+  url = "/buzz"
+  [[menu.main]]
+  name = "关于"
+  url = "/about"
+  [[menu.main]]
+  name = "搜索"
+  url = "/search"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "github"
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe = true
+[blackfriday]
+  taskLists = true
+  angledQuotes = true
+  fractions = true
+  plainIDAnchors = true
+  tabSizeDefault = 4
+  extensions = ["hardLineBreak", "tables", "noEmptyLineBeforeBlock", "definitionLists"]

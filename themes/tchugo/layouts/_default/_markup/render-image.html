@@ -1,0 +1,7 @@
+{{ $img := imageConfig (add "/content" (.Destination | safeURL)) }}
+
+<img
+  src="{{ .Destination | safeURL }}"
+  alt="{{ .Text }}"
+  loading="lazy"
+/>
