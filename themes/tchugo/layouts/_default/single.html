@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div class="blogdetail">
+  <header>
+    <h2>{{ .Title }}</h2>
+    {{ if and .Date (eq .Type "post")}}
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+      <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u=https://tourcoder.com{{ .Permalink | absURL }}" target="_blank">ENGLISH VERSION</a></p>
+    {{ end }}
+  </header>
+
+  <div class="blogcontent">
+    {{ .Content }}
+  </div>
+
+  {{ if ne .Type "extend" }}
+
+  <footer>
+    <hr class="break-line">
+    <div class="license">
+      <p>除特别注明外，所有文章均采用<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">Creative Commons BY-NC-ND 4.0（自由转载-保持署名-非商用-禁止演绎）协议</a>发布。</p>
+    </div>
+    <hr class="break-line">
+    {{ partial "gads.html" . }}
+    {{ $related := (where site.RegularPages "Type" "in" site.Params.mainSections).Related . | first 5 }}
+    {{ with $related }}
+    <div class="releated-posts">
+      <h3>相关文章</h3>
+      {{ range . }}
+      <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </footer>
+
+  {{ end }}
+
+</div>
+{{ end }}

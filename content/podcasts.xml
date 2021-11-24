@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
+<channel>
+<title>代码旅行</title>
+<link>https://tourcoder.com/</link>
+<language>zh-cn</language>
+<copyright>&#169; 2019 TOURCODER.COM</copyright>
+<itunes:author>tourcoder</itunes:author>
+<description>聊一聊人生这趟旅行的路上的见闻</description>
+<itunes:owner>
+    <itunes:name>代码旅行</itunes:name>
+    <itunes:email>hello@tourcoder.com</itunes:email>
+</itunes:owner>
+<itunes:explicit>false</itunes:explicit>
+<itunes:image href="https://tourcoder.com/imgs/podcastlogo.jpg"/>
+<itunes:category text="Comedy" />
+<itunes:category text="Technology" />
+<itunes:category text="Arts" />
+<itunes:new-feed-url>https://tourcoder.com/podcasts.xml</itunes:new-feed-url>
+    <item>
+        <title>疯狂的比特币，买还是不买？</title>
+        <pubDate>Sun, 27 Dec 2020 20:15:00 UTC+8</pubDate>
+        <description>比特币都要涨疯了，到底是买，还是不买啊？反正我买了！</description>
+        <content:encoded>比特币都要涨疯了，到底是买，还是不买啊？反正我买了！</content:encoded>
+        <enclosure url="https://tourcoder.com/audio/202012/crazybitcoin_001.m4a" length="1" type="audio/mpeg"/>
+        <itunes:subtitle>比特币涨的时候买进，我觉得我有点疯！</itunes:subtitle>
+        <itunes:summary>比特币都要涨疯了，到底是买，还是不买啊？反正我买了！</itunes:summary>
+        <itunes:duration>06:00</itunes:duration>
+        <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+        <title>菜小孩</title>
+        <pubDate>Sat, 18 Oct 2019 10:00:00 UTC+8</pubDate>
+        <description>我老婆和小姨子是两只菜鸡，游戏打得菜，还找借口说我菜，我只好出一首歌 Diss Back</description>
+        <content:encoded>我老婆和小姨子是两只菜鸡，游戏打得菜，还找借口说我菜，我只好出一首歌 Diss Back</content:encoded>
+        <enclosure url="https://tourcoder.com/audio/201910/cxh.m4a" length="1" type="audio/mpeg"/>
+        <itunes:subtitle>两只游戏菜鸡的故事</itunes:subtitle>
+        <itunes:summary>老婆和小姨子是两只菜鸡，游戏打得菜，还找借口说我菜，我只好出一首歌 Diss Back</itunes:summary>
+        <itunes:duration>1:03</itunes:duration>
+        <guid isPermaLink="false"></guid>
+    </item>
+</channel>
+</rss>

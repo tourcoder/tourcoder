@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  {{ hugo.Generator }}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
+  <meta name="msvalidate.01" content="FE412ADA98D979706DA3F2B52617E726" />
+  <link rel="shortcut icon" href="/imgs/favicon.ico">
+  <title>{{ if not .IsHome }} {{ .Title }}@{{ end }}{{ .Site.Title }}{{ if .Site.Params.Slogan }} :: {{ .Site.Params.Slogan }} {{ end }}</title>
+  {{- if .Site.Params.description }}
+  <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+  {{- end }}
+  {{- if .Site.Params.keywords }}
+  <meta name="keywords" content="{{ default .Site.Params.keywords }}">
+  {{- end }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/icofont/icofont.min.css">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
+</head>
