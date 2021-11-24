@@ -1,0 +1,12 @@
+name = "Tchugo"
+license = "MIT"
+licenselink = "https://github.com/tourcoder/tchugo/blob/master/LICENSE"
+description = "A simple hugo theme"
+homepage = "http://tourcoder.com/"
+tags = ["simple"]
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Bin HUA"
+  homepage = "https://github.com/tourcoder"
