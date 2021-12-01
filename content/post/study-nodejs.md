@@ -235,8 +235,15 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
             console.log('hi ' + name);
           };
         };
-        module.exports = sayHi; //简化后的方式，复杂写法是 exports.sayHi = sayHi;
+        module.exports = sayHi; //也可以写成 exports.sayHi = sayHi;
         ```
+        
+        其中 `module.exports` 和 `exports`
+        
+        ||用法|例子|
+        |---|---|---|
+        |module.exports|module.exports 既可以通过点，也可以通过直接赋值的形式|module.exports.abc = def 或者 module.exports = {abc: def} 赋值对象|
+        |exports|exports 只能使用点向外暴露内部变量|exports.abc = def|
 
         保存文件为 sayhi.js，加载该文件
 
