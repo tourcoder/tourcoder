@@ -137,16 +137,53 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
 
 - 3.2 模块
 
-    模块 (Module) 是 Node.JS 的基本组成，通常一个文件就是一个模块，通过 require 这个对象加载到程序中
+    模块 (Module) 是 Node.JS 的基本组成，通常一个 js 文件就是一个模块，通过 require 这个对象加载到程序中
 
     ```
     var http = require('http');
     ```
-    这就是加载 http 这个模块。
+    这就是加载 http 这个模块，在 nodejs 中有一些官方内置的模块称之为核心模块，通过其名字（模块标识）直接引入，比如上面的 http，还有 fs 等；而用户自己写的模块称之为文件模块，其标识就是文件的路径，用 `.` 或 `../` 开头的相对或绝对路径，比如某一个自己写的 `tc.js` 模块就可以用
+    
+    ```
+    var ntc = require('./tc.js'); // require 函数返回了一个对象，表示 ntc 是引入的 tc.js 这个模块
+    ```
     
     - 3.2.1 模块的创建和加载
 
-        通过 exports 这个对象来创建，exports 是模块公开的接口
+        如上所述，每一个 js 文件其实就是一个模块，node 会在执行该文件时自动的给该文件的代码内容外面套一层函数，比如 001.js 的代码内容是
+        
+        ```
+        var x = 100;
+        ```
+        
+        在执行时，会变成
+        
+        ```
+        function (exports, require, module, __filename, __dirname) {
+            var x = 100;
+        }
+        ```
+        
+        可以通过 `arguments.callee` 来查看，即
+        
+        ```
+        var x = 100;
+        console.log(arguments.callee + ''); //这里加 + '' 的内容是为了拼串，显示出字符串，如果不加则显示 [Function (anonymous)]，因为 callee 这个属性保存的是当前函数执行的对象
+        ```
+        
+        通过 `function (exports, require, module, __filename, __dirname) {}` 可以看出，模块的代码是包装在一个函数里执行的，并且在执行的时候，传入了五个实参。
+        
+        |实参|说明|备注|
+        |---|---|---|
+        |exports|将变量或函数暴露到外部|它是 module 的属性，即 `module.exports==exports`|
+        |require|用来引入外部的模块||
+        |module|表示当前模块自身，就是当前文件||
+        |__filename|当前文件模块的文件完整路径||
+        |__dirname|当前文件模块所在的文件夹完整路径||
+        
+        因为每个模块都是被包含在一个函数里执行的，所以里面的变量是局部变量，而非全局变量，可以通过 `global` 来查询，即 `console.log(global)`。`global` 是 node 中的一个全局对象，类似于网页中的 `window`，在全局中的创建的变量会作为 `global` 的属性保存，在全局中创建的函数都会作为 `global` 的方法保存。也可以通过上面的 `arguments` 证明，因为全局中没有 `arguments`。
+
+        通过 exports 这个对象来创建，exports 是模块公开的接口，将内容暴露出去
 
         ```
         var name; //定义一个变量
@@ -198,8 +235,15 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
             console.log('hi ' + name);
           };
         };
-        module.exports = sayHi; //简化后的方式，复杂写法是 exports.sayHi = sayHi;
+        module.exports = sayHi; //也可以写成 exports.sayHi = sayHi;
         ```
+        
+        其中 `module.exports` 和 `exports`
+        
+        ||用法|例子|
+        |---|---|---|
+        |module.exports|module.exports 既可以通过点，也可以通过直接赋值的形式|module.exports.abc = def 或者 module.exports = {abc: def} 赋值对象|
+        |exports|exports 只能使用点向外暴露内部变量|exports.abc = def|
 
         保存文件为 sayhi.js，加载该文件
 
@@ -254,6 +298,8 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
         包的管理由 NPM 搞定，安装包也非常方便 `npm install package_name` 即可完成包的安装，此时这种安装是安装在当前的目录下的，会自动生成一个 mode_modules 的文件夹，如果想安装全局模式的包则运行 `npm install -g package_name`，加上 `-g` 这个参数。
 
         _注意：如果全局安装了，则不可以用 require 来进行使用，但可以 `npm link` 来消除这个限制 ，如果全局安装了amodule，则 `npm link amodule` 即可_
+        
+        至于如何发一个包到 NPM 上，参考[这里](https://tourcoder.com/publish-and-update-package-on-npmjs/)。
         
 **update@20180507 : Nodejs 项目调试**
 
