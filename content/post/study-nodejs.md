@@ -299,6 +299,8 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
 
         _注意：如果全局安装了，则不可以用 require 来进行使用，但可以 `npm link` 来消除这个限制 ，如果全局安装了amodule，则 `npm link amodule` 即可_
         
+        至于如何发一个包到 NPM 上，参考[这里](https://tourcoder.com/publish-and-update-package-on-npmjs/)。
+        
 **update@20180507 : Nodejs 项目调试**
 
 最近在用 nodejs，koa，ejs 开发一个网站项目时总遇到一些问题，调试就显得非常重要，这里记录下一些调试的方式。
