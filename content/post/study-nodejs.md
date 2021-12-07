@@ -300,7 +300,59 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
         _注意：如果全局安装了，则不可以用 require 来进行使用，但可以 `npm link` 来消除这个限制 ，如果全局安装了amodule，则 `npm link amodule` 即可_
         
         至于如何发一个包到 NPM 上，参考[这里](https://tourcoder.com/publish-and-update-package-on-npmjs/)。
-        
+       
+**第四章 常用 API 的学习**
+
+NODEJS 常用 API 可以从其官网 [https://nodejs.org](https://nodejs.org) 查看，也有一个不错的中文站点 [https://nodejs.cn](https://nodejs.cn)。
+
+- assert 断言
+- async_hooks 异步钩子
+- buffer 缓冲区
+- child_process 子进程
+- cluster 集群
+- console 控制台
+- crypto 加密
+- debugger 调试器
+- dgram 数据报
+- diagnostics_channel 诊断通道
+- dns 域名服务器
+- domain 域
+- Error 错误
+- events 事件触发器
+- fs 文件系统
+- global 全局变量
+- http 超文本传输协议
+- http2 超文本传输协议2.0
+- https 安全超文本传输协议
+- inspector 检查器
+- Intl 国际化
+- module 模块
+- net 网络
+- os 操作系统
+- path 路径
+- perf_hooks 性能钩子
+- process 进程
+- punycode 域名代码
+- querystring 查询字符串
+- readline 逐行读取
+- repl 交互式解释器
+- report 诊断报告
+- stream 流
+- string_decoder 字符串解码器
+- timers 定时器
+- tls 安全传输层
+- trace_events 跟踪事件
+- tty 终端
+- url 网址
+- util 实用工具
+- v8 引擎
+- vm 虚拟机
+- wasi WebAssembly系统接口
+- webcrypto Web加密
+- Webstream Web流
+- worker_threads 工作线程
+- zlib 压缩
+
 **update@20180507 : Nodejs 项目调试**
 
 最近在用 nodejs，koa，ejs 开发一个网站项目时总遇到一些问题，调试就显得非常重要，这里记录下一些调试的方式。
