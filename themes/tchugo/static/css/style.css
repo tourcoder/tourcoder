@@ -1,10 +1,17 @@
+@font-face {
+  font-family: 'jetbrainfont';
+  src: url('webfont/eot/JetBrainsMono-Regular.eot');
+  src: url('webfont/eot/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'),
+       url('webfont/woff/JetBrainsMono-Regular.woff') format('woff'),
+   url('webfont/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+}
 * {
   border: 0;
   padding: 0;
   margin: 0;
 }
 body {
-  font-family: -apple-system,"pingfang sc",Arial,"microsoft yahei",poppins,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+  font-family: "jetbrainfont", -apple-system,"pingfang sc",Arial,"microsoft yahei",poppins,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
   font-size: 16px;
   line-height: 1.6;
   word-break: break-word;
