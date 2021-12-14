@@ -11,7 +11,7 @@ Mosh 全称 mobile shell，其官网是 [https://mosh.org/](https://mosh.org/)�
 
 ### 安装
 
-在 macOS 上直接通过 homebrew 安装即可 `brew install mosh`
+在 macOS 上直接通过 homebrew 安装即可 `brew install mosh`，而在服务器端也要安装，我用的是 Debian，则运行 `apt install mosh -y` 即可
 
 ### 使用
 
