@@ -21,4 +21,12 @@ Mosh 全称 mobile shell，其官网是 [https://mosh.org/](https://mosh.org/)�
 mosh username@server
 ```
 
-即可。更多内容可以看其官网或者使用 `mosh -h` 查看。
+即可。更多内容可以看其官网或者使用 `mosh -h` 查看，另外 mosh 使用 ssh 的 key 的登录方式是
+
+```
+mosh --ssh="ssh -i ~/.ssh/key" username@server
+```
+
+### 注意点
+
+需要在服务器端开启 `60000-65535` 的入站端口
