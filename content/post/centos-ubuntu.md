@@ -775,11 +775,14 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 #### Caddy 安装和配置
 
-安装方式更新，可以通过 docker 安装或者直接系统安装，具体看官网 https://caddyserver.com ，比如在 Debian, Ubuntu, Raspbian 下安装就是
+安装方式更新，可以通过 docker 安装或者直接系统安装，具体看官网 [https://caddyserver.com/docs/install](https://caddyserver.com/docs/install)，貌似还没有稳定，安装的部分经常变动，比如我这次修改就是因为它变动过了安装源。
+
+在 Debian, Ubuntu, Raspbian 下安装就是
 
 ```
-echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" \
-    | sudo tee -a /etc/apt/sources.list.d/caddy-fury.list
+sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo tee /etc/apt/trusted.gpg.d/caddy-stable.asc
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
 sudo apt update -y
 sudo apt install caddy -y
 ```
@@ -802,6 +805,13 @@ Caddy 使用命令：/usr/local/caddy/Caddyfile
 使用说明：service caddy start | stop | restart | status
 或者使用：/etc/init.d/caddy start | stop | restart | status
 ```
+卸载也做了调整，除了删除 `/usr/bin/caddy` 之外，还应该运行命令
+
+```
+sudo apt remove caddy
+```
+
+如果想要加上第三方插件，可以通过官方平台 [https://caddyserver.com/download](https://caddyserver.com/download) 选择后下载安装，如果需要安装一些在上面平台上没有的第三方插件，则可以通过 xcaddy 来进行安装，准确的说是编译一个自己的版本。具体看[这里](https://caddyserver.com/docs/build#xcaddy)
 
 caddy 早已升级到 v2，之前 v1 版本的配置就取消，只保留了 v2 版本的配置内容
 
