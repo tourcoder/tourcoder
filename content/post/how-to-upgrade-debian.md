@@ -1,5 +1,5 @@
 ---
-title: "如果对 Debian 进行大版本升级"
+title: "如何对 Debian 进行大版本升级"
 slug: "how-to-upgrade-debian"
 author: Bin Hua
 lastmod: 2021-12-14T15:09:46+08:00
