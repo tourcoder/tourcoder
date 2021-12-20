@@ -41,7 +41,32 @@ proxy.tourcoder.com {
 }
 ```
 
-问题解决。
+问题解决，在 Caddy 中也可以写成
+
+```
+proxy.tourcoder.com {
+ tls noreply@tourcoder.com
+ @staff_websocket {
+  path /helloworld
+  header Connection *Upgrade*
+  header Connection *upgrade*
+  header Upgrade websocket
+ }
+ reverse_proxy @staff_websocket localhost:1234
+}
+```
+
+补充，刚才在 Caddy 的官方社区得到了一些[新的指导](https://caddy.community/t/appending-tls-handshake-error-ws-tls/14474)，如果这是一个代理的话，可以不使用 matcher，即 `header` 的内容，上面配置内容变成
+
+```
+proxy.tourcoder.com {
+ tls noreply@tourcoder.com
+ @staff_websocket {
+  path /helloworld
+ }
+ reverse_proxy @staff_websocket localhost:1234
+}
+```
 
 另外附上 v2ray 和 caddy 的配置，具体的安装看 [v2ray 安装](https://github.com/v2fly/fhs-install-v2ray)，[caddy 的安装](https://caddyserver.com/docs/install)。
 
