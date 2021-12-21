@@ -1,5 +1,5 @@
 ---
-title: "Email Routing of Cloudflare"
+title: "试用 Cloudflare 的电子路由"
 slug: "email-routing-of-cloudflare"
 author: Bin Hua
 lastmod: 2021-12-21T20:07:07+08:00
