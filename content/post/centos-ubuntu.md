@@ -754,7 +754,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
     ```
     apt-get update 
-    apt-get install python gcc make g++
+    apt-get install python gcc make g++ zlib1g-dev libpcre3 libpcre3-dev openssl libssl-dev autoconf automake cmake
     ```
 
 - 获取最新版，并解压 
