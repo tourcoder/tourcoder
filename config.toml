@@ -30,6 +30,8 @@ disableKinds = ["taxonomy", "term"]
   [[menu.main]]
   name = "搜索"
   url = "/search"
+  name = "工具集"
+  url = "https://tools.tourcoder.com"
 
 [markup]
   [markup.highlight]
