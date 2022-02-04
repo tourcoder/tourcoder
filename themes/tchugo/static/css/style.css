@@ -202,3 +202,14 @@ ul.pagination li a {
 .mod_404 .wrapper a {
   color: rgba(255,255,255,0.6);
 }
+.skeywords {
+  border: 1px solid #f00;
+  height: 44px;
+  line-height: 44px;
+  text-indent: 5px;
+}
+input[type=submit] {
+  height: 44px;
+  width: 80px;
+  line-height: 44px;
+}
