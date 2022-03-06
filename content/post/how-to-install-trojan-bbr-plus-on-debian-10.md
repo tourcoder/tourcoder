@@ -4,7 +4,7 @@ slug: "how-to-install-trojan-bbr-plus-on-debian-10"
 author: Bin Hua
 lastmod: 2022-03-05T09:17:22+08:00
 date: 2022-03-05T09:17:22+08:00
-tags: ["trojan", "bbr", "Debian"]
+tags: ["trojan", "bbr", "Debian", "trojan go"]
 ---
 
 Trojan 协议出来很久了，一直没有尝试过，借此机会尝试下，也尝试下 BBR PLUS。
@@ -82,5 +82,11 @@ chmod +x tcp.sh
 ``` 
 
 修改上面的密码和 ssl 证书的位置，然后重启 `serivce trojan restart`，也可以通过 `service trojan status` 或者 `ss -lp | grep trojan` 查看状态。
+
+#### 扩展 Trojan Go
+
+Trojan Go 这个项目可以理解为是升级版的 Trojan，网上有大神搞了带多用户管理的程序，地址是：[https://github.com/Jrohy/trojan](https://github.com/Jrohy/trojan)，安装方式里面写的也很清楚，非常方便。
+
+#### 客户端
 
 至于在客户端如何配置，自行查看网上的其它教程。
