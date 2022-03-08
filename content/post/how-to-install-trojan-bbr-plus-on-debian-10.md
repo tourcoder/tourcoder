@@ -81,11 +81,26 @@ chmod +x tcp.sh
 }
 ``` 
 
-修改上面的密码和 ssl 证书的位置，然后重启 `serivce trojan restart`，也可以通过 `service trojan status` 或者 `ss -lp | grep trojan` 查看状态。
+修改上面的密码和 ssl 证书的位置，然后重启 `serivce trojan restart`，也可以通过 `service trojan status` 或者 `ss -lp | grep trojan` 查看状态。如果需要增加 ws + tls 则在该配置里增加如下内容
 
-#### 扩展 Trojan Go
+```
+"websocket": {
+    "enabled": true,
+    "path": "/你的路径/",
+    "host": "你的域名"
+  },
+  "mux": {
+    "enabled": true,
+    "concurrency": 8,
+    "idle_timeout": 60
+  }
+```
 
-Trojan Go 这个项目可以理解为是升级版的 Trojan，网上有大神搞了带多用户管理的程序，地址是：[https://github.com/Jrohy/trojan](https://github.com/Jrohy/trojan)，安装方式里面写的也很清楚，非常方便。
+以及在 ssl 代码块中增加 `"sni": "你的域名"`
+
+#### 一键安装 Trojan 和 Trojan Go
+
+Trojan Go 这个项目可以理解为是升级版的 Trojan，网上有大神搞了带多用户管理的程序，地址是：[https://github.com/Jrohy/trojan](https://github.com/Jrohy/trojan) ，安装方式里面写的也很清楚，非常方便。通过它安装的配置文件位置是 `/usr/local/etc/trojan/config.json`
 
 #### 客户端
 
