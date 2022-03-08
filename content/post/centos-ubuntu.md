@@ -1248,6 +1248,10 @@ LC_ALL="en_US.UTF-8"
 
 4. 是否缺少了 `index` 指向的文件，比如 index.html 等
 
+**SSHD自动启动**
+
+有一些系统的版本， sshd 不能够自动随机启动，可以通过命令 `chkconfig sshd on` 或者 `systemctl enable sshd`
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
