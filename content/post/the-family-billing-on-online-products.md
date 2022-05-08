@@ -16,6 +16,7 @@ tags: ["开销", "消费"]
 | 域名 | 12K 刀 | 每年的重头戏 |
 | Microsoft 365 家庭版 | 99.99 刀 | 从之前的 office 365 切换到了当前版 |
 | Google one | 99 刀 | Google one 2T 容量套餐，主要用作照片，视频的备份保存 |
+| Google Workspace | 144 刀 | 我主力邮箱，现在 Google 要收费了 |
 | iCloud Storage | 118.8 刀 | iCloud 的云盘服务，开启了家庭共享 |
 | GitHub | 48 刀  | GitHub Pro 的收费 |
 | VPS | 642 刀 | 我的开发机，翻墙脚本，机器人，sideproject 等需要用的服务器 |
