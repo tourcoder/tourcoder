@@ -1213,7 +1213,7 @@ locale-gen en_US.UTF-8
 dpkg-reconfigure locales
 ```
 
-选择，`en_US.UTF-8 UTF-8`，然后再选择 `en_US.UTF-8`，最后和 centos 里面的操作一样编辑 `vi /etc/environment`，增加内容
+选择，`en_US.UTF-8 UTF-8`，然后再选择 `en_US.UTF-8`，最后和 centos 里面的操作一样编辑 `vi /etc/environment`，Debian 也可以在 `/etc/default/locale` 里增加内容
 
 ```
 LANGUAGE="en_US.UTF-8"
