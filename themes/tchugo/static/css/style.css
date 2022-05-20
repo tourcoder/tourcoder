@@ -89,10 +89,10 @@ del {
   margin: 5px 0;
 }
 .blogdetail .blogcontent h3 {
-  border-left: 3px double #58a6ff;
   line-height: 120%;
-  color: #58a6ff;
+  color: rgba(255,255,255,0.85);
   padding-left: 8px;
+  margin: 22px 0 22px 0;
 } 
 .blogdetail .blogcontent p img {
   border-radius: 4px;
