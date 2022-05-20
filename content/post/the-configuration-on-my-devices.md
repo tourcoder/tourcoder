@@ -294,7 +294,13 @@ sudo service sshd restart
 		
   - Xcode
 
-  开发 Apple 的应用必用的工具，官网地址：[https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)。
+  开发 Apple 的应用必用的工具，官网地址：[https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)。 千万不要从 AppStore 下载这玩意，要么去 [https://developer.apple.com/downloads/more](https://developer.apple.com/downloads/more) 下载，要么用 `xcode-install` 下载。先安装它，`gem install xcode-install`，然后选择自己要安装的 xcode 版本即可，`xcode-install` 项目地址 [https://github.com/xcpretty/xcode-install](https://github.com/xcpretty/xcode-install)。
+  
+  ```
+  xcversion install 版本号 //安装
+  xcversion update //更新
+  xcversion list //列出所有版本
+  ```
 	 
   - Sublimetext
 
@@ -305,6 +311,50 @@ sudo service sshd restart
   微软出的开发工具，官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)。
 		
   应用软件基本是这些日常使用到的。
+  
+  - ImageOptim
+
+  图片压缩软件，官网地址 [https://imageoptim.com/mac](https://imageoptim.com/mac)
+  
+  - Xscope
+  
+  测绘软件，官网地址 [https://xscopeapp.com/](https://xscopeapp.com/)
+  
+  - Take a break
+
+  这是我最近最喜欢的应用，设置个时间，到时间了，提醒我站起来走一走，下载地址 [https://apps.apple.com/app/apple-store/id1457158844](https://apps.apple.com/app/apple-store/id1457158844)
+  
+  - VLC
+
+  播放器
+  
+  - UninstallPKG
+
+  PKG 残留包的卸载工具，官网地址 [https://www.corecode.io/uninstallpkg/](https://www.corecode.io/uninstallpkg/)
+  
+  - Camo Studio
+
+  让手机的摄像头作为视频摄像头，官网地址 [https://reincubate.com/camo/](https://reincubate.com/camo/)
+  
+  - ColorSlurp
+
+  取色工具，官网地址 [https://colorslurp.com/](https://colorslurp.com/)
+  
+  - DTMG
+
+  移除 safari 里 Google 搜索结果的追踪链接，是 safari 的一个插件，下载地址 [https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)
+  
+  - WiFi Scanner
+
+  检索 WiFi 信号，下载地址 [https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)
+  
+  - Kap
+
+  录屏并能导出 gif，官网地址 [https://getkap.co/](https://getkap.co/) 
+  
+  - ASCIINEMA
+
+  终端录屏工具，在终端用命令行操作，官网地址 [https://asciinema.org/](https://asciinema.org/)。
 	
 - 环境配置
 
