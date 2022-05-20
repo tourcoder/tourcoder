@@ -15,17 +15,11 @@ tags: ["macOS", "Debian", "iOS", "iPadOS", "watchOS", "MacBoo Pro", "iPhone", "i
 
 我有一台架构在 aws 上的服务器作为开发机，在 GitHub 上我也分享过[它的配置信息](https://github.com/tourcoder/nerd)，只不过那个是英文版，这里列下中文版吧。
 
-- 系统
+- 系统：Debian 系列，当前版本是 9.5+
 
-Debian 系列，当前版本是 9.5+
-
-- 机器名称
-
-Nerd，修改 `/etc/hostname`
+- 机器名称：Nerd，修改 `/etc/hostname`
 	
-- 用户
-
-除了本身的预置的 root 和 admin 这类用户外，我会增加一个新用户，并给予它 sudo 的权限
+- 用户：除了本身的预置的 root 和 admin 这类用户外，我会增加一个新用户，并给予它 sudo 的权限
 	
 ```
 adduser nerdone
@@ -41,21 +35,13 @@ sudo service sshd restart
 
 - 常用工具
 
-  - Docker
-	
-  通过 [Dockerman](https://github.com/tourcoder/dockerman) 安装。
+  - Docker：通过 [Dockerman](https://github.com/tourcoder/dockerman) 安装。
 		
-  - Git
+  - Git：直接通过命令 `sudo apt install git -y` 安装。
 	
-  直接通过命令 `sudo apt install git -y` 安装。
+  - Go：通过 [glv](https://github.com/glv-go/glv) 安装。
 	
-  - Go
-	
-  通过 [glv](https://github.com/glv-go/glv) 安装。
-	
-  - NodeJS
-	
-  通过 [nvm](https://github.com/nvm-sh/nvm) 安装。
+  - NodeJS：通过 [nvm](https://github.com/nvm-sh/nvm) 安装。
 	
   - ZSH 和 ohmyzsh
 	
@@ -121,13 +107,9 @@ sudo service sshd restart
 
 ### MacBook Pro
 
-- 系统
+- 系统：都会更新最新最稳定版本的系统，开发者测试版本的系统我会用另外一台 MacBook Air 进行测试。
 
-  都会更新最新最稳定版本的系统，开发者测试版本的系统我会用另外一台 MacBook Air 进行测试。
-
-- 机器名称
-
-  Deck，点屏幕右上角的苹果 logo 选择进入`系统偏好设置->分享`里修改。
+- 机器名称：Deck，点屏幕右上角的苹果 logo 选择进入`系统偏好设置->分享`里修改。
 	
 - 用户
 
@@ -189,9 +171,7 @@ sudo service sshd restart
 
   设置一个复杂的开机登录密码
 		
-  - 固件密码
-
-  设置一个固件密码让被人即便拿到电脑也无法获取里面的内容，操作步骤是
+  - 固件密码：设置一个固件密码让被人即便拿到电脑也无法获取里面的内容，操作步骤是
 		
     - 开机，按下 Command 和 R 键来启动恢复模式，选择`工具-固件密码实用工具`。
 		
@@ -199,9 +179,7 @@ sudo service sshd restart
 		
     - 退出固件工具，重启电脑即可。
 
-  - 隐藏用户
-
-  有时候不希望别人登录电脑时显示自己的账户，可以通过隐藏的方式，以下 hiddenuser 就是要隐藏的用户名
+  - 隐藏用户：有时候不希望别人登录电脑时显示自己的账户，可以通过隐藏的方式，以下 hiddenuser 就是要隐藏的用户名
 		
   ```
   sudo dscl . create /Users/hiddenuser IsHidden 1
@@ -222,79 +200,39 @@ sudo service sshd restart
 
   其实随着 macOS 系统的逐步更新，很多以前必装的软件都逐步变得不重要，就说一些常规的吧。
 	
-  - Homebrew
-
-  严格说它并不是一个软件，它是一个安装软件和包的工具，通过 
-		
-  ```
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  ```
-		
-  安装即可。
+  - Homebrew：严格说它并不是一个软件，它是一个安装软件和包的工具，通过 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 安装即可。
 	
-  - Micro Snitch
-
-  一款隐私保护的应用，它能检测那些应用在使用摄像头和麦克风，官网地址：[https://obdev.at/products/microsnitch/](https://obdev.at/products/microsnitch/)
+  - Micro Snitch：一款隐私保护的应用，它能检测那些应用在使用摄像头和麦克风，官网地址：[https://obdev.at/products/microsnitch/](https://obdev.at/products/microsnitch/)
 		
-  - Spectacle
-
-  它通过键盘控制各应用窗口的位置，对我这种快捷键爱好者来说很适宜。官网地址：[https://www.spectacleapp.com/](https://www.spectacleapp.com/)，它的源码托管在 [GitHub](https://github.com/eczarny/spectacle) 上。
+  - Spectacle：它通过键盘控制各应用窗口的位置，对我这种快捷键爱好者来说很适宜。官网地址：[https://www.spectacleapp.com/](https://www.spectacleapp.com/)，它的源码托管在 [GitHub](https://github.com/eczarny/spectacle) 上。
 		
-  - Surge (ClashX)
-
-  因为 Surge 收费的原因，有人写了开源的版本 ClashX，它们主要被用来科学上网，其实它们是目前很好的调试工具。我基本只用 Surge。官网地址：[Surge](https://nssurge.com)，ClashX 是 macOS 下版本的，它是一个开源的，还有其他系统下的版本，具体去 GitHub 搜索。
+  - Surge：因为 Surge 收费的原因，有人写了开源的版本 ClashX，它们主要被用来科学上网，其实它们是目前很好的调试工具。我基本只用 Surge。官网地址：[Surge](https://nssurge.com)，ClashX 是 macOS 下版本的，它是一个开源的，还有其他系统下的版本，具体去 GitHub 搜索。
 		
-  - SimPholders
-
-  一款查看  Xcode 开发模拟器里面数据的工具，很棒，官网地址：[https://simpholders.com](https://simpholders.com)。
+  - SimPholders：一款查看  Xcode 开发模拟器里面数据的工具，很棒，官网地址：[https://simpholders.com](https://simpholders.com)。
 		
-  - Raycast
-
-  以前我用的是收费版本的 Alfred，现在已经改用这个伪开源的 Raycast，主要是它的自定义能力强，我喜欢这点。官网地址：[https://raycast.com](https://raycast.com)。
+  - Raycast：以前我用的是收费版本的 Alfred，现在已经改用这个伪开源的 Raycast，主要是它的自定义能力强，我喜欢这点。官网地址：[https://raycast.com](https://raycast.com)。
 		
-  - Pixelmator Pro
-
-  图片处理工具，感觉和 Photoshop 差不多。官网地址：[https://www.pixelmator.com/pro/](https://www.pixelmator.com/pro/)。
+  - Pixelmator Pro：图片处理工具，感觉和 Photoshop 差不多。官网地址：[https://www.pixelmator.com/pro/](https://www.pixelmator.com/pro/)。
 		
-  - Mounty
-
-  在 macOS 下面比较窝心的一件事是 NTFS 格式外接盘的读取写入，之前用的一家最出名的实在有点贵，还是每年付，在网上发现了它。官网地址：[http://mounty.app/](http://mounty.app/)。
+  - Mounty：在 macOS 下面比较窝心的一件事是 NTFS 格式外接盘的读取写入，之前用的一家最出名的实在有点贵，还是每年付，在网上发现了它。官网地址：[http://mounty.app/](http://mounty.app/)。
 		
-  - usbkill
-
-  usbkill 是一个检测 usb 接口安全的工具，官网地址是：[https://github.com/hephaest0s/usbkill](https://github.com/hephaest0s/usbkill)
+  - usbkill：usbkill 是一个检测 usb 接口安全的工具，官网地址是：[https://github.com/hephaest0s/usbkill](https://github.com/hephaest0s/usbkill)
 		
-  - iTerm
-
-  我比较喜欢的终端，它的主题我使用的是 minimal。官网地址：[https://iterm2.com](https://iterm2.com)。
+  - iTerm：我比较喜欢的终端，它的主题我使用的是 minimal。官网地址：[https://iterm2.com](https://iterm2.com)。
 		
-  - AppCleaner
-
-  更有效的清理删除应用，官网地址：[https://freemacsoft.net/appcleaner/](https://freemacsoft.net/appcleaner/)。
+  - AppCleaner：更有效的清理删除应用，官网地址：[https://freemacsoft.net/appcleaner/](https://freemacsoft.net/appcleaner/)。
 		
-  - Dropbox
-
-  目前我觉得最好用的网盘了，官网地址：[https://dropbox.com](https://dropbox.com)。
+  - Dropbox：目前我觉得最好用的网盘了，官网地址：[https://dropbox.com](https://dropbox.com)。
 		
-  - MacDown
-
-  Markdown 格式文档写作工具，我这篇博文就是用它写的，官网地址：[https://macdown.uranusjr.com](https://macdown.uranusjr.com)。
+  - MacDown：Markdown 格式文档写作工具，我这篇博文就是用它写的，官网地址：[https://macdown.uranusjr.com](https://macdown.uranusjr.com)。
 		
-  - MindNode
-
-  我用来做脑图的应用，官网地址：[https://mindnode.com](https://mindnode.com)。
+  - MindNode：我用来做脑图的应用，官网地址：[https://mindnode.com](https://mindnode.com)。
 		
-  - NameChanger
-
-  有时候我写东西时批量命名会弄错，就用它来批量修改名字，比用命令行简便。官网地址：[https://mrrsoftware.com/namechanger/](https://mrrsoftware.com/namechanger/)。
+  - NameChanger：有时候我写东西时批量命名会弄错，就用它来批量修改名字，比用命令行简便。官网地址：[https://mrrsoftware.com/namechanger/](https://mrrsoftware.com/namechanger/)。
 		
-  - Beyond Compare
-
-  可以说是一个数据比较工具，很强大，官网地址：[https://www.scootersoftware.com](https://www.scootersoftware.com)。
+  - Beyond Compare：可以说是一个数据比较工具，很强大，官网地址：[https://www.scootersoftware.com](https://www.scootersoftware.com)。
 		
-  - Xcode
-
-  开发 Apple 的应用必用的工具，官网地址：[https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)。 千万不要从 AppStore 下载这玩意，要么去 [https://developer.apple.com/downloads/more](https://developer.apple.com/downloads/more) 下载，要么用 `xcode-install` 下载。先安装它，`gem install xcode-install`，然后选择自己要安装的 xcode 版本即可，`xcode-install` 项目地址 [https://github.com/xcpretty/xcode-install](https://github.com/xcpretty/xcode-install)。
+  - Xcode：开发 Apple 的应用必用的工具，官网地址：[https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)。 千万不要从 AppStore 下载这玩意，要么去 [https://developer.apple.com/downloads/more](https://developer.apple.com/downloads/more) 下载，要么用 `xcode-install` 下载。先安装它，`gem install xcode-install`，然后选择自己要安装的 xcode 版本即可，`xcode-install` 项目地址 [https://github.com/xcpretty/xcode-install](https://github.com/xcpretty/xcode-install)。
   
   ```
   xcversion install 版本号 //安装
@@ -302,69 +240,37 @@ sudo service sshd restart
   xcversion list //列出所有版本
   ```
 	 
-  - Sublimetext
-
-  非常好用的编码工具，官网地址：[http://sublimetext.com](http://sublimetext.com)。
+  - Sublimetext：非常好用的编码工具，官网地址：[http://sublimetext.com](http://sublimetext.com)。
         
-  - VSCode
-
-  微软出的开发工具，官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)。
-		
-  应用软件基本是这些日常使用到的。
+  - VSCode：微软出的开发工具，官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)。
   
-  - ImageOptim
-
-  图片压缩软件，官网地址 [https://imageoptim.com/mac](https://imageoptim.com/mac)
+  - ImageOptim：图片压缩软件，官网地址 [https://imageoptim.com/mac](https://imageoptim.com/mac)
   
-  - Xscope
+  - Xscope：测绘软件，官网地址 [https://xscopeapp.com/](https://xscopeapp.com/)
   
-  测绘软件，官网地址 [https://xscopeapp.com/](https://xscopeapp.com/)
+  - Take a break：这是我最近最喜欢的应用，设置个时间，到时间了，提醒我站起来走一走，下载地址 [https://apps.apple.com/app/apple-store/id1457158844](https://apps.apple.com/app/apple-store/id1457158844)
   
-  - Take a break
-
-  这是我最近最喜欢的应用，设置个时间，到时间了，提醒我站起来走一走，下载地址 [https://apps.apple.com/app/apple-store/id1457158844](https://apps.apple.com/app/apple-store/id1457158844)
+  - VLC：播放器
   
-  - VLC
-
-  播放器
+  - UninstallPKG：PKG 残留包的卸载工具，官网地址 [https://www.corecode.io/uninstallpkg/](https://www.corecode.io/uninstallpkg/)
   
-  - UninstallPKG
-
-  PKG 残留包的卸载工具，官网地址 [https://www.corecode.io/uninstallpkg/](https://www.corecode.io/uninstallpkg/)
+  - Camo Studio：让手机的摄像头作为视频摄像头，官网地址 [https://reincubate.com/camo/](https://reincubate.com/camo/)
   
-  - Camo Studio
-
-  让手机的摄像头作为视频摄像头，官网地址 [https://reincubate.com/camo/](https://reincubate.com/camo/)
+  - ColorSlurp：取色工具，官网地址 [https://colorslurp.com/](https://colorslurp.com/)
   
-  - ColorSlurp
-
-  取色工具，官网地址 [https://colorslurp.com/](https://colorslurp.com/)
+  - DTMG：移除 safari 里 Google 搜索结果的追踪链接，是 safari 的一个插件，下载地址 [https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)
   
-  - DTMG
-
-  移除 safari 里 Google 搜索结果的追踪链接，是 safari 的一个插件，下载地址 [https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)
+  - WiFi Scanner：检索 WiFi 信号，下载地址 [https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)
   
-  - WiFi Scanner
-
-  检索 WiFi 信号，下载地址 [https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)
+  - Kap：录屏并能导出 gif，官网地址 [https://getkap.co/](https://getkap.co/) 
   
-  - Kap
-
-  录屏并能导出 gif，官网地址 [https://getkap.co/](https://getkap.co/) 
-  
-  - ASCIINEMA
-
-  终端录屏工具，在终端用命令行操作，官网地址 [https://asciinema.org/](https://asciinema.org/)。
+  - ASCIINEMA：终端录屏工具，在终端用命令行操作，官网地址 [https://asciinema.org/](https://asciinema.org/)。
 	
 - 环境配置
 
-  - ohmyzsh
+  - ohmyzsh：和开发机上安装一样，具体看开发机。
 	
-  和开发机上安装一样，具体看开发机。
-	
-  - proxy
-
-  虽然 surge 有增强模式，但有时候终端是需要更为方便的代理模式，zsh 中编辑 `~/.zshrc` 或者 bash 中编辑 `~/.bash_profile`
+  - proxy：虽然 surge 有增强模式，但有时候终端是需要更为方便的代理模式，zsh 中编辑 `~/.zshrc` 或者 bash 中编辑 `~/.bash_profile`
 		
   ```
   alias proxy='export all_proxy=socks5://127.0.0.1:6153'
@@ -373,9 +279,7 @@ sudo service sshd restart
 		
   最后 `source ~/.zshrc` 使其生效即可。执行 `proxy` 启动终端代理模式，`unproxy` 取消终端代理模式。
 	
-  - git
-
-  macOS 默认已经安装了 git，只不过版本比较低，通过 Homebrew 来安装最新版本的。
+  - git：macOS 默认已经安装了 git，只不过版本比较低，通过 Homebrew 来安装最新版本的。
 		
   ```
   brew install git //安装 git
