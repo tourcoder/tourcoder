@@ -51,7 +51,7 @@ sudo service sshd restart
 	
   - Go
 	
-  通过 [glv](https://github.com/tourcoder/glv) 安装。
+  通过 [glv](https://github.com/glv-go/glv) 安装。
 	
   - NodeJS
 	
@@ -213,6 +213,10 @@ sudo service sshd restart
   sudo chflags hidden /Users/hiddenuser
   sudo dscl . delete "/SharePoints/Hidden User’s Public Folder"
   ```
+  
+  - Apple Watch 或 Touch ID 授权终端中的 sudo 命令
+
+  编辑 `/etc/pam.d/sudo`，在第一行增加 `auth sufficient pam_tid.so` 即可。
 
 - 必装软件
 
