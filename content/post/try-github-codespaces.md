@@ -69,15 +69,13 @@ tags: ["GitHub", "Codespaces", "试用"]
 
 2. 在浏览器打开 VS Code 的编辑器时地址是不一样的，前面说到的 `github.dev`，只是将 `github.com` 改成 `github.dev`，其他没变，但 Codespace 的地址是 `https://githubusername-orgname[option]-projectname.xxx.github.dev` 这样的格式。
 
-### 说明
+3. 当一个仓库是空的时候，是不能创建 codespace 的。
 
-在使用过程中，我发现一些信息
+4. Codespace 中的配置文件可以参考[这里](https://docs.github.com/cn/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)，比较有意思的是 `git` 中的 `user.name` 默认来自 github 上主账户设置名称。
 
-1. 当一个仓库是空的时候，是不能创建 codespace 的。
+5. 每个 codespace 都有一个可以预览的链接，格式和 codespace 的地址差不多，只是改了域名，格式为 `https://githubusername-orgname[option]-projectname.xxx.githubpreview.dev`，预览需要登录 GitHub 账号，且只有自己能够预览。
 
-2. Codespace 中的配置文件可以参考[这里](https://docs.github.com/cn/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)，比较有意思的是 `git` 中的 `user.name` 默认来自 github 上主账户设置名称。
+6. 能基于本人账户的公开和私有库，本人有管理权限的公开仓库（机构/其他人的）创建对应的 codespace，其他情况不能够创建。
 
-3. 每个 codespace 都有一个可以预览的链接，格式和 codespace 的地址差不多，只是改了域名，格式为 `https://githubusername-orgname[option]-projectname.xxx.githubpreview.dev`，预览需要登录 GitHub 账号，且只有自己能够预览。
-
-4. 基本可以将 Codespaces 理解成是一个配置好一大半，并且和 GitHub 高度结合的开发机。
+基本可以将 Codespaces 理解成是一个配置好一大半，并且和 GitHub 高度结合的开发机。
 
