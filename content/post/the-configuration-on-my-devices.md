@@ -13,7 +13,7 @@ tags: ["macOS", "Debian", "iOS", "iPadOS", "watchOS", "MacBoo Pro", "iPhone", "i
 
 ### 开发机
 
-我有一台架构在 aws 上的服务器作为开发机，在 GitHub 上我也分享过[它的配置信息](https://github.com/tourcoder/nerd)，只不过那个是英文版，这里列下中文版吧。
+我有一台架构在 AWS 上的服务器作为开发机，在 GitHub 上我也分享过[它的配置信息](https://github.com/tourcoder/nerd)，只不过那个是英文版，这里列下中文版。
 
 - 系统：Debian 系列，当前版本是 9.5+
 
@@ -200,84 +200,86 @@ sudo service sshd restart
 
   其实随着 macOS 系统的逐步更新，很多以前必装的软件都逐步变得不重要，就说一些常规的吧。
 	
-  - Homebrew：严格说它并不是一个软件，它是一个安装软件和包的工具，通过 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 安装即可。
+  - [Homebrew](https://brew.sh)：严格说它并不是一个软件，它是一个安装软件和包的工具，通过 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 安装即可。
 	
-  - Micro Snitch：一款隐私保护的应用，它能检测那些应用在使用摄像头和麦克风，官网地址：[https://obdev.at/products/microsnitch/](https://obdev.at/products/microsnitch/)
+  - [Micro Snitch](https://obdev.at/products/microsnitch/)：一款隐私保护的应用，它能检测那些应用在使用摄像头和麦克风
 		
-  - Spectacle：它通过键盘控制各应用窗口的位置，对我这种快捷键爱好者来说很适宜。官网地址：[https://www.spectacleapp.com/](https://www.spectacleapp.com/)，它的源码托管在 [GitHub](https://github.com/eczarny/spectacle) 上。
+  - [Spectacle](https://www.spectacleapp.com/)：它通过键盘控制各应用窗口的位置，对我这种快捷键爱好者来说很适宜，它的源码托管在 [GitHub](https://github.com/eczarny/spectacle) 上。
 		
-  - Surge：因为 Surge 收费的原因，有人写了开源的版本 ClashX，它们主要被用来科学上网，其实它们是目前很好的调试工具。我基本只用 Surge。官网地址：[Surge](https://nssurge.com)，ClashX 是 macOS 下版本的，它是一个开源的，还有其他系统下的版本，具体去 GitHub 搜索。
+  - [Surge](https://www.spectacleapp.com/)：macOS 下很棒的网络调试工具。
 		
-  - SimPholders：一款查看  Xcode 开发模拟器里面数据的工具，很棒，官网地址：[https://simpholders.com](https://simpholders.com)。
+  - [SimPholders](https://simpholders.com)：一款查看  Xcode 开发模拟器里面数据的工具，很棒。
 		
-  - Raycast：以前我用的是收费版本的 Alfred，现在已经改用这个伪开源的 Raycast，主要是它的自定义能力强，我喜欢这点。官网地址：[https://raycast.com](https://raycast.com)。
+  - [Raycast](https://raycast.com)：以前我用的是收费版本的 Alfred，现在已经改用这个。
 		
-  - Pixelmator Pro：图片处理工具，感觉和 Photoshop 差不多。官网地址：[https://www.pixelmator.com/pro/](https://www.pixelmator.com/pro/)。
+  - [Pixelmator Pro](https://www.pixelmator.com/pro/)：图片处理工具，感觉和 Photoshop 差不多。
 		
-  - Mounty：在 macOS 下面比较窝心的一件事是 NTFS 格式外接盘的读取写入，之前用的一家最出名的实在有点贵，还是每年付，在网上发现了它。官网地址：[http://mounty.app/](http://mounty.app/)。
+  - [Mounty](http://mounty.app/)：在 macOS 下面比较窝心的一件事是 NTFS 格式外接盘的读取写入，之前用的一家最出名的实在有点贵，还是每年付，就切换到了它。
 		
-  - usbkill：usbkill 是一个检测 usb 接口安全的工具，官网地址是：[https://github.com/hephaest0s/usbkill](https://github.com/hephaest0s/usbkill)
+  - [usbkill](https://github.com/hephaest0s/usbkill)：usbkill 是一个检测 usb 接口安全的工具。
 		
-  - iTerm：我比较喜欢的终端，它的主题我使用的是 minimal。官网地址：[https://iterm2.com](https://iterm2.com)。
+  - [iTerm](https://iterm2.com)：我比较喜欢的终端，它的主题我使用的是 minimal。
 		
-  - AppCleaner：更有效的清理删除应用，官网地址：[https://freemacsoft.net/appcleaner/](https://freemacsoft.net/appcleaner/)。
+  - [AppCleaner](https://freemacsoft.net/appcleaner/)：更有效的清理删除应用。
 		
-  - Dropbox：目前我觉得最好用的网盘了，官网地址：[https://dropbox.com](https://dropbox.com)。
+  - [Dropbox](https://dropbox.com)：目前我觉得最好用的网盘了。
 		
-  - MacDown：Markdown 格式文档写作工具，我这篇博文就是用它写的，官网地址：[https://macdown.uranusjr.com](https://macdown.uranusjr.com)。
+  - [MacDown](https://macdown.uranusjr.com)：Markdown 格式文档写作工具，我这篇博文就是用它写的。
 		
-  - MindNode：我用来做脑图的应用，官网地址：[https://mindnode.com](https://mindnode.com)。
+  - [MindNode](https://mindnode.com)：我用来做脑图的应用。
 		
-  - NameChanger：有时候我写东西时批量命名会弄错，就用它来批量修改名字，比用命令行简便。官网地址：[https://mrrsoftware.com/namechanger/](https://mrrsoftware.com/namechanger/)。
+  - [NameChanger](https://mrrsoftware.com/namechanger/)：有时候我写东西时批量命名会弄错，就用它来批量修改名字，比用命令行简便。
 		
-  - Beyond Compare：可以说是一个数据比较工具，很强大，官网地址：[https://www.scootersoftware.com](https://www.scootersoftware.com)。
+  - [Beyond Compare](https://www.scootersoftware.com))：可以说是一个数据比较工具，很强大。
 		
-  - Xcode：开发 Apple 的应用必用的工具，官网地址：[https://developer.apple.com/xcode/](https://developer.apple.com/xcode/)。 千万不要从 AppStore 下载这玩意，要么去 [https://developer.apple.com/downloads/more](https://developer.apple.com/downloads/more) 下载，要么用 `xcode-install` 下载。先安装它，`gem install xcode-install`，然后选择自己要安装的 xcode 版本即可，`xcode-install` 项目地址 [https://github.com/xcpretty/xcode-install](https://github.com/xcpretty/xcode-install)。
+  - [Xcode](https://developer.apple.com/xcode/)：开发 Apple 的应用必用的工具。千万不要从 AppStore 下载这玩意，要么去[这里](https://developer.apple.com/downloads/more) 下载，要么用 `xcode-install` 下载。先安装它，`gem install xcode-install`，然后选择自己要安装的 xcode 版本即可，`xcode-install` 项目地址在 [GitHub](https://github.com/xcpretty/xcode-install) 上。
   
-  ```
-  xcversion install 版本号 //安装
-  xcversion update //更新
-  xcversion list //列出所有版本
-  ```
+    ```
+    xcversion install 版本号 //安装
+    xcversion update //更新
+    xcversion list //列出所有版本
+    ```
 	 
-  - Sublimetext：非常好用的编码工具，官网地址：[http://sublimetext.com](http://sublimetext.com)。
+  - [Sublimetext](http://sublimetext.com)：非常好用的编码工具。
         
-  - VSCode：微软出的开发工具，官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)。
+  - [VSCode](https://code.visualstudio.com)：微软出的开发工具。
   
-  - ImageOptim：图片压缩软件，官网地址 [https://imageoptim.com/mac](https://imageoptim.com/mac)
+  - [ImageOptim](https://imageoptim.com/mac)：图片压缩软件。
   
-  - Xscope：测绘软件，官网地址 [https://xscopeapp.com/](https://xscopeapp.com/)
+  - [Xscope](https://xscopeapp.com/)：测绘软件。
   
-  - Take a break：这是我最近最喜欢的应用，设置个时间，到时间了，提醒我站起来走一走，下载地址 [https://apps.apple.com/app/apple-store/id1457158844](https://apps.apple.com/app/apple-store/id1457158844)
+  - [Take a break](https://apps.apple.com/app/apple-store/id1457158844)：这是我最近最喜欢的应用，设置个时间，到时间了，提醒我站起来走一走。
   
-  - VLC：播放器
+  - [VLC](https://www.videolan.org/)：功能强大的播放器。
   
-  - UninstallPKG：PKG 残留包的卸载工具，官网地址 [https://www.corecode.io/uninstallpkg/](https://www.corecode.io/uninstallpkg/)
+  - [UninstallPKG](https://www.corecode.io/uninstallpkg/)：PKG 残留包的卸载工具。
   
-  - Camo Studio：让手机的摄像头作为视频摄像头，官网地址 [https://reincubate.com/camo/](https://reincubate.com/camo/)
+  - [Camo Studio](https://reincubate.com/camo/)：让手机的摄像头作为视频摄像头。
   
-  - ColorSlurp：取色工具，官网地址 [https://colorslurp.com/](https://colorslurp.com/)
+  - [ColorSlurp](https://colorslurp.com/)：取色工具。
   
-  - DTMG：移除 safari 里 Google 搜索结果的追踪链接，是 safari 的一个插件，下载地址 [https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)
+  - [DTMG](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)：移除 Safari 里 Google 搜索结果的追踪链接，是 Safari 的一个插件。
   
-  - WiFi Scanner：检索 WiFi 信号，下载地址 [https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)
+  - [WiFi Scanner](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)：检索 WiFi 信号。
   
-  - Kap：录屏并能导出 gif，官网地址 [https://getkap.co/](https://getkap.co/) 
+  - [Kap](https://getkap.co/)：录屏并能导出 gif。 
   
-  - ASCIINEMA：终端录屏工具，在终端用命令行操作，官网地址 [https://asciinema.org/](https://asciinema.org/)。
+  - [ASCIINEMA](https://asciinema.org/)：终端录屏工具，在终端用命令行操作。
+
+  - [Todoist](https://todoist.com/)：待办事项，这类应用我用了好多，最后还是它适合我。
 	
 - 环境配置
 
-  - ohmyzsh：和开发机上安装一样，具体看开发机。
+  - [ohmyzsh](http://ohmyz.sh/)：和开发机上安装一样，具体看开发机。
 	
   - proxy：虽然 surge 有增强模式，但有时候终端是需要更为方便的代理模式，zsh 中编辑 `~/.zshrc` 或者 bash 中编辑 `~/.bash_profile`
 		
-  ```
-  alias proxy='export all_proxy=socks5://127.0.0.1:6153'
-  alias unproxy='unset all_proxy'
-  ```
+    ```
+    alias proxy='export all_proxy=socks5://127.0.0.1:6153'
+    alias unproxy='unset all_proxy'
+    ```
 		
-  最后 `source ~/.zshrc` 使其生效即可。执行 `proxy` 启动终端代理模式，`unproxy` 取消终端代理模式。
+    最后 `source ~/.zshrc` 使其生效即可。执行 `proxy` 启动终端代理模式，`unproxy` 取消终端代理模式。
 	
   - git：macOS 默认已经安装了 git，只不过版本比较低，通过 Homebrew 来安装最新版本的。
 		
