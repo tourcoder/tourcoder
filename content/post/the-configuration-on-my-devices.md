@@ -396,4 +396,4 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 
 ### Apple Watch
 
-基本的默认设置，只安装了 AutoSlepp，AutoWake, HeartWatch，全方位的检测自己身体情况的。其他的应用一律没装。
+基本的默认设置，只安装了 AutoSleep，AutoWake, HeartWatch，全方位的检测自己身体情况的。其他的应用一律没装。
