@@ -111,37 +111,33 @@ sudo service sshd restart
 
 - 机器名称：Deck，点屏幕右上角的苹果 logo 选择进入`系统偏好设置->分享`里修改。
 	
-- 用户
+- 用户：具体设置位置在`系统偏好设置->用户和组`里修改。
 
   - 通常我只会使用一个用户，并允许它管理该电脑，同时允许它通过 Apple ID 重置密码。
 	
   - 关闭访客账户的所有权限。
 
   - 在登录选项中选择用户名和密码的方式，其他一律不选择。
-
-  具体设置位置在`系统偏好设置->用户和组`里修改。
 	
-- 系统偏好里的设置
-
-  以下设置均在`系统偏好设置`里进行设置。
+- 系统偏好里的设置：以下设置均在`系统偏好设置`里进行设置。
 
   - Dock 和菜单栏
 
   - Dock 选择左侧显示，并且自动隐藏，关闭已经关闭的应用还显示在 Dock 上面的功能。
 		
-  在终端中输入命令
-			
-  ```
-  defaults write com.apple.dock static-only -boolean true
-  killall Dock
-  ```
-			
-  即可，如果需要恢复则输入命令
-			
-  ```
-  defaults delete com.apple.dock static-only
-  killall Dock
-  ```
+    在终端中输入命令
+        
+    ```
+    defaults write com.apple.dock static-only -boolean true
+    killall Dock
+    ```
+        
+    即可，如果需要恢复则输入命令
+        
+    ```
+    defaults delete com.apple.dock static-only
+    killall Dock
+    ```
 
   - 菜单栏只放了时间和控制中心这两个图标，其他系统自带的图标一律放在控制中心里。
 
@@ -155,21 +151,19 @@ sudo service sshd restart
 
   - 安全和隐私里，在`通用`设置出，开启`立刻需要密码`功能，需要安装第三方的非 App Store 验证的应用，可以通过命令实现，打开`终端`这种应用，在里面输入
 	
-  ```
-  sudo spctl --master-disable
-  ```
-	
-  然后下面就多了一个`任何来源`的选项。
-	
-  开启 `FileValut` 功能，`FileVault` 会把整个硬盘每个文件每个字节全部加密，没有密码看不到数据。
+    ```
+    sudo spctl --master-disable
+    ```
+    
+    然后下面就多了一个`任何来源`的选项。
+    
+    开启 `FileValut` 功能，`FileVault` 会把整个硬盘每个文件每个字节全部加密，没有密码看不到数据。
 		
 - 其他设置
 
   - 关闭 message 和 facetime
 
-  - 开机登录密码
-
-  设置一个复杂的开机登录密码
+  - 开机登录密码：设置一个复杂的开机登录密码
 		
   - 固件密码：设置一个固件密码让被人即便拿到电脑也无法获取里面的内容，操作步骤是
 		
@@ -181,20 +175,20 @@ sudo service sshd restart
 
   - 隐藏用户：有时候不希望别人登录电脑时显示自己的账户，可以通过隐藏的方式，以下 hiddenuser 就是要隐藏的用户名
 		
-  ```
-  sudo dscl . create /Users/hiddenuser IsHidden 1
-  ```
-		
-  以管理员的身份登录后执行上面的命令即可隐藏，如果想显示，则将上面的 1 改成 0。而隐藏个人目录和共享点则是命令
-		
-  ```
-  sudo chflags hidden /Users/hiddenuser
-  sudo dscl . delete "/SharePoints/Hidden User’s Public Folder"
-  ```
+    ```
+    sudo dscl . create /Users/hiddenuser IsHidden 1
+    ```
+      
+    以管理员的身份登录后执行上面的命令即可隐藏，如果想显示，则将上面的 1 改成 0。而隐藏个人目录和共享点则是命令
+      
+    ```
+    sudo chflags hidden /Users/hiddenuser
+    sudo dscl . delete "/SharePoints/Hidden User’s Public Folder"
+    ```
   
   - Apple Watch 或 Touch ID 授权终端中的 sudo 命令
 
-  编辑 `/etc/pam.d/sudo`，在第一行增加 `auth sufficient pam_tid.so` 即可。
+    编辑 `/etc/pam.d/sudo`，在第一行增加 `auth sufficient pam_tid.so` 即可。
 
 - 必装软件
 
@@ -267,6 +261,10 @@ sudo service sshd restart
   - [ASCIINEMA](https://asciinema.org/)：终端录屏工具，在终端用命令行操作。
 
   - [Todoist](https://todoist.com/)：待办事项，这类应用我用了好多，最后还是它适合我。
+
+  - [Firefox](https://www.mozilla.org/en-US/firefox/)：我默认使用的浏览器，同时也安装了 Chrome，主要是用来开发调试。
+
+  - [Telegram](https://telegram.org/)：我比较喜欢的聊天工具，不过最近计划将它切换到 web 版本。
 	
 - 环境配置
 
@@ -283,36 +281,36 @@ sudo service sshd restart
 	
   - git：macOS 默认已经安装了 git，只不过版本比较低，通过 Homebrew 来安装最新版本的。
 		
-  ```
-  brew install git //安装 git
-  brew link git //关联 git，其实这步不用做，基本安装后即自动关联
-  ```
-		
-  此时检查版本还不是最新版本,需要编辑 `~/.zshrc`，在里面增加
-		
-  ```
-  export PATH=$(brew --prefix)/bin:$PATH
-  ```
-		
-  最后 `source ~/.zshrc` 使其生效即可。
+    ```
+    brew install git //安装 git
+    brew link git //关联 git，其实这步不用做，基本安装后即自动关联
+    ```
+      
+    此时检查版本还不是最新版本,需要编辑 `~/.zshrc`，在里面增加
+      
+    ```
+    export PATH=$(brew --prefix)/bin:$PATH
+    ```
+      
+    最后 `source ~/.zshrc` 使其生效即可。
 		
   - 显示完整的地址栏
 
-  ```
-  defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
-  ```
-		
-  可以显示 Finder 当前目录的完整路径，取消则将 `YES` 改成 `NO` 即可。
+    ```
+    defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+    ```
+      
+    可以显示 Finder 当前目录的完整路径，取消则将 `YES` 改成 `NO` 即可。
 		
   - 刷新 DNS
 
-  有时候需要刷新下 DNS，则在 `~/.zshrc` 中增加一个 `alias`
-		
-  ```
-  alias resetdns='sudo killall -HUP mDNSResponder;say DNS cache has been flushed'
-  ```
-		
-  最后 `source ~/.zshrc` 使其生效即可。每次需要刷新 DNS 时，在终端中输入 `resetdns` 即可。
+    有时候需要刷新下 DNS，则在 `~/.zshrc` 中增加一个 `alias`
+      
+    ```
+    alias resetdns='sudo killall -HUP mDNSResponder;say DNS cache has been flushed'
+    ```
+      
+    最后 `source ~/.zshrc` 使其生效即可。每次需要刷新 DNS 时，在终端中输入 `resetdns` 即可。
 		
 ### iPhone 和 iPad Pro
 
@@ -336,7 +334,69 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 
 - 美区的 Apple ID，一个是 App 比较多，另外就是安全系数更高。
 
-至于应用也没有几个，主要是我日常 iPhone / iPad 用的少。
+安装的应用不是很多，iPad Pro 和 iPhone 上都基本一样
+
+- GitHub：代码管理器
+
+- 支付宝：这个不用多说了
+
+- Testflight：测试发布
+
+- Twitter
+
+- MindNode：和 macOS 上一样，脑图工具
+
+- Google Docs：协同工作文档，应该是做得最好的，一同还有 Google Sheets, Google Slides
+
+- Gmail：邮件客户端，里面还包含了 Chat 和 Meetings
+
+- Termius：移动端的终端
+
+- Google Voice：语音通话
+
+- Bilibili
+
+- Chrome
+
+- 炉石传说
+
+- Kindle
+
+- 微信
+
+- Telegram
+
+- Authenticator
+
+- Dropbox
+
+- Exif
+
+- iMovie
+
+- Loon
+
+- Net Analyzer
+
+- Speedtest
+
+- Snapseed
+
+- Todoist
+
+- 无忧行
+
+- 小红书
+
+- 携程旅行
+
+- Youtube
+
+- 中国银行：
+
+- Procreate：画图应用。
+
+- Notability：笔记应用。
 
 ### Apple Watch
 
