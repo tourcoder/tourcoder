@@ -338,7 +338,7 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 
 - GitHub：代码管理器
 
-- 支付宝：这个不用多说了
+- 支付宝
 
 - Testflight：测试发布
 
@@ -354,45 +354,41 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 
 - Google Voice：语音通话
 
-- Bilibili
+- 炉石传说：比较喜欢的游戏
 
-- Chrome
-
-- 炉石传说
-
-- Kindle
+- Kindle：读书
 
 - 微信
 
-- Telegram
+- Telegram：主要用来聊天的
 
-- Authenticator
+- Authenticator：二次认证
 
-- Dropbox
+- Dropbox：和 macOS 上一样
 
-- Exif
+- Exif：移除照片的 EXIF 标签
 
-- iMovie
+- iMovie：我 YouTube 频道上的视频现在都用它来做，主要是简单，傻瓜式
 
-- Loon
+- Loon：网络调试应用
 
-- Net Analyzer
+- Net Analyzer：网络应用
 
-- Speedtest
+- Speedtest：网络测试应用
 
-- Snapseed
+- Snapseed：图片处理应用
 
-- Todoist
+- Todoist：任务管理器
 
-- 无忧行
+- 无忧行：移动公司的应用，我的移动的手机号码就是通过它虚拟化，可以在全球任何一个地方接中国号码的电话
 
-- 小红书
+- 小红书：我老婆弄自己的小红书，非要在我的设备上也安装这个玩意
 
-- 携程旅行
+- 携程旅行：旅行应用，订票订酒店等
 
-- Youtube
+- Youtube：视频应用
 
-- 中国银行：
+- 中国银行
 
 - Procreate：画图应用。
 
