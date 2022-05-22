@@ -7,7 +7,7 @@ date: 2021-11-14T10:53:16+08:00
 tags: ["License", "MIT"]
 ---
 
-Copyright (c) 2021-present, Bin Hua \<license@tourcoder.com\>
+Copyright (c) 2021-present, Bin Hua \<code@tourcoder.com\>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
