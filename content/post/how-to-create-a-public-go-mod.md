@@ -45,7 +45,7 @@ module github.com/tourcoder/gomoddemo
 go 1.16
 ```
 
-将这两个文件 push 到 GitHub 上对应的库中，即 https://tourcoder.com/tourcoder/gomoddemo 的仓库里即可。但需要注意的是为了很好的版本控制，建议通过 tag 来进行版本的控制，即在该仓库上执行
+将这两个文件 push 到 GitHub 上对应的库中，即 https://github.com/tourcoder/gomoddemo 的仓库里即可。但需要注意的是为了很好的版本控制，建议通过 tag 来进行版本的控制，即在该仓库上执行
 
 ```
 git tag v0.0.1
