@@ -88,7 +88,7 @@ del {
   display: block;
   margin: 5px 0;
 }
-.blogdetail .blogcontent h3 {
+.blogdetail .blogcontent h3, .blogdetail .blogcontent h4 {
   line-height: 120%;
   color: rgba(255,255,255,0.85);
   margin: 22px 0 22px 0;
