@@ -68,8 +68,6 @@ chmod 755 rc.local //设置执行权限
 
 配置文件位置 `/usr/local/nginx/conf`，相关位置 `/usr/local/nginx`
 
-上面的内容可以做成一个自动安装脚本，点[这里](/dl/nginx.sh)下载。
-
 也可以用 `yum install` 来安装 nginx，至于卸载，直接删除即可。而通过 `yum install` 安装的可以通过下面方式清除彻底
 
 ```
