@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://tourcoder.com/"
 languageCode = "en-us"
 
 title = "代码旅行"
