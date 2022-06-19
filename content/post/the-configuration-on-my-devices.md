@@ -216,8 +216,6 @@ sudo service sshd restart
 		
   - [AppCleaner](https://freemacsoft.net/appcleaner/)：更有效的清理删除应用。
 		
-  - [Dropbox](https://dropbox.com)：目前我觉得最好用的网盘了。
-		
   - [MacDown](https://macdown.uranusjr.com)：Markdown 格式文档写作工具，我这篇博文就是用它写的。
 		
   - [MindNode](https://mindnode.com)：我用来做脑图的应用。
@@ -242,29 +240,17 @@ sudo service sshd restart
   
   - [Xscope](https://xscopeapp.com/)：测绘软件。
   
-  - [Take a break](https://apps.apple.com/app/apple-store/id1457158844)：这是我最近最喜欢的应用，设置个时间，到时间了，提醒我站起来走一走。
-  
   - [VLC](https://www.videolan.org/)：功能强大的播放器。
   
   - [UninstallPKG](https://www.corecode.io/uninstallpkg/)：PKG 残留包的卸载工具。
-  
-  - [Camo Studio](https://reincubate.com/camo/)：让手机的摄像头作为视频摄像头。
   
   - [ColorSlurp](https://colorslurp.com/)：取色工具。
   
   - [DTMG](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)：移除 Safari 里 Google 搜索结果的追踪链接，是 Safari 的一个插件。
   
   - [WiFi Scanner](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)：检索 WiFi 信号。
-  
-  - [Kap](https://getkap.co/)：录屏并能导出 gif。 
-  
-  - [ASCIINEMA](https://asciinema.org/)：终端录屏工具，在终端用命令行操作。
-
-  - [Todoist](https://todoist.com/)：待办事项，这类应用我用了好多，最后还是它适合我。
 
   - [Firefox](https://www.mozilla.org/en-US/firefox/)：我默认使用的浏览器，同时也安装了 Chrome，主要是用来开发调试。
-
-  - [Telegram](https://telegram.org/)：我比较喜欢的聊天工具，不过最近计划将它切换到 web 版本。
 	
 - 环境配置
 
