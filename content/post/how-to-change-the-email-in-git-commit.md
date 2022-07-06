@@ -35,7 +35,7 @@ git filter-branch --commit-filter '
     then
         GIT_AUTHOR_NAME="tc"
         GIT_AUTHOR_EMAIL="tc@***";
-	GIT_COMMITER_EMAIL="tc";
+	GIT_COMMITER_NAME="tc";
         GIT_COMMITTER_EMAIL="tc@***";
     fi
         git commit-tree "$@";
@@ -50,10 +50,6 @@ git filter-branch --env-filter '
     then
         GIT_AUTHOR_EMAIL=tc@***
         GIT_COMMITTER_EMAIL=tc@***
-    fi
-    if test "$GIT_AUTHOR_EMAIL" = "tc2@tourcoder.local"
-    then 
-       GIT_AUTHOR_EMAIL=tc2@tourcoder.local
     fi
 ' -- --all
 ```
