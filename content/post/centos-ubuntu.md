@@ -455,11 +455,11 @@ sudo systemctl start nginx php-fpm
     
     查看 SELinux 状态 `sestatus`或者 `getenforce`，有三种模式
     
-    enforcing:强制模式，SELinux 正在运行中，已经在限制 domain/type
+    enforcing：强制模式，SELinux 正在运行中，已经在限制 domain/type
 
-    permissive:宽松模式：SELinux 正在运行中，但仅发出警告信息,并不会实际限制 domain/type 的存取，可以在测试环境中供调试规则时使用，即上面的 `setenforce 0`
+    permissive：宽松模式，SELinux 正在运行中，但仅发出警告信息,并不会实际限制 domain/type 的存取，可以在测试环境中供调试规则时使用，即上面的 `setenforce 0`
 
-    disabled:关闭，SELinux 没有实际运行
+    disabled：关闭，SELinux 没有实际运行
 
 - 查看 centos 版本和位数
 
