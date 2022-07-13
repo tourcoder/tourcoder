@@ -452,6 +452,14 @@ sudo systemctl start nginx php-fpm
     ```
     
     要让它关闭，则修改 `SELINUX=enforcing` 为 `SELINUX=disabled` 即可，需要重启电脑。也可以临时使用命令 `setenforce 0`，不用重启电脑，但请注意这只是临时的。或者使用 `sudo setenforce 0`, 还可以执行命令 `/usr/bin/system-config-securitylevel-tui`，做对应的选择。
+    
+    查看 SELinux 状态 `sestatus`或者 `getenforce`，有三种模式
+    
+    enforcing:强制模式，SELinux 正在运行中，已经在限制 domain/type
+
+    permissive:宽松模式：SELinux 正在运行中，但仅发出警告信息,并不会实际限制 domain/type 的存取，可以在测试环境中供调试规则时使用，即上面的 `setenforce 0`
+
+    disabled:关闭，SELinux 没有实际运行
 
 - 查看 centos 版本和位数
 
