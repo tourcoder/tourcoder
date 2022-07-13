@@ -1258,6 +1258,14 @@ LC_ALL="en_US.UTF-8"
 
 有一些系统的版本， sshd 不能够自动随机启动，可以通过命令 `chkconfig sshd on` 或者 `systemctl enable sshd`
 
+**history 命令**
+
+用来查看所使用过的命令记录，
+
+- 清除记录 `history -c`，也可以删除 `~/.bash_history` 以达到清除记录的目的。
+
+- 查看记录 `history | grep dnf`
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
