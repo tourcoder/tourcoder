@@ -250,7 +250,7 @@ sudo service sshd restart
   
   - [WiFi Scanner](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)：检索 WiFi 信号。
 
-  - [Firefox](https://www.mozilla.org/en-US/firefox/)：我默认使用的浏览器，同时也安装了 Chrome，主要是用来开发调试。
+  - [Firefox](https://www.mozilla.org/en-US/firefox/)：我默认使用的浏览器，同时也安装了 Chrome，主要是用来开发调试，一个特别的设置，在输入框输入 `about:config`，搜索 `browser.fullscreen.exit_on_escape`，将它的值改成 `false`，解决 ESC 键退出浏览器全屏。
 	
 - 环境配置
 
