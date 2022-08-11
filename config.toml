@@ -25,9 +25,6 @@ disableKinds = ["taxonomy", "term"]
   name = "书影"
   url = "/booklist"
   [[menu.main]]
-  name = "工作台"
-  url = "/workspace"
-  [[menu.main]]
   name = "关于"
   url = "/about"
   [[menu.main]]
