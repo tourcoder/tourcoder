@@ -25,4 +25,4 @@ tags: ["关于"]
 
 #### 联系我
 
-你可以给我发 [Email](mailto:forhua@gmail.com)，也可以在 [Twitter](https://twitter.com/tourcoder) 上给我发 DM。
+你可以给我发 [Email](mailto:code@tourcoder.com)，也可以在 [Twitter](https://twitter.com/tourcoder) 上给我发 DM。
