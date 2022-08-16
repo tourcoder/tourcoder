@@ -159,3 +159,11 @@ mongorestore -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 --drop 文�
 ```
 
 同样，上面的内容都可以做对应的调整。
+
+如果是通过 docker 部署的 mongodb，牵涉到一个容器和宿主之间的操作。比如将宿主（本地计算机）的内容复制到容器里，即
+
+```
+docker cp 本地内容 容器名:容器目录
+```
+
+比如 `docker cp /mongodb mongodb_containername:/tmp`，然后在容器里再进行导入导出的操作即可。
