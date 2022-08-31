@@ -251,6 +251,28 @@ docker run -d -p 80:80 --name myNginx -v $PWD/nginx.conf:/etc/nginx/nginx.conf:r
 
 关于如何禁止 IP 直接访问，可以查看[这篇文章](https://tourcoder.com/disable-access-by-ip-and-port-on-docker/)。
 
+#### 部署 Caddy server
+
+和 nginx 一样，Caddy 是一个 server，但不一样的是，它能自动配置 https，很方便。通过 docker 部署它也很方便。
+
+```
+sudo docker run -d -p 80:80 -p 443:443 -v $PWD/Caddyfile:/etc/caddy/Caddyfile -v $PWD/caddy_data:/data --name caddy_name caddy
+```
+
+解释
+
+这里开启了两个端口的映射 80 和 443。
+
+$PWD 是当前目录下
+
+Caddyfile 是 Caddy 的配置文件，需要事先在当前文件夹下写好，不然该命令会自动生成一个 Caddyfile 的文件夹。
+
+caddy_data 是对应的数据文件夹。
+
+caddy 是选择了 caddy 这个 image，也可以用 `caddy:版本号` 来使用对应的版本。
+
+caddy_name 是给当前运行的容器起个名字，比如这里可以写成 caddy_container 等
+
 #### 部署 mysql/mariadb
 
 直接命令行部署
