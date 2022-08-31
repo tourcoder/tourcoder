@@ -249,6 +249,8 @@ docker run -d -p 80:80 --name myNginx -v $PWD/nginx.conf:/etc/nginx/nginx.conf:r
     
 3. 在 `conf.d` 这个文件夹里创建相关的配置文件，比如 `default.conf`。写自己相关的配置文件。
 
+关于如何禁止 IP 直接访问，可以查看[这篇文章](https://tourcoder.com/disable-access-by-ip-and-port-on-docker/)。
+
 #### 部署 mysql/mariadb
 
 直接命令行部署
