@@ -28,3 +28,5 @@ tags: ["vscode", "GitHub", "Microsoft", "Copilot", "Apple", "iPad Pro"]
 **iPad 体验**
 
 我用的是一台 iPad Pro，这三个体验下来都挺好的，但我使用 Codespaces 较多点。
+
+之前写过一篇关于 GitHub Codespaces 的文章，可以参考下，[试用 Github Codespaces](https://tourcoder.com/try-github-codespaces/)
