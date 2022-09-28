@@ -1266,6 +1266,14 @@ LC_ALL="en_US.UTF-8"
 
 - 查看记录 `history | grep dnf`
 
+**更改 swappiness**
+
+执行命令 `cat /proc/sys/vm/swappiness` 查看下 swappiness 是多少，Debian 系默认是 60，表示当内存使用量约为 RAM 的一半，该交换文件将被频繁使用。 最小值是 0，表示除非必要（比如内存用完了），否则避免使用磁盘，最高值是 100，表示程序几乎立刻被交换到磁盘。一般建议 4G 内存的，设置为 10 或者 15，表示内存用到百分之八九十，开始用磁盘。有两种设置方式：
+
+- 直接运行 `sudo sysctl vm.swappiness=10`
+
+- 打开 `/etc/sysctl.conf` 文件，在里面增加 `vm.swappiness=10` 即可。
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
