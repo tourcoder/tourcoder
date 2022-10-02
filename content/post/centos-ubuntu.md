@@ -1266,6 +1266,12 @@ LC_ALL="en_US.UTF-8"
 
 - 查看记录 `history | grep dnf`
 
+**安装 dig**
+
+在 debian 系下，执行命令 `apt-get install dnsutils -y`
+
+在 redhat 系下，执行命令 `yum install bind-utils -y`
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
