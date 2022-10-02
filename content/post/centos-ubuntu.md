@@ -1272,6 +1272,44 @@ LC_ALL="en_US.UTF-8"
 
 在 redhat 系下，执行命令 `yum install bind-utils -y`
 
+**创建交换内存 swap**
+
+先检查系统下是否已经存在，这里以 Debian 为例子
+
+```
+sudo swapon -s 
+free -m 
+```
+
+如果有，则返回有的结果，如果没有，则返回如下结果
+
+```
+binhua@Nerd:~$ sudo swapon -s
+binhua@Nerd:~$ free -m
+               total        used        free      shared  buff/cache   available
+Mem:            3931        3025         339          78         565         571
+Swap:              0           0           0
+```
+
+创建 swap 文件，交换内存的大小一般是两倍于当前的内容，比如内存是 4G 的，则该交换内存大小是 8G，磁盘上要划出这部分空间。执行命令
+
+```
+sudo fallocate -l 8G /swapfile 
+chmod 600 /swapfile 
+sudo mkswap /swapfile //转换文件用于交换内存
+sudo swapon /swapfile //激活交换内存
+```
+
+此时通过上面的命令再查看，就可以发现已经存在了，但这个只是临时的办法，当服务器重启后，将会丢失，需要永久化。打开 `/etc/fstab` 文件，在文件末加上 `/swapfile   none    swap    sw    0   0` 即可。 
+
+**更改 swappiness**
+
+执行命令 `cat /proc/sys/vm/swappiness` 查看下 swappiness 是多少，Debian 系默认是 60，表示当内存使用量约为 RAM 的一半，该交换文件将被频繁使用。 最小值是 0，表示除非必要（比如内存用完了），否则避免使用磁盘，最高值是 100，表示程序几乎立刻被交换到磁盘。一般建议 4G 内存的，设置为 10 或者 15，表示内存用到百分之八九十，开始用磁盘。有两种设置方式：
+
+- 直接运行 `sudo sysctl vm.swappiness=10`
+
+- 打开 `/etc/sysctl.conf` 文件，在里面增加 `vm.swappiness=10` 即可。
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
