@@ -17,7 +17,7 @@ tags: ["微信", "墙国", "老鼠"]
 
 ![](/imgs/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-003.jpg)
 
-哈哈哈，喜提一个月的群聊，朋友圈等功能的封禁。原因互联网相关法律法规的要求，我尝试了下在群里发消息和发朋友圈，均无法成功。
+哈哈哈，喜提半个月的群聊，朋友圈等功能的封禁。原因互联网相关法律法规的要求，我尝试了下在群里发消息和发朋友圈，均无法成功。
 
 ![](/imgs/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-002.jpg)
 
