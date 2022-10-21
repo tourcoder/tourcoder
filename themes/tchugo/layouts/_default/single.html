@@ -5,7 +5,7 @@
     <h2>{{ .Title }}</h2>
     {{ if and .Date (eq .Type "post")}}
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
-      <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u={{ .Permalink | absURL }}" target="_blank">Native Language</a></p>
+      <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u={{ .Permalink | absURL }}" target="_blank">Switch To Native Language</a></p>
     {{ end }}
   </header>
 
