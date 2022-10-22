@@ -19,7 +19,7 @@ Google 有两套账户体系，一套是以 `@gmail.com` 为后缀的账户或�
 |多邮箱|只有一个以 @gmail.com 结尾的邮箱，可以通过 username+alias@gmail.com 或在 username 各个字母数字之间加点号变成很多个邮箱。但现在很多其他服务已经不支持这种变形，比如 Appe ID，Cloudflare 服务等将所有的变形都识别为一个邮箱|理论上有无限个邮箱，因为可以增加一个或多个域名，主用户名只有一个，但可以有无限个别名|Workspace|
 |容量|默认有免费的 15G 容量，收费版价格是 100G 容量每年 19.99 美元起，其他容量的价格清单可以看[这里](https://one.google.com/about/plans)|没有免费版，收费版价格是 30G 容量每年 72 美元起，其他价格看[这里](https://workspace.google.com/pricing.html)|One|
 |容量共享|可以和 5 个家庭成员共享容量|无法共享容量，每个人都需要单独购买容量，并且没有办法给每个人配置不同的容量|One|
-|Google Voice|免费使用|收费使用，每个月 10 美元起|One|
+|Google Voice|免费使用，且可买断号码|收费使用，每个月 10 美元起，无法买断号码|One|
 |Google Play|家庭成员之间可以共享自己 Google Play 上的内容|无法共享|One|
 |Google Chat|无法使用一些专门为 workspace 做的功能，比如无法使用 Chat 里面的其他 app 功能。|都能使用，但根据付费不一样，能用的程度也不一样。比如 72 美元一年的这个套餐就不支持`将外部人员拉入到群组`中|50%-50%|
 |Google Drive|有一个 computers 功能，非常好用|没有|One|
