@@ -22,7 +22,7 @@ Google 有两套账户体系，一套是以 `@gmail.com` 为后缀的账户或�
 |Google Voice|免费使用，且可买断号码|收费使用，每个月 10 美元起，无法买断号码|One|
 |Google Play|家庭成员之间可以共享自己 Google Play 上的内容|无法共享|One|
 |Google Chat|无法使用一些专门为 workspace 做的功能，比如无法使用 Chat 里面的其他 app 功能。|都能使用，但根据付费不一样，能用的程度也不一样。比如 72 美元一年的这个套餐就不支持`将外部人员拉入到群组`中|50%-50%|
-|Google Drive|有一个 computers 功能，非常好用|没有|One|
+|Google Drive|有一个 computers 功能，非常好用|没有 computers 功能|One|
 
 **总结**
 
