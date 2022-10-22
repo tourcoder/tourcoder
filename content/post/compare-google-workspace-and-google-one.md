@@ -7,11 +7,11 @@ date: 2022-10-22T06:41:17Z
 tags: ["GoogleWorkspace", "GoogleOne", "Google", "GSuite"]
 ---
 
-Google 有两套账户体系，一套是以 `@gmail.com` 为后缀的账户或者以用户自己其他 email 地址为用户名的账户，比如 hotmail，yahoo 邮箱等。另外一套账户是以自己的域名邮箱为用户名的账户。根据功能特色，我将这两套账户体系分别称为 `Google One(Personal account)` 和 `Google Workspace(Workspace account)`。
+Google 有两套账户体系，一套是以 `@gmail.com` 为后缀的账户或者以用户自己其他 email 地址（比如 foobar@yahoo.com）为用户名的账户。另外一套账户是以用户自有域名邮箱为用户名的账户。根据功能特色，我将这两套账户体系分别称为 `Google One(Personal account)` 和 `Google Workspace(Workspace account)`。
 
 这两套账户体系衔接着 Google 的各种服务，但每个账户的服务又不完全一样。Google One 有的服务，Google Workspace 未必有；Google One 免费的功能，Google Workspace 可能要收费等等，反之亦然。
 
-写这篇博文，我是想把这两套账号体系理一理，说点我们日常使用的功能中，它们之间差异的地方，让大家有个清醒的认识，便于发现哪一个账户体系才是适合自己的。
+写这篇博文，我是想把这两套账户体系理一理，说点我们日常使用的功能中，它们之间差异的地方，让大家有个清醒的认识，便于发现哪一个账户体系才是适合自己的。
 
 |功能|Google One|Google Workspace|胜利方|
 |---|---|---|---|
