@@ -1228,6 +1228,14 @@ LC_ALL="en_US.UTF-8"
 
 重启即可。
 
+**更改时间**
+
+查看时间 `date -R`
+
+Debian 中更改时间 `dpkg-reconfigure tzdata`
+
+centos 中更改时间 `timeconfig`
+
 **nginx 的 403 错误**
 
 在 nginx 安装好后很大程度会出现 403 的错误，常见以下四个情况。
