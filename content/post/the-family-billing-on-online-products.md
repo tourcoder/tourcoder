@@ -15,12 +15,11 @@ tags: ["开销", "消费"]
 |---|---|---|
 | 域名 | 12K 刀 | 每年的重头戏 |
 | Microsoft 365 家庭版 | 99.99 刀 | 从之前的 office 365 切换到了当前版 |
-| Google one | 99 刀 | Google one 2T 容量套餐，主要用作照片，视频的备份保存 |
-| Google Workspace | 144 刀 | 我主力邮箱，现在 Google 要收费了 |
-| iCloud Storage | 118.8 刀 | iCloud 的云盘服务，开启了家庭共享 |
-| GitHub | 48 刀  | GitHub Pro 的收费 |
-| VPS | 642 刀 | 我的开发机，翻墙脚本，机器人，sideproject 等需要用的服务器 |
+| Google One | 99 刀 | Google One 2T 容量套餐，主要用作照片，视频的备份保存 |
+| iCloud+ | 118.8 刀 | iCloud+ 服务，开启了家庭共享 |
 | Apple 开发者账号 | 99 刀 | 我的个人 Apple 开发账号 |
+| GitHub | 48 刀  | GitHub Pro 的收费 |
+| VPS | 210 刀 | 翻墙脚本服务器 |
 | Kindle Unlimited | 144 元 | Kindle 的包年电子书阅读服务 |
 | 宽带 | 2388 元 | 电信十全十美的 199 套餐 |
 | 话费 | 2712 元 | 我的手机花费每个月 128 元，我老婆的是每个月 98 元 |
