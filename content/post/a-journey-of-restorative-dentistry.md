@@ -1,5 +1,5 @@
 ---
-title: "A Journey of Restorative Dentistry"
+title: "一次治牙之旅"
 slug: "a-journey-of-restorative-dentistry"
 author: Bin Hua
 lastmod: 2022-12-13T01:45:37Z
