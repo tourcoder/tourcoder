@@ -26,7 +26,7 @@ disableKinds = ["taxonomy", "term"]
   url = "/booklist"
   [[menu.main]]
   name = "Buzz"
-  url = "https://buzz.tourcoder.com"
+  url = "https://buzz.tourcoder.com/@tourcoder"
   [[menu.main]]
   name = "关于"
   url = "/about"
