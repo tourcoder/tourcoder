@@ -39,7 +39,6 @@ tags: ["mastodon", "twitter", "gotosocial", "elonmusk"]
 
     ```
     cd your_folder
-    sudo chown -R 1000:1000 data //这一步很重要
     wget https://raw.githubusercontent.com/superseriousbusiness/gotosocial/main/example/docker-compose/docker-compose.yaml
     ```
 
@@ -79,7 +78,7 @@ tags: ["mastodon", "twitter", "gotosocial", "elonmusk"]
         driver: default
     ```
 
-    我修改了 `container_name`，`GTS_HOST`， `ports` 和 `volumes` 的内容，跟着说明酌情修改即可。这里有个重点，`user` 的内容和上一步中 `chown` 的内容是对应的。
+    我修改了 `container_name`，`GTS_HOST`， `ports` 和 `volumes` 的内容，跟着说明酌情修改即可。这里有个重点，`user` 的内容应该是通过 `cat /etc/passwd` 获取到的。
 
 - 配置反向代理的内容，这里将 8080 端口反代即可。
 
@@ -109,13 +108,20 @@ docker exec -it your_container_name /gotosocial/gotosocial admin account promote
 
 ### 一些问题
 
-- 上面 `docker-compose.yaml` 文件中说到的 `user` 问题，可能会导致 sqlite 文件无法生成而出错，严格说，官方还没有解决好这个问题，具体看[这里](https://github.com/superseriousbusiness/gotosocial/issues/476)，这里也提供了解决办法，简单粗暴的方式是将 user 设置成 `root:root`。
+- 上面 `docker-compose.yaml` 文件中说到的 `user` 问题，可能会导致 sqlite 文件无法生成而出错，严格说，官方还没有解决好这个问题，具体看[这里](https://github.com/superseriousbusiness/gotosocial/issues/476)，这里也提供了解决办法，简单粗暴的方式是将 user 设置成 `root:root`。我有个解决办法
+ 
+     - 通过 `cat /etc/passwd` 获取当前用户的`用户标识号`和`组标识号`
+     
+     - 将 `docker-compose.yaml` 文件中 `user` 内容改成所获取到的`用户标识号`和`组标识号`
+     
+     - `docker-compose.yaml` 文件中的 `volumes` 不应该用 `~`，而使用绝对目录 `/home/username/***` 这样的形式。需要注意的是，如果用户是 `admin`，可能没有作用，建议新建个用户。
 
 - 数据都是保存在容器所映射的本地目录中，及时备份。
+
+- 修改 `docker-compose.yaml` 文件后，需要先 `docker compose down`，然后再拉起容器。
 
 ### 相关资源
 
 - GoToSocial 官网: [gotosocial.org](https://gotosocial.org)
 
 - GoToSocial 项目地址: [superseriousbusiness/gotosocial@GitHub](https://github.com/superseriousbusiness/gotosocial)
-
