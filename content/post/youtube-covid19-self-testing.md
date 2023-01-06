@@ -1,5 +1,5 @@
 ---
-title: "新冠抗原自测，准吗？"
+title: "[视频]新冠抗原自测，准吗？"
 slug: "youtube-covid19-self-testing"
 author: Bin Hua
 lastmod: 2022-04-24T08:55:00+08:00
