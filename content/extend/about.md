@@ -15,14 +15,24 @@ tags: ["关于"]
 
 在公元 2021 年 11 月 24 日，我整理了下这个博客，将它开源在 [GitHub](https://github.com/tourcoder/tourcoder)，不过通过 [https://tourcoder.com](https://tourcoder.com) 的阅读体验应该更好。
 
-我是谁？可以看[这里](https://bin.tourcoder.com)
-
 #### LICENSE
 
 这个博客现在是基于 [HUGO](https://gohugo.io)，主题是我写的，都可以拿去免费使用，遵守 [MIT License](/mit) 协议。
 
 内容（包含但不限于图片，视频，音频，文字）是属于我的私人财产，除特别注明外，所有均采用 [Creative Commons BY-NC-ND 4.0（自由转载-保持署名-非商用-禁止演绎）协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)发布，你如需要转载，请先与我取得联系。
 
-#### 联系我
+#### 我是谁
 
-你可以给我发 [Email](mailto:code@tourcoder.com)，也可以在 [Twitter](https://twitter.com/tourcoder) 上给我发 DM。
+Hey,
+
+I am Bin Hua.
+
+An independent blogger.
+
+Mostly, I work on my blog [TOURCODER](https://tourcoder.com).
+
+Besides, I work on some interested things that can be found on [GitHub](https://github.com/tourcoder) or [YouTube](https://www.youtube.com/@tourcoder).
+
+Infatuatedly, I love Blizzard Games, [Starcraft](https://starcraft.com/), [Warcraft](https://playwarcraft3.com/), [Overwatch](https://playoverwatch.com/) and [Hearthstone](https://playhearthstone.com/).
+
+No doubt, I enjoy travelling. Get in touch at [Email](code@tourcoder.com).
