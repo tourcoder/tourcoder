@@ -2,19 +2,19 @@
 title: "macOS 上必装的应用"
 slug: essential-apps-on-macos
 author: Bin Hua
-lastmod: 2020-08-13 09:37:04
+lastmod: 2023-01-26 21:07:04
 date: 2019-08-14 04:25:36
-tags: ["macOS", "alfred", "slowquitapps", "lulu", "micro snitch", "dozer", "flux", "spectacle"]
+tags: ["macOS", "alfred", "slowquitapps", "lulu", "micro snitch", "dozer", "flux", "spectacle", "ntfs"]
 ---
 
-因为工作需要，我在 macOS 上安装了很多应用，除了和工作相关的应用之外，我在 macOS 有几款必装的应用，以下工具和工作，娱乐， 学习没有什么关系。
+因为工作需要，我在 macOS 上安装了很多应用，除了和工作相关的应用之外，我在 macOS 有几款必装的应用。
 
 #### Homebrew
 
 在 macOS 下非常好用的东西，很多开源免费的软件可以通过它来安装。官网 [https://brew.sh/](https://brew.sh/)。
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 在终端中输入上面的命令即可安装完成。
@@ -27,15 +27,11 @@ sudo vi /etc/hosts
 
 在里面增加 `199.232.28.133 raw.githubusercontent.com` 即可。也可以通过代理终端的方式解决。
 
-#### Alfred
+#### Raycast
 
-这是一款效率工具，其[官网](https://www.alfredapp.com/)说得很清楚
+这是一款效率工具，[官网](https://www.raycast.com/)
 
-```
-Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more.
-```
-
-使用它之后，我的效率提高很多。
+我用它取代了之前一直用的 alfred
 
 #### Slowquitapps
 
@@ -45,7 +41,7 @@ macOS 的人经常会遇到一个问题，就是一不小心就会按错，按�
 
 ```
 brew tap dteoh/sqa
-brew cask install slowquitapps
+brew install slowquitapps --cask
 ```
 
 这样就安装完成了，打开这个应用给它一定的权限，完事，当每次再出现手残情况时就会出现如下界面
@@ -100,20 +96,6 @@ Lulu 算是一款保护你隐私的应用，它检测网络链接的请求，并
 
 官网地址：[https://obdev.at/products/microsnitch/](https://obdev.at/products/microsnitch/)
 
-#### Dozer
-
-macOS 的菜单栏成了诸多应用的必争之地，也有不少收费的应用可以很好地整理菜单栏，我使用的是一个开源免费的应用，先看效果。
-
-![](/imgs/dozerbefore_01.png)
-
-使用 Dozer 之前
-
-![](/imgs/dozerafter_02.png)
-
-使用 Dozer 后
-
-可以直接从[这里](https://dozermac.com/)下载，安装后直接将不常用的图标拖入到里面即可。
-
 #### Flux
 
 作为一个长期对着电脑工作的人，眼睛的保护显得非常重要，Flux 就是这么一款保护眼睛的应用
@@ -147,3 +129,9 @@ killall Dock
 The Unarchiver 是一个解压软件，我用了很多年，非常棒，直接在 Mac AppStore 搜索下载即可。
 
 以上是我在 macOS 必装的，但和工作娱乐基本没有什么太大关系的应用。
+
+#### Paragon NTFS for Mac
+
+让用户方便的在 macOS 上进行 NTFS 的读写，这是一款收费软件，官网点[这里](https://www.paragon-software.com/home/ntfs-mac/#)。
+
+上面是必装的，至于其他的应用，可以参考我博客的其他文章。
