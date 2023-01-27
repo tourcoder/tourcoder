@@ -4,7 +4,7 @@
   <header>
     <h2>{{ .Title }}</h2>
     {{ if and .Date (eq .Type "post")}}
-      <time datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">创建日期: {{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}</time>
+      <time datetime="{{ .Date | time.Format "2006-01-02 15:04:05" }}">创建日期: {{ .Date | time.Format "2006-01-02 15:04:05" }}</time>
       <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u={{ .Permalink | absURL }}" target="_blank">Switch To Native Language</a></p>
     {{ end }}
   </header>
