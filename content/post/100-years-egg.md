@@ -2,8 +2,8 @@
 title: "皮蛋菜谱"
 slug: 100-years-egg
 author: Bin Hua
-lastmod: 2020-08-13 08:43:11
-date: 2008-04-06 04:49:00
+lastmod: 2020-08-13T08:43:11Z
+date: 2008-04-06T04:49:00Z
 tags: ["皮蛋", "美食"]
 ---
 
