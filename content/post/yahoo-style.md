@@ -2,8 +2,8 @@
 title: "被 Yahoo 收购了"
 slug: yahoo-style
 author: Bin Hua
-lastmod: 2019-08-02 03:52:28
-date: 2015-01-11 06:41:48
+lastmod: 2019-08-02T03:52:28Z
+date: 2015-01-11T06:41:48Z
 tags: ["雅虎", "阿里巴巴", "Yahoo"]
 ---
 

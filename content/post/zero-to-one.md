@@ -2,8 +2,8 @@
 title: "《从 0 到 1 》读后感"
 slug: zero-to-one
 author: Bin Hua
-lastmod: 2020-08-13 09:26:26
-date: 2019-03-01 14:27:34
+lastmod: 2020-08-13T09:26:26Z
+date: 2019-03-01T14:27:34Z
 tags: [paypal", "读后感", "彼得·蒂尔"]
 ---
 
