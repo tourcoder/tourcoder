@@ -2,8 +2,8 @@
 title: "多少个IM才能满足要求"
 slug: about-im
 author: Bin Hua
-lastmod: 2020-08-13 08:50:46
-date: 2010-05-01 06:05:03
+lastmod: 2020-08-13T08:50:46Z
+date: 2010-05-01T06:05:03Z
 tags: ["IM", "QQ", "MSN", "SKYPE", "GTALK"]
 ---
 

@@ -2,8 +2,8 @@
 title: "在 macOS 的终端里安装 dmg 或 pkg 文件"
 slug: "install-dmg-or-pkg-via-terminal-on-macos"
 author: Bin Hua
-lastmod: 2021-05-31T09:54:38+08:00
-date: 2021-05-31T09:54:38+08:00
+lastmod: 2021-05-31T09:54:38Z
+date: 2021-05-31T09:54:38Z
 tags: ["macos", "terminal", "iterm2"]
 ---
 

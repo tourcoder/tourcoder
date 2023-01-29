@@ -2,8 +2,8 @@
 title: "修复升级到 Caddy V2 后 Surge 中出现的 Handshake Failed 错误"
 slug: "how-to-fix-handshake-failed-200-ok-on-surge-when-upgrade-to-caddy-v2"
 author: Bin Hua
-lastmod: 2021-12-20T09:10:33+08:00
-date: 2021-12-20T09:10:33+08:00
+lastmod: 2021-12-20T09:10:33Z
+date: 2021-12-20T09:10:33Z
 tags: ["Caddy", "Surge", "handshake", "bugfixed", "v2ray"]
 ---
 

@@ -2,8 +2,8 @@
 title: "在线版的 VSCode: Code Server"
 slug: "code-server-vscode-online"
 author: Bin Hua
-lastmod: 2021-07-19T11:31:48+08:00
-date: 2021-07-19T11:31:48+08:00
+lastmod: 2021-07-19T11:31:48Z
+date: 2021-07-19T11:31:48Z
 tags: ["VSCode", "GitHub"]
 ---
 

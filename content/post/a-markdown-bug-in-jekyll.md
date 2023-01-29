@@ -2,8 +2,8 @@
 title: "A Markdown bug in Jekyll"
 slug: a-markdown-bug-in-jekyll
 author: Bin Hua
-lastmod: 2020-07-18 06:10:24
-date: 2018-03-06 16:47:00
+lastmod: 2020-07-18T06:10:24Z
+date: 2018-03-06T16:47:00Z
 tags: ["bug", "jekyll"]
 ---
 

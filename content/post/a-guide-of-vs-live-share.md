@@ -2,8 +2,8 @@
 title: "VS Code 中的 Live Share"
 slug: a-guide-of-vscode-live-share
 author: Bin Hua
-lastmod: 2020-07-18 06:02:59
-date: 2019-01-28 02:33:31
+lastmod: 2020-07-18T06:02:59Z
+date: 2019-01-28T02:33:31Z
 tags: ["GitHub", "微软", "VSCode", "plus", "workflow"]
 ---
 

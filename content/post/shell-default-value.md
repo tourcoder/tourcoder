@@ -2,8 +2,8 @@
 title: "Shell 的变量默认值"
 slug: "shell-default-value"
 author: Bin Hua
-lastmod: 2021-05-01T14:21:06+08:00
-date: 2021-05-01T14:21:06+08:00
+lastmod: 2021-05-01T14:21:06Z
+date: 2021-05-01T14:21:06Z
 tags: ["shell"]
 ---
 

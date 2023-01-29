@@ -2,8 +2,8 @@
 title: "我所理解的 Web 3.0"
 slug: "web-3-0-as-i-understand-it"
 author: Bin Hua
-lastmod: 2021-12-31T19:39:12+08:00
-date: 2021-12-31T19:39:12+08:00
+lastmod: 2021-12-31T19:39:12Z
+date: 2021-12-31T19:39:12Z
 tags: ["web3.0", "2021"]
 ---
 

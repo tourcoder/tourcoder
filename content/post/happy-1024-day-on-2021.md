@@ -2,8 +2,8 @@
 title: "Happy 1024 Day 2021"
 slug: "happy-1024-day-on-2021"
 author: Bin Hua
-lastmod: 2021-10-24T18:18:37+08:00
-date: 2021-10-24T18:18:37+08:00
+lastmod: 2021-10-24T18:18:37Z
+date: 2021-10-24T18:18:37Z
 tags: ["程序员", "mono", "饭否"]
 ---
 

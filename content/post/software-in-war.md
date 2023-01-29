@@ -2,8 +2,8 @@
 title: "战争中的软件"
 slug: "software-in-war"
 author: Bin Hua
-lastmod: 2022-03-04T19:53:59+08:00
-date: 2022-03-04T19:53:59+08:00
+lastmod: 2022-03-04T19:53:59Z
+date: 2022-03-04T19:53:59Z
 tags: ["software", "乌克兰", "俄罗斯", "React", "open source", "GitHub"]
 ---
 

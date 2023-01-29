@@ -2,8 +2,8 @@
 title: "上海版的孤岛生存"
 slug: "island-survival-shanghai"
 author: Bin Hua
-lastmod: 2022-04-23T09:09:56+08:00
-date: 2022-04-23T09:09:56+08:00
+lastmod: 2022-04-23T09:09:56Z
+date: 2022-04-23T09:09:56Z
 tags: ["新冠", "上海封城", "covid19"]
 ---
 

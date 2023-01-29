@@ -2,8 +2,8 @@
 title: "关于本次 fakerjs 事件的一些想法"
 slug: "some-thoughts-on-this-fakerjs-event"
 author: Bin Hua
-lastmod: 2022-01-17T09:10:27+08:00
-date: 2022-01-17T09:10:27+08:00
+lastmod: 2022-01-17T09:10:27Z
+date: 2022-01-17T09:10:27Z
 tags: ["fakerjs", "colorjs", "GitHub", "Marak"]
 ---
 
