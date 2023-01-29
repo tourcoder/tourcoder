@@ -2,8 +2,8 @@
 title: "Go 语言中的 GO111MODULE 和 Go Get"
 slug: "go111module-and-go-get-in-golang"
 author: Bin Hua
-lastmod: 2021-07-26T12:13:24+08:00
-date: 2021-07-26T12:13:24+08:00
+lastmod: 2021-07-26T12:13:24Z
+date: 2021-07-26T12:13:24Z
 tags: ["golang", "gomodule"]
 ---
 

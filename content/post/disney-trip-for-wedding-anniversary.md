@@ -2,8 +2,8 @@
 title: "[视频]2021 年结婚纪念日，上海迪斯尼之行"
 slug: "shanghai-disney-trip-for-wedding-anniversary-20211111"
 author: Bin Hua
-lastmod: 2021-11-12T17:19:45+08:00
-date: 2021-11-12T17:19:45+08:00
+lastmod: 2021-11-12T17:19:45Z
+date: 2021-11-12T17:19:45Z
 tags: ["结婚纪念日", "上海迪斯尼"]
 ---
 

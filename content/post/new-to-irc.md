@@ -2,8 +2,8 @@
 title: "IRC 快速入门"
 slug: "new-to-irc"
 author: Bin Hua
-lastmod: 2021-05-30T10:33:28+08:00
-date: 2021-05-30T10:33:28+08:00
+lastmod: 2021-05-30T10:33:28Z
+date: 2021-05-30T10:33:28Z
 tags: ["irc", "freenode", "libera"]
 ---
 

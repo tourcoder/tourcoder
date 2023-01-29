@@ -2,8 +2,8 @@
 title: "为什么我不再做新冠肺炎期间的志愿者"
 slug: "why-i-stop-volunteering-during-the-covid-19"
 author: Bin Hua
-lastmod: 2022-04-20T10:16:06+08:00
-date: 2022-04-20T10:16:06+08:00
+lastmod: 2022-04-20T10:16:06Z
+date: 2022-04-20T10:16:06Z
 tags: ["新冠肺炎", "志愿者", "政策"]
 ---
 

@@ -2,8 +2,8 @@
 title: "信息不透明，有多糟糕"
 slug: "how-bad-if-the-information-is-not-transparent"
 author: Bin Hua
-lastmod: 2022-03-16T08:39:48+08:00
-date: 2022-03-16T08:39:48+08:00
+lastmod: 2022-03-16T08:39:48Z
+date: 2022-03-16T08:39:48Z
 tags: ["信息战", "政治"]
 ---
 

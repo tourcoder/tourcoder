@@ -2,8 +2,8 @@
 title: "A tip in Markdown"
 slug: a-tip-in-markdow
 author: Bin Hua
-lastmod: 2020-08-13 09:23:24
-date: 2019-01-04 05:41:15
+lastmod: 2020-08-13T09:23:24Z
+date: 2019-01-04T05:41:15Z
 tags: ["markdown"]
 ---
 

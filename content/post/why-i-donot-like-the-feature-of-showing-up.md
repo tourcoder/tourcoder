@@ -2,8 +2,8 @@
 title: "为什么我不喜欢显示 IP 这个功能"
 slug: "why-i-donot-like-the-feature-of-showing-up"
 author: Bin Hua
-lastmod: 2022-08-23T12:23:35+08:00
-date: 2022-08-23T12:23:35+08:00
+lastmod: 2022-08-23T12:23:35Z
+date: 2022-08-23T12:23:35Z
 tags: ["IP", "隐私", "统治手段"]
 ---
 

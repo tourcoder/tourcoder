@@ -2,8 +2,8 @@
 title: "基于 Github Actions 部署我的博客"
 slug: "github-actions-of-my-blog"
 author: Bin Hua
-lastmod: 2021-06-02T22:34:08+08:00
-date: 2021-06-02T22:34:08+08:00
+lastmod: 2021-06-02T22:34:08Z
+date: 2021-06-02T22:34:08Z
 tags: ["GitHub", "hugo"]
 ---
 

@@ -2,8 +2,8 @@
 title: "NGROK 使用指南"
 slug: "ngrok-abc"
 author: Bin Hua
-lastmod: 2021-06-18T11:50:07+08:00
-date: 2021-06-18T11:50:07+08:00
+lastmod: 2021-06-18T11:50:07Z
+date: 2021-06-18T11:50:07Z
 tags: ["ngrok", "开发工具"]
 ---
 

@@ -2,8 +2,8 @@
 title: "使用 iCloud Plus 中的 Custom Email Domain"
 slug: "custom-email-domain-on-icloud-plus"
 author: Bin Hua
-lastmod: 2021-09-21T12:53:27+08:00
-date: 2021-09-21T12:53:27+08:00
+lastmod: 2021-09-21T12:53:27Z
+date: 2021-09-21T12:53:27Z
 tags: ["iCloud", "plus", "Apple", "email"]
 ---
 

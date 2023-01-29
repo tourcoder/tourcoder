@@ -2,8 +2,8 @@
 title: "试用 Cloudflare 的电子邮箱路由"
 slug: "email-routing-of-cloudflare"
 author: Bin Hua
-lastmod: 2021-12-21T20:07:07+08:00
-date: 2021-12-21T20:07:07+08:00
+lastmod: 2021-12-21T20:07:07Z
+date: 2021-12-21T20:07:07Z
 tags: ["Cloudflare", "email", "routing"]
 ---
 

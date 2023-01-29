@@ -2,8 +2,8 @@
 title: "外国人的鸡吧和中国人的生命"
 slug: "foreigner-s-cock-and-chinese-life"
 author: Bin Hua
-lastmod: 2022-04-01T17:00:29+08:00
-date: 2022-04-01T17:00:29+08:00
+lastmod: 2022-04-01T17:00:29Z
+date: 2022-04-01T17:00:29Z
 tags: ["新冠", "人人平等"]
 ---
 

@@ -2,8 +2,8 @@
 title: "有轨电车难题？"
 slug: "trolley-problem"
 author: Bin Hua
-lastmod: 2022-04-18T15:31:26+08:00
-date: 2022-04-18T15:31:26+08:00
+lastmod: 2022-04-18T15:31:26Z
+date: 2022-04-18T15:31:26Z
 tags: ["有轨电车难题", "正义", "正确"]
 ---
 

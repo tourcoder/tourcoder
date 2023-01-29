@@ -2,8 +2,8 @@
 title: "一个简单的短网址系统"
 slug: a-simple-short-url-app
 author: Bin Hua
-lastmod: 2020-08-13 09:31:40
-date: 2019-07-15 03:42:19
+lastmod: 2020-08-13T09:31:40Z
+date: 2019-07-15T03:42:19Z
 tags: ["App", "Productivity", "shorturl"]
 ---
 
