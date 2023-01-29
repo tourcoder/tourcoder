@@ -3,15 +3,14 @@
 <div class="blogdetail">
   <header>
     <h2>{{ .Title }}</h2>
-    {{ if and .Date (eq .Type "post")}}
-      <time datetime="{{ .Date.Local | time.Format "2006-01-02 15:04:05" }}">创建日期: {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}</time>
-      <time datetime="{{ .Lastmod.Local | time.Format "2006-01-02 15:04:05" }}">最后修改: {{ .Lastmod.Local | time.Format "2006-01-02 15:04:05" }}</time>
-      <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u={{ .Permalink | absURL }}" target="_blank">Switch To Native Language</a></p>
-    {{ end }}
+    <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u={{ .Permalink | absURL }}" target="_blank">Switch To Native Language</a></p>
   </header>
 
   <div class="blogcontent">
     {{ .Content }}
+    {{ if and .Date (eq .Type "post")}}
+      <time>本文发表于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}，最后修改于 {{ .Lastmod.Local | time.Format "2006-01-02 15:04:05" }}</time>
+    {{ end }}
   </div>
 
   {{ if ne .Type "extend" }}
