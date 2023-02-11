@@ -44,6 +44,7 @@ disableKinds = ["taxonomy", "term"]
     tabWidth = 2
   [markup.goldmark.renderer]
     unsafe = true
+
 [blackfriday]
   taskLists = true
   angledQuotes = true
@@ -51,3 +52,7 @@ disableKinds = ["taxonomy", "term"]
   plainIDAnchors = true
   tabSizeDefault = 4
   extensions = ["hardLineBreak", "tables", "noEmptyLineBeforeBlock", "definitionLists"]
+
+[frontmatter]
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+
