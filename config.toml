@@ -54,5 +54,5 @@ disableKinds = ["taxonomy", "term"]
   extensions = ["hardLineBreak", "tables", "noEmptyLineBeforeBlock", "definitionLists"]
 
 [frontmatter]
-  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  lastmod = ['lastmod', ':git', ':fileModTime', 'date', 'publishDate']
 
