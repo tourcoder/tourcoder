@@ -352,10 +352,10 @@ docker exec -it mongodb /bin/bash
 或者
 
 ```
-docker exec -it mongodb mongo
+docker exec -it mongodb bash
 ```
 
-第一个命令是进入容器后运行 bash，第二个命令是进入容器后运行 mongo，如果是第一个命令则再次输入 `mongo` 进入数据库操作界面，第二个命令是已经进入数据库操作界面。然后选择数据库 `use 数据库名`，比如给 `admin` 数据库增加用户，则执行下面的语句创建一个账户，并赋予其密码 `123456` 
+进入容器后，输入命令 `mongosh -u 用户名 -p 密码` 进入数据库操作界面。`mongosh` 是 6.0 之后的版本，之前用 `mongo`。然后选择数据库 `use 数据库名`，比如给 `admin` 数据库增加用户，则执行下面的语句创建一个账户，并赋予其密码 `123456` 
 
 ```
 db.createUser({user:'admin', pwd:'123456', roles:[{role:'userAdminAnyDatabase', db:'admin'}]});
