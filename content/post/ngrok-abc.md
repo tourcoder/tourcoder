@@ -2,7 +2,6 @@
 title: "NGROK 使用指南"
 slug: "ngrok-abc"
 author: Bin Hua
-lastmod: 2021-06-18T11:50:07Z
 date: 2021-06-18T11:50:07Z
 tags: ["ngrok", "开发工具"]
 ---
@@ -33,4 +32,6 @@ tags: ["ngrok", "开发工具"]
 
   如上图，`http://2d2a38beadcf.ngrok.io` 这个就是与本地程序衍射的外部链接，除了 http 链接外，它还提供了 https 的链接。
 
-完事，更多用法可以参考 `./ngrok help`
+完事，更多用法可以参考 `./ngrok help`。
+
+还可以用个更省事的办法，就是将执行文件 `ngrok` 移动到 `/usr/local/bin`，然后直接用 `ngrok --help` 来运行。
