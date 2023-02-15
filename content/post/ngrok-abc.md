@@ -34,4 +34,4 @@ tags: ["ngrok", "开发工具"]
 
 完事，更多用法可以参考 `./ngrok help`。
 
-还可以用个更省事的办法，就是将执行文件 `ngrok` 移动到 `/usr/local/bin`，然后直接用 `ngrok --help` 来运行。
+还可以用个更省事的办法，就是将执行文件 `ngrok` 移动到 `/usr/local/bin`，然后直接用 `ngrok` 来运行，比如 `ngrok http 3000`。
