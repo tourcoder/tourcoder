@@ -2,7 +2,6 @@
 title: "为什么我放弃了 Google Fi"
 slug: why-i-left-google-fi
 author: Bin Hua
-lastmod: 2020-10-29 03:42:43
 date: 2020-10-29 03:42:10
 tags: ["Gmail", "Google", "Google Fi"]
 ---
@@ -45,12 +44,13 @@ tags: ["Gmail", "Google", "Google Fi"]
 
 会得到这么一个结果， 一般等待 24 小时后，号码将出现在 Google Voice。
 
+需要注意的是，现在这个方法已经不再免费，收费 20 美刀。
+
 如果你的账户没有“自带” Google Voice 账户，比如你使用的是 G Suite，以前是免费使用 Google Voice 的，但现在收费了，就变成了不“自带”。解决办法有两个：
 
-1.去缴费，开启 Google Voice
+1.~~去缴费，开启 Google Voice~~(此路已经不通，Google 规定，无法将 Google Suite 即现在的 Google Workspace 中的 Google Voice 里的号码转移出去。)
 
 2.新注册一个 Google 账户（非 G Suite），联系客服将 Google Fi 号码转移到这个新注册的 Google Fi 账户中，等转移完成后，再按上面的操作方式将号码转移到 Google Voice。不过这个方法有点风险，可能在新账户中激活 Google Fi 不成功，那么就白费了。目前我操作了两个账号，还没有无法激活的情况。
-
 
 好了，再见了，Google Fi。
 
