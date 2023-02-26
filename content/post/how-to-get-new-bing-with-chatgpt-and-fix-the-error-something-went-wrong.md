@@ -1,6 +1,6 @@
 ---
 title: "如何加快获得新 Bing 的试用权限，并解决聊天时遇到的 Something went wrong 问题"
-slug: "how-to-get-new-bing-with-gptchat-and-fix-the-error-something-went-wrong"
+slug: "how-to-get-new-bing-with-chatgpt-and-fix-the-error-something-went-wrong"
 author: Bin Hua
 date: 2023-02-26T08:35:14Z
 tags: ["new", "bing", "chatgpt", "微软", "e01003", "e01002", "e01005"]
