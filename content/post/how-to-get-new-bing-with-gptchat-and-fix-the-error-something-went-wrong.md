@@ -16,11 +16,9 @@ tags: ["new", "bing", "chatgpt", "微软", "e01003", "e01002", "e01005"]
 
 - 很快就可能收到试用通知（我的第二个账号就是连续做了两天 reward 任务后收到了通知）
 
-在手机端试用 bing 的 app 时会遇到一个问题就是 `Something went wrong, Tap refresh or restart the app (code: E010003)`，如下图
+在手机端试用 bing 的 app 时会遇到一个问题就是 `Something went wrong, Tap refresh or restart the app (code: E010003)`。
 
-
-
-这里有两个地方处理下
+有两个地方处理下，即可解决问题。
 
 - 需要将 bing 的访问通过科学上网来解决，在代理软件中增加一条规则 `DOMAIN-SUFFIX,bing.com`，让它走代理即可，基本就解决问题了。
 
