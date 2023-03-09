@@ -1,5 +1,5 @@
 ---
-title: "How to Integrate Mermaid in Hugo"
+title: "如何在 hugo 中集成 mermaid"
 slug: "how-to-integrate-mermaid-in-hugo"
 author: Bin Hua
 date: 2023-03-09T10:10:41Z
@@ -22,15 +22,7 @@ tags: ["hugo", "mermaid"]
     </div>
     ```
 
-- 最后通过下面代码引用
-
-    ```
-    {{<mermaid>}}
-    ...
-    {{</mermaid>}}
-    ```
-
-    这里的省略号是需要画的内容的 markdown 文本，比如
+- 最后看效果，比如
 
     {{<mermaid>}}
     graph LR
@@ -41,12 +33,12 @@ tags: ["hugo", "mermaid"]
     这个流程的写法是
 
     ```
-    {{<mermaid>}}
     graph LR
     A(Hello)-->B(One)
     A-->C(Two)
-    {{</mermaid>}}
     ```
+
+    当然需要用 `<mermaid>` 和 `</mermaid>` 将上面代码包含在里面。
 
 至于 mermaid 还有哪些用法，去其官网看吧。
 
