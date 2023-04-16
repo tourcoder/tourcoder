@@ -1,5 +1,5 @@
 ---
-title: "[视频]  AI 开箱：试用 GitHub #Copilot 的竞争对手，来自亚马逊的 CodeWhisperer "
+title: "[视频]  AI 开箱：试用 GitHub Copilot 的竞争对手，来自亚马逊的 CodeWhisperer "
 slug: "youtube-amazon-codeWhisperer"
 author: Bin Hua
 date: 2023-04-16T01:12:28Z
