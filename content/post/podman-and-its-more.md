@@ -41,3 +41,10 @@ podman run -d --name mongo -p 27017:27017 mongo
 
 ### 遇到的问题
 
+- 在 macOS 中映射到本地硬盘时遇到 `Error: statfs: no such file or directory` 的问题
+
+    解决办法：初始化 machine 的时候，增加 `-v 宿主目录:容器目录` 参数，然后启动 machine 即可
+
+    ```
+    podman machine init -v /Users/nnn:/home/mmm
+    ```
