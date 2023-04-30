@@ -1,7 +1,7 @@
 ---
 title: "博客迁移到 Cloudflare Pages"
 slug: "hello-cloudflare-pages"
-author: Bin Hua
+author: "Bin Hua"
 date: 2021-09-21T07:39:09Z
 tags: ["CloudFlare", "GitHub", "Pages"]
 ---
