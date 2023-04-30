@@ -1,8 +1,8 @@
 ---
 title: "Apple 开发者帐号的问题"
-slug: an-issue-of-apple-developer-account
+slug: "an-issue-of-apple-developer-account"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:37:51
+lastmod: 2019-09-15 04:48:01
 date: 2019-09-15 04:48:01
 tags: ["Apple", "apple developer", "苹果开发者账户", "appstore"]
 ---
