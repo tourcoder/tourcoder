@@ -1,8 +1,8 @@
 ---
 title: "[持续更新] Firefox 下的插件"
-slug: add-ons-i-am-using-on-firefox
+slug: "add-ons-i-am-using-on-firefox"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:26:41
+lastmod: 2019-03-11 02:41:09
 date: 2019-03-11 02:41:09
 tags: ["chrome", "firefox", "addons"]
 ---
