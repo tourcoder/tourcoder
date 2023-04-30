@@ -4,7 +4,7 @@ slug: "new-to-slim"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:10:14
 date: 2017-11-02 07:18:23
-tags: [php", "slim"]
+tags: ["php", "slim"]
 ---
 
 最近喜欢上了 Slim 这个小型的 PHP 框架，用它写 RESTFUL API 感觉好极了。官方地址：[Slim Framework](https://www.slimframework.com/)，Github 上的[开源地址](https://github.com/slimphp/Slim)。

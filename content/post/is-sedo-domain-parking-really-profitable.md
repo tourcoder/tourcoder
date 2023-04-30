@@ -4,7 +4,7 @@ slug: "is-sedo-domain-parking-really-profitable"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:46:35
 date: 2019-12-17 09:30:37
-tags: [域名", sedo", "domain parking", "sedo作弊"]
+tags: ["域名", "sedo", "domain parking", "sedo作弊"]
 ---
 
 早就听过 Sedo 的大名，在它上面也买过一个域名，今年五月份心血来潮，想着手上的域名闲置着也是闲置着，不如通过 Sedo 的停靠赚点钱，随即将在某一注册商那边注册的几十个域名都停靠在了 Sedo。

@@ -4,7 +4,7 @@ slug: "cong-sou-gou-shu-ru-fa-kan-zhong-guo-hu-lian-wang-liu-mang-te-xing"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:52:23
 date: 2011-01-03 06:27:50
-tags: [QQ", "MSN", "搜狗"]
+tags: ["QQ", "MSN", "搜狗"]
 ---
 
 今天果断卸载了搜狗输入法，不是它不好用，而是它的弹窗广告。可以说，我是搜狗输入法的一个深度用户了，从它诞生的第一天起，我就一直在使用它，甚至我还很有激情的给开发人员提出我那微不足道的建议，但今天上午我却因为弹窗广告的问题，卸载了它。
