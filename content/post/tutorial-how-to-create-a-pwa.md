@@ -1,7 +1,7 @@
 ---
 title: "创建一个 PWA"
 slug: "tutorial-how-to-create-a-pwa"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-09-25T04:51:32Z
 date: 2022-09-25T04:51:32Z
 tags: ["pwa", "Google", "教程"]

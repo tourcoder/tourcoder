@@ -1,7 +1,7 @@
 ---
 title: "搭建自己的节点之 Gotosocial 篇"
 slug: "how-to-use-gotosocial"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-12-18T05:55:03Z
 date: 2022-12-18T05:55:03Z
 tags: ["mastodon", "twitter", "gotosocial", "elonmusk"]

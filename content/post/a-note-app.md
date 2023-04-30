@@ -1,7 +1,7 @@
 ---
 title: "一个笔记应用"
 slug: "a-note-app"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-30T00:59:55Z
 tags: ["笔记", "note", "notion", "evernote"]
 draft: false

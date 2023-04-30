@@ -1,7 +1,7 @@
 ---
 title: "成龙的 200 亿票房"
 slug: "jackie-chan"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-10-23T15:22:06Z
 date: 2021-10-23T15:22:06Z
 tags: ["电影", "成龙", "吴京", "李小龙", "李连杰", "尊龙"]

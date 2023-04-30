@@ -1,7 +1,7 @@
 ---
 title: "[视频]沉浸式体验 Google Bard"
 slug: "youtube-try-google-bard"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-03-27T00:23:52Z
 tags: ["Google", "Bard", "AI", "chatGPT", "openAI"]
 ---

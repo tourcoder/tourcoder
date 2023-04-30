@@ -1,7 +1,7 @@
 ---
 title: "Docker 中升级 postgres"
 slug: upgrade-incompatible-postgres-data-directory-docker
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-01-03 08:01:43
 date: 2021-01-03 07:59:43
 tags: ["docker", "postgresql", "docker-compose"]

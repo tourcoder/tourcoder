@@ -1,7 +1,7 @@
 ---
 title: "试用 Raycast"
 slug: "try-raycast"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-03-20T20:35:57Z
 date: 2021-03-20T20:35:57Z
 tags: ["raycast", "软件", "Alfred", "macOS"]

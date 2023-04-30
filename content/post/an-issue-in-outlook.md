@@ -1,7 +1,7 @@
 ---
 title: "MS OFFICE OUTLOOK中的问题"
 slug: an-issue-in-outlook
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:14:55
 date: 2009-01-21 05:08:00
 tags: ["bug", "outlook"]

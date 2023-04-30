@@ -1,7 +1,7 @@
 ---
 title: "梳理下自己银行账户被封的事情"
 slug: "my-bank-account-got-blocked"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-03-22T10:22:58Z
 tags: ["中国银行", "封锁"]
 ---

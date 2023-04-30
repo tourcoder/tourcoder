@@ -1,7 +1,7 @@
 ---
 title: "Reborn in Jan 2023"
 slug: "reborn-in-jan-2023"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2023-01-12T15:00:25Z
 date: 2023-01-12T15:00:25Z
 tags: ["新冠", "2023"]

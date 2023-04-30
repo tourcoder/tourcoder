@@ -1,7 +1,7 @@
 ---
 title: "也谈微博微群"
 slug: ye-tan-wei-bo-wei-qun
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13T08:52:30Z
 date: 2011-01-06T06:28:31Z
 tags: ["新浪", "微博", "微群", "Email"]

@@ -1,7 +1,7 @@
 ---
 title: "通过 Github Actions 创建并发布 Docker images"
 slug: "build-and-deploy-docker-images-via-github-actions"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-12-01T13:16:36Z
 date: 2021-12-01T13:16:36Z
 tags: ["GitHub", "Actions", "Docker", "SSH"]

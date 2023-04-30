@@ -1,7 +1,7 @@
 ---
 title: "在 Debian 10 上安装 Trojan 和 bbr plus"
 slug: "how-to-install-trojan-bbr-plus-on-debian-10"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-03-05T09:17:22Z
 date: 2022-03-05T09:17:22Z
 tags: ["trojan", "bbr", "Debian", "trojan go"]

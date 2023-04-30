@@ -1,7 +1,7 @@
 ---
 title: "GitHub Action Beta"
 slug: try-github-action
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:02:47
 date: 2019-02-01 04:53:21
 tags: ["GitHub", "workflow", "action"]

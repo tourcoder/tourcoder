@@ -1,7 +1,7 @@
 ---
 title: "Podman 和它的一切"
 slug: "podman-and-its-more"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-29T10:46:20Z
 tags: ["podman", "docker", "container"]
 draft: false

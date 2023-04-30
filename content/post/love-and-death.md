@@ -1,7 +1,7 @@
 ---
 title: "爱与死亡"
 slug: "love-and-death"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-07-08T19:42:28Z
 date: 2021-07-08T19:42:28Z
 tags: ["人生", "爱"]

@@ -1,7 +1,7 @@
 ---
 title: "各种美国电话号码的简单比较"
 slug: get-an-american-phone-number
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:24:16
 date: 2019-01-27 03:46:21
 tags: ["美国号码", "Google Fi", "lycamobile", "二次验证"]

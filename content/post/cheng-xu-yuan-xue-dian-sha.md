@@ -1,7 +1,7 @@
 ---
 title: "程序员学点啥"
 slug: cheng-xu-yuan-xue-dian-sha
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-06 10:45:48
 date: 2020-08-06 10:45:48
 tags: ["正则", "GitHub"]

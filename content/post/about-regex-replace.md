@@ -1,7 +1,7 @@
 ---
 title: "关于Regex.Replace只替换第一个的问题"
 slug: about-regex-replace
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:16:37
 date: 2009-08-20 05:47:43
 tags: ["正则"]

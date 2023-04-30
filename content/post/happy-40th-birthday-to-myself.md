@@ -1,7 +1,7 @@
 ---
 title: "你好呀，不惑之年"
 slug: happy-40th-birthday-to-myself
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:43:34
 date: 2020-04-28 04:51:53
 tags: [生日", "不惑之年", "2020"]

@@ -1,7 +1,7 @@
 ---
 title: "自建 RSS 阅读器"
 slug: rss-reader
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:43:24
 date: 2019-12-16 09:10:58
 tags: ["php", "rss", "miniflux", "self-hosted"]

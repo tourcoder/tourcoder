@@ -1,7 +1,7 @@
 ---
 title: "iTerm 学习笔记"
 slug: iterm-manual
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:23:56
 date: 2019-01-19 13:20:45
 tags: ["terminal", "iterm", "vim", "vi"]

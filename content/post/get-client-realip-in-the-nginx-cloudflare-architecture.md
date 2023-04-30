@@ -1,7 +1,7 @@
 ---
 title: "获取 Nginx Cloudflare 架构中客户端真实的 IP"
 slug: "get-client-realip-in-the-nginx-cloudflare-architecture"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-12-23T12:34:42Z
 date: 2021-12-23T12:34:42Z
 tags: ["Cloudflare", "nginx"]

@@ -1,7 +1,7 @@
 ---
 title: "魔兽和青春"
 slug: "warcraft"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2016-06-09T15:17:26Z
 date: 2016-06-09T15:17:26Z
 tags: ["魔兽", "暴雪", "星际争霸", "青春"]

@@ -1,7 +1,7 @@
 ---
 title: "搭建 Docker 私有仓库"
 slug: create-your-own-docker-registry
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:39:20
 date: 2020-01-13 04:25:46
 tags: ["docker", "registry", "self-hosted"]

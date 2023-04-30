@@ -1,7 +1,7 @@
 ---
 title: "加入了记忆访客名字的功能"
 slug: a-function-called-remember-guest-name
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13T08:45:59Z
 date: 2009-02-04T05:35:29Z
 tags: ["dotNet"]

@@ -1,7 +1,7 @@
 ---
 title: "Apple Watch S4 使用体验"
 slug: apple-watch-s4
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:54:54
 date: 2019-01-22 03:53:51
 tags: ["Apple", "applewatch", "产品体验", "智能手表"]

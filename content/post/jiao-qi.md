@@ -1,7 +1,7 @@
 ---
 title: "治脚气的小偏方"
 slug: jiao-qi
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:50:16
 date: 2010-02-16 06:00:08
 tags: ["脚气", "偏方"]

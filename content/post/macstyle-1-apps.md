@@ -1,7 +1,7 @@
 ---
 title: "MacStyle 之软件"
 slug: macstyle-1-apps
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:01:14
 date: 2016-08-10 06:49:00
 tags: ["macOS", "App"]

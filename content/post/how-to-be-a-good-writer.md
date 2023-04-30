@@ -1,7 +1,7 @@
 ---
 title: "做好一个网络编辑"
 slug: how-to-be-a-good-writer
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:46:23
 date: 2009-03-12 05:37:36
 tags: [运营"]

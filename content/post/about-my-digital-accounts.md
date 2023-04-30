@@ -1,7 +1,7 @@
 ---
 title: "我的数字账户"
 slug: about-my-digital-accounts
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:26:34
 date: 2019-03-02 14:41:24
 tags: ["数字账户", "digitallife"]

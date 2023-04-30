@@ -1,7 +1,7 @@
 ---
 title: "几十张图给你一份我的 macOS 基本设置"
 slug: all-configured-on-my-mac
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-22 02:55:25
 date: 2018-12-27 05:58:58
 tags: ["macOS", "系统设置"]

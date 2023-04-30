@@ -1,7 +1,7 @@
 ---
 title: "上海式解封"
 slug: "shanghai-style-unsealing"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-06-01T08:46:33Z
 date: 2022-06-01T08:46:33Z
 tags: ["上海封城", "新冠"]

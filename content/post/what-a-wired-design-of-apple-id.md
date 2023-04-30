@@ -1,7 +1,7 @@
 ---
 title: "Apple ID 的奇怪设计"
 slug: what-a-wired-design-of-apple-id
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:39:09
 date: 2019-10-13 04:02:25
 tags: ["bug", "Apple", "Apple ID"]

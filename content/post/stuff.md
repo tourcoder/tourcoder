@@ -1,7 +1,7 @@
 ---
 title: "What's my stuff, EDC :)"
 slug: stuff
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:11:12
 date: 2017-12-31 04:32:00
 tags: ["stuff", "edc"]

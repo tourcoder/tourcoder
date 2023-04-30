@@ -1,7 +1,7 @@
 ---
 title: "初步使用几个“号”"
 slug: talk-about-the-mps
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:10:29
 date: 2017-12-11 07:21:15
 tags: ["运营", "公众号"]

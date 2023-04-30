@@ -1,7 +1,7 @@
 ---
 title: "macOS 下设置 Python 的默认版本为 Python 3"
 slug: "how-to-set-default-python-verion-to-python3-on-macos"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-05-24T14:11:41Z
 date: 2022-05-24T14:11:41Z
 tags: ["python", "macOS"]

@@ -1,7 +1,7 @@
 ---
 title: "试用 Github Copilot"
 slug: "try-github-copilot"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-07-14T11:37:30Z
 date: 2021-07-14T11:37:30Z
 tags: ["GitHub", "Copilot", "VSCode"]

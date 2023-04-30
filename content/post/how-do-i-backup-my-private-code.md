@@ -1,7 +1,7 @@
 ---
 title: "我如何备份私有代码"
 slug: "how-do-i-backup-my-private-code"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-03-05T12:17:34Z
 date: 2022-03-05T12:17:34Z
 tags: ["GitHub", "Chaos"]

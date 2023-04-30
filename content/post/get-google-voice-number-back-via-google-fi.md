@@ -1,7 +1,7 @@
 ---
 title: "找回被回收的 Google Voice 号码"
 slug: get-google-voice-number-back-via-google-fi
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:30:38
 date: 2019-05-22 05:57:25
 tags: ["Google Fi", "google voice", "google voice保号"]

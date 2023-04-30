@@ -1,7 +1,7 @@
 ---
 title: "IPTraf 安装与使用"
 slug: iptraf
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:02:24
 date: 2017-01-18 06:54:38
 tags: [iptraf", "centos"]

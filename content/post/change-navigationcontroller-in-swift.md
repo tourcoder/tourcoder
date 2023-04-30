@@ -1,7 +1,7 @@
 ---
 title: "Swift 中 NavigationController 的切换改变"
 slug: change-navigationcontroller-in-swift
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:46:04
 date: 2019-05-29 05:08:30
 tags: ["iOS", "swift", "CATransition", "pushviewcontroller", "popviewcontroller", "navigationcontroller", "代码示例"]

@@ -1,7 +1,7 @@
 ---
 title: "Mongoose 学习笔记"
 slug: study-mongoose
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:10:57
 date: 2018-08-22 07:45:57
 tags: ["nodejs", "mongodb", "笔记", "mongoose"]

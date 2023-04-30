@@ -1,7 +1,7 @@
 ---
 title: "试用 Github Codespaces"
 slug: "try-github-codespaces"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-05-17T06:28:01Z
 date: 2022-05-17T06:28:01Z
 tags: ["GitHub", "Codespaces", "试用"]

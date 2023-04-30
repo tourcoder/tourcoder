@@ -1,7 +1,7 @@
 ---
 title: "我是怎么玩 Apple Watch 的"
 slug: how-do-i-use-apple-watch
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:54:33
 date: 2019-02-23 14:54:43
 tags: [Apple", "App", "applewatch", "智能手表"]

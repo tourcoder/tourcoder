@@ -1,7 +1,7 @@
 ---
 title: "盗梦空间-陀螺的玄妙（上）"
 slug: dao-meng-kong-jian-tuo-luo-de-xuan-miao-shang
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:52:36
 date: 2011-01-10 06:29:21
 tags: ["电影", "观后感"]

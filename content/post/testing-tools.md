@@ -1,7 +1,7 @@
 ---
 title: "一些压力测试工具"
 slug: testing-tools
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:13:12
 date: 2018-03-07 07:31:56
 tags: ["工具", "abtest"]

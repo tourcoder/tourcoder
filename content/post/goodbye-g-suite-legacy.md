@@ -1,7 +1,7 @@
 ---
 title: "再见，GSuite legacy"
 slug: "goodbye-g-suite-legacy"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-01-20T11:36:20Z
 date: 2022-01-20T11:36:20Z
 tags: ["Google", "GSuite"]

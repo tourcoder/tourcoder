@@ -1,7 +1,7 @@
 ---
 title: "我眼里的协同工作的工具"
 slug: "tools-for-collaboration-in-my-eyes"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-10-16T02:27:06Z
 date: 2022-10-16T02:27:06Z
 tags: ["协同工作", "工具", "IM"]

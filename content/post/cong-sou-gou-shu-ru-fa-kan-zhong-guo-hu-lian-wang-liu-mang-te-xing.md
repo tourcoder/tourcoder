@@ -1,7 +1,7 @@
 ---
 title: "从搜狗输入法看中国互联网流氓特性"
 slug: cong-sou-gou-shu-ru-fa-kan-zhong-guo-hu-lian-wang-liu-mang-te-xing
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:52:23
 date: 2011-01-03 06:27:50
 tags: [QQ", "MSN", "搜狗"]

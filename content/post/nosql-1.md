@@ -1,7 +1,7 @@
 ---
 title: "项目中数据库的演变"
 slug: nosql-1
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:00:51
 date: 2016-06-12 06:47:02
 tags: ["mysql", "mongodb", "nosql"]

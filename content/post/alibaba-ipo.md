@@ -1,7 +1,7 @@
 ---
 title: "阿里巴巴上市"
 slug: alibaba-ipo
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2019-08-02 03:51:07
 date: 2014-09-23 06:41:04
 tags: ["Apple", "阿里巴巴"]

@@ -1,7 +1,7 @@
 ---
 title: "[视频]重庆四日"
 slug: four-days-at-chongqing
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-04-21 07:59:33
 date: 2019-09-08 05:28:14
 tags: ["2019", "旅行", "重庆", "洪崖洞", "Youtube", "视频"]

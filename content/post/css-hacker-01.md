@@ -1,7 +1,7 @@
 ---
 title: "被逼，做了一次“流氓”"
 slug: css-hacker-01
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:46:38
 date: 2009-04-29 05:39:11
 tags: ["web前端", "css"]

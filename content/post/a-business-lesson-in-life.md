@@ -1,7 +1,7 @@
 ---
 title: "一堂生活中的商业课"
 slug: "a-business-lesson-in-life"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-01-29T09:08:00Z
 date: 2021-01-29T09:08:00Z
 tags: ["商业课", "生活", "京东", "淘宝", "天猫", "拼多多"]

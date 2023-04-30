@@ -1,7 +1,7 @@
 ---
 title: "Gmail filter doesn't work well"
 slug: gmail-filter-does-not-work-well
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:14:30
 date: 2018-03-17 07:36:50
 tags: ["bug", "Gmail"]

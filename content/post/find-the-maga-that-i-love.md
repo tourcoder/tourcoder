@@ -1,7 +1,7 @@
 ---
 title: "找到了适合自己的杂志，但不敢赋予很高的期望"
 slug: find-the-maga-that-i-love
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:43:43
 date: 2009-01-20 05:05:00
 tags: ["程序", "杂志"]

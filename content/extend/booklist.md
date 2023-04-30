@@ -1,7 +1,7 @@
 ---
 title: "书单影单"
 slug: booklist
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-11-09 09:03:46
 date: 2015-01-01 09:02:00
 tags: ["读书", "电影", "观后感", "读后感"]

@@ -1,7 +1,7 @@
 ---
 title: "为什么我选择了 Fastmail"
 slug: why-i-choose-fastmail
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-15 05:26:25
 date: 2019-03-23 16:54:54
 tags: [Gmail", "Google", "Email", "fastmail"]

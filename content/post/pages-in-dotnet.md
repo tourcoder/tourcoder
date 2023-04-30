@@ -1,7 +1,7 @@
 ---
 title: ".net 文章分页"
 slug: pages-in-dotnet
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:15:03
 date: 2009-01-22 05:12:51
 tags: ["dotnet"]

@@ -1,7 +1,7 @@
 ---
 title: "修复 macOS 下 Dropbox Needs to Change Permissions for the Folder 的问题"
 slug: "fix-dropbox-needs-to-change-permissions-for-the-folder"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-02-02T15:52:21Z
 date: 2022-02-02T15:52:21Z
 tags: ["Dropbox", "macOS"]

@@ -1,7 +1,7 @@
 ---
 title: "不是我事多，而是你们从不说不"
 slug: "i-am-not-a-troublemaker-but-you-do-not-say-no"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-09-04T15:30:13Z
 date: 2022-09-04T15:30:13Z
 tags: ["统治", "生活"]

@@ -1,7 +1,7 @@
 ---
 title: "比较几个 vscode 的网页版"
 slug: "compare-some-vscode-web-services"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-09-27T05:34:43Z
 date: 2022-09-27T05:34:43Z
 tags: ["vscode", "GitHub", "Microsoft", "Copilot", "Apple", "iPad Pro"]

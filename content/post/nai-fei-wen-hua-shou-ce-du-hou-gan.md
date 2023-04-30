@@ -1,7 +1,7 @@
 ---
 title: "奈飞文化手册读后感"
 slug: nai-fei-wen-hua-shou-ce-du-hou-gan
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-01 09:27:43
 date: 2020-08-01 09:27:43
 tags: ["读后感", "netflix", "奈飞", "公司管理", "企业文化"]

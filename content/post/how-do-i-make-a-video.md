@@ -1,7 +1,7 @@
 ---
 title: "我如何做一个视频"
 slug: "how-do-i-make-a-video"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-03-09T17:35:26Z
 date: 2022-03-09T17:35:26Z
 tags: ["Youtube", "视频"]

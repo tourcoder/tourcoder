@@ -1,7 +1,7 @@
 ---
 title: "区块链:向左走还是向右走"
 slug: blockchain-left-or-right
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:11:19
 date: 2018-01-13 07:22:35
 tags: ["财务自由", "加密货币", "区块链", "blockchain"]

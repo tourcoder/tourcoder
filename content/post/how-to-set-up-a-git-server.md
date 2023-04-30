@@ -1,7 +1,7 @@
 ---
 title: "Git 服务器架设"
 slug: how-to-set-up-a-git-server
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:00:39
 date: 2019-03-24 12:15:13
 tags: ["git", "GitHub"]

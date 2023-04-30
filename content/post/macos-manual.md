@@ -1,7 +1,7 @@
 ---
 title: "macOS 简易手册"
 slug: macos-manual
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:07:05
 date: 2017-02-28 06:56:02
 tags: ["macOS", "手册"]

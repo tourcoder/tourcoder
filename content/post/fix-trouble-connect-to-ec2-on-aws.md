@@ -1,7 +1,7 @@
 ---
 title: "AWS ec2 实例连接的问题"
 slug: fix-trouble-connect-to-ec2-on-aws
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:27:37
 date: 2019-03-18 08:09:00
 tags: ["aws", "ec2"]

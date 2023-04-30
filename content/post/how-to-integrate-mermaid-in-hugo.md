@@ -1,7 +1,7 @@
 ---
 title: "如何在 hugo 中集成 mermaid"
 slug: "how-to-integrate-mermaid-in-hugo"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-03-09T10:10:41Z
 tags: ["hugo", "mermaid"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "修复 Google Scholar 无法访问的问题"
 slug: "fixed-network-error-on-google-scholar"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-10-02T13:02:21Z
 date: 2021-10-02T13:02:21Z
 tags: ["Google", "scholar", "IPv6"]

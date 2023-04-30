@@ -1,7 +1,7 @@
 ---
 title: "中国游戏开发者的版号"
 slug: fgr
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:01:07
 date: 2016-07-05 06:48:22
 tags: ["版权", "iOS", "App"]

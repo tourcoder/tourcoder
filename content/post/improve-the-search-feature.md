@@ -1,7 +1,7 @@
 ---
 title: "本站搜索的改进"
 slug: improve-the-search-feature
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:31:14
 date: 2019-06-12 01:10:54
 tags: ["Google", "search"]

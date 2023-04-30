@@ -1,7 +1,7 @@
 ---
 title: "GitHub Package Registry 试用(NPM 部分)"
 slug: try-github-package-registry-part-npm
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-26 12:14:39
 date: 2019-09-12 04:02:55
 tags: ["nodejs", "GitHub", "docker", "webpack", "npm", "npmjs"]

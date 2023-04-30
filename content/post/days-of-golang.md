@@ -1,7 +1,7 @@
 ---
 title: "Days of Golang (更新中)"
 slug: days-of-golang
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:44:18
 date: 2020-01-03 07:53:26
 tags: ["Google", "Golang", "go"]

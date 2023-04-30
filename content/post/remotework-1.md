@@ -1,7 +1,7 @@
 ---
 title: "远程工作"
 slug: remotework-1
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:58:27
 date: 2014-08-14 06:40:27
 tags: ["职场", "远程工作"]

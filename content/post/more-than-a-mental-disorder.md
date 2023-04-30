@@ -1,7 +1,7 @@
 ---
 title: "不只是精神失常"
 slug: "more-than-a-mental-disorder"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-04-22T11:33:20Z
 date: 2022-04-22T11:33:20Z
 tags: ["新冠", "神经病", "病态上海"]

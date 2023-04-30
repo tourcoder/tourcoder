@@ -1,7 +1,7 @@
 ---
 title: "Google Voice 号码买断"
 slug: how-to-make-your-google-voice-number-permanent
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-11-10 03:40:48
 date: 2020-11-09 08:48:39
 tags: ["Google", "google voice", "google voice保号", "30刀两个永久免费的美国号码"]

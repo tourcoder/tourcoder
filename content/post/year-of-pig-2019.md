@@ -1,7 +1,7 @@
 ---
 title: "2019 农历新年"
 slug: year-of-pig-2019
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13T09:25:52Z
 date: 2019-02-14T08:17:22Z
 tags: ["猪年", "Apple", "2019", "新年", "吴孟达", "谐星", "周星驰"]
