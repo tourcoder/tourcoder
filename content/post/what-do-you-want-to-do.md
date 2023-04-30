@@ -2,7 +2,7 @@
 title: "你们都要干吗啊？"
 slug: "what-do-you-want-to-do"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:50:37
+lastmod: 2010-04-21 06:04:24
 date: 2010-04-21 06:04:24
 tags: ["职场", "支付宝", "Gmail", "91助手"]
 ---

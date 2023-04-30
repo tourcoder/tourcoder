@@ -2,7 +2,7 @@
 title: "以太坊开发笔记"
 slug: "yi-tai-fang-kai-fa"
 author: "Bin Hua"
-lastmod: 2020-08-13T08:10:57Z
+lastmod: 2017-09-12T16:00:00Z
 date: 2017-09-12T16:00:00Z
 tags: ["eth", "以太坊"]
 ---
