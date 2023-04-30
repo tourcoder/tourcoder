@@ -1,8 +1,7 @@
 ---
 title: "订阅"
-slug: subscribe
+slug: "subscribe"
 author: "Bin Hua"
-lastmod: 2020-11-13 08:43:11
 date: 2010-11-06 04:49:00
 tags: ["订阅"]
 ---

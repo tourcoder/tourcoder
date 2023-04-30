@@ -2,7 +2,7 @@
 title: "360和QQ"
 slug: "360-vs-qq"
 author: "Bin Hua"
-lastmod: 2020-08-13T08:51:26Z
+lastmod: 2010-11-03T06:07:49Z
 date: 2010-11-03T06:07:49Z
 tags: ["QQ", "360", "周鸿祎", "腾讯", "马化腾"]
 ---

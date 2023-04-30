@@ -1,8 +1,8 @@
 ---
 title: "IFTTT 中的 bug"
-slug: a-bug-on-ifttt
+slug: "a-bug-on-ifttt"
 author: "Bin Hua"
-lastmod: 2020-08-13T09:28:56Z
+lastmod: 2019-03-25T04:37:15Z
 date: 2019-03-25T04:37:15Z
 tags: ["bug", "ifttt"]
 ---
