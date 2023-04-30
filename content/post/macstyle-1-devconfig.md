@@ -1,8 +1,7 @@
 ---
 title: "MacStyle 之环境配置"
 slug: macstyle-1-devconfig
-author: Bin Hua
-lastmod: 2020-08-13 09:01:31
+author: "Bin Hua"
 date: 2016-08-10 06:49:45
 tags: ["macOS", "Git"]
 ---
@@ -31,7 +30,7 @@ tags: ["macOS", "Git"]
 
 - Theme
 
-    基于 Homebrew 主题修改，可以从[这里](/dl/Homebrew.terminal)下载我的文件，双击直接安装，在安装前，请先下载下面的字体，先安装字体。
+    基于 Homebrew 主题修改，可以从[这里](https://raw.githubusercontent.com/tourcoder/dotfiles/master/Homebrew.terminal)下载我的文件，双击直接安装，在安装前，请先下载下面的字体，先安装字体。
 
 - Font
 
