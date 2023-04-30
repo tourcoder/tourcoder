@@ -1,8 +1,8 @@
 ---
 title: "A tip in Markdown"
-slug: a-tip-in-markdow
+slug: "a-tip-in-markdow"
 author: "Bin Hua"
-lastmod: 2020-08-13T09:23:24Z
+lastmod: 2019-01-04T05:41:15Z
 date: 2019-01-04T05:41:15Z
 tags: ["markdown"]
 ---

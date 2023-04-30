@@ -1,8 +1,8 @@
 ---
 title: "多少个IM才能满足要求"
-slug: about-im
+slug: "about-im"
 author: "Bin Hua"
-lastmod: 2020-08-13T08:50:46Z
+lastmod: 2010-05-01T06:05:03Z
 date: 2010-05-01T06:05:03Z
 tags: ["IM", "QQ", "MSN", "SKYPE", "GTALK"]
 ---
