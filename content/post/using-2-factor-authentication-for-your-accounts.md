@@ -2,7 +2,7 @@
 title: "账户的二次验证"
 slug: "using-2-factor-authentication-for-your-accounts"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:12:37
+lastmod: 2018-02-27 07:29:03
 date: 2018-02-27 07:29:03
 tags: ["二次认证", "Google", "安全"]
 ---

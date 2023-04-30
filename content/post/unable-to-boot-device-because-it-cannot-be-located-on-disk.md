@@ -2,7 +2,7 @@
 title: "Unable to boot device because it cannot be located on disk."
 slug: "unable-to-boot-device-because-it-cannot-be-located-on-disk"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:38:04
+lastmod: 2019-09-29 05:27:42
 date: 2019-09-29 05:27:42
 tags: ["iOS", "cocoapods", "swift"]
 ---
