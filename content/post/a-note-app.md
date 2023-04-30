@@ -13,10 +13,10 @@ draft: false
 
 笔记犹如人生，开启的时候白纸一张，使用简单，记录下内容就会被保存在那里。整个过程就三个点
 
-```
+{{<mermaid>}}
 graph LR
 A(记录（收集）)-->B(整理（学习）)-->C(保存（回顾）)
-```
+{{</mermaid>}}
 
 市面上有很多非常优秀的笔记应用，但在使用它们的时候，我或多或少的感觉到有点别扭，要么使用复杂，要么不轻便。
 
@@ -40,15 +40,17 @@ A(记录（收集）)-->B(整理（学习）)-->C(保存（回顾）)
 
 鉴于目前的技术能力以及我想学习一些知识，我会用下面的技术栈来实现这个笔记应用。
 
-- Database: mongoDB
+- Database：mongoDB
 
-- API: Koa.js + Node.js(javascript)
+- API：Koa.js + Node.js(javascript)
 
-- Web client: React
+- Web client：React
 
-- iOS: Swift
+- iOS：Swift
 
-- Android：
+- Android：待定
+
+- Browser Extension：Plasmo
     
 ### 产品特点
 
@@ -57,3 +59,5 @@ A(记录（收集）)-->B(整理（学习）)-->C(保存（回顾）)
 ### 是否开源
 
 我会将它通过 MIT 协议开源在 GitHub 上。地址是 [https://github.com/binge](https://github.com/binge)。
+
+PS. 这篇日志也会随着这个笔记应用的更新不断更新。
