@@ -1,8 +1,8 @@
 ---
 title: "一张表格看懂 profile,bashrc,bash_profile 的区别"
-slug: about-profile-bash-profile-and-bashrc
+slug: "about-profile-bash-profile-and-bashrc"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:03:37
+lastmod: 2019-01-05 07:58:19
 date: 2019-01-05 07:58:19
 tags: ["macOS", "linux", "bash"]
 ---

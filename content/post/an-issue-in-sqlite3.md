@@ -1,8 +1,8 @@
 ---
 title: "解决问题Sqlite3问题"
-slug: an-issue-in-sqlite3
+slug: "an-issue-in-sqlite3"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:45:50
+lastmod: 2009-02-02 05:34:42
 date: 2009-02-02 05:34:42
 tags: ["bug", "sqlite3", "sql"]
 ---

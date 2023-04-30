@@ -1,8 +1,8 @@
 ---
 title: "如何在应用中集成 Admob"
-slug: admob-in-app
+slug: "admob-in-app"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:59:15
+lastmod: 2016-06-11 06:45:09
 date: 2016-06-11 06:45:09
 tags: ["iOS", "App", "admob"]
 ---

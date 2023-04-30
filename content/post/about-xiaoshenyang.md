@@ -1,8 +1,8 @@
 ---
 title: "凑个热闹：我也说说小沈阳"
-slug: about-xiaoshenyang
+slug: "about-xiaoshenyang"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:46:16
+lastmod: 2009-03-12 05:36:58
 date: 2009-03-12 05:36:58
 tags: ["娱乐圈", "小沈阳", "赵本山"]
 ---
