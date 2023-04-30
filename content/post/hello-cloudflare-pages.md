@@ -38,3 +38,23 @@ tags: ["CloudFlare", "GitHub", "Pages"]
 如果只是单个分支，推送到该分支，即自动完成构建和正式的发布。
 
 我是两个分支，master 是作为发布分支，draft 是草稿分支，当我将写好的内容 push 到 draft 这个草稿分支后，CloudFlare 会开始构建并发布一个预览版本供我预览。预览后，我觉得没有问题，在 GitHub 上将 draft 分支合并到 master 分支，此时 CloudFlare 会自动基于 master 发布正式版。
+
+### Backblaze
+
+我给自己的博客库创建了一个 Codespace，每次写博客的时候，只要打开这个库，我就能用任何设备直接写，但这样做有个问题就是每次上传博文中要用到的图片就比较麻烦。而通过将图片传到外部图库，然后在博文中直接引用，是一个不错的办法。目前很多图库，我用的是 Backblaze 免费的存储服务。它的网址是 [https://www.Backblaze.com](https://www.Backblaze.com)。它目前免费的额度是
+
+10GB 的存储容量 / 每天 1G 的流量 / 上传请求和下载请求各是每天 2500次，对我的博客来说，目前足够。另外通过 Cloudflare 还能实现无限流量，因为 Backblaze 加入了 Cloudflare 的带宽联盟，他和 Cloudflare 之间的流量是免费的。
+
+- 注册 Backblaze 账号，创建一个 Bucket，在 `Bucket Settings` 里面的 `Bucket info` 填入 `{"cache-control":"max-age=720000"}`。
+
+- 上传图片到这个 Bucket 里。
+
+- 查看文件的详情，可以看到这个图片的 url 地址，比如 `https://f004.backblazeb2.com/bucketname/filename.png`。
+
+- 在 Cloudflare 里创建一个二级域名的 CNAME，比如 `storage.your-domain.com`，指向 `f004.backblazeb2.com`。开启 proxy。
+
+- 修改 `SSL/TLS` 为`完全（严格）`。
+
+- 修改 `Rules`，增加一个规则。`https://storage.your-domain.com/*`，选择`缓存级别`为`标准`，`边缘缓存 TTL` 为 `1 个月`。
+
+设置完成，上面图片的地址就变成了 `https://storage.your-domain.com/filename.png`。
