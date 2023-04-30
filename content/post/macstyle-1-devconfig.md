@@ -1,6 +1,6 @@
 ---
 title: "MacStyle 之环境配置"
-slug: macstyle-1-devconfig
+slug: "macstyle-1-devconfig"
 author: "Bin Hua"
 date: 2016-08-10 06:49:45
 tags: ["macOS", "Git"]

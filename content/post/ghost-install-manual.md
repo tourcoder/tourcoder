@@ -1,6 +1,6 @@
 ---
 title: "Ghost中文安装指南"
-slug: ghost-install-manual
+slug: "ghost-install-manual"
 author: "Bin Hua"
 lastmod: 2020-07-06 16:53:47
 date: 2016-10-11 06:52:16

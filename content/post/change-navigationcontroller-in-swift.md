@@ -1,6 +1,6 @@
 ---
 title: "Swift 中 NavigationController 的切换改变"
-slug: change-navigationcontroller-in-swift
+slug: "change-navigationcontroller-in-swift"
 author: "Bin Hua"
 lastmod: 2020-07-18 05:46:04
 date: 2019-05-29 05:08:30

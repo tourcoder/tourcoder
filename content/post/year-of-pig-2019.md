@@ -1,6 +1,6 @@
 ---
 title: "2019 农历新年"
-slug: year-of-pig-2019
+slug: "year-of-pig-2019"
 author: "Bin Hua"
 lastmod: 2020-08-13T09:25:52Z
 date: 2019-02-14T08:17:22Z

@@ -1,6 +1,6 @@
 ---
 title: "自卑的杠精"
-slug: self-abased-guy
+slug: "self-abased-guy"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:16:49
 date: 2018-10-02 07:47:20

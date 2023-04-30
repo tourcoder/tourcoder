@@ -1,6 +1,6 @@
 ---
 title: "NodeJS 学习笔记"
-slug: study-nodejs
+slug: "study-nodejs"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:58:46
 date: 2015-07-04 06:42:39

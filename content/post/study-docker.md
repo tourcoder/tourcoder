@@ -1,6 +1,6 @@
 ---
 title: "Docker 学习笔记"
-slug: study-docker
+slug: "study-docker"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:09:07
 date: 2017-06-10 07:05:02

@@ -1,6 +1,6 @@
 ---
 title: "Sticker 欣赏"
-slug: we-love-stickers
+slug: "we-love-stickers"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:09:26
 date: 2017-09-05 07:10:01

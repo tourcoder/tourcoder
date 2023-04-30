@@ -1,6 +1,6 @@
 ---
 title: "我欢迎这样的骚扰电话"
-slug: welcome-spam-calls-like-this
+slug: "welcome-spam-calls-like-this"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:58:14
 date: 2014-07-17 06:38:46

@@ -1,6 +1,6 @@
 ---
 title: "巧看IIS LOG"
-slug: view-iis-log
+slug: "view-iis-log"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:48:30
 date: 2009-07-18 05:41:50

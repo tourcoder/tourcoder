@@ -1,6 +1,6 @@
 ---
 title: "开发 Alfred 的 Workflow"
-slug: make-a-workflow-for-alfred
+slug: "make-a-workflow-for-alfred"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:38:31
 date: 2019-10-11 13:49:58

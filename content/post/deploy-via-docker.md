@@ -1,6 +1,6 @@
 ---
 title: "Docker 部署项目笔记(持续更新)"
-slug: deploy-via-docker
+slug: "deploy-via-docker"
 author: "Bin Hua"
 lastmod: 2020-07-27T02:47:12Z
 date: 2019-10-29T07:16:56Z

@@ -1,6 +1,6 @@
 ---
 title: "macOS 下加密压缩"
-slug: encrypt-files-on-macos
+slug: "encrypt-files-on-macos"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:27:16
 date: 2019-03-12 15:41:59

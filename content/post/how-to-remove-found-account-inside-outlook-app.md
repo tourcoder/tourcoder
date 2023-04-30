@@ -1,6 +1,6 @@
 ---
 title: "如何删除 outlook app 中烦人的建议账户"
-slug: how-to-remove-found-account-inside-outlook-app
+slug: "how-to-remove-found-account-inside-outlook-app"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:40:54
 date: 2019-11-15 07:03:42

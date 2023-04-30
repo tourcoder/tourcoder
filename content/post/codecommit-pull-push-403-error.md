@@ -1,6 +1,6 @@
 ---
 title: "解决 AWS Codecommit 在 pull / push 的 403 错误"
-slug: codecommit-pull-push-403-error
+slug: "codecommit-pull-push-403-error"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:08:55
 date: 2017-06-05 07:02:25

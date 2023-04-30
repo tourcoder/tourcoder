@@ -1,6 +1,6 @@
 ---
 title: "克洛泽真的比肥罗强吗？"
-slug: r9-vs-c11
+slug: "r9-vs-c11"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:58:03
 date: 2014-07-15 06:37:52

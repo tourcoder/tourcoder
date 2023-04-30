@@ -1,6 +1,6 @@
 ---
 title: "还真的能搞"
-slug: what-the-fuck
+slug: "what-the-fuck"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:44:41
 date: 2009-01-24 05:13:55

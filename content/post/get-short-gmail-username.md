@@ -1,6 +1,6 @@
 ---
 title: "获取 6 个字符的 Gmail 用户名"
-slug: get-short-gmail-username
+slug: "get-short-gmail-username"
 author: "Bin Hua"
 lastmod: 2019-09-20 15:43:34
 date: 2019-05-27 04:16:35

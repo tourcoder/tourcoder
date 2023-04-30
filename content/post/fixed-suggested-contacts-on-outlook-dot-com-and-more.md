@@ -1,6 +1,6 @@
 ---
 title: "微软 hotmail.com 中 bug 及解决办法"
-slug: fixed-suggested-contacts-on-outlook-dot-com-and-more
+slug: "fixed-suggested-contacts-on-outlook-dot-com-and-more"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:40:43
 date: 2019-11-11 15:08:33

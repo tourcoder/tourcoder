@@ -1,6 +1,6 @@
 ---
 title: "逼格太高，钱包跟不上"
-slug: git-world
+slug: "git-world"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:08:07
 date: 2017-03-29 07:01:10

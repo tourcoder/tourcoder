@@ -1,6 +1,6 @@
 ---
 title: "全角转半角的函数"
-slug: quan-jiao-zhuan-ban-jiao-de-han-shu
+slug: "quan-jiao-zhuan-ban-jiao-de-han-shu"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:17:10
 date: 2009-10-13 04:14:00

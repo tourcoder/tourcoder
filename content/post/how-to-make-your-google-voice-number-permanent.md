@@ -1,6 +1,6 @@
 ---
 title: "Google Voice 号码买断"
-slug: how-to-make-your-google-voice-number-permanent
+slug: "how-to-make-your-google-voice-number-permanent"
 author: "Bin Hua"
 lastmod: 2020-11-10 03:40:48
 date: 2020-11-09 08:48:39

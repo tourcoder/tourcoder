@@ -1,10 +1,10 @@
 ---
 title: "我用了哪些 Google 的服务"
-slug: the-google-services-i-use
+slug: "the-google-services-i-use"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:27:24
 date: 2019-03-12 16:50:57
-tags: [Gmail", "Google", "admob", "googlecloud", "chrome", "googledrive", "googlephoto", "Google Fi", "duckduckgo", "yandex", "adsense", "adwords", "analytics", "firebase", "domains", "youtube"]
+tags: ["Gmail", "Google", "admob", "googlecloud", "chrome", "googledrive", "googlephoto", "Google Fi", "duckduckgo", "yandex", "adsense", "adwords", "analytics", "firebase", "domains", "youtube"]
 ---
 
 发生了一件让我非常郁闷的事情，Google 停用了我的一个 Google 账户，让我损失惨重。重点是 Google 没有给我任何的理由，离我的申诉也过了快一周时间，还没有从 Google 那边得到反馈，甚感到失望，悉数整理了下在 Google 那边的服务和应用。

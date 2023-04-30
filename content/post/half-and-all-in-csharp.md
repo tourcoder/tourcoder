@@ -1,6 +1,6 @@
 ---
 title: "全角字符与半角字符的相互转换(C#)"
-slug: half-and-all-in-csharp
+slug: "half-and-all-in-csharp"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:16:15
 date: 2009-08-04 05:46:16

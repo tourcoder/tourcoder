@@ -1,6 +1,6 @@
 ---
 title: "终端的代理"
-slug: proxychains-and-terminal
+slug: "proxychains-and-terminal"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:03:47
 date: 2018-12-24 14:28:31

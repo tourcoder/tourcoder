@@ -1,6 +1,6 @@
 ---
 title: "联通和它的uphone/unistore"
-slug: unicom
+slug: "unicom"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:51:35
 date: 2010-11-05 06:08:48

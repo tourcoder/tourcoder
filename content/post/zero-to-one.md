@@ -1,6 +1,6 @@
 ---
 title: "《从 0 到 1 》读后感"
-slug: zero-to-one
+slug: "zero-to-one"
 author: "Bin Hua"
 lastmod: 2020-08-13T09:26:26Z
 date: 2019-03-01T14:27:34Z

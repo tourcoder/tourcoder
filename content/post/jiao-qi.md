@@ -1,6 +1,6 @@
 ---
 title: "治脚气的小偏方"
-slug: jiao-qi
+slug: "jiao-qi"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:50:16
 date: 2010-02-16 06:00:08

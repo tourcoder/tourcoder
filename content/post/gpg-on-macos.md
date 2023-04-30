@@ -1,6 +1,6 @@
 ---
 title: "macOS 下使用 GPG"
-slug: gpg-on-macos
+slug: "gpg-on-macos"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:38:12
 date: 2019-10-04 11:45:51

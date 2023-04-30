@@ -1,6 +1,6 @@
 ---
 title: "[视频]泰国九日"
-slug: nine-days-in-thailand
+slug: "nine-days-in-thailand"
 author: "Bin Hua"
 lastmod: 2020-04-23 08:08:19
 date: 2018-12-15 10:17:43

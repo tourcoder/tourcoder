@@ -1,6 +1,6 @@
 ---
 title: "macOS 上必装的应用"
-slug: essential-apps-on-macos
+slug: "essential-apps-on-macos"
 author: "Bin Hua"
 lastmod: 2023-01-26 21:07:04
 date: 2019-08-14 04:25:36

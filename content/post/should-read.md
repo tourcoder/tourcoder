@@ -1,6 +1,6 @@
 ---
 title: "算笔简单的账"
-slug: should-read
+slug: "should-read"
 author: "Bin Hua"
 lastmod: 2019-08-01 08:20:34
 date: 2018-06-29 07:41:03

@@ -1,6 +1,6 @@
 ---
 title: "VSCode 中实时预览 HTML"
-slug: live-server-on-vscode
+slug: "live-server-on-vscode"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:39:51
 date: 2019-10-21 10:09:36

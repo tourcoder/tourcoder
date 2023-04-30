@@ -1,6 +1,6 @@
 ---
 title: "批量查看未被占用的 Twitter 用户名"
-slug: checking-unoccupied-twitter-usernames-in-bulk
+slug: "checking-unoccupied-twitter-usernames-in-bulk"
 author: "Bin Hua"
 lastmod: 2019-09-19 05:07:59
 date: 2019-09-12 12:05:08

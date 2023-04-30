@@ -1,6 +1,6 @@
 ---
 title: "Oh 百度"
-slug: oh-baidu
+slug: "oh-baidu"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:44:49
 date: 2009-01-26 05:14:40

@@ -1,6 +1,6 @@
 ---
 title: "解决 Homebrew 速度慢的问题"
-slug: homebrew-slowly
+slug: "homebrew-slowly"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:39:25
 date: 2019-10-13 15:47:03

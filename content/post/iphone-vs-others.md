@@ -1,6 +1,6 @@
 ---
 title: "iPhone 家族的冲击波(游戏篇)"
-slug: iphone-vs-others
+slug: "iphone-vs-others"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:50:08
 date: 2010-02-13 05:59:28

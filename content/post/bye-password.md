@@ -1,6 +1,6 @@
 ---
 title: "消灭密码"
-slug: bye-password
+slug: "bye-password"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:59:24
 date: 2016-06-12 06:46:18

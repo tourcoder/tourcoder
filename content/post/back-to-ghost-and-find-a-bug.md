@@ -1,6 +1,6 @@
 ---
 title: "将博客程序换回了 Ghost"
-slug: back-to-ghost-and-find-a-bug
+slug: "back-to-ghost-and-find-a-bug"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:18:14
 date: 2018-11-26 14:12:23

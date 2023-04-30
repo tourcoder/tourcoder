@@ -1,6 +1,6 @@
 ---
 title: "macOS 的安全设置"
-slug: how-to-keep-your-data-safe-on-macos
+slug: "how-to-keep-your-data-safe-on-macos"
 author: "Bin Hua"
 lastmod: 2020-08-04 02:02:44
 date: 2020-07-12 14:26:20

@@ -1,6 +1,6 @@
 ---
 title: "批量取消 twitter following"
-slug: bulk-unfollow-in-twitter
+slug: "bulk-unfollow-in-twitter"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:07:35
 date: 2017-03-21 06:59:54

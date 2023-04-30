@@ -1,6 +1,6 @@
 ---
 title: "网站创建，团队建设"
-slug: website-and-team
+slug: "website-and-team"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:44:56
 date: 2009-01-29 05:32:00

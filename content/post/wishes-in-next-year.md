@@ -1,6 +1,6 @@
 ---
 title: "总结今年，展望来年"
-slug: wishes-in-next-year
+slug: "wishes-in-next-year"
 author: "Bin Hua"
 lastmod: 2019-08-02 05:59:02
 date: 2009-01-22 05:13:28

@@ -1,6 +1,6 @@
 ---
 title: "试用 macOS Catalina GM Seed"
-slug: try-macos-catalina-gm-seed
+slug: "try-macos-catalina-gm-seed"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:38:20
 date: 2019-10-06 14:42:43

@@ -1,6 +1,6 @@
 ---
 title: "Github 和代码权限"
-slug: repos-roles-in-github
+slug: "repos-roles-in-github"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:09:42
 date: 2017-10-09 07:11:10

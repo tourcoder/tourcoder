@@ -1,10 +1,10 @@
 ---
 title: "你好呀，不惑之年"
-slug: happy-40th-birthday-to-myself
+slug: "happy-40th-birthday-to-myself"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:43:34
 date: 2020-04-28 04:51:53
-tags: [生日", "不惑之年", "2020"]
+tags: ["生日", "不惑之年", "2020"]
 ---
 
 一眨眼，按我老家的习俗，我今天 40 岁了！

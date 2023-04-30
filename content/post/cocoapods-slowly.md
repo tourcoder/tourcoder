@@ -1,6 +1,6 @@
 ---
 title: "CocoaPods 慢"
-slug: cocoapods-slowly
+slug: "cocoapods-slowly"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:08:43
 date: 2017-03-22 07:00:43

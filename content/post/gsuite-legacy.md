@@ -1,6 +1,6 @@
 ---
 title: "购买 G Suite legacy 要注意的问题"
-slug: gsuite-legacy
+slug: "gsuite-legacy"
 author: "Bin Hua"
 lastmod: 2020-10-29 09:11:25
 date: 2020-10-29 09:11:25

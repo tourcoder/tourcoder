@@ -1,6 +1,6 @@
 ---
 title: "Slim 初体验"
-slug: new-to-slim
+slug: "new-to-slim"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:10:14
 date: 2017-11-02 07:18:23

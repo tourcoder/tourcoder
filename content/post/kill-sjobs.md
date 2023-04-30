@@ -1,6 +1,6 @@
 ---
 title: "'杀死'乔布斯"
-slug: kill-sjobs
+slug: "kill-sjobs"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:49:54
 date: 2010-01-11 05:51:11

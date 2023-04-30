@@ -1,6 +1,6 @@
 ---
 title: "Git 及工作流"
-slug: git-workflow
+slug: "git-workflow"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:07:44
 date: 2017-03-14 06:58:29
