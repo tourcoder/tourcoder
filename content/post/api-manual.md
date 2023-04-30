@@ -1,8 +1,8 @@
 ---
 title: "REST API 规范手册"
-slug: api-manual
+slug: "api-manual"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:17:48
+lastmod: 2013-07-25 06:36:11
 date: 2013-07-25 06:36:11
 tags: ["restful", "api"]
 ---
