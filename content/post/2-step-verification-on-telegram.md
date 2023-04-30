@@ -1,8 +1,8 @@
 ---
 title: "Telegram 的二次验证"
-slug: 2-step-verification-on-telegram
-author: Bin Hua
-lastmod: 2020-08-13T09:25:30Z
+slug: "2-step-verification-on-telegram"
+author: "Bin Hua"
+lastmod: 2019-02-01T05:06:58Z
 date: 2019-02-01T05:06:58Z
 tags: ["二次验证", "telegram", "2step verification"]
 ---
