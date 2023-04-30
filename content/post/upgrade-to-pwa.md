@@ -2,7 +2,7 @@
 title: "本博客升级到 PWA，附升级教程"
 slug: "upgrade-to-pwa"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:18:05
+lastmod: 2018-11-20 07:50:32
 date: 2018-11-20 07:50:32
 tags: ["GitHub", "jekyll", "pwa"]
 ---
