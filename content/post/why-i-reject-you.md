@@ -2,7 +2,7 @@
 title: "为什么我会拒绝"
 slug: "why-i-reject-you"
 author: "Bin Hua"
-lastmod: 2019-08-01 08:48:29
+lastmod: 2018-03-13 07:34:42
 date: 2018-03-13 07:34:42
 tags: ["社交"]
 ---
