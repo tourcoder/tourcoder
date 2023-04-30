@@ -1,8 +1,8 @@
 ---
 title: "告诉你不一样的李嘉诚-揭秘李嘉诚是如何赚钱的"
-slug: about-lijiacheng
+slug: "about-lijiacheng"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:46:44
+lastmod: 2009-04-30 05:39:49
 date: 2009-04-30 05:39:49
 tags: ["商业"]
 ---

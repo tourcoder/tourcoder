@@ -10,7 +10,7 @@
     {{ .Content }}
     {{ if and .Date (eq .Type "post")}}
     ------
-      <time>本文由 {{ .Author }} 发表于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}，最后修改于 {{ .Lastmod.Local | time.Format "2006-01-02 15:04:05" }}</time>
+      <time>本文由 {{ .Params.author }} 发表于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}，最后修改于 {{ .Lastmod.Local | time.Format "2006-01-02 15:04:05" }}</time>
     {{ end }}
   </div>
 
