@@ -1,6 +1,6 @@
 ---
 title: "奈飞文化手册读后感"
-slug: nai-fei-wen-hua-shou-ce-du-hou-gan
+slug: "nai-fei-wen-hua-shou-ce-du-hou-gan"
 author: "Bin Hua"
 lastmod: 2020-08-01 09:27:43
 date: 2020-08-01 09:27:43

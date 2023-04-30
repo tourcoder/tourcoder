@@ -1,6 +1,6 @@
 ---
 title: "在 NPMJS 上发布并维护包"
-slug: publish-and-update-package-on-npmjs
+slug: "publish-and-update-package-on-npmjs"
 author: "Bin Hua"
 lastmod: 2020-07-18 05:59:22
 date: 2019-03-28 04:44:57

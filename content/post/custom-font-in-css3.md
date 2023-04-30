@@ -1,6 +1,6 @@
 ---
 title: "CSS3 中自定义字体"
-slug: custom-font-in-css3
+slug: "custom-font-in-css3"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:14:46
 date: 2018-05-07 07:38:42

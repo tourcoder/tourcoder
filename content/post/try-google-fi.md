@@ -1,6 +1,6 @@
 ---
 title: "Made in China 的 Google Fi 到了"
-slug: try-google-fi
+slug: "try-google-fi"
 author: "Bin Hua"
 lastmod: 2020-11-03 05:07:32
 date: 2018-12-22 03:42:00

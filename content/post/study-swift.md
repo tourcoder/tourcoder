@@ -1,6 +1,6 @@
 ---
 title: "Swift 学习笔记"
-slug: study-swift
+slug: "study-swift"
 author: "Bin Hua"
 lastmod: 2020-08-20 09:13:52
 date: 2020-05-01 09:13:00

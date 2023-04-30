@@ -1,6 +1,6 @@
 ---
 title: "NPM 中 Module 安装后无法找到"
-slug: command-not-found-in-nodejs-npm
+slug: "command-not-found-in-nodejs-npm"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:28:47
 date: 2019-03-25 03:51:38

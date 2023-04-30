@@ -1,6 +1,6 @@
 ---
 title: "记一次食物中毒"
-slug: i-am-sick
+slug: "i-am-sick"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:07:50
 date: 2017-03-18 06:59:11

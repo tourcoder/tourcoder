@@ -1,6 +1,6 @@
 ---
 title: "Office 365 Exchange Online 的糟糕设计"
-slug: ugly-design-in-office-365-exchange
+slug: "ugly-design-in-office-365-exchange"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:13:31
 date: 2018-03-12 07:34:08

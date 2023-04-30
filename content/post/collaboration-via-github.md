@@ -1,6 +1,6 @@
 ---
 title: "利用 GitHub 协同工作"
-slug: collaboration-via-github
+slug: "collaboration-via-github"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:30:20
 date: 2019-05-07 03:01:53

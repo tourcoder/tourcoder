@@ -1,6 +1,6 @@
 ---
 title: "Codeigniter 中集成 Jquery File Upload"
-slug: codeigniter-jquery-file-upload-integrated
+slug: "codeigniter-jquery-file-upload-integrated"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:09:27
 date: 2017-06-05 07:03:47

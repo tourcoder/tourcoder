@@ -1,6 +1,6 @@
 ---
 title: "jQuery 插件 wTooltip"
-slug: wtooltip
+slug: "wtooltip"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:17:04
 date: 2009-09-28 05:50:13

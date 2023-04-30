@@ -1,6 +1,6 @@
 ---
 title: "虚拟机中安装 macOS"
-slug: install-macos-in-vmware
+slug: "install-macos-in-vmware"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:02:31
 date: 2017-02-26 06:55:20

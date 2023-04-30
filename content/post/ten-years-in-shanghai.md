@@ -1,6 +1,6 @@
 ---
 title: "十年上海一笑而过"
-slug: ten-years-in-shanghai
+slug: "ten-years-in-shanghai"
 author: "Bin Hua"
 lastmod: 2019-08-02 03:53:01
 date: 2015-07-31 06:43:31

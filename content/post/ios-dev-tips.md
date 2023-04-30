@@ -1,6 +1,6 @@
 ---
 title: "iOS Dev Tips"
-slug: ios-dev-tips
+slug: "ios-dev-tips"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:17:20
 date: 2011-11-10 06:35:13

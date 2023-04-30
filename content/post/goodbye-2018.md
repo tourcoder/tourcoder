@@ -1,6 +1,6 @@
 ---
 title: "Goodbye 2018"
-slug: goodbye-2018
+slug: "goodbye-2018"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:23:13
 date: 2018-12-30 15:56:26

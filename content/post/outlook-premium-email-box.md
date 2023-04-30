@@ -1,6 +1,6 @@
 ---
 title: "踩坑 outlook 的域名邮箱"
-slug: outlook-premium-email-box
+slug: "outlook-premium-email-box"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:40:26
 date: 2019-11-09 15:08:42

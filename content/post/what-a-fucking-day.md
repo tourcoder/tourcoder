@@ -1,6 +1,6 @@
 ---
 title: "What a fucking day!"
-slug: what-a-fucking-day
+slug: "what-a-fucking-day"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:53:30
 date: 2011-10-06 06:34:31

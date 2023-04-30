@@ -1,6 +1,6 @@
 ---
 title: "被 Yahoo 收购了"
-slug: yahoo-style
+slug: "yahoo-style"
 author: "Bin Hua"
 lastmod: 2019-08-02T03:52:28Z
 date: 2015-01-11T06:41:48Z

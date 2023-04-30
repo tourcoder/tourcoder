@@ -1,6 +1,6 @@
 ---
 title: "好椅子对程序员很重要"
-slug: chair-is-so-important
+slug: "chair-is-so-important"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:09:19
 date: 2017-09-05 07:09:23

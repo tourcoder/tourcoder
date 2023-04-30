@@ -1,6 +1,6 @@
 ---
 title: "MongoDB 学习手册"
-slug: mongoldb-manual
+slug: "mongoldb-manual"
 author: "Bin Hua"
 lastmod: 2020-08-06 06:20:06
 date: 2018-11-06 05:51:00

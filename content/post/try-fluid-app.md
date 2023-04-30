@@ -1,6 +1,6 @@
 ---
 title: "Fluid App 初步使用"
-slug: try-fluid-app
+slug: "try-fluid-app"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:09:52
 date: 2017-10-12 07:11:58

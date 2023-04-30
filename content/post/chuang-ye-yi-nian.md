@@ -1,6 +1,6 @@
 ---
 title: "创业一年"
-slug: chuang-ye-yi-nian
+slug: "chuang-ye-yi-nian"
 author: "Bin Hua"
 lastmod: 2019-08-02 04:24:05
 date: 2011-03-01 06:29:53

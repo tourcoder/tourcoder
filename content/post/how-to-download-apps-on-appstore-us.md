@@ -1,6 +1,6 @@
 ---
 title: "如何使用 App Store 美国区"
-slug: how-to-download-apps-on-appstore-us
+slug: "how-to-download-apps-on-appstore-us"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:23:39
 date: 2019-01-08 04:14:31

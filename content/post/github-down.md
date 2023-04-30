@@ -1,6 +1,6 @@
 ---
 title: "GitHub Down"
-slug: github-down
+slug: "github-down"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:16:59
 date: 2018-10-25 07:47:50

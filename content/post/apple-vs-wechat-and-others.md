@@ -1,6 +1,6 @@
 ---
 title: "我看苹果和微信的互怼"
-slug: apple-vs-wechat-and-others
+slug: "apple-vs-wechat-and-others"
 author: "Bin Hua"
 lastmod: 2019-08-01 14:36:39
 date: 2017-06-17 07:07:12

@@ -1,6 +1,6 @@
 ---
 title: "用 ElectronJS 开发应用"
-slug: make-an-app-by-using-electronjs
+slug: "make-an-app-by-using-electronjs"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:17:48
 date: 2018-11-07 07:48:54

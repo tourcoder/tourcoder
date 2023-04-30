@@ -1,6 +1,6 @@
 ---
 title: "Git and Github Tips"
-slug: git-and-github-tips
+slug: "git-and-github-tips"
 date: 2020-01-09T07:39:54Z
 tag: ["git", "GitHub"]
 ---

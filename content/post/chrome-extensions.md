@@ -1,6 +1,6 @@
 ---
 title: "Chrome 插件开发"
-slug: chrome-extensions
+slug: "chrome-extensions"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:13:00
 date: 2018-03-06 07:31:14

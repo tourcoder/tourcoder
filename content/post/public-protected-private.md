@@ -1,6 +1,6 @@
 ---
 title: "基本功要扎实：概述public、protected、private"
-slug: public-protected-private
+slug: "public-protected-private"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:16:45
 date: 2009-08-31 05:48:27

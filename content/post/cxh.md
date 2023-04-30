@@ -1,6 +1,6 @@
 ---
 title: "[播客]菜小孩"
-slug: cxh
+slug: "cxh"
 author: "Bin Hua"
 lastmod: 2020-11-28 23:56:18
 date: 2019-10-18 06:37:00

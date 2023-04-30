@@ -1,6 +1,6 @@
 ---
 title: "为什么程序员总是很忙"
-slug: why-is-a-coder-always-busy
+slug: "why-is-a-coder-always-busy"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:15:19
 date: 2018-07-30 07:41:43

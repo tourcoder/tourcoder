@@ -1,6 +1,6 @@
 ---
 title: "给 Microsoft Todo 的一点建议"
-slug: some-user-voices-to-microsoft-todo
+slug: "some-user-voices-to-microsoft-todo"
 author: "Bin Hua"
 lastmod: 2019-09-20 15:42:49
 date: 2019-06-26 02:55:17

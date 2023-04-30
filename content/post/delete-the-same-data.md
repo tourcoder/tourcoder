@@ -1,6 +1,6 @@
 ---
 title: "删除相同数据"
-slug: delete-the-same-data
+slug: "delete-the-same-data"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:14:40
 date: 2009-01-20 04:58:00

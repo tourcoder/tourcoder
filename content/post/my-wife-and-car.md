@@ -1,6 +1,6 @@
 ---
 title: "我老婆开车集(不定期更新)"
-slug: my-wife-and-car
+slug: "my-wife-and-car"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:45:12
 date: 2020-04-19 06:40:00

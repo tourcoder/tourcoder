@@ -1,6 +1,6 @@
 ---
 title: "C-Sharp调用存储过程简单完整例子"
-slug: stored-procedure-in-csharp
+slug: "stored-procedure-in-csharp"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:16:54
 date: 2009-08-31 05:49:10

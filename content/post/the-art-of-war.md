@@ -1,6 +1,6 @@
 ---
 title: "孙子兵法白话版"
-slug: the-art-of-war
+slug: "the-art-of-war"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:11:28
 date: 2018-01-23 07:23:34

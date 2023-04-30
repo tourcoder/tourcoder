@@ -1,6 +1,6 @@
 ---
 title: "通过 Highlightr 在 Swift 中实现代码高亮"
-slug: highlight-codes-via-highlightr-in-swift
+slug: "highlight-codes-via-highlightr-in-swift"
 author: "Bin Hua"
 lastmod: 2019-09-23 07:11:10
 date: 2019-09-23 07:11:10

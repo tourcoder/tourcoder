@@ -1,6 +1,6 @@
 ---
 title: "SQL SERVER防注入"
-slug: hacked-in-sql-server
+slug: "hacked-in-sql-server"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:16:26
 date: 2009-08-14 05:47:00

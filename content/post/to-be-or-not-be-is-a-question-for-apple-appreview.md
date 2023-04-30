@@ -1,6 +1,6 @@
 ---
 title: "Apple App Review 的双刃剑"
-slug: to-be-or-not-be-is-a-question-for-apple-appreview
+slug: "to-be-or-not-be-is-a-question-for-apple-appreview"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:13:56
 date: 2018-03-16 07:36:06

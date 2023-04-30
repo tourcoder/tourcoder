@@ -1,6 +1,6 @@
 ---
 title: "Hello Android, Take a break iPhone"
-slug: hello-android-take-a-break-iphone
+slug: "hello-android-take-a-break-iphone"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:09:12
 date: 2017-07-08 07:08:42

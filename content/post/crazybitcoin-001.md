@@ -1,6 +1,6 @@
 ---
 title: "[播客]疯狂的比特币，买还是不买"
-slug: crazybitcoin-001
+slug: "crazybitcoin-001"
 author: "Bin Hua"
 lastmod: 2020-11-28 23:56:18
 date: 2020-12-27 06:37:00

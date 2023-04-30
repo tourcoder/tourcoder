@@ -1,6 +1,6 @@
 ---
 title: "WWDC 2011上的'新鲜'"
-slug: wwdc-2011shang-de-xin-xian
+slug: "wwdc-2011shang-de-xin-xian"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:53:24
 date: 2011-06-07 06:33:54

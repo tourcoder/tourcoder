@@ -1,6 +1,6 @@
 ---
 title: "让人担忧的Android"
-slug: hi-android
+slug: "hi-android"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:51:18
 date: 2010-06-05 06:07:13

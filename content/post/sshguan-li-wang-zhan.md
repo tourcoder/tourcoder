@@ -1,6 +1,6 @@
 ---
 title: "SSH管理网站"
-slug: sshguan-li-wang-zhan
+slug: "sshguan-li-wang-zhan"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:52:59
 date: 2011-04-06 06:31:24

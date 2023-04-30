@@ -1,6 +1,6 @@
 ---
 title: "区块链:财富转移的工具"
-slug: blockchain-is-a-tool
+slug: "blockchain-is-a-tool"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:12:44
 date: 2018-03-02 07:29:43

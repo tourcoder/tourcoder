@@ -1,6 +1,6 @@
 ---
 title: "记录一次 App 审核"
-slug: appreviewer-of-apple-sucks
+slug: "appreviewer-of-apple-sucks"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:11:45
 date: 2018-02-08 07:25:08

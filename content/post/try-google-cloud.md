@@ -1,6 +1,6 @@
 ---
 title: "Google Cloud 体验"
-slug: try-google-cloud
+slug: "try-google-cloud"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:07:27
 date: 2017-03-12 06:57:51

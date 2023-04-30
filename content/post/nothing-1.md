@@ -1,6 +1,6 @@
 ---
 title: "无题，乱扯一气"
-slug: nothing-1
+slug: "nothing-1"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:51:03
 date: 2010-05-28 06:06:31

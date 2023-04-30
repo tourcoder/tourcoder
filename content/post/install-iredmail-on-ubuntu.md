@@ -1,6 +1,6 @@
 ---
 title: "使用 iRedmail 架设邮局系统"
-slug: install-iredmail-on-ubuntu
+slug: "install-iredmail-on-ubuntu"
 author: "Bin Hua"
 lastmod: 2020-08-07 12:11:13
 date: 2019-08-16 14:50:28

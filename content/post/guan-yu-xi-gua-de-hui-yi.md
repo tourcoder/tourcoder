@@ -1,6 +1,6 @@
 ---
 title: "关于西瓜的回忆"
-slug: guan-yu-xi-gua-de-hui-yi
+slug: "guan-yu-xi-gua-de-hui-yi"
 author: "Bin Hua"
 lastmod: 2019-08-02 04:30:26
 date: 2011-05-20 06:32:35

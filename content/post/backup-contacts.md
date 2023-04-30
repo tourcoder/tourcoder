@@ -1,6 +1,6 @@
 ---
 title: "该如何备份自己的通讯录"
-slug: backup-contacts
+slug: "backup-contacts"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:51:43
 date: 2010-12-31 06:27:09

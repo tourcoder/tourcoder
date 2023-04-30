@@ -1,6 +1,6 @@
 ---
 title: "玩--一件不简单的事"
-slug: wan-yi-jian-bu-jian-dan-de-shi
+slug: "wan-yi-jian-bu-jian-dan-de-shi"
 author: "Bin Hua"
 lastmod: 2020-08-13 08:53:11
 date: 2011-06-04 06:33:05

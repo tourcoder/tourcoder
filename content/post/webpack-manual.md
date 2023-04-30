@@ -1,6 +1,6 @@
 ---
 title: "webpack 学习笔记"
-slug: webpack-manual
+slug: "webpack-manual"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:03:12
 date: 2019-01-22 06:00:55

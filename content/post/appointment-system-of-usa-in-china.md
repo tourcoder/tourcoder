@@ -1,6 +1,6 @@
 ---
 title: "预约美国领事馆服务及后续办理流程"
-slug: appointment-system-of-usa-in-china
+slug: "appointment-system-of-usa-in-china"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:44:03
 date: 2020-01-14 11:54:28
