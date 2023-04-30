@@ -1,7 +1,7 @@
 ---
 title: "{{ .Name }}"
 slug: "{{ .Name }}"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: {{ .Date }}
 date: {{ .Date }}
 showgeo: false
