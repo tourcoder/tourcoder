@@ -1,8 +1,7 @@
 ---
 title: "Privacy"
-slug: privacy
+slug: "privacy"
 author: "Bin Hua"
-lastmod: 2020-11-09 09:06:33
 date: 2019-08-10 09:05:00
 ---
 

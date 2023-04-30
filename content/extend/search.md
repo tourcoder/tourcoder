@@ -1,8 +1,7 @@
 ---
 title: "搜索"
-slug: search
+slug: "search"
 author: "Bin Hua"
-lastmod: 2020-11-09 09:10:24
 date: 2015-01-01 09:09:00
 tags: ["search", "搜索"]
 ---
