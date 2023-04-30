@@ -1,7 +1,7 @@
 ---
 title: "不要从拼某某买东西，尤其是吃的"
 slug: "do-not-buy-things-from-p"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-09-20T12:44:37Z
 date: 2022-09-20T12:44:37Z
 tags: ["拼", "多多", "垃圾"]

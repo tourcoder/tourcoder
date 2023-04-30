@@ -1,7 +1,7 @@
 ---
 title: "[视频]沉浸式体验 Microsoft Loop Preview"
 slug: "youtube-microsoft-loop-preview"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-03-17T14:03:26Z
 tags: ["microsoft", "loop", "preview", "试用"]
 ---

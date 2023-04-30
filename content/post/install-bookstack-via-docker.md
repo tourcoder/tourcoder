@@ -1,7 +1,7 @@
 ---
 title: "搭建私有的 wiki"
 slug: install-bookstack-via-docker
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:34:42
 date: 2020-01-13 14:10:55
 tags: ["维基百科", "self-hosted", "wiki", "Bookstack"]

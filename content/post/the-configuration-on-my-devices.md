@@ -1,7 +1,7 @@
 ---
 title: "我常用设备的配置"
 slug: "the-configuration-on-my-devices"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-08-21T21:57:26Z
 date: 2021-08-21T21:57:26Z
 tags: ["macOS", "Debian", "iOS", "iPadOS", "watchOS", "MacBoo Pro", "iPhone", "iPad", "Apple Watch"]

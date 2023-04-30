@@ -1,7 +1,7 @@
 ---
 title: "macOS 下通过 Aria2 进行高速下载"
 slug: how-to-download-faster-on-macos
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:40:15
 date: 2019-11-08 07:23:57
 tags: ["macOS", "aria2", "百度网盘"]

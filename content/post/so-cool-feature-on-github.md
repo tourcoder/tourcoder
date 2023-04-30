@@ -1,7 +1,7 @@
 ---
 title: "GitHub 的一个巧妙设计"
 slug: so-cool-feature-on-github
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:31:07
 date: 2019-06-04 15:17:27
 tags: ["GitHub", "风控"]

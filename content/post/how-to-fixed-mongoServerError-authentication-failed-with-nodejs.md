@@ -1,7 +1,7 @@
 ---
 title: "修正 nodejs 连接 mongodb 时出现的错误"
 slug: "how-to-fixed-mongoServerError-authentication-failed-with-nodejs"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-12-12T15:45:40Z
 date: 2021-12-12T15:45:40Z
 tags: ["mongodb", "nodejs"]

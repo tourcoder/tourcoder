@@ -1,7 +1,7 @@
 ---
 title: "文件的校验"
 slug: file-verification
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:30:46
 date: 2019-05-27 03:20:32
 tags: ["macOS", "sha1", "sha", "sha224", "sha256", "sha384", "sha512", "md5", "base64"]

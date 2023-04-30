@@ -1,7 +1,7 @@
 ---
 title: "无题"
 slug: "untitled"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-04-14T15:04:46Z
 date: 2022-04-14T15:04:46Z
 tags: ["新冠", "意识形态"]

@@ -1,7 +1,7 @@
 ---
 title: "我一点都不喜欢现在的 web3.0"
 slug: "i-do-not-like-web3.0-at-all"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-18T13:51:29Z
 tags: ["互联网", "web3.0", "区块链", "加密货币", "NFT"]
 draft: false

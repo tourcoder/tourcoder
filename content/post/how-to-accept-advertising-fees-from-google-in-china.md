@@ -1,7 +1,7 @@
 ---
 title: "如何在中国境内接收来自 Google 的广告费"
 slug: "how-to-accepting-advertising-fees-from-google-in-china"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-11-25T10:31:44Z
 date: 2021-11-25T10:31:44Z
 tags: ["Google", "Admob", "Adsense", "Adwards"]

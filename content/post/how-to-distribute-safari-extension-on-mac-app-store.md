@@ -1,7 +1,7 @@
 ---
 title: "如何在 Mac App Store 里发布一个 Safari 扩展"
 slug: "how-to-distribute-safari-extension-on-mac-app-store"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-11-16T17:43:47Z
 date: 2021-11-16T17:43:47Z
 tags: ["Safari", "extension", "Apple", "AppStore"]

@@ -1,7 +1,7 @@
 ---
 title: "[视频]用 ChatGPT 和 Google Bard 分别写博客系统，看看谁更强"
 slug: "youtube-chatgpt-vs-bard-write-a-blog-system"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-08T01:54:52Z
 tags: ["chatgpt", "openai", "google", "bard", "ai"]
 draft: false

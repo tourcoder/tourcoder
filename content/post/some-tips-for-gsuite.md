@@ -1,7 +1,7 @@
 ---
 title: "G Suite 的设置贴士"
 slug: some-tips-for-gsuite
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:29:25
 date: 2019-04-11 13:38:14
 tags: ["Gmail", "Google", "gsuite", "googlecloud", "oracle", "甲骨文"]

@@ -1,7 +1,7 @@
 ---
 title: "css hack 速查手册"
 slug: css-hack
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:15:12
 date: 2009-01-21 05:10:00
 tags: ["css", "web前端"]

@@ -1,7 +1,7 @@
 ---
 title: "关于"
 slug: about 
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-03-17 06:43:11
 date: 2010-03-17 06:49:00
 tags: ["关于"]

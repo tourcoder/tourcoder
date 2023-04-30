@@ -1,7 +1,7 @@
 ---
 title: "UrlEncode和UrlDecode"
 slug: urlencode-urldecode
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:15:56
 date: 2009-07-20 05:42:35
 tags: ["http", "urlencode", "urldecode"]

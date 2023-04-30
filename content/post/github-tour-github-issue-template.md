@@ -1,7 +1,7 @@
 ---
 title: "玩转 Github: Github Issue Template"
 slug: "github-tour-github-issue-template"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-02-04T04:41:52Z
 date: 2021-02-04T04:41:52Z
 tags: ["GitHub", "问题模板", "issue"]

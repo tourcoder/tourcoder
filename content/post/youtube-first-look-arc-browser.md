@@ -1,7 +1,7 @@
 ---
 title: "[视频] Arc Browser 预览"
 slug: "youtube-first-look-arc-browser"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-20T06:45:21Z
 tags: ["youtube", "arc", "chrome", "firefox"]
 draft: false

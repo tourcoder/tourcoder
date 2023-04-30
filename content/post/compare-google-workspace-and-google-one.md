@@ -1,7 +1,7 @@
 ---
 title: "比较 Google Workspace 和 Google One"
 slug: "compare-google-workspace-and-google-one"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-10-22T06:41:17Z
 date: 2022-10-22T06:41:17Z
 tags: ["GoogleWorkspace", "GoogleOne", "Google", "GSuite"]

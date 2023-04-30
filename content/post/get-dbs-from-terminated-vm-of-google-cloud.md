@@ -1,7 +1,7 @@
 ---
 title: "一次找回 Google Cloud VM 实例中数据的过程分享"
 slug: get-dbs-from-terminated-vm-of-google-cloud
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:30:28
 date: 2019-05-21 02:01:23
 tags: ["googlecloud", "iterm", "SDK", "vm", "snapshots", "images"]

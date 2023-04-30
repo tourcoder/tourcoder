@@ -1,7 +1,7 @@
 ---
 title: "XML+XSL"
 slug: xml-xsl
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13T08:45:38Z
 date: 2009-01-30T05:33:41Z
 tags: ["xml", "xsl", "ibm"]

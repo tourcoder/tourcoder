@@ -1,7 +1,7 @@
 ---
 title: "Jekyll 结构的不合理"
 slug: unreasonable-in-jekyll
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:12:52
 date: 2018-03-05 07:30:25
 tags: ["bug", "GitHub", "jekyll"]

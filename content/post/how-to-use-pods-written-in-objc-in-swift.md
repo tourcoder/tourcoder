@@ -1,7 +1,7 @@
 ---
 title: "在 Swift 项目中使用 Objc 的第三方库"
 slug: how-to-use-pods-written-in-objc-in-swift
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:58:52
 date: 2019-04-16 15:04:29
 tags: ["Apple", "iOS", "cocoapods", "swift", "objc"]

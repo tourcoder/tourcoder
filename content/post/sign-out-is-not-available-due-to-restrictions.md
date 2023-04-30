@@ -1,7 +1,7 @@
 ---
 title: "解决 iPhone 中由于访问限制，无法退出登录的问题"
 slug: sign-out-is-not-available-due-to-restrictions
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-11-11 10:06:53
 date: 2020-11-11 10:04:35
 tags: ["Apple", "iCloud", "Apple ID", "屏幕时间"]

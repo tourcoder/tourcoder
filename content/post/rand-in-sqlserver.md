@@ -1,7 +1,7 @@
 ---
 title: "SQL server中的随机数"
 slug: rand-in-sqlserver
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:16:07
 date: 2009-07-29 05:45:37
 tags: ["sql server", "sql"]

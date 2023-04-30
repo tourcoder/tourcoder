@@ -1,7 +1,7 @@
 ---
 title: "分享的快乐"
 slug: sharing-happly
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 08:50:53
 date: 2010-05-10 06:05:45
 tags: [分享"]

@@ -1,7 +1,7 @@
 ---
 title: "为什么我放弃了 Google Fi"
 slug: why-i-left-google-fi
-author: Bin Hua
+author: "Bin Hua"
 date: 2020-10-29 03:42:10
 tags: ["Gmail", "Google", "Google Fi"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "修复 Centos 下 Appstream 错误"
 slug: "how-to-fix-appstream-error-on-centos"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-03-05T17:26:41Z
 date: 2022-03-05T17:26:41Z
 tags: ["Centos", "Appstream"]

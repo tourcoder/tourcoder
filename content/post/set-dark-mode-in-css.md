@@ -1,7 +1,7 @@
 ---
 title: "通过 CSS 设置自动暗黑模式"
 slug: "set-dark-mode-in-css"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-28T14:21:06Z
 tags: ["css", "web", "html"]
 draft: false

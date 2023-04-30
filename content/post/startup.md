@@ -1,7 +1,7 @@
 ---
 title: "创业者说"
 slug: startup
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2019-08-02 03:48:47
 date: 2014-08-12 06:39:50
 tags: ["创业"]

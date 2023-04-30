@@ -1,7 +1,7 @@
 ---
 title: "爸妈来过年"
 slug: happy-chinese-new-year-2019
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:25:43
 date: 2019-02-12 14:16:00
 tags: ["2019", "新年", "Youtube", "视频"]

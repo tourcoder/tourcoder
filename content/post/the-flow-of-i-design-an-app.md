@@ -1,7 +1,7 @@
 ---
 title: "我是如何设计开发一款应用的"
 slug: the-flow-of-i-design-an-app
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:15:42
 date: 2018-08-20 07:44:57
 tags: ["App"]

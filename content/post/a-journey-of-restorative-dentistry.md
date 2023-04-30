@@ -1,7 +1,7 @@
 ---
 title: "一次治牙之旅"
 slug: "a-journey-of-restorative-dentistry"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-12-13T01:45:37Z
 date: 2022-12-13T01:45:37Z
 tags: ["阻生齿", "治牙", "上海九院"]

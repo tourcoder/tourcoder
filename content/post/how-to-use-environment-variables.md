@@ -1,7 +1,7 @@
 ---
 title: "如何使用环境变量"
 slug: "how-to-use-environment-variables"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-07-20T01:34:19Z
 date: 2022-07-20T01:34:19Z
 tags: ["安全", "nodejs"]

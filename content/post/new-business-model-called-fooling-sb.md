@@ -1,7 +1,7 @@
 ---
 title: "新的商业模式--骗傻逼"
 slug: new-business-model-called-fooling-sb
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:10:21
 date: 2017-12-11 07:19:18
 tags: ["商业"]

@@ -1,7 +1,7 @@
 ---
 title: "[视频]拈花湾和灵山大佛两日游"
 slug: "two-days-in-wuxi-nianhuawan-202104"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-04-23T17:51:40Z
 date: 2021-04-23T17:51:40Z
 tags: ["旅行", "视频", "2021", "无锡", "拈花湾", "灵山大佛", "youtube"]

@@ -1,7 +1,7 @@
 ---
 title: "吃相难看"
 slug: say-hehe-to-some-companies
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:09:59
 date: 2017-10-16 07:15:36
 tags: ["支付宝", "iOS", "Android", "outlook"]

@@ -1,7 +1,7 @@
 ---
 title: "CentOS 和 Ubuntu"
 slug: centos-ubuntu
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-24 03:40:42
 date: 2017-12-20 07:21:49
 tags: ["centos", "ubuntu", "nginx", "debian", "caddy", "sudo", "mongodb"]

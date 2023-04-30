@@ -1,7 +1,7 @@
 ---
 title: "DC/EP 是什么"
 slug: "what-is-dcep"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-02-11T10:06:49Z
 date: 2021-02-11T10:06:49Z
 tags: ["dcep", "数字人民币", "bitcoin", "比特币", "btc", "以太坊", "加密货币"]

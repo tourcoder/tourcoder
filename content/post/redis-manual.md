@@ -1,7 +1,7 @@
 ---
 title: "Redis 学习笔记"
 slug: redis-manual
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-04 01:58:28
 date: 2019-01-11 03:51:15
 tags: ["redis", "笔记"]

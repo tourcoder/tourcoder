@@ -1,7 +1,7 @@
 ---
 title: "Transfer Skype Number to Fi"
 slug: "Transfer Skype Number to Fi"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-01-28T03:09:46Z
 date: 2021-01-28T03:09:46Z
 tags: ["google fi", "skype", "number", "google voice"]

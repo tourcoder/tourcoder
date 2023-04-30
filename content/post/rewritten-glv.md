@@ -1,7 +1,7 @@
 ---
 title: "重写 GLV"
 slug: "rewritten-glv"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-11-14T07:09:14Z
 date: 2021-11-14T07:09:14Z
 tags: ["glv", "golang"]

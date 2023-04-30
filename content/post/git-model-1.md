@@ -1,7 +1,7 @@
 ---
 title: "Git 开发模式的更新"
 slug: git-model-1
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:00:59
 date: 2016-06-13 06:47:37
 tags: ["GitHub", "git", "model"]

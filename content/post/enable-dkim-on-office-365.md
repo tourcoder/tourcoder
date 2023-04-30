@@ -1,7 +1,7 @@
 ---
 title: "Office 365 中开启 dkim"
 slug: enable-dkim-on-office-365
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-15 11:29:07
 date: 2019-04-01 05:03:32
 tags: ["Email", "office365", "微软", "dkim", "代码", "microsoft365"]

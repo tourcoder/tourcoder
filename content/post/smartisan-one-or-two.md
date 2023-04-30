@@ -1,7 +1,7 @@
 ---
 title: "说说锤子科技的发布会"
 slug: smartisan-one-or-two
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:15:00
 date: 2018-05-17 07:40:00
 tags: ["罗永浩", "锤子"]

@@ -1,7 +1,7 @@
 ---
 title: "Hugo 中最后更新的时间显示"
 slug: "lastmod-in-hugo"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-02-11T03:00:28Z
 tags: ["hugo", "最后更新"]
 ---
@@ -16,7 +16,7 @@ tags: ["hugo", "最后更新"]
 ---
 title: "Hugo 中最后更新的时间显示"
 slug: "lastmod-in-hugo"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-02-11T03:00:28Z
 lastmod: 2023-02-11T03:00:28Z
 tags: ["hugo", "最后更新"]

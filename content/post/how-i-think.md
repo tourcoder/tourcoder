@@ -1,7 +1,7 @@
 ---
 title: "我怎么想的"
 slug: "how-i-think"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-12-22T12:12:47Z
 date: 2022-12-22T12:12:47Z
 tags: ["生活常识", "思考"]

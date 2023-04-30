@@ -1,7 +1,7 @@
 ---
 title: "[视频] AI 开箱：Claude 入门试用"
 slug: "youtube-try-claude-in-slack"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-15T08:45:29Z
 tags: ["AI", "Claude", "ChatGPT", "openai", "slack"]
 draft: false

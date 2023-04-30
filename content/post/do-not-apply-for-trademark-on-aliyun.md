@@ -1,7 +1,7 @@
 ---
 title: "不要在阿里云上申请商标"
 slug: "do-not-apply-for-trademark-on-aliyun"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-10-21T21:00:16Z
 date: 2021-10-21T21:00:16Z
 tags: ["商标", "阿里云"]

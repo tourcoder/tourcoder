@@ -1,7 +1,7 @@
 ---
 title: "复仇者联盟 3 观后感"
 slug: avengers-3-infinity-war
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:14:53
 date: 2018-05-12 07:39:20
 tags: ["电影", "观后感"]

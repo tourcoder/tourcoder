@@ -1,7 +1,7 @@
 ---
 title: "币圈"
 slug: about-ico
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13T09:13:24Z
 date: 2018-03-11T07:33:22Z
 tags: ["区块链", "blockchain", "比特币", "币圈"]

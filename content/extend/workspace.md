@@ -1,7 +1,7 @@
 ---
 title: "工作台"
 slug: "workspace"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-05-22T01:57:04Z
 date: 2022-05-22T01:57:04Z
 tags: ["工作台", "workspace"]

@@ -1,7 +1,7 @@
 ---
 title: "Issue 驱动的项目管理"
 slug: issue-driven-project-management
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:18:50
 date: 2018-12-26 15:43:13
 tags: ["git", "GitHub", "项目管理", "issue"]

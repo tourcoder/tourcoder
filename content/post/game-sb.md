@@ -1,7 +1,7 @@
 ---
 title: "游戏是用脑子打的"
 slug: game-sb
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:43:55
 date: 2020-04-08 16:19:14
 tags: ["游戏", "吃鸡", "和平精英"]

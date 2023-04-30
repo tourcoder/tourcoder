@@ -1,7 +1,7 @@
 ---
 title: "如何创建一个 Go Mod"
 slug: "how-to-create-a-public-go-mod"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-07-27T21:31:17Z
 date: 2021-07-27T21:31:17Z
 tags: ["gomod", "howto"]

@@ -1,7 +1,7 @@
 ---
 title: "CentOS 网络设置和桌面"
 slug: set-network-and-desktop-for-centos
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:26:07
 date: 2019-02-20 12:27:52
 tags: ["centos", "desktop", "gnome"]

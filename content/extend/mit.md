@@ -1,7 +1,7 @@
 ---
 title: "MIT License"
 slug: "mit"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-11-14T10:53:16+08:00
 date: 2021-11-14T10:53:16+08:00
 tags: ["License", "MIT"]

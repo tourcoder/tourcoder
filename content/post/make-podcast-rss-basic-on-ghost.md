@@ -1,7 +1,7 @@
 ---
 title: "基于 Ghost 做一个 Podcast 源"
 slug: make-podcast-rss-basic-on-ghost
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-08-13 09:39:44
 date: 2019-10-18 07:03:43
 tags: ["Apple", "ghost", "podcast"]

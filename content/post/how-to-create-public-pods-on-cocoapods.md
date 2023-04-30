@@ -1,7 +1,7 @@
 ---
 title: "创建公有的 Cocoapods 库"
 slug: how-to-create-public-pods-on-cocoapods
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 05:59:35
 date: 2019-03-26 02:10:00
 tags: ["iOS", "macOS", "cocoapods", "github", "terminal"]

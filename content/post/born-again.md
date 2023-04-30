@@ -1,7 +1,7 @@
 ---
 title: "‘砸碎’自己，重新来过"
 slug: "born-again"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-12-07T00:58:22Z
 date: 2021-12-07T00:58:22Z
 tags: ["自省", "人生"]

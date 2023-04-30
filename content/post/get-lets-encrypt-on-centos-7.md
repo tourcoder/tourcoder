@@ -1,7 +1,7 @@
 ---
 title: "CentOS 7 下签发 Let's Encrypt https 证书"
 slug: get-lets-encrypt-on-centos-7
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-07-18 06:02:33
 date: 2019-02-09 15:15:00
 tags: ["ssl", "centos", "https", "let's encrypt"]

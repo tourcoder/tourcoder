@@ -1,7 +1,7 @@
 ---
 title: "如何使用 Google Workspace legacy 进行邮件转发"
 slug: "how-to-use-google-workspace-legacy-for-mail-forwarding"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2022-04-09T08:12:53Z
 date: 2022-04-09T08:12:53Z
 tags: ["GSuite", "Google", "Google Workspace", "Email"]

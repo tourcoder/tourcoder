@@ -1,7 +1,7 @@
 ---
 title: "iCloud Drive 搞丢了我所有的文件"
 slug: i-lost-all-files-in-icloud-drive
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2020-10-29 00:19:08
 date: 2020-10-29 00:19:08
 tags: [Apple", "iCloud", "icloud drive"]

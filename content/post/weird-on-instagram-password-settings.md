@@ -1,7 +1,7 @@
 ---
 title: "糟糕的 Instagram 密码设置"
 slug: "weird-on-instagram-password-settings"
-author: Bin Hua
+author: "Bin Hua"
 date: 2023-04-20T06:49:41Z
 tags: ["facebook", "instagram"]
 draft: false

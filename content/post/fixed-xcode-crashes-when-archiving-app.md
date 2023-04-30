@@ -1,7 +1,7 @@
 ---
 title: "Fixed Xcode Crashes When Archiving App"
 slug: "fixed-xcode-crashes-when-archiving-app"
-author: Bin Hua
+author: "Bin Hua"
 lastmod: 2021-07-01T12:46:23Z
 date: 2021-07-01T12:46:23Z
 tags: ["xcode", "apple"]
