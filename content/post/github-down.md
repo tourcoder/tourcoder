@@ -4,7 +4,7 @@ slug: "github-down"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:16:59
 date: 2018-10-25 07:47:50
-tags: ["bug", git", "GitHub"]
+tags: ["bug", "git", "GitHub"]
 ---
 
 对全世界的程序员来说，几天前比较大的一个新闻应该就是 GitHub Down，GitHub 在毫无征兆的情况下突然挂了整整一天的时间。

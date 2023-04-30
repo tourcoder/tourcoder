@@ -4,7 +4,7 @@ slug: "how-to-choose-a-domain"
 author: "Bin Hua"
 lastmod: 2020-08-13 09:25:17
 date: 2019-01-31 12:39:21
-tags: [domain", "域名"]
+tags: ["domain", "域名"]
 ---
 
 今天我收到这么一封邮件，内容如下

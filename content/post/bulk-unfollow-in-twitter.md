@@ -4,7 +4,7 @@ slug: "bulk-unfollow-in-twitter"
 author: "Bin Hua"
 lastmod: 2020-07-18 06:07:35
 date: 2017-03-21 06:59:54
-tags: [twitter"]
+tags: ["twitter"]
 ---
 
 要在 twitter 上宣传产品，使用很久前注册的 twitter 账号，因为很久没有登录，莫名其妙的 follow（关注） 了很多人，如图

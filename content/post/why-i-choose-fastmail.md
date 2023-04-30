@@ -4,7 +4,7 @@ slug: "why-i-choose-fastmail"
 author: "Bin Hua"
 lastmod: 2020-08-15 05:26:25
 date: 2019-03-23 16:54:54
-tags: [Gmail", "Google", "Email", "fastmail"]
+tags: ["Gmail", "Google", "Email", "fastmail"]
 ---
 
 很早之前就说过我是一个 Email 的拥趸，市面上各种方式的 Email 我都尝试过，包括今天要说到的主角 Fastmail，上次并没有好好使用 Fastmail 的原因有两个。
