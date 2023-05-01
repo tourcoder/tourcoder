@@ -2,7 +2,6 @@
 title: "macOS 简易手册"
 slug: "macos-manual"
 author: "Bin Hua"
-lastmod: 2017-02-28 06:56:02
 date: 2017-02-28 06:56:02
 tags: ["macOS", "手册"]
 ---
@@ -1350,3 +1349,19 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 ```
 
 取消输入将 `YES` 更改成 `NO` 即可。如果想快速获取一个文件夹的路经，直接将该文件夹拖入终端即可。
+
+**macOS 下隐藏文件**
+
+macOS 下 `chflags hidden filename` 可以隐藏文件，而 `chflags nohidden filename` 则可以取消隐藏。
+
+**取消 macOS 的固件密码**
+
+取消 macOS 的固件密码 [https://support.apple.com/zh-cn/HT204455](https://support.apple.com/zh-cn/HT204455)
+
+**下载旧版本的 macOS**
+
+下载旧版 macOS 系统的地址 [https://support.apple.com/zh-cn/HT211683](https://support.apple.com/zh-cn/HT211683)
+
+**Apple 设备的小知识点**
+
+一些 Apple 设备的知识点: D 开头成都富士康 / F 开头郑州富士康 / C 开头深圳富士康 / GO 开头上海和硕 / M 零售 / n 官换 / f 官翻 / 3 演示 / cha 国行 / dna 德版 / zpa 港版 / lla 美版 / taa 台版 / kha 韩版 / ja 日版
