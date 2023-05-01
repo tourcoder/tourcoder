@@ -2,7 +2,7 @@
 title: "定时关机/重启CMD命令"
 slug: "cmd-command-about-shut-restart"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:48:49
+lastmod: 2009-07-29 05:45:03
 date: 2009-07-29 05:45:03
 tags: ["命令行", "windows"]
 ---

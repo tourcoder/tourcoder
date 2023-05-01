@@ -2,7 +2,7 @@
 title: "Linux 下利用 crontab 自动备份"
 slug: "auto-backup-on-linux"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:18:06
+lastmod: 2014-03-22 06:37:07
 date: 2014-03-22 06:37:07
 tags: ["crontab", "linux", "mysql"]
 ---

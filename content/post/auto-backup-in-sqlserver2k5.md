@@ -2,7 +2,7 @@
 title: "SQL server 2K5的自动备份"
 slug: "auto-backup-in-sqlserver2k5"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:47:19
+lastmod: 2009-07-06 05:40:34
 date: 2009-07-06 05:40:34
 tags: ["crontab", "sql"]
 ---

@@ -2,7 +2,7 @@
 title: "找工作，你真的准备好了吗？"
 slug: "are-you-ready-to-find-a-job"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:46:29
+lastmod: 2009-04-13 05:38:29
 date: 2009-04-13 05:38:29
 tags: ["职场"]
 ---

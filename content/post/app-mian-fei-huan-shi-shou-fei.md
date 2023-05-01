@@ -2,7 +2,7 @@
 title: "App，免费还是收费？"
 slug: "app-mian-fei-huan-shi-shou-fei"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:50:23
+lastmod: 2010-03-02 06:00:53
 date: 2010-03-02 06:00:53
 tags: ["iPhone", "Apple", "iOS", "macOS"]
 ---

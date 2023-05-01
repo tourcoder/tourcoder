@@ -2,7 +2,7 @@
 title: "iOS 应用动态更改图标"
 slug: "change-app-icon-for-apps"
 author: "Bin Hua"
-lastmod: 2020-11-23 23:55:46
+lastmod: 2019-02-21 04:23:16
 date: 2019-02-21 04:23:16
 tags: ["Apple", "iOS", "SDK", "代码示例", "GitHub"]
 ---
