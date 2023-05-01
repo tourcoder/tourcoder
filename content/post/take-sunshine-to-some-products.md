@@ -2,7 +2,7 @@
 title: "给一些产品一些出路"
 slug: "take-sunshine-to-some-products"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:11:35
+lastmod: 2018-01-25 07:24:22
 date: 2018-01-25 07:24:22
 tags: ["SKYPE", "守望先锋"]
 ---

@@ -2,7 +2,7 @@
 title: "Sublime Text 3"
 slug: "sublime-text-3"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:13:15
+lastmod: 2016-08-20 06:50:24
 date: 2016-08-20 06:50:24
 tags: ["sublimetxt"]
 ---
