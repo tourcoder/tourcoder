@@ -2,7 +2,7 @@
 title: "macOS 下使用 GPG"
 slug: "gpg-on-macos"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:38:12
+lastmod: 2019-10-04 11:45:51
 date: 2019-10-04 11:45:51
 tags: ["macOS", "git", "GitHub", "加密", "homebrew", "gpg", "GNU"]
 ---

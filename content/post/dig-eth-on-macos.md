@@ -2,7 +2,7 @@
 title: "在 macOS 下玩 ETH"
 slug: "dig-eth-on-macos"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:10:47
+lastmod: 2018-08-20 07:43:09
 date: 2018-08-20 07:43:09
 tags: ["macOS", "blockchain", "eth", "以太坊"]
 ---

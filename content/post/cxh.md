@@ -2,7 +2,7 @@
 title: "[播客]菜小孩"
 slug: "cxh"
 author: "Bin Hua"
-lastmod: 2020-11-28 23:56:18
+lastmod: 2019-10-18 06:37:00
 date: 2019-10-18 06:37:00
 tags: ["播客", "podcast"]
 ---

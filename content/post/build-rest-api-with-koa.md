@@ -2,7 +2,7 @@
 title: "用 koa 开发 REST API"
 slug: "build-rest-api-with-koa"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:10:38
+lastmod: 2018-08-06 07:42:25
 date: 2018-08-06 07:42:25
 tags: ["MongoDB", "api", "nodejs", "koa", "RESTFUL"]
 ---

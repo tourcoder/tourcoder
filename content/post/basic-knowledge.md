@@ -2,7 +2,7 @@
 title: "一些基本常识"
 slug: "basic-knowledge"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:14:37
+lastmod: 2018-03-27 07:38:00
 date: 2018-03-27 07:38:00
 tags: ["常识", "币圈"]
 ---

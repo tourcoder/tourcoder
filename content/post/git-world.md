@@ -2,7 +2,7 @@
 title: "逼格太高，钱包跟不上"
 slug: "git-world"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:08:07
+lastmod: 2017-03-29 07:01:10
 date: 2017-03-29 07:01:10
 tags: ["git", "GitHub"]
 ---

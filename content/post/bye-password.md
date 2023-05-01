@@ -2,7 +2,7 @@
 title: "消灭密码"
 slug: "bye-password"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:59:24
+lastmod: 2016-06-12 06:46:18
 date: 2016-06-12 06:46:18
 tags: ["密码", "用户体验"]
 ---

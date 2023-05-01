@@ -2,7 +2,7 @@
 title: "利用 Git Hooks 自动部署到服务器"
 slug: "automating-deployments-to-server"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:10:14
+lastmod: 2018-02-12 07:28:14
 date: 2018-02-12 07:28:14
 tags: ["git", "GitHub"]
 ---

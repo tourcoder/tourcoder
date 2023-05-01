@@ -2,7 +2,7 @@
 title: "半吊子微软"
 slug: "give-a-nickname-mr-half-to-microsoft"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:10:06
+lastmod: 2017-10-18 07:17:04
 date: 2017-10-18 07:17:04
 tags: ["SKYPE", "outlook", "微软", "wunderlist", "hotmail"]
 ---

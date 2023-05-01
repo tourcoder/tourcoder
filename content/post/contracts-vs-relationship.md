@@ -2,7 +2,7 @@
 title: "合同和关系"
 slug: "contracts-vs-relationship"
 author: "Bin Hua"
-lastmod: 2019-08-01 15:27:27
+lastmod: 2016-11-05 06:53:58
 date: 2016-11-05 06:53:58
 tags: ["商业", "合同"]
 ---
