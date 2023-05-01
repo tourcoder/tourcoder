@@ -2,7 +2,7 @@
 title: "Git 更改 commit 历史"
 slug: "how-to-change-the-email-in-git-commit"
 author: "Bin Hua"
-lastmod: 2020-08-07 01:35:24
+lastmod: 2018-02-08 07:26:39
 date: 2018-02-08 07:26:39
 tags: ["git", "GitHub"]
 ---

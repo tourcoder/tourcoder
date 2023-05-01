@@ -2,7 +2,7 @@
 title: "如何停止使用 macOS 的测试版"
 slug: "how-to-stop-using-beta-plan-of-macos"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:22:38
+lastmod: 2018-12-27 03:20:49
 date: 2018-12-27 03:20:49
 tags: ["Apple", "macOS", "beta"]
 ---

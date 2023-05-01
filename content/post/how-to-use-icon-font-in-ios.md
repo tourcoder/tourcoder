@@ -2,7 +2,7 @@
 title: "iOS 中使用图标字体"
 slug: "how-to-use-icon-font-in-ios"
 author: "Bin Hua"
-lastmod: 2020-11-23 23:57:03
+lastmod: 2019-09-06 06:45:31
 date: 2019-09-06 06:45:31
 tags: ["iOS", "swift", "font"]
 ---

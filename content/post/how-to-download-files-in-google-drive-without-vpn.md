@@ -2,7 +2,7 @@
 title: "不翻墙下载 Google Drive 中的内容"
 slug: "how-to-download-files-in-google-drive-without-vpn"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:29:03
+lastmod: 2019-03-25 10:27:32
 date: 2019-03-25 10:27:32
 tags: ["Google", "googlecloud", "googlephoto", "google drive", "dropbox"]
 ---
