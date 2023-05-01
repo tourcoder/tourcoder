@@ -2,7 +2,7 @@
 title: "Just for Fun 读后感"
 slug: "just-for-fun"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:15:07
+lastmod: 2018-05-20 07:40:36
 date: 2018-05-20 07:40:36
 tags: ["linux", "读后感", "linus"]
 ---

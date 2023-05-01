@@ -2,7 +2,7 @@
 title: "开发 macOS 中 Preferences Application"
 slug: "make-preferences-application-on-macos"
 author: "Bin Hua"
-lastmod: 2020-07-18 05:57:43
+lastmod: 2019-07-13 12:02:29
 date: 2019-07-13 12:02:29
 tags: ["macOS", "App", "swift", "objc", "Productivity"]
 ---

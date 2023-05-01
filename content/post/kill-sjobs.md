@@ -2,7 +2,7 @@
 title: "'杀死'乔布斯"
 slug: "kill-sjobs"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:49:54
+lastmod: 2010-01-11 05:51:11
 date: 2010-01-11 05:51:11
 tags: ["乔布斯", "iPhone", "Apple"]
 ---

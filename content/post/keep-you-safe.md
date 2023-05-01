@@ -2,7 +2,7 @@
 title: "年底了，注意安全"
 slug: "keep-you-safe"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:23:02
+lastmod: 2018-12-29 05:48:11
 date: 2018-12-29 05:48:11
 tags: ["安全", "新年", "2019", "元旦"]
 ---
