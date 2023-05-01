@@ -1,6 +1,6 @@
 ---
 title: "wget 下载整站"
-slug: "2021080401"
+slug: "download-whole-website-via-wget"
 author: "Bin Hua"
 lastmod: 2021-08-04T07:23:35Z
 date: 2021-08-04T07:23:35Z

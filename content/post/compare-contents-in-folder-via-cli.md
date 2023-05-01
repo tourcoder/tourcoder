@@ -1,6 +1,6 @@
 ---
 title: "命令行下比较文件夹内容"
-slug: "2021053002"
+slug: "compare-contents-in-folder-via-cli"
 author: "Bin Hua"
 lastmod: 2021-05-30T09:45:30Z
 date: 2021-05-30T09:45:30Z
