@@ -2,7 +2,7 @@
 title: "一次性下载 Google 上所有的内容"
 slug: "takeout-your-storage-in-google"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:17:55
+lastmod: 2018-11-19 07:49:42
 date: 2018-11-19 07:49:42
 tags: ["Google", "googledrive", "googlephoto"]
 ---

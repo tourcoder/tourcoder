@@ -2,7 +2,7 @@
 title: "GitHub 的简体中文之殇"
 slug: "the-death-of-simplified-chinese-on-github"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:40:06
+lastmod: 2019-10-31 15:24:26
 date: 2019-10-31 15:24:26
 tags: ["GitHub", "中文", "nodepad++"]
 ---

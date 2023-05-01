@@ -2,7 +2,7 @@
 title: "十年上海一笑而过"
 slug: "ten-years-in-shanghai"
 author: "Bin Hua"
-lastmod: 2019-08-02 03:53:01
+lastmod: 2015-07-31 06:43:31
 date: 2015-07-31 06:43:31
 tags: ["上海", "十年", "2005", "2015"]
 ---
