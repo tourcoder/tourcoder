@@ -2,7 +2,7 @@
 title: "要创业，先花钱"
 slug: "startup-clearly"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:01:42
+lastmod: 2016-08-29 06:50:57
 date: 2016-08-29 06:50:57
 tags: ["创业"]
 ---

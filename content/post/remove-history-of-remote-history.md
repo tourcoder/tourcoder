@@ -2,7 +2,7 @@
 title: "手动清除远程桌面记录"
 slug: "remove-history-of-remote-history"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:48:41
+lastmod: 2009-07-22 05:43:18
 date: 2009-07-22 05:43:18
 tags: ["windows", "远程"]
 ---
