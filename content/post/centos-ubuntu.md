@@ -1236,6 +1236,12 @@ Debian 中更改时间 `dpkg-reconfigure tzdata`
 
 centos 中更改时间 `timeconfig`
 
+**给用户设置 sudo 权限**
+
+Debian 中 `usermod -aG sudo 用户名`
+
+CentOS 中 `usermod -aG wheel 用户名`
+
 **nginx 的 403 错误**
 
 在 nginx 安装好后很大程度会出现 403 的错误，常见以下四个情况。
@@ -1323,3 +1329,5 @@ sudo swapon /swapfile //激活交换内存
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
 
 文件权限的问题：https://segmentfault.com/a/1190000002595882
+
+Debian 安全指南： [https://www.debian.org/doc/manuals/securing-debian-manual/index.zh-cn.html](https://www.debian.org/doc/manuals/securing-debian-manual/index.zh-cn.html)
