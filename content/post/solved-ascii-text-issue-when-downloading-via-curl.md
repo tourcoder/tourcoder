@@ -1,6 +1,6 @@
 ---
 title: "处理 CURL 下载 ASCII text 问题"
-slug: "2021042401"
+slug: "solved-ascii-text-issue-when-downloading-via-curl"
 author: "Bin Hua"
 lastmod: 2021-04-24T20:16:17Z
 date: 2021-04-24T20:16:17Z

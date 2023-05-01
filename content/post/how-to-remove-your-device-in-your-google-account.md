@@ -1,6 +1,6 @@
 ---
 title: "Google 账户中清理自己的设备"
-slug: "2021052802"
+slug: "how-to-remove-your-device-in-your-google-account"
 author: "Bin Hua"
 lastmod: 2021-05-28T11:46:55Z
 date: 2021-05-28T11:46:55Z
