@@ -923,3 +923,15 @@ NSRange range = NSMakeRange(firstLoc, secondLoc - firstLoc);
     });
     dispatch_resume(_timer);
     ```
+
+**iOS 上为 app 设置字体大小**
+
+iOS 上为 app 设置字体大小 [https://www.theverge.com/22580423/ios-15-iphone-text-size-how-to-control-center](https://www.theverge.com/22580423/ios-15-iphone-text-size-how-to-control-center)
+
+**苹果的开发者资源**
+
+苹果的开发者资源，还是弄得挺好的 [https://developer.apple.com/design/resources/](https://developer.apple.com/design/resources/)
+
+**iPad Pro 连接键盘和鼠标之后出现蓝色的框问题**
+
+这个问题的确是很烦人的，[https://discussionschinese.apple.com/thread/251581565](https://discussionschinese.apple.com/thread/251581565). 
