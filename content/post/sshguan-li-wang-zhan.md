@@ -2,7 +2,7 @@
 title: "SSH管理网站"
 slug: "sshguan-li-wang-zhan"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:52:59
+lastmod: 2011-04-06 06:31:24
 date: 2011-04-06 06:31:24
 tags: ["ssh", "shell", "cmd"]
 ---

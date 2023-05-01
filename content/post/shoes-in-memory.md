@@ -2,7 +2,7 @@
 title: "记忆中的鞋子"
 slug: "shoes-in-memory"
 author: "Bin Hua"
-lastmod: 2019-08-01 08:09:19
+lastmod: 2018-03-08 07:32:39
 date: 2018-03-08 07:32:39
 tags: ["鞋子", "童年"]
 ---

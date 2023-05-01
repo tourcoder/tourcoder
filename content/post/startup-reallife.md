@@ -2,7 +2,7 @@
 title: "创业中的现实"
 slug: "startup-reallife"
 author: "Bin Hua"
-lastmod: 2020-08-13 08:50:30
+lastmod: 2010-03-31 06:01:51
 date: 2010-03-31 06:01:51
 tags: ["创业"]
 ---

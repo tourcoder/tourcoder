@@ -2,7 +2,7 @@
 title: "《支付战争》读后感"
 slug: "paypal-wars"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:08:14
+lastmod: 2017-04-02 07:01:40
 date: 2017-04-02 07:01:40
 tags: ["支付战争", "paypal", "读后感"]
 ---

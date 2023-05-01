@@ -2,7 +2,7 @@
 title: "团队的项目工作流"
 slug: "project-flow-for-team"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:13:49
+lastmod: 2018-03-15 07:35:27
 date: 2018-03-15 07:35:27
 tags: ["碎碎念", "运营"]
 ---

@@ -2,7 +2,7 @@
 title: "Netgear R7000设置"
 slug: "netgear-r7000"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:16:39
+lastmod: 2018-09-21 07:46:29
 date: 2018-09-21 07:46:29
 tags: ["netgear", "网件"]
 ---
