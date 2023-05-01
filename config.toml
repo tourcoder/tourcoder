@@ -22,6 +22,9 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
+  name = "投资日记"
+  url = "/how-to-invest"
+  [[menu.main]]
   name = "书影"
   url = "/booklist"
   [[menu.main]]

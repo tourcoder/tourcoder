@@ -15,6 +15,6 @@ PS. 所有的内容从 2023 年 05 月 01 日开始。
 
 
 
-**参考资料**
+**学习资料**
 
 投资中的 GP, LP, PE, VC 以及 FOF 的讲解，[https://www.zhihu.com/question/20062244](https://www.zhihu.com/question/20062244)
