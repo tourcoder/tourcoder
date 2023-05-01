@@ -2,7 +2,7 @@
 title: "RESTFUL API 中删除操作的设计"
 slug: "how-to-design-the-delete-action-in-restful-api"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:41:24
+lastmod: 2019-12-05 05:59:22
 date: 2019-12-05 05:59:22
 tags: ["api", "restful"]
 ---

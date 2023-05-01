@@ -2,7 +2,7 @@
 title: "我是如何在 iPad 上工作的"
 slug: "how-do-i-work-on-ipad"
 author: "Bin Hua"
-lastmod: 2020-07-14 02:05:26
+lastmod: 2019-12-24 06:56:22
 date: 2019-12-24 06:56:22
 tags: ["远程工作", "GitHub", "iPad"]
 ---

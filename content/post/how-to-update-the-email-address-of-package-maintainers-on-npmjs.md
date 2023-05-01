@@ -2,7 +2,7 @@
 title: "更新 NPMJS 中维护人员的 email 地址"
 slug: "how-to-update-the-email-address-of-package-maintainers-on-npmjs"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:46:44
+lastmod: 2019-12-17 07:20:04
 date: 2019-12-17 07:20:04
 tags: ["npm", "npmjs"]
 ---

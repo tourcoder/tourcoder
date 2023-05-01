@@ -2,7 +2,7 @@
 title: "域名的选择"
 slug: "how-to-choose-a-domain"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:25:17
+lastmod: 2019-01-31 12:39:21
 date: 2019-01-31 12:39:21
 tags: ["domain", "域名"]
 ---

@@ -2,7 +2,7 @@
 title: "用 NodeJS 写 CLI"
 slug: "how-to-build-a-command-line-tool-in-nodejs"
 author: "Bin Hua"
-lastmod: 2020-11-23 23:56:18
+lastmod: 2019-08-07 03:31:10
 date: 2019-08-07 03:31:10
 tags: ["nodejs", "terminal", "iterm", "clt", "cmd"]
 ---

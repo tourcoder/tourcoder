@@ -2,7 +2,7 @@
 title: "合理的删除 Apple ID"
 slug: "how-to-delete-apple-id-correctly"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:31:28
+lastmod: 2019-06-27 05:20:45
 date: 2019-06-27 05:20:45
 tags: ["Apple", "安全", "Apple ID"]
 ---

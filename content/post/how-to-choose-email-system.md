@@ -2,7 +2,7 @@
 title: "企业邮局的选择"
 slug: "how-to-choose-email-system"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:02:06
+lastmod: 2016-10-20 06:53:13
 date: 2016-10-20 06:53:13
 tags: ["email", "gsuite", "aws", "office365"]
 ---
