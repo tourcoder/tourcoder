@@ -2,7 +2,7 @@
 title: "VSCode 中实时预览 HTML"
 slug: "live-server-on-vscode"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:39:51
+lastmod: 2019-10-21 10:09:36
 date: 2019-10-21 10:09:36
 tags: ["vim", "vscode", "html"]
 ---

@@ -2,7 +2,7 @@
 title: "CentOS 7 上安装配置 postfix"
 slug: "install-postfix-on-centos-7"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:01:01
+lastmod: 2019-03-15 05:04:34
 date: 2019-03-15 05:04:34
 tags: ["Gmail", "centos", "postfix"]
 ---

@@ -2,7 +2,7 @@
 title: "Windows 10 安装 U 盘的制作"
 slug: "make-an-install-disk-of-windows-10"
 author: "Bin Hua"
-lastmod: 2020-08-13 09:25:59
+lastmod: 2019-02-20 12:11:16
 date: 2019-02-20 12:11:16
 tags: ["macOS", "windows", "windows10", "u盘", "rufus"]
 ---
