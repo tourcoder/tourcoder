@@ -48,3 +48,20 @@ podman run -d --name mongo -p 27017:27017 mongo
     ```
     podman machine init -v /Users/nnn:/home/mmm
     ```
+
+- 在 macOS 中遇到映射到本地硬盘后，容器无法启动的问题
+
+    解决办法：看 GitHub 上的一个[解决方案](https://github.com/containers/podman/issues/18391)
+
+    ```
+    podman -c podman-machine-default \
+    run \
+    --rm \
+    --userns keep-id:uid=999,gid=999 \
+    -d \
+    --security-opt label=disable \
+    --name mongo \
+    -p 27017:27017 \
+    -v ./db:/data/db \
+    docker.io/library/mongo 
+    ```
