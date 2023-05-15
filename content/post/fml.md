@@ -1,5 +1,5 @@
 ---
-title: "Fuck My Life 服务器配置"
+title: "我的翻墙服务器设置"
 slug: "fml"
 author: "Bin Hua"
 date: 2023-05-15T23:30:08Z
