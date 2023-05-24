@@ -1,5 +1,5 @@
 ---
-title: "在上海早九晚五打工人的一天开销"
+title: "[视频]在上海早九晚五打工人的一天开销"
 slug: "youtube-the-daily-cost-of-a-guy-who-works-in-shanghai"
 author: "Bin Hua"
 date: 2023-05-24T01:31:16Z
