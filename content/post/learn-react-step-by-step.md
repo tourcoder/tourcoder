@@ -35,3 +35,10 @@ draft: true
 
 安装好对应的环境，比如 node，npm（yarn），npx，mongodb（本项目所用的数据库）
 
+### 具体步骤
+
+**创建 blog 应用**
+
+通过 `npx create-react-app blog` 命令创建一个名叫 blog 的 react 应用，执行该命令后，会 loading 一段时间就会创建一个应用。其结构如下
+
+
