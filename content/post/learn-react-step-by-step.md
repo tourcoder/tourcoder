@@ -15,21 +15,23 @@ draft: true
 
 **前台**
 
-文章列表页（首页）
+- 文章列表页（首页）
 
-文章详情页面
+- 文章详情页面
+
+- 访客评论
 
 **后台**
 
-登录
+- 登录
 
-文章列表
+- 文章列表
 
-文章编辑
+- 文章编辑
 
-文章删除
+- 文章删除
 
-登出
+- 登出
 
 ### 准备工作
 
@@ -37,10 +39,37 @@ draft: true
 
 ### 具体步骤
 
-**创建 blog 应用**
+**初始化 blog 应用**
 
-通过 `npx create-react-app blog` 命令创建一个名叫 blog 的 react 应用，执行该命令后，在 loading 一段时间后就会创建这个 blog 应用。其结构如下
+通过 `npx create-react-app blog` 命令初始化创建一个名叫 blog 的 react 应用，执行该命令后，在 loading 一段时间后就会创建这个 blog 应用。其结构如下
 
-![]()
+![](/imgs/learn-react-step-by-step-001.png)
+
+在 `public` 文件夹下的文件中
+
+- favicon 是个性化图标
+
+- index.html 是应用的主 html 文件
+
+这两个是最主要的，logo192.png logo51.png 和 maifest.json 是 PWA 的文件，robots.txt 是 seo 用到的文件，这几个文件是非必须的。
+
+在 `src` 文件夹下，
+
+- app.js 主组件文件
+
+- index.js 入口文件
+
+- index.css 和 app.css 样式文件，非必须
+
+- logo.svg logo 图片，非必须
+
+- app.test.js 测试文件，非必须
+
+- reportWebVitals.js 性能上报文件，非必须
+
+- setupTests.js 测试文件，非必须
+
+剩下的就是 package.json 和 readme 文件了。
+
 
 
