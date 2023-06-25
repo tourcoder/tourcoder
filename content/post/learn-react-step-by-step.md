@@ -39,6 +39,8 @@ draft: true
 
 **创建 blog 应用**
 
-通过 `npx create-react-app blog` 命令创建一个名叫 blog 的 react 应用，执行该命令后，会 loading 一段时间就会创建一个应用。其结构如下
+通过 `npx create-react-app blog` 命令创建一个名叫 blog 的 react 应用，执行该命令后，在 loading 一段时间后就会创建这个 blog 应用。其结构如下
+
+![]()
 
 
