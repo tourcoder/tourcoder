@@ -6,8 +6,6 @@ date: 2023-06-25T06:18:06Z
 tags: ["react", "前端"]
 draft: true
 ---
-<<<<<<< HEAD
-=======
 
 一直以来，我在学习一个新的框架或语言的时有个特别的习惯，用这个框架或语言写一个博客系统，这几乎成了我用新技术写东西的 “hello world”，这次学习 react 也不例外。至于 react 是什么，可以看其[官网](https://react.dev/)介绍。
 
@@ -73,7 +71,7 @@ draft: true
 
 剩下的就是 package.json 和 readme 文件了。非必要的文件是可以删除和调整的，但我不打算现在删除它们，只是在后面根据项目开发情况调整。
 
-**开发应用**
+**页面划分**
 
 根据上面的内容，增加几个页面，在 src 文件下增加一个 pages 文件夹，在里面增加
 
@@ -94,4 +92,104 @@ draft: true
 - EditPostPage.js 后台修改文章的页面
 
 先这样写，然后再考虑将一些内容做成独立的组件。
->>>>>>> aaf0decec973d138e777ee84c1de0e4d3e2c4ae8
+
+**首页 HomePage.js**
+
+首页是一个文章的列表，外加一个导航栏，因为文章列表等内容是从数据库中读取，所以这里先不显示其内容，先弄导航栏。导航栏就两个内容，一个标题 blog 和一个链接 login，则 HomePage.js 的代码如下
+
+```
+import React from "react";
+
+function HomePage() {
+    return (
+        <div className="topbar">
+            <h1>Blog</h1>
+            <a href="/login">Login</a>
+        </div>
+    );
+  }
+ export default HomePage;
+```
+
+这里的 className 就是我们平时用的 html 中的 class，所有的样式都写入到应用文件的样式文件中，即写入 app.css 中，去掉了里面的内容，增加如下内容
+
+```
+.topbar {
+    background-color: #fff;
+    height: 80px;
+}
+.topbar h1 {
+  float: left;
+  width: 20%;
+}
+.topbar a {
+  float: right;
+  padding: 30px;
+}
+```
+
+这是顶部导航的内容，但如果在下面继续写博客内容的列表，比如
+
+```
+import React from "react";
+
+function HomePage() {
+    return (
+        <div className="topbar">
+            <h1>Blog</h1>
+            <a href="/login">Login</a>
+        </div>
+        <ul className="blog-list">
+            <li><a href="/detail">Title</a></li>
+            <li><a href="/detail">Title</a></li>
+            <li><a href="/detail">Title</a></li>
+        </ul>
+    );
+  }
+ export default HomePage;
+```
+
+这样写就会出错，因为 react 要求每个组件 HTML 的最外层必须是由一个标签包裹，且不能存在并列的标签。这里的处理办法有两个，要么在外面再嵌套一层 div，要么按它的提示，在外面增加一个 Fragment。即增加后的完整代码是
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function HomePage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+            <ul className="blog-list">
+                <li><a href="/detail">Title</a></li>
+                <li><a href="/detail">Title</a></li>
+                <li><a href="/detail">Title</a></li>
+            </ul>
+        </Fragment>
+    );
+  }
+  
+  export default HomePage;
+```
+
+选择增加 Fragment，而不是 div 的原因是 fragment 最后不会出现的 html 页面中，而 div 会。此时更改 app.js 的内容，将首页组件的内容引入进来，即将 app.js 改成
+
+```
+import './App.css';
+import HomePage from './pages/HomePage';
+
+function App() {
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  );
+}
+
+export default App;
+```
+
+执行 `npm start` 就可显示出首页。
+
