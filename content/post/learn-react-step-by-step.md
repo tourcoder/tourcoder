@@ -4,7 +4,7 @@ slug: "learn-react-step-by-step"
 author: "Bin Hua"
 date: 2023-06-25T06:18:06Z
 tags: ["react", "前端"]
-draft: false
+draft: true
 ---
 
 一直以来，我在学习一个新的框架或语言的时有个特别的习惯，用这个框架或语言写一个博客系统，这几乎成了我用新技术写东西的 “hello world”，这次学习 react 也不例外。至于 react 是什么，可以看其[官网](https://react.dev/)介绍。
@@ -71,7 +71,7 @@ draft: false
 
 剩下的就是 package.json 和 readme 文件了。非必要的文件是可以删除和调整的，但我不打算现在删除它们，只是在后面根据项目开发情况调整。
 
-**页面划分**
+**先写 UI 的部分**
 
 根据上面的内容，增加几个页面，在 src 文件下增加一个 pages 文件夹，在里面增加
 
@@ -139,7 +139,7 @@ function HomePage() {
             <h1>Blog</h1>
             <a href="/login">Login</a>
         </div>
-        <ul className="blog-list">
+        <ul className="post-list">
             <li><a href="/detail">Title</a></li>
             <li><a href="/detail">Title</a></li>
             <li><a href="/detail">Title</a></li>
@@ -162,7 +162,7 @@ function HomePage() {
                 <h1>Blog</h1>
                 <a href="/login">Login</a>
             </div>
-            <ul className="blog-list">
+            <ul className="post-list">
                 <li><a href="/detail">Title</a></li>
                 <li><a href="/detail">Title</a></li>
                 <li><a href="/detail">Title</a></li>
@@ -192,4 +192,122 @@ export default App;
 ```
 
 执行 `npm start` 就可显示出首页。
+
+**详情页面 detail.js**
+
+详情页面和首页差不多，不同的是，详情页面下面是整片文章的内容，代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function DetailPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+            <div className="post-detail">
+                <h2>Title</h2>
+                <p>Content</p>
+            </div>
+        </Fragment>
+    );
+}
+
+export default DetailPage;
+```
+
+要在 app.js 里和 homepage 一样直接引用，但这个是错误的，我是需要通过点击首页的列表的链接跳转到详情页面的，所以需要引入路由，即
+
+```
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+```
+
+将 app.js 的代码改成
+
+```
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail" element={<DetailPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
+此时，首页出现列表，点击列表的内容即可出现详情页面。
+
+**登录页面 login.js**
+
+和其他页面差不多，登录页面的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function LoginPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/">Home</a>
+            </div>
+            <div className="login">
+                <h2>Login</h2>
+                <form>
+                    <input type="text" placeholder="Username" /><br /><br />
+                    <input type="password" placeholder="Password" /><br /><br />
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default LoginPage;
+```
+
+同样需要在 app.js 中引入，并修改 app.js 代码
+
+```
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail" element={<DetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
 
