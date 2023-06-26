@@ -71,5 +71,24 @@ draft: true
 
 剩下的就是 package.json 和 readme 文件了。非必要的文件是可以删除和调整的，但我不打算删除它们，只是在后面根据项目开发情况调整。
 
+**开发应用**
 
+根据上面的内容，增加几个页面，在 src 文件下增加一个 pages 文件夹，在里面增加
 
+- HomePage.js 首页
+
+- DetailPage.js 详情页面
+
+- CommentList.js 访客评论列表
+
+- CommentAdd.js 访客评论增加
+
+- LoginPage.js 登录页面
+  
+- PostListPage.js 后台的文章列表页面
+
+- AddPostPage.js 后台增加文章页面
+
+- EditPostPage.js 后台修改文章的页面
+
+先这样写，然后再考虑将一些内容做成独立的组件。
