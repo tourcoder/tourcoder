@@ -4,7 +4,7 @@ slug: "learn-react-step-by-step"
 author: "Bin Hua"
 date: 2023-06-25T06:18:06Z
 tags: ["react", "前端"]
-draft: true
+draft: false
 ---
 
 一直以来，我在学习一个新的框架或语言的时有个特别的习惯，用这个框架或语言写一个博客系统，这几乎成了我用新技术写东西的 “hello world”，这次学习 react 也不例外。至于 react 是什么，可以看其[官网](https://react.dev/)介绍。
@@ -311,3 +311,4 @@ function App() {
 export default App;
 ```
 
+待续...
