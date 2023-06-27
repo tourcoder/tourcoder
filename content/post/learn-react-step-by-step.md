@@ -1285,8 +1285,152 @@ export default PostComments;
 
 ![](/imgs/learn-react-step-by-step-002.png)
 
+### 通用组件
+
+拆分组件是一个技术活，要拆得精细巧妙，复用率要高。在这个 blog 应用中，很容易可以看出，在前后台的导航页面可以在不同的页面复用，那么分别将它们拆成组件，然后在其他的页面引用即可。专门创建一个 components 的文件夹
+
+**前台导航 navbar**
+
+代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+import styles from './navbar.module.css';
+
+function Navbar() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+        </Fragment>
+    );
+}
+
+export default Navbar;
+```
+
+对应的样式
+
+```
+.topbar {
+    background-color: #fff;
+    height: 80px;
+    width: 960px;
+    margin: 8px auto;
+    display: flex;
+  }
+  .topbar h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    line-height: 80px;
+    flex: 1;
+  }
+  .topbar a {
+    line-height: 80px;
+  }
+```
+
+此时，在需要使用导航的页面都引入该组件，比如首页，修改后的代码是
+
+```
+import React from "react";
+import { Fragment } from "react";
+import Navbar from "../../components/navbar";
+import styles from './homepage.module.css';
+
+function HomePage() {
+    return (
+        <Fragment>
+            <Navbar />
+            <ul className={styles.postlist}>
+                <li><a href="/detail">Title</a></li>
+                <li><a href="/detail">Title</a></li>
+                <li><a href="/detail">Title</a></li>
+            </ul>
+        </Fragment>
+    );
+}
+  
+export default HomePage;
+```
+
+同时将 homepage.module.css 中的对应的样式删除即可。其他还有两个页面（详情页面和登录页面）也做相应的修改，通过这种方式引入导航组件到其页面。
+
+此时遇到一个问题，首页和详情页面的导航完全是一样的，左侧是 logo，右侧是一个 login 的链接，但在登录页面的导航，左侧是 logo，但右侧是 home 的链接。此时就需要对 Navbar 进行修改，需要用到路由中的 `useLocation` 这个函数钩子。修改后的代码如下
+
+```
+import React, { Fragment } from 'react';
+import { useLocation } from 'react-router-dom';
+import styles from './navbar.module.css';
+
+function Navbar() {
+    const location = useLocation();
+
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                {location.pathname === '/login' ? (
+                    <a href="/">Home</a>
+                ) : (
+                    <a href="/login">Login</a>
+                )}
+            </div>
+        </Fragment>
+    );
+}
+
+export default Navbar;
+```
+
+这里用了一个三元表达式
+
+```
+{location.pathname === '/login' ? (
+    <a href="/">Home</a>
+) : (
+    <a href="/login">Login</a>
+)}
+```
+
+这样就完成了前台页面导航的更改。
+
+**后台导航 menubar**
+
+和前台导航差不多，不过不同的是，后台几个页面的导航是一样的，直接写就行。
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './menubar.module.css';
+
+function Menubar () {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+                <a href="/logout">Logout</a>
+            </div>
+        </Fragment>
+    );
+}
+
+export default Menubar;
+```
+
+同样还有样式，样式内容和 navbar 的内容一样，然后在其他页面引入这个组件，并去掉自身样式中多余的内容，至此，公用组件的内容也完成。
+
 _未完待续_
 
 ### 总结
 
 所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
+
