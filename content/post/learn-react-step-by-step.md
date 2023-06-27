@@ -177,7 +177,7 @@ export default App;
 
 执行 `npm start` 就可显示出首页。
 
-**详情页面 detail.js**
+**详情页面 DetailPage.js**
 
 详情页面和首页差不多，不同的是，详情页面下面是整片文章的内容，代码如下
 
@@ -353,7 +353,7 @@ function DetailPage() {
 export default DetailPage;
 ```
 
-**登录页面 login.js**
+**登录页面 LoginPage.js**
 
 和其他页面差不多，登录页面的代码如下
 
@@ -754,9 +754,539 @@ export default HomePage;
 
 这里的 `<div className={styles.topbar}>` 中 `{styles.topbar}` 是插入 js 表达式，即从 styles 这个对象中找到 topbar 属性的值。下面的也是一样的意思。
 
+用同样的方式改写其他的几个页面，新建文件夹，并在里面增加对应的 index.js 文件和 css 模块文件
+
+**详情页面 DetailPage.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import CommentList from "../CommentList";
+import CommentAdd from "../CommentAdd";
+import styles from './detailpage.module.css';
+
+function DetailPage() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+            <div className={styles.postdetail}>
+                <h2>Title</h2>
+                <p>Content</p>
+            </div>
+            <CommentAdd />
+            <CommentList />
+        </Fragment>
+    );
+}
+
+export default DetailPage;
+```
+
+对应的样式文件如下
+
+```
+.topbar {
+  background-color: #fff;
+  height: 80px;
+  width: 960px;
+  margin: 8px auto;
+  display: flex;
+}
+.topbar h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  line-height: 80px;
+  flex: 1;
+}
+.topbar a {
+  line-height: 80px;
+}
+.postdetail {
+    width: 960px;
+    margin: 20px auto;
+    border: 0;
+    padding: 0;
+}
+```
+
+**评论列表页面 CommentList.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './commentlist.module.css';
+
+function CommentList() {
+    return (
+        <Fragment>
+            <div className={styles.commentlist}>
+                <h2>Comments</h2>
+                <ul>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                    </li>
+                </ul>
+            </div>
+        </Fragment>
+    );
+}
+
+export default CommentList;
+```
+
+对应的样式如下
+
+```
+.commentlist {
+    margin: 60px auto 10px;
+    width: 960px;
+}
+.commentlist ul {
+    list-style: none;
+    padding: 0;
+    border: 0;
+}
+```
+
+**评论增加 CommentAdd.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './commentadd.module.css';
+
+function CommentAdd() {
+    return (
+        <Fragment>
+            <div className={styles.commentadd}>
+                <h2>Leave your comment</h2>
+                <form>
+                    <div className={styles.form}><input type="text" placeholder="Name" /></div>
+                    <div className={styles.form}><textarea placeholder="Comment"></textarea></div>
+                    <div className={styles.form}><button type="submit">Add Comment</button></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default CommentAdd;
+```
+
+对应的样式如下
+
+```
+.commentadd {
+    margin: 30px auto;
+    width: 960px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.commentadd .form {
+    padding: 5px 0;
+}
+.commentadd input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+}
+.commentadd textarea {
+    width: 50%;
+    height: 100px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+    resize: none;
+}
+```
+
+**登录页面 LoginPage.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './loginpage.module.css';
+
+function LoginPage() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/">Home</a>
+            </div>
+            <div className={styles.login}>
+                <h2>Login</h2>
+                <form>
+                    <div className={styles.form}><input type="text" placeholder="Username" /></div>
+                    <div className={styles.form}><input type="password" placeholder="Password" /></div>
+                    <div className={styles.form}><button type="submit">Login</button></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default LoginPage;
+```
+
+对应的样式如下
+
+```
+.topbar {
+    background-color: #fff;
+    height: 80px;
+    width: 960px;
+    margin: 8px auto;
+    display: flex;
+  }
+  .topbar h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    line-height: 80px;
+    flex: 1;
+  }
+  .topbar a {
+    line-height: 80px;
+  }
+  .login {
+      width: 960px;
+      margin: 20px auto;
+      border: 0;
+      padding: 0;
+  }
+  .login .form {
+    padding: 5px 0;
+}
+.login input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+}
+```
+
+**后台帖子列表页面 PostListPage.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './postlistpage.module.css';
+
+function PostListPage() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <ul className={styles.postlist}>
+                <li><a href="/post_edit">Title</a></li>
+                <li><a href="/post_edit">Title</a></li>
+                <li><a href="/post_edit">Title</a></li>
+            </ul>
+        </Fragment>
+    );
+}
+
+export default PostListPage;
+```
+
+对应的样式如下
+
+```
+.topbar {
+background-color: #fff;
+height: 80px;
+width: 960px;
+margin: 8px auto;
+display: flex;
+}
+.topbar h1 {
+font-size: 30px;
+font-weight: 700;
+color: #333;
+margin: 0;
+line-height: 80px;
+flex: 1;
+}
+.topbar a {
+line-height: 80px;
+margin-left: 10px;;
+}
+.postlist {
+    width: 960px;
+    margin: 20px auto;
+    border: 0;
+    padding: 0;
+    list-style: none;
+}
+.postlist li {
+    line-height: 44px;
+    list-style: none;
+}
+```
+
+**后台帖子增加页面 PostAddPage.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './postaddpage.module.css';
+
+function PostAddPage() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <div className={styles.postadd}>
+                <h2>Add Post</h2>
+                <form>
+                    <div className={styles.form}><label htmlFor="title">Title</label></div>
+                    <div className={styles.form}><input type="text" id="title" name="title" /></div>
+                    <div className={styles.form}><label htmlFor="content">Content</label></div>
+                    <div className={styles.form}><textarea id="content" name="content"></textarea></div>
+                    <div className={styles.form}><input type="submit" value="Add Post" /></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostAddPage;
+```
+
+对应的样式如下
+
+```
+.topbar {
+background-color: #fff;
+height: 80px;
+width: 960px;
+margin: 8px auto;
+display: flex;
+}
+.topbar h1 {
+font-size: 30px;
+font-weight: 700;
+color: #333;
+margin: 0;
+line-height: 80px;
+flex: 1;
+}
+.topbar a {
+line-height: 80px;
+margin-left: 10px;;
+}
+.postadd {
+    width: 960px;
+    margin: 20px auto;
+    border: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.postadd .form {
+    padding: 5px 0;
+}
+.postadd input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+}
+.postadd textarea {
+    width: 50%;
+    height: 100px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+    resize: none;
+}
+```
+
+**后台帖子修改页面 PostEditPage.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import PostComments from "../PostComment";
+import styles from './posteditpage.module.css';
+
+function PostEditPage() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+                <a href="/logout">Logout</a>
+            </div>
+            <div className={styles.postedit}>
+                <h2>Edit Post</h2>
+                <form>
+                    <div className={styles.form}><input type="text" placeholder="Title" /></div>
+                    <div className={styles.form}><textarea placeholder="Content"></textarea></div>
+                    <div className={styles.form}><button type="submit">Update</button></div>
+                </form>
+            </div>
+            <PostComments />
+        </Fragment>
+    );
+}
+
+export default PostEditPage;
+```
+
+对应的样式如下
+
+```
+.topbar {
+    background-color: #fff;
+    height: 80px;
+    width: 960px;
+    margin: 8px auto;
+    display: flex;
+    }
+    .topbar h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    line-height: 80px;
+    flex: 1;
+    }
+    .topbar a {
+    line-height: 80px;
+    margin-left: 10px;;
+    }
+    .postedit {
+        width: 960px;
+        margin: 20px auto;
+        border: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .postedit .form {
+        padding: 5px 0;
+    }
+    .postedit input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #ddd;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .postedit textarea {
+        width: 50%;
+        height: 100px;
+        border: 1px solid #ddd;
+        padding: 5px;
+        font-size: 14px;
+        resize: none;
+    }
+```
+
+**后台评论的管理 PostComment.js**
+
+修改后的代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './postcomment.module.css';
+
+function PostComments () {
+    return (
+        <Fragment>
+            <div className={styles.commentlist}>
+                <h2>Comments</h2>
+                <ul>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                        <p>Delete</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                        <p>Delete</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                        <p>Delete</p>
+                    </li>
+                </ul>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostComments;
+```
+
+对应的样式如下
+
+```
+.commentlist {
+    margin: 60px auto 10px;
+    width: 960px;
+}
+.commentlist ul {
+    list-style: none;
+    padding: 0;
+    border: 0;
+}
+```
+
+改完后，页面的基本样式也有了，到此，项目的目录结构如下图
+
+![](/imgs/learn-react-step-by-step-002.png)
+
 _未完待续_
 
 ### 总结
 
 所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
-
