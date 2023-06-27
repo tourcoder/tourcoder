@@ -437,3 +437,9 @@ export default App;
 **后台帖子增加页面 PostAddPage.js**
 
 **后台帖子修改页面 PostEditPage.js**
+
+_未完待续_
+
+### 总结
+
+所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
