@@ -111,22 +111,7 @@ function HomePage() {
  export default HomePage;
 ```
 
-这里的 className 就是我们平时用的 html 中的 class，所有的样式都写入到应用文件的样式文件中，即写入 app.css 中，去掉了里面的内容，增加如下内容
-
-```
-.topbar {
-    background-color: #fff;
-    height: 80px;
-}
-.topbar h1 {
-  float: left;
-  width: 20%;
-}
-.topbar a {
-  float: right;
-  padding: 30px;
-}
-```
+这里的 className 就是我们平时用的 html 中的 class，所有的样式都写入到应用文件的样式文件中，即写入 app.css 中，但并不建议这么做。这样写在团队合作的时候会不方便，会有很多问题，在后面写样式时，会有专门讲这块内容。这里就是删除 app.css 文件，并在 app.js 文件中删除对应的引用。
 
 这是顶部导航的内容，但如果在下面继续写博客内容的列表，比如
 
@@ -177,7 +162,6 @@ function HomePage() {
 选择增加 Fragment，而不是 div 的原因是 fragment 最后不会出现的 html 页面中，而 div 会。此时更改 app.js 的内容，将首页组件的内容引入进来，即将 app.js 改成
 
 ```
-import './App.css';
 import HomePage from './pages/HomePage';
 
 function App() {
@@ -228,7 +212,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 将 app.js 的代码改成
 
 ```
-import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -403,7 +386,6 @@ export default LoginPage;
 同样需要在 app.js 中引入，并修改 app.js 代码
 
 ```
-import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -462,7 +444,6 @@ export default PostListPage;
 同样，在 app.js 中增加对应的路由
 
 ```
-import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -526,7 +507,6 @@ export default PostAddPage;
 在 app.js 中也需要增加对应的路由内容
 
 ```
-import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -590,7 +570,6 @@ export default PostEditPage;
 在 app.js 中依旧需要引入对应的路由
 
 ```
-import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -693,8 +672,91 @@ export default PostEditPage;
 
 到这里，一个基础博客的页面的框架都写完了。
 
+### 样式的调整
+
+在写上面的 UI  框架时，我只写了个简单样式，在 react 中引入样式的方式有很多种，比如在全局中直接写样式，即在 index.html 中直接引入一个全局的样子，或者将样式写入到 app.css 中， 但这样写有个问题，会彼此收到影响，也不方便团队的合作。而內联的模式，比如下面这段代码
+
+```
+import React from 'react';
+
+function MyComponent() {
+  const style = {
+    color: 'blue',
+  };
+
+  return <div style={style}>Hello, World!</div>;
+}
+```
+
+看似不错，但会给组件带来大量的代码，存在同样问题的还有像 styled-components 和 emotion 这样的 CSS-in-JS 库。我用样式模块的方式单独写，然后引入到组件中。
+
+拿首页 homepage.js 来说，新建一个 homepage.module.css 的样式模块文件，将首页的样式写入到里面，然后引入到 homepage.js 里。但如果这样写的话，又会产生另外一个问题，pages 文件夹下面的文件会越来越多，那么为了项目容易看，可以每个组件变成一个文件夹，这个文件夹里面包含了 index.js 的组件文件和组件的样式文件，当然也可以扩展增加其他的东西，比如图片。 homepage.js 就可以改成 homepage 文件夹下包含 index.js 文件和 homepage.module.css，即
+
+homepage.module.css 文件内容
+
+```
+.topbar {
+  background-color: #fff;
+  height: 80px;
+  width: 960px;
+  margin: 8px auto;
+  display: flex;
+}
+.topbar h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  line-height: 80px;
+  flex: 1;
+}
+.topbar a {
+  line-height: 80px;
+}
+.postlist {
+  width: 960px;
+  margin: 20px auto;
+  list-style: none;
+  border: 0;
+  padding: 0;
+}
+.postlist li {
+  line-height: 44px;
+  list-style: none;
+}
+```
+
+和 app.css 直接被引用就能生效不一样，以 .module.css 结尾的样式文件，引用是不一样的，所以需要修改 homepage/index.js 的代码内容
+
+```
+import React from "react";
+import { Fragment } from "react";
+import styles from './homepage.module.css';
+
+function HomePage() {
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+            <ul className={styles.postlist}>
+                <li><a href="/detail">Title</a></li>
+                <li><a href="/detail">Title</a></li>
+                <li><a href="/detail">Title</a></li>
+            </ul>
+        </Fragment>
+    );
+}
+  
+export default HomePage;
+```
+
+这里的 `<div className={styles.topbar}>` 中 `{styles.topbar}` 是插入 js 表达式，即从 styles 这个对象中找到 topbar 属性的值。下面的也是一样的意思。
+
 _未完待续_
 
 ### 总结
 
 所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
+
