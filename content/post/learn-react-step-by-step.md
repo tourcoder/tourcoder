@@ -37,7 +37,7 @@ draft: false
 
 安装好对应的环境，比如 node，npm（yarn），npx，mongodb（本项目所用的数据库）
 
-### 具体步骤
+### 初始化
 
 **初始化 blog 应用**
 
@@ -71,7 +71,7 @@ draft: false
 
 剩下的就是 package.json 和 readme 文件了。非必要的文件是可以删除和调整的，但我不打算现在删除它们，只是在后面根据项目开发情况调整。
 
-**先写 UI 的部分**
+### 先写 UI 的部分
 
 根据上面的内容，增加几个页面，在 src 文件下增加一个 pages 文件夹，在里面增加
 
@@ -253,6 +253,123 @@ export default App;
 
 此时，首页出现列表，点击列表的内容即可出现详情页面。
 
+**评论列表页面 CommentList.js**
+
+评论列表的内容也是从数据库中读取的，结构代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function CommentList() {
+    return (
+        <Fragment>
+            <div className="comment-list">
+                <h2>Comments</h2>
+                <ul>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                    </li>
+                </ul>
+            </div>
+        </Fragment>
+    );
+}
+
+export default CommentList;
+```
+
+评论内容是在页面详情的下面，其实可以是一个组件，然后引入到页面详情里
+
+```
+import React from "react";
+import { Fragment } from "react";
+import CommentList from "./CommentList";
+import CommentAdd from "./CommentAdd";
+
+function DetailPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+            <div className="post-detail">
+                <h2>Title</h2>
+                <p>Content</p>
+            </div>
+            <CommentAdd />
+            <CommentList />
+        </Fragment>
+    );
+}
+
+export default DetailPage;
+```
+
+**评论增加 CommentAdd.js**
+
+评论是开放式的，无需登录，则代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function CommentAdd() {
+    return (
+        <Fragment>
+            <div className="comment-add">
+                <h2>Leave your comment</h2>
+                <form>
+                    <input type="text" placeholder="Name" /><br /><br />
+                    <textarea placeholder="Comment"></textarea><br /><br />
+                    <button type="submit">Add Comment</button>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default CommentAdd;
+```
+
+和评论列表一样，也应该将它引入到详情页面，继续修改详情页面的内容
+
+```
+import React from "react";
+import { Fragment } from "react";
+import CommentList from "./CommentList";
+import CommentAdd from "./CommentAdd";
+
+function DetailPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/login">Login</a>
+            </div>
+            <div className="post-detail">
+                <h2>Title</h2>
+                <p>Content</p>
+            </div>
+            <CommentAdd />
+            <CommentList />
+        </Fragment>
+    );
+}
+
+export default DetailPage;
+```
+
 **登录页面 login.js**
 
 和其他页面差不多，登录页面的代码如下
@@ -311,4 +428,12 @@ function App() {
 export default App;
 ```
 
-待续...
+到此，前台部分的页面都串联起来了，只写了个基本的样式，具体的样式美化等放到后面再做。
+
+**后台帖子列表页面 PostListPage.js**
+
+
+
+**后台帖子增加页面 PostAddPage.js**
+
+**后台帖子修改页面 PostEditPage.js**
