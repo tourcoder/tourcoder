@@ -330,8 +330,8 @@ function CommentAdd() {
             <div className="comment-add">
                 <h2>Leave your comment</h2>
                 <form>
-                    <input type="text" placeholder="Name" /><br /><br />
-                    <textarea placeholder="Comment"></textarea><br /><br />
+                    <input type="text" placeholder="Name" />
+                    <textarea placeholder="Comment"></textarea>
                     <button type="submit">Add Comment</button>
                 </form>
             </div>
@@ -388,8 +388,8 @@ function LoginPage() {
             <div className="login">
                 <h2>Login</h2>
                 <form>
-                    <input type="text" placeholder="Username" /><br /><br />
-                    <input type="password" placeholder="Password" /><br /><br />
+                    <input type="text" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
                     <button type="submit">Login</button>
                 </form>
             </div>
@@ -432,11 +432,266 @@ export default App;
 
 **后台帖子列表页面 PostListPage.js**
 
+后台的内容都是需要用户登录后才可以访问的，目前先不做认证，只是先把页面写出来，并完成跳转逻辑，点击帖子的标题跳转到帖子编辑页面
 
+```
+import React from "react";
+import { Fragment } from "react";
+
+function PostListPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/logout">Logout</a>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+            </div>
+            <ul className="post-list">
+                <li><a href="/post_edit">Title</a></li>
+                <li><a href="/post_edit">Title</a></li>
+                <li><a href="/post_edit">Title</a></li>
+            </ul>
+        </Fragment>
+    );
+}
+
+export default PostListPage;
+```
+
+同样，在 app.js 中增加对应的路由
+
+```
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import PostListPage from './pages/PostListPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail" element={<DetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/posts" element={<PostListPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
 
 **后台帖子增加页面 PostAddPage.js**
 
+同样，增加帖子的页面也是需要登录后才可以的，目前还是不做这个处理
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function PostAddPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/logout">Logout</a>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+            </div>
+            <div className="post-add">
+                <h2>Add Post</h2>
+                <form>
+                    <label htmlFor="title">Title</label>
+                    <input type="text" id="title" name="title" />
+                    <label htmlFor="content">Content</label>
+                    <textarea id="content" name="content"></textarea>
+                    <input type="submit" value="Add Post" />
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostAddPage;
+```
+
+在 app.js 中也需要增加对应的路由内容
+
+```
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import PostListPage from './pages/PostListPage';
+import PostAddPage from './pages/PostAddPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail" element={<DetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/posts" element={<PostListPage />} />
+          <Route path="/post_add" element={<PostAddPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
 **后台帖子修改页面 PostEditPage.js**
+
+修改帖子和增加帖子差不多，不同的是修改贴子默认显示了该贴的内容，代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function PostEditPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/logout">Logout</a>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+            </div>
+            <div className="post-edit">
+                <h2>Edit Post</h2>
+                <form>
+                    <input type="text" placeholder="Title" />
+                    <textarea placeholder="Content"></textarea>
+                    <button type="submit">Update</button>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostEditPage;
+```
+
+在 app.js 中依旧需要引入对应的路由
+
+```
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import PostListPage from './pages/PostListPage';
+import PostAddPage from './pages/PostAddPage';
+import PostEditPage from './pages/PostEditPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail" element={<DetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/posts" element={<PostListPage />} />
+          <Route path="/post_add" element={<PostAddPage />} />
+          <Route path="/post_edit" element={<PostEditPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
+**后台评论的管理 PostComment.js**
+
+图省事，将后台评论的管理写成一个组件，放在帖子编辑下面，代码如下
+
+```
+import React from "react";
+import { Fragment } from "react";
+
+function PostComments () {
+    return (
+        <Fragment>
+            <div className="comment-list">
+                <h2>Comments</h2>
+                <ul>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                        <p>Delete</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                        <p>Delete</p>
+                    </li>
+                    <li>
+                        <h3>Name</h3>
+                        <p>Comment</p>
+                        <p>Delete</p>
+                    </li>
+                </ul>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostComments;
+```
+
+同样需要在帖子编辑页面引入该组件
+
+```
+import React from "react";
+import { Fragment } from "react";
+import PostComments from "./PostComment";
+
+function PostEditPage() {
+    return (
+        <Fragment>
+            <div className="topbar">
+                <h1>Blog</h1>
+                <a href="/logout">Logout</a>
+                <a href="/posts">Posts</a>
+                <a href="/post_add">Add</a>
+            </div>
+            <div className="post-edit">
+                <h2>Edit Post</h2>
+                <form>
+                    <input type="text" placeholder="Title" />
+                    <textarea placeholder="Content"></textarea>
+                    <button type="submit">Update</button>
+                </form>
+            </div>
+            <PostComments />
+        </Fragment>
+    );
+}
+
+export default PostEditPage;
+```
+
+到这里，一个基础博客的页面的框架都写完了。
 
 _未完待续_
 
