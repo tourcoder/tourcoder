@@ -1520,6 +1520,94 @@ export default HomePage;
 
 这样，首页就完成了帖子列表的内容，同样的方式，修改后台的帖子列表，前后台的评论列表。
 
+**Firebase**
+
+有一些功能需要写入到数据库，而 mockjs 无法实现这样的功能，这里借助 firebase 来实现这样的功能。先进入到 firebase.google.com，创建一个 Cloud Firestore 的数据库，并且给它预置一个集合 users 和两条数据，其中密码部分没有加密。
+
+![](/imgs/learn-react-step-by-step-003.png)
+
+回到代码处继续，先将 firebase 添加到项目工程中
+
+```
+npm install firebase
+```
+
+在 src 文件夹下创建一个 firebase.js 的文件，创建一个 firebase 的模块
+
+```
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAWdaf9piNHOkcGaq4gLNYtidskd3EvtRBhI",
+  authDomain: "react-demos-blog.firebaseapp.com",
+  projectId: "react-demos-blog",
+  storageBucket: "react-demos-blog.appspot.com",
+  messagingSenderId: "63456776876",
+  appId: "1:2129823432:web:2a0ad498dkl42b4e121a8c"
+};
+
+
+const firebaseapp = initializeApp(firebaseConfig);
+export const db = getFirestore(firebaseapp);
+```
+
+这里所有的参数应该通过 dotENV 的方式载入到项目中，但这里测试用的，就直接在模块文件里写入这些内容。
+
+先写登录功能，登录功能如果结合 firebase 的话，应该是用它的 auth 功能，但在这里我使用常规的接口请求的方式来做，预置的数据在开头已经说明。直接修改 loginpage 里的代码
+
+```
+import React, { Fragment, useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import Navbar from "../../components/navbar";
+import styles from './loginpage.module.css';
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../../firebase";
+
+function LoginPage() {
+    const navigate = useNavigate();
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+
+    const handleLogin = async (event) => {
+        event.preventDefault();
+
+        const q = query(collection(db, "users"), where("username", "==", username));
+        const querySnapshot = await getDocs(q);
+        if (querySnapshot.empty) {
+            alert("User not found");
+            return;
+        }
+        querySnapshot.forEach((doc) => {
+            const data = doc.data();
+            if (data.password === password) {
+                navigate("/posts");
+                return;
+            }
+            alert("Incorrect password");
+        })
+    };
+
+    return (
+        <Fragment>
+            <Navbar />
+            <div className={styles.login}>
+                <h2>Login</h2>
+                <form onSubmit={handleLogin}>
+                    <div className={styles.form}><input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} /></div>
+                    <div className={styles.form}><input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /></div>
+                    <div className={styles.form}><button type="submit">Login</button></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default LoginPage;
+```
+
+从上面代码可以看出，当输入错误的用户名或者密码时，都会弹窗提示错误。而当输入正确的用户名和密码后，会通过 useNavigate 这个钩子函数跳转到后台的 posts 页面去。
+
 _未完待续_
 
 ### 总结
