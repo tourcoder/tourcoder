@@ -1428,6 +1428,98 @@ export default Menubar;
 
 同样还有样式，样式内容和 navbar 的内容一样，然后在其他页面引入这个组件，并去掉自身样式中多余的内容，至此，公用组件的内容也完成。
 
+
+### 数据交互
+
+React 是前端技术，主要关注前端界面，是一个用户界面库。它无法直接和数据库进行交互，它做的事情是将获取到的数据保存在组件的状态中，然后渲染啊呈现这些数据。而获取数据的方式有多种，一般常用的是通过 API 方式获取或第三方实时数据服务获取，比如 Firebase 的 Filestore。
+
+**API**
+
+因为这些是后端的内容，先用 mockjs 来替代一下。目前除了增加和编辑帖子，增加评论外，其他的都是只读接口，可以直接用 mockjs 模拟出数据。至于 mockjs 是什么，可以看其[官网](http://mockjs.com/)介绍。
+
+安装 mockjs
+
+```
+npm install mockjs
+```
+
+在 src 文件夹下新建一个文件 mock.js
+
+```
+import Mock from 'mockjs'
+
+const domain = '/api/'
+
+Mock.mock(domain + 'posts', function () {
+    let result = {
+        code: 200,
+        message: true,
+        data: Mock.mock({
+            'array|5-10': [{
+                'id|+1': 1000000,
+                'title': '@title',
+                'body': '@sentence',
+            }],
+        }),
+    }
+    return result
+})
+```
+
+上面是模拟了 posts 的接口，部分代码解释
+
+- 生成一个 5 到 10 个帖子元素的数组
+
+- 其中 id 是 7 位数，自增；
+
+- title 随机；body 内容随机
+
+需要注意的是，mockjs 只是一个模拟了 API 的响应，并没有启动过一个 web 服务，所以通过 URL 访问是访问不到的。它只是在请求 API 的时候拦截，并将自己的内容呈现出来。将该文件引入到 src/index.js 中，即 `import './mock';`，然后在对应的页面发送请求即可，比如在首页获取所有的帖子，即
+
+先安装 axios
+
+```
+npm install axios
+```
+
+修改首页的代码
+
+```
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { Fragment } from "react";
+import Navbar from "../../components/navbar";
+import styles from './homepage.module.css';
+
+function HomePage() {
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        axios.get('/api/posts')
+        .then(response => {
+            setPosts(response.data.data.array);
+        })
+    }, []);
+
+    return (
+        <Fragment>
+            <Navbar />
+            <ul className={styles.postlist}>
+                {posts.map(post => (
+                    <li key={post.id}>
+                        <a href="/detail">{post.title}</a>
+                    </li>
+                ))}
+            </ul>
+        </Fragment>
+    );
+}
+  
+export default HomePage;
+```
+
+这样，首页就完成了帖子列表的内容，同样的方式，修改后台的帖子列表，前后台的评论列表。
+
 _未完待续_
 
 ### 总结
