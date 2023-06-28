@@ -1666,6 +1666,143 @@ function PostAddPage() {
 export default PostAddPage;
 ```
 
+修改后台帖子的列表的页面，代码如下
+
+```
+import React, { Fragment, useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
+import Menubar from "../../components/menubar";
+import styles from './postlistpage.module.css';
+import { db  } from "../../firebase";
+import { collection, getDocs } from "firebase/firestore";
+
+function PostListPage() {
+    const [posts, setPosts] = useState([]);
+        
+    useEffect(() => {
+        fetchPosts();
+    }, []);
+
+    const fetchPosts = async () => {
+        const querySnapshot = await getDocs(collection(db, "posts"));
+        const posts = querySnapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+        setPosts(posts);
+    };
+
+    return (
+        <Fragment>
+            <Menubar />
+            <ul className={styles.postlist}>
+                {posts.map(post => (
+                    <li key={post.id}>
+                        <Link to={`/post_edit/${post.id}`}>{post.title}</Link>
+                    </li>
+                ))}
+            </ul>
+        </Fragment>
+    );
+}
+
+export default PostListPage;
+```
+
+除了读出 firestore 里面的内容之外，标题链接的方式也做了修改，将 a 标签改成了 react-router-dom 中的 link，因为这里牵涉到一个传参和路径的问题，同时需要修改 app.js 文件中的路由。即 app.js 修改后的内容
+
+```
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import PostListPage from './pages/PostListPage';
+import PostAddPage from './pages/PostAddPage';
+import PostEditPage from './pages/PostEditPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail" element={<DetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/posts" element={<PostListPage />} />
+          <Route path="/post_add" element={<PostAddPage />} />
+          <Route path="/post_edit/:id" element={<PostEditPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
+编辑帖子，需要先通过刚才输入的参数读取到 firestore 中对应的数据，然后填充到输入框中，同时当输入框中有修改，提交后能更新 firestore 中对应的内容，代码如下
+
+```
+import React, { Fragment, useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import Menubar from "../../components/menubar";
+import PostComments from "../PostComment";
+import styles from './posteditpage.module.css';
+import { db } from "../../firebase";
+import { getDoc, updateDoc, doc } from "firebase/firestore";
+
+function PostEditPage() {
+    const { id } = useParams();
+    const [title, setTitle] = useState(''); 
+    const [content, setContent] = useState('');
+
+    useEffect(() => {
+        const fetchPost = async () => {
+            const docRef = doc(db, "posts", id);
+            const docSnap = await getDoc(docRef);
+
+            if (docSnap.exists()) {
+                const data = docSnap.data();
+                setTitle(data.title);
+                setContent(data.content);
+            } else {
+                alert("No such post!");
+            }
+        };
+
+        fetchPost();
+    }, [id]);
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        const docRef = doc(db, "posts", id);
+        await updateDoc(docRef, { title: title, content: content });
+
+        alert('Post updated successfully');
+    };
+
+    return (
+        <Fragment>
+            <Menubar />
+            <div className={styles.postedit}>
+                <h2>Edit Post</h2>
+                <form onSubmit={handleSubmit}>
+                    <div className={styles.form}><input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} /></div>
+                    <div className={styles.form}><textarea placeholder="Content" value={content} onChange={(e) => setContent(e.target.value)}></textarea></div>
+                    <div className={styles.form}><button type="submit">Update</button></div>
+                </form>
+            </div>
+            <PostComments />
+        </Fragment>
+    );
+}
+
+export default PostEditPage;
+```
+
 
 
 _未完待续_
