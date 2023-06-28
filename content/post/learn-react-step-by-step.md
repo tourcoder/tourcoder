@@ -1608,9 +1608,68 @@ export default LoginPage;
 
 从上面代码可以看出，当输入错误的用户名或者密码时，都会弹窗提示错误。而当输入正确的用户名和密码后，会通过 useNavigate 这个钩子函数跳转到后台的 posts 页面去。
 
+接着完成增加帖子与 firebase 交互的内容，增加帖子用到了 firestore 的 addDoc 这个函数，修改后的代码如下
+
+```
+import React, { Fragment, useState } from "react";
+import Menubar from "../../components/menubar";
+import styles from './postaddpage.module.css';
+import { db } from "../../firebase";
+import { addDoc, collection } from 'firebase/firestore';
+
+function PostAddPage() {
+    const [title, setTitle] = useState('');
+    const [content, setContent] = useState('');
+
+    const handleTitleChange = (event) => {
+        setTitle(event.target.value);
+    };
+
+    const handleContentChange = (event) => {
+        setContent(event.target.value);
+    };
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            const docRef = await addDoc(collection(db, "posts"), {
+                title: title,
+                content: content,
+                timestamp: Date.now()
+            });
+            setTitle('');
+            setContent('');
+            alert("Post added successfully");
+        } catch (error) {
+            console.error("Error adding document: ", error);
+        }
+    };
+
+    return (
+        <Fragment>
+            <Menubar />
+            <div className={styles.postadd}>
+                <h2>Add Post</h2>
+                <form onSubmit={handleSubmit}>
+                    <div className={styles.form}><label htmlFor="title">Title</label></div>
+                    <div className={styles.form}><input type="text" id="title" name="title" value={title} onChange={handleTitleChange} /></div>
+                    <div className={styles.form}><label htmlFor="content">Content</label></div>
+                    <div className={styles.form}><textarea id="content" name="content" value={content} onChange={handleContentChange}></textarea></div>
+                    <div className={styles.form}><input type="submit" value="Add Post" /></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostAddPage;
+```
+
+
+
 _未完待续_
 
 ### 总结
 
 所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
-
