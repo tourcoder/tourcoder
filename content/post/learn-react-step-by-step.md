@@ -1920,14 +1920,187 @@ function DetailPage() {
                 <h2>{title}</h2>
                 <p>{content}</p>
             </div>
-            <CommentAdd />
-            <CommentList />
+            <CommentAdd postId={id} />
+            <CommentList postId={id} />
         </Fragment>
     );
 }
 
 export default DetailPage;
 ```
+
+在上面的代码中，也修改了 commentadd 和 commentlist 两个组件的引入方式
+
+```
+<CommentAdd postId={id} />
+<CommentList postId={id} />
+```
+
+通过 id 将这两个组件和详情页面关联起来，这两个组件也要做对应的修改。
+
+评论增加页面代码的修改
+
+```
+import React, { Fragment } from "react";
+import styles from './commentadd.module.css';
+import { useParams } from "react-router-dom";
+import { db } from "../../firebase";
+import { collection, addDoc } from "firebase/firestore";
+
+function CommentAdd() {
+    const { id } = useParams();
+    const [author, setAuthor] = React.useState("");
+    const [content, setContent] = React.useState("");
+
+    const handleAuthorChange = (e) => {
+        setAuthor(e.target.value);
+    };
+
+    const handleContentChange = (e) => {
+        setContent(e.target.value);
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const docRef = await addDoc(collection(db, "comments"), {
+                author: author,
+                content: content,
+                postid: id
+            });
+            setAuthor("");
+            setContent("");
+            alert("Comment added!");
+        } catch (error) {
+            console.error("Error adding post: ", error);
+        }
+    };
+
+    return (
+        <Fragment>
+            <div className={styles.commentadd}>
+                <h2>Leave your comment</h2>
+                <form onSubmit={handleSubmit}>
+                    <div className={styles.form}><input type="text" placeholder="Name" name="author"  value={author} onChange={handleAuthorChange} /></div>
+                    <div className={styles.form}><textarea placeholder="Comment" name="content" value={content} onChange={handleContentChange}></textarea></div>
+                    <div className={styles.form}><button type="submit">Add Comment</button></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default CommentAdd;
+```
+
+评论显示页面
+
+```
+import React, { useEffect, useState } from 'react';
+import { Fragment } from "react";
+import styles from './commentlist.module.css';
+import { useParams } from "react-router-dom";
+import { db } from "../../firebase";
+import { collection, query, where, getDocs } from "firebase/firestore";
+
+
+function CommentList() {
+    const { id } = useParams();
+    const [comments, setComments] = useState([]);
+
+    useEffect(() => {
+        fetchComments();
+    }, []);
+
+    const fetchComments = async () => {
+        const q = query(collection(db, "comments"), where("postid", "==", id));
+        const querySnapshot = await getDocs(q);
+        const comments = querySnapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+        setComments(comments);
+    };
+
+    return (
+        <Fragment>
+            <div className={styles.commentlist}>
+                <h2>Comments</h2>
+                <ul>
+                    {comments.map(comment => (
+                        <li key={comment.id}>
+                            <h3>{comment.author}</h3>
+                            <p>{comment.content}</p>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </Fragment>
+    );
+}
+
+export default CommentList;
+```
+
+同样也将后台编辑页面下面的评论列表更新下，代码更改后如下
+
+```
+import React, { Fragment, useEffect, useState } from "react";
+import styles from './postcomment.module.css';
+import { useParams } from "react-router-dom";
+import { db } from "../../firebase";
+import { collection, query, where, getDocs, doc, deleteDoc } from "firebase/firestore";
+
+function PostComments () {
+    const { id } = useParams();
+    const [comments, setComments] = useState([]);
+
+    useEffect(() => {
+        fetchComments();    
+    }, []);
+
+    const fetchComments = async () => {
+        const q = query(collection(db, "comments"), where("postid", "==", id));
+        const querySnapshot = await getDocs(q);
+        const comments = querySnapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+        setComments(comments);
+    };
+
+    const deleteComment = async (commentId) => {
+        if (window.confirm('Delete this comment?')) {
+            await deleteDoc(doc(db, "comments", commentId));
+            alert('Comment deleted successfully');
+            fetchComments();
+        }
+    };
+
+    return (
+        <Fragment>
+            <div className={styles.commentlist}>
+                <h2>Comments</h2>
+                <ul>
+                    {comments.map(comment => (
+                        <li key={comment.id}>
+                            <h3>{comment.author}</h3>
+                            <p>{comment.content}</p>
+                            <button onClick={() => deleteComment(comment.id)}>Delete</button>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostComments;
+```
+
+同时增加了删除评论的功能。
+
+至此，每个页面的和 firebase 实现了互通。
 
 _未完待续_
 
