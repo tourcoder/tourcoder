@@ -1803,7 +1803,131 @@ function PostEditPage() {
 export default PostEditPage;
 ```
 
+同样前台的首页做对应的修改，从 firestore 里获取到真实的数据，并且将跳转更改成 link
 
+```
+import React, { useEffect, useState, Fragment } from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from "../../components/navbar";
+import styles from './homepage.module.css';
+import { db } from "../../firebase";
+import { collection, getDocs } from "firebase/firestore";
+
+function HomePage() {
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        fetchPosts();
+    }, []);
+
+    const fetchPosts = async () => {
+        const querySnapshot = await getDocs(collection(db, "posts"));
+        const posts = querySnapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+        setPosts(posts);
+    };
+
+    return (
+        <Fragment>
+            <Navbar />
+            <ul className={styles.postlist}>
+                {posts.map(post => (
+                    <li key={post.id}>
+                        <Link to={`/detail/${post.id}`}>{post.title}</Link>
+                    </li>
+                ))}
+            </ul>
+        </Fragment>
+    );
+}
+  
+export default HomePage;
+```
+
+前台的详情页面也做对应的修改，同样 app.js 中的路由也要做修改，修改后 app.js 代码
+
+```
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import PostListPage from './pages/PostListPage';
+import PostAddPage from './pages/PostAddPage';
+import PostEditPage from './pages/PostEditPage';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/detail/:id" element={<DetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/posts" element={<PostListPage />} />
+          <Route path="/post_add" element={<PostAddPage />} />
+          <Route path="/post_edit/:id" element={<PostEditPage />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
+修改后的详情页面代码
+
+```
+import React, { Fragment, useState, useEffect } from "react";
+import Navbar from "../../components/navbar";
+import CommentList from "../CommentList";
+import CommentAdd from "../CommentAdd";
+import styles from './detailpage.module.css';
+import { useParams } from "react-router-dom";
+import { collection, doc, getDoc } from "firebase/firestore";
+import { db } from "../../firebase";
+
+function DetailPage() {
+    const { id } = useParams();
+    const [title, setTitle] = useState('');
+    const [content, setContent] = useState('');
+
+    useEffect(() => {
+        fetchPost();
+    }, [id]);
+
+    const fetchPost = async () => {
+        const docRef = doc(db, "posts", id);
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+            const data = docSnap.data();
+            setTitle(data.title);
+            setContent(data.content);
+        } else {
+            alert("No such post!");   
+        }
+    };
+
+    return (
+        <Fragment>
+            <Navbar />
+            <div className={styles.postdetail}>
+                <h2>{title}</h2>
+                <p>{content}</p>
+            </div>
+            <CommentAdd />
+            <CommentList />
+        </Fragment>
+    );
+}
+
+export default DetailPage;
+```
 
 _未完待续_
 
