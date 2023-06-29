@@ -38,19 +38,13 @@ A(记录/收集)-->B(整理/学习)-->C(保存/回顾)
 
 ### 技术栈
 
-鉴于目前的技术能力以及我想学习一些知识，我会用下面的技术栈来实现这个笔记应用。
-
-- Database：mongoDB
-
-- API：Koa.js + Node.js(javascript)
+最近学习 React 和 Firebase，心血来潮，更新下技术栈，Web 端用 React，后端用 Firebase，应该可以节省不少时间出来。
 
 - Web client：React
 
-- iOS：Swift
-
-- Android：待定
-
 - Browser Extension：Plasmo
+
+- Backend: Firebase
     
 ### 产品特点
 
@@ -60,4 +54,4 @@ A(记录/收集)-->B(整理/学习)-->C(保存/回顾)
 
 我会将它通过 MIT 协议开源在 GitHub 上。地址是 [https://github.com/binge](https://github.com/binge)。
 
-PS. 这篇日志也会随着这个笔记应用的更新不断更新。
+_未完待续_
