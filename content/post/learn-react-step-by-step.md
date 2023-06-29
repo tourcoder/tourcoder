@@ -2102,8 +2102,262 @@ export default PostComments;
 
 至此，每个页面的和 firebase 实现了互通。
 
-_未完待续_
+### 页面访问权限的处理
+
+在这么多的页面组件中，有一些是需要登录后才可以被看到和操作，所以需要设置权限。在 react 中有多个设置权限的方式，常用的有路由守卫，高阶组件，还有一些第三方库，比如 Redux 或者 MobX 等。比如路由守卫的方式，先创建一个 AuthContext 及相关的钩子，在组件文件夹下创建 AuthContext.js 文件，写入下面的代码
+
+```
+import React, { createContext, useContext, useState, useEffect } from "react";
+
+const AuthContext = createContext();
+
+export function useAuth() {
+    return useContext(AuthContext);
+}
+
+export function AuthProvider({ children }) {
+    const [token, setToken] = useState(() => {
+        return window.localStorage.getItem("token");
+    });
+
+    useEffect(() => {
+        if (token) {
+            window.localStorage.setItem("token", token);
+        } else {
+            window.localStorage.removeItem("token");
+        }
+    }, [token]);
+
+    return (
+        <AuthContext.Provider value={{ token, setToken }}>
+            {children}
+        </AuthContext.Provider>
+    );
+}
+```
+
+这里用到了浏览器的 localStorage，通过判断浏览器是否有 token 来判断是否有访问权限。
+
+接着创建一个 useAuthRoute 钩子组件，useAuthRoute.js，写入如下代码
+
+```
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "./AuthContext";
+
+function useAuthRoute() {
+    const { token } = useAuth();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (!token) {
+            navigate("/login");
+        }
+    }, [token, navigate]);
+}
+
+export default useAuthRoute;
+```
+
+然后修改 app.js 中路由文件的内容，修改后的代码
+
+```
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import { AuthProvider } from './components/AuthContext';
+
+import HomePage from './pages/HomePage';
+import DetailPage from './pages/DetailPage';
+import LoginPage from './pages/LoginPage';
+import PostListPage from './pages/PostListPage';
+import PostAddPage from './pages/PostAddPage';
+import PostEditPage from './pages/PostEditPage';
+
+function App() {
+  return (
+    <div className="App">
+      <AuthProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/detail/:id" element={<DetailPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/posts" element={<PostListPage />} />
+            <Route path="/post_add" element={<PostAddPage />} />
+            <Route path="/post_edit/:id" element={<PostEditPage />} />
+          </Routes>
+        </Router>
+      </AuthProvider>
+    </div>
+  );
+}
+
+export default App;
+```
+
+比如要在增加帖子页面需要增加访问权限，则修改后的代码是
+
+```
+import React, { Fragment, useState } from "react";
+import Menubar from "../../components/menubar";
+import styles from './postaddpage.module.css';
+import { db } from "../../firebase";
+import { addDoc, collection } from 'firebase/firestore';
+import useAuthRoute from "../../components/useAuthRoute";
+
+function PostAddPage() {
+    useAuthRoute();    
+
+    const [title, setTitle] = useState('');
+    const [content, setContent] = useState('');
+
+    const handleTitleChange = (event) => {
+        setTitle(event.target.value);
+    };
+
+    const handleContentChange = (event) => {
+        setContent(event.target.value);
+    };
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            const docRef = await addDoc(collection(db, "posts"), {
+                title: title,
+                content: content,
+                timestamp: Date.now()
+            });
+            setTitle('');
+            setContent('');
+            alert("Post added successfully");
+        } catch (error) {
+            console.error("Error adding document: ", error);
+        }
+    };
+
+    return (
+        <Fragment>
+            <Menubar />
+            <div className={styles.postadd}>
+                <h2>Add Post</h2>
+                <form onSubmit={handleSubmit}>
+                    <div className={styles.form}><label htmlFor="title">Title</label></div>
+                    <div className={styles.form}><input type="text" id="title" name="title" value={title} onChange={handleTitleChange} /></div>
+                    <div className={styles.form}><label htmlFor="content">Content</label></div>
+                    <div className={styles.form}><textarea id="content" name="content" value={content} onChange={handleContentChange}></textarea></div>
+                    <div className={styles.form}><input type="submit" value="Add Post" /></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default PostAddPage;
+```
+
+上面代码引入了 useAuthRoute，并在渲染前调用 useAuthRoute() 这个钩子。把其他有访问权限的页面也做相应的处理。同样，在登录页面就要处理，当成功登录后需要保存 token，登录页面修改后的代码如下
+
+```
+import React, { Fragment, useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import Navbar from "../../components/navbar";
+import styles from './loginpage.module.css';
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../../firebase";
+import { useAuth } from "../../components/AuthContext";
+
+function LoginPage() {
+    const { setToken } = useAuth();
+
+    const navigate = useNavigate();
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+
+    const handleLogin = async (event) => {
+        event.preventDefault();
+
+        const q = query(collection(db, "users"), where("username", "==", username));
+        const querySnapshot = await getDocs(q);
+        if (querySnapshot.empty) {
+            alert("User not found");
+            return;
+        }
+        querySnapshot.forEach((doc) => {
+            const data = doc.data();
+            if (data.password === password) {
+                navigate("/posts");
+                setToken(username);
+                return;
+            }
+            alert("Incorrect password");
+        })
+    };
+
+    return (
+        <Fragment>
+            <Navbar />
+            <div className={styles.login}>
+                <h2>Login</h2>
+                <form onSubmit={handleLogin}>
+                    <div className={styles.form}><input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} /></div>
+                    <div className={styles.form}><input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /></div>
+                    <div className={styles.form}><button type="submit">Login</button></div>
+                </form>
+            </div>
+        </Fragment>
+    );
+}
+
+export default LoginPage;
+```
+
+这里我只是简单的保存了下用户名，实际生产力环境下应该保存返回的 token。而登出，则最基本的是清理掉浏览器保存的 token，严格的做法应该也清理服务器端的 token。修改下后台导航的内容，增加登出功能
+
+```
+import React, { Fragment } from "react";
+import styles from './menubar.module.css';
+import { Link } from 'react-router-dom';
+import { useAuth } from "../../components/AuthContext";
+
+function Menubar () {
+    const { setToken } = useAuth();
+    
+    const handleLogout = (event) => {
+        event.preventDefault();
+        setToken(null);
+    };
+
+    return (
+        <Fragment>
+            <div className={styles.topbar}>
+                <h1>Blog</h1>
+                <Link to="/posts">Posts</Link>
+                <Link to="/post_add">Add</Link>
+                <Link to="#" onClick={handleLogout}>Logout</Link>
+            </div>
+        </Fragment>
+    );
+}
+
+export default Menubar;
+```
+
+到这里，一个基于 react 的简单 blog 程序写完了。
+
+### 代码优化
+
+我的这些代码中，还有大量 html 的印记，并没有完全的用 react，最典型的，在一些链接，我用的是 a 标签。
+
+我就不对这些代码进行优化了。
 
 ### 总结
 
-所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
+React 并不难学，但每个知识点一定要掌握，比如 setValue 这类的。强烈建议把官方的文档多看几遍。
+
+官方网址：[https://react.dev](https://react.dev)
+
+我也推荐尚硅谷出的视频教程，B 站就有。
+
+本次学习所有的代码内容均放在 [GitHub](https://github.com/tourcoder/learn-react-step-by-step) 上。
