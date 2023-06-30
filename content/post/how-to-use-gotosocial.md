@@ -78,7 +78,7 @@ tags: ["mastodon", "twitter", "gotosocial", "elonmusk"]
         driver: default
     ```
 
-    我修改了 `container_name`，`GTS_HOST`， `ports` 和 `volumes` 的内容，跟着说明酌情修改即可。这里有个重点，`user` 的内容应该是通过 `cat /etc/passwd` 获取到的。
+    我修改了 `container_name`，`GTS_HOST`， `ports` 和 `volumes` 的内容，跟着说明酌情修改即可。这里有个重点，`user` 的内容应该是通过 `cat /etc/passwd` 获取到的。然后用命令 `docker-compose up -d` 拉起容器。
 
 - 配置反向代理的内容，这里将 8080 端口反代即可。
 
