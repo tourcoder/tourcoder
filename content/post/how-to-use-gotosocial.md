@@ -102,6 +102,12 @@ docker exec -it your_container_name /gotosocial/gotosocial admin account create 
 docker exec -it your_container_name /gotosocial/gotosocial admin account promote --username your_username
 ```
 
+**将用户降格成普通用户**
+
+```
+docker exec -it your_container_name /gotosocial/gotosocial admin account demote --username your_username
+```
+
 ### 如何使用
 
 现在阶段的 gotosocial 同样也没有一个网页来发内容等，可以用 mastodon 支持的一些应用，比如我在 iOS 上用的是 mastodon，更多能用的应用可以查看 [https://joinmastodon.org/apps](https://joinmastodon.org/apps)。更多关于它的玩法，可以多看看 mastodon。
