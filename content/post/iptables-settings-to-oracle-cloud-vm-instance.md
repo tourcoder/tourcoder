@@ -29,16 +29,27 @@ nc -v domain.com port
 
     IP PROTOCOL \- All Protocols(也可以根据自己的情况选择)
 
-- 在 vps 中增加防火墙信息
+- 在 vps 中增加防火墙信息，开放所有的端口
 
     ```
     sudo iptables -P INPUT ACCEPT
     sudo iptables -P FORWARD ACCEPT
     sudo iptables -P OUTPUT ACCEPT
     sudo iptables -F
+    sudo iptables-save
     ```
 
-重启服务器即可。
+当然如果想开放指定的端口，比如开放 8080 端口，格式为 `sudo iptables -I INPUT -p tcp --dport 8080 -j ACCEPT`。
+
+还需要将这些持续化，不然重启服务器就会失效。可以通过 iptables-persistent 来实现持续化
+
+```
+apt install -y iptables-persistent //安装
+netfilter-persistent save //保存并设置为开机启动
+netfilter-persistent reload //重新载入
+```
+
+iptable 规则就永久保存，重启服务器也不会有影响了。
 
 ### 增加 IPv6
 
