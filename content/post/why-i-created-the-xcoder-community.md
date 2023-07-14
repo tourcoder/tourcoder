@@ -2,8 +2,8 @@
 title: "[EN] Why I Created the Xcoder Community"
 slug: "why-i-created-the-xcoder-community"
 author: "Bin Hua"
-date: 2023-07-14T00:27:10Z
-tags: ["", ""]
+date: 2023-07-02T00:27:10Z
+tags: ["xcoder", "twitter"]
 draft: false
 ---
 
