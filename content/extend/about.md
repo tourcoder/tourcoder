@@ -20,3 +20,18 @@ tags: ["关于"]
 这个博客现在是基于 [HUGO](https://gohugo.io)，主题是我写的，都可以拿去免费使用，遵守 [MIT License](/mit) 协议。
 
 内容（包含但不限于图片，视频，音频，文字）是属于我的私人财产，除特别注明外，所有均采用 [Creative Commons BY-NC-ND 4.0（自由转载-保持署名-非商用-禁止演绎）协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)发布，你如需要转载，请先与我取得[联系](mailto:code@tourcoder.com)。
+
+
+#### 介绍
+
+I am Bin Hua.
+
+A developer, blogger and traveler.
+
+Mostly, I work on some [open source projects](https://github.com/tourcoder).
+
+Besides, I work on some interested things that can be found on my [Blog](https://tourcoder.com), [Xcoder](https://xcoder.org/@huabin), [Twitter](https://twitter.com/tourcoder), [YouTube](https://www.youtube.com/@tourcoder) and [ProductHunt](https://www.producthunt.com/@tourcoder).
+
+Infatuatedly, I love games, especially [Starcraft](https://starcraft.com/), [Warcraft](https://playwarcraft3.com/), [Overwatch](https://playoverwatch.com/) and [Hearthstone](https://playhearthstone.com/).
+
+No doubt, I enjoy travelling and love email. Get in touch? Follow me on [Xcoder](https://xcoder.org/@huabin) or [Twitter](https://twitter.com/tourcoder).
