@@ -1,8 +1,8 @@
 ---
-title: "[EN] Why I Do Not Use Threads En"
+title: "[EN] Why I Do Not Use Threads"
 slug: "why-i-do-not-use-threads-en"
 author: "Bin Hua"
-date: 2023-07-14T00:30:13Z
+date: 2023-07-08T00:30:13Z
 tags: ["twitter", "thread"]
 draft: false
 ---
