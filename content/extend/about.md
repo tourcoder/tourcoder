@@ -34,4 +34,4 @@ Besides, I work on some interested things that can be found on my [Blog](https:/
 
 Infatuatedly, I love games, especially [Starcraft](https://starcraft.com/), [Warcraft](https://playwarcraft3.com/), [Overwatch](https://playoverwatch.com/) and [Hearthstone](https://playhearthstone.com/).
 
-No doubt, I enjoy travelling and love email. Get in touch? Follow me on [Xcoder](https://xcoder.org/@huabin) or [Twitter](https://twitter.com/tourcoder).
+No doubt, I enjoy travelling and love email. Get in touch? Send me an [Email](code@tourcoder.com).
