@@ -4,7 +4,7 @@ slug: "youtube-how-to-use-github-copilot-x"
 author: "Bin Hua"
 date: 2023-06-02T01:38:22Z
 tags: ["github", "copilot", "ai"]
-draft: false
+draft: true
 ---
 
 观看地址
