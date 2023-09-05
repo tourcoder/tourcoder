@@ -1,5 +1,5 @@
 ---
-title: "[视频]重庆四日"
+title: "重庆四日"
 slug: "four-days-at-chongqing"
 author: "Bin Hua"
 lastmod: 2019-09-08 05:28:14
@@ -7,7 +7,7 @@ date: 2019-09-08 05:28:14
 tags: ["2019", "旅行", "重庆", "洪崖洞", "Youtube", "视频"]
 ---
 
-该视频在 Youtube 上，[点击观看](https://www.youtube.com/watch?v=P0EZlFCEccI)
+本文配有视频在 Youtube 上，[点击观看](https://www.youtube.com/watch?v=P0EZlFCEccI)
 
 去了一趟重庆，满打满算四天，因为这次去得匆忙，并没有提前做好攻略，甚至连酒店都是临时订的，不过运气不错，酒店靠江交通方便，而且很干净。
 

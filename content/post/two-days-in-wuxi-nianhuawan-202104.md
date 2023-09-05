@@ -1,5 +1,5 @@
 ---
-title: "[视频]拈花湾和灵山大佛两日游"
+title: "拈花湾和灵山大佛两日游"
 slug: "two-days-in-wuxi-nianhuawan-202104"
 author: "Bin Hua"
 lastmod: 2021-04-23T17:51:40Z
@@ -7,7 +7,7 @@ date: 2021-04-23T17:51:40Z
 tags: ["旅行", "视频", "2021", "无锡", "拈花湾", "灵山大佛", "youtube"]
 ---
 
-本视频在 Youtube 上，[点击观看](https://www.youtube.com/watch?v=dKROSagLH3U)
+本文配有视频在 Youtube 上，[点击观看](https://www.youtube.com/watch?v=dKROSagLH3U)
 
 去了一趟无锡，此行的目的地是拈花湾和灵山大佛，算上来时间，一共花了两天时间。
 
