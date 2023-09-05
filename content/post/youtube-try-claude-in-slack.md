@@ -4,7 +4,7 @@ slug: "youtube-try-claude-in-slack"
 author: "Bin Hua"
 date: 2023-04-15T08:45:29Z
 tags: ["AI", "Claude", "ChatGPT", "openai", "slack"]
-draft: false
+draft: true
 ---
 
 Claude 目前还只能在 Slack 试用。总体来说，还不错！
