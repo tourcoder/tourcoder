@@ -3,7 +3,7 @@ title: "记一次从中国银行内陆支行向汇丰银行香港的转账"
 slug: "transfer-from-boc-china-mainland-branch-to-hsbc-hk-branch"
 author: "Bin Hua"
 date: 2023-10-07T11:53:43Z
-tags: ["中国银行", "汇丰银行", "boc", "hsbc"，"转账"]
+tags: ["中国银行", "汇丰银行", "boc", "hsbc", "转账"]
 draft: false
 ---
 
