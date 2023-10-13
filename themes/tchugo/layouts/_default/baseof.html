@@ -2,9 +2,7 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
     {{- partial "head.html" . -}}
     <body class="dark" id="top">
-        <div id="wrapper">
         {{- block "main" . }}{{- end }}
-        </div>
         {{- partial "footer.html" . -}}
     </body>
 </html>
