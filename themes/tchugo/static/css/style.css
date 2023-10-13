@@ -34,7 +34,7 @@ del {
   margin-inline-start: auto;
   margin-inline-end: auto;
   line-height: 60px;
-  padding: 24px;
+  padding: 24px 0;
 }
 .nav a.sitetitle {
   color: rgba(255,255,255,0.8);
