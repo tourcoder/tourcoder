@@ -34,7 +34,7 @@ del {
   margin-inline-start: auto;
   margin-inline-end: auto;
   line-height: 60px;
-  padding: 24px 0;
+  padding: 24px;
 }
 .nav a.sitetitle {
   color: rgba(255,255,255,0.8);
@@ -211,4 +211,14 @@ input[type=submit] {
   height: 44px;
   width: 80px;
   line-height: 44px;
+}
+.intro {width:90%;height:100%;margin: 222px auto;color: rgba(255,255,255,0.8)}
+.intro h1{font-size:32px;}
+.intro p{padding:10px 0;}
+.intro p.name{margin:30px 0;font-weight:400;}
+@media only screen and (max-width: 812px) {
+  .intro {
+    width: 80%;
+    margin-top: 99px;
+  }
 }
