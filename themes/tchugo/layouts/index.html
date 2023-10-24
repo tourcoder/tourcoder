@@ -8,6 +8,13 @@
       </h2>
       {{ .Content }}
     {{ end }}
+
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+        {{ range $paginator.Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+    {{ partial "paginator" . }}
+  {{ end }}
 </div>
 
 {{ end }}
