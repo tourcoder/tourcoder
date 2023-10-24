@@ -1,20 +1,15 @@
 {{ define "main" }}
 
-<div class="intro">
-    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.homeSection) }}
-    {{ range $paginator.Pages.ByPublishDate.Reverse }}
-      <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
-          {{ .Title }}
-      </h2>
-      {{ .Content }}
-    {{ end }}
-
-    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
-        {{ range $paginator.Pages }}
-            {{ .Render "summary" }}
+<div id="wrapper">
+    <ul class="bloglist">
+        {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+        {{ range $paginator.Pages.ByPublishDate.Reverse }}
+          <li class="blog-item">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+            <a href="{{ .Permalink }}">{{.Title}}</a>
+          </li>
         {{ end }}
-    {{ partial "paginator" . }}
-  {{ end }}
+    </ul>
 </div>
 
 {{ end }}

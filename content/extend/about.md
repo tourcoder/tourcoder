@@ -15,6 +15,20 @@ tags: ["关于"]
 
 在公元 2021 年 11 月 24 日，我整理了下这个博客，将它开源在 [GitHub](https://github.com/tourcoder/tourcoder)，不过通过 [https://tourcoder.com](https://tourcoder.com) 的阅读体验应该更好。
 
+#### 订阅
+
+**本站博文订阅**
+
+RSS 方式订阅
+
+[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
+
+**播客内容订阅**
+
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686)
+
+[播客 RSS 方式订阅](https://tourcoder.com/podcasts.xml)
+
 #### LICENSE
 
 这个博客现在是基于 [HUGO](https://gohugo.io)，主题是我写的，都可以拿去免费使用，遵守 [MIT License](/mit) 协议。
