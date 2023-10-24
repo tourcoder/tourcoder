@@ -4,7 +4,7 @@ slug: "why-i-do-not-use-threads-en"
 author: "Bin Hua"
 date: 2023-07-08T00:30:13Z
 tags: ["twitter", "thread"]
-draft: true
+draft: false
 ---
 
 Recently, Zuckerberg launched a twitter-like application threads, which is likely to break the record of breaking 100 million people in a very short time, a record that was just broken by openAI couple of months ago. For a while, Zuckerberg and Musk were at loggerheads, but I don't want to talk about that, and here's why I don't use threads.
