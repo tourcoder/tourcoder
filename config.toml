@@ -9,22 +9,23 @@ theme = "tchugo"
 publishDir = "public"
 disableKinds = ["taxonomy", "term"]
 
+paginate = 9
+
 [params]
   author = "Bin HUA" #replace with your name
   lazyImage = true
   slogan = "Do Faith No Fear | 信仰永恒，无所畏惧 :)"
   description = "代码旅行是我的个人博客，它集合了我的学习笔记，播客以及视频的内容。分享我的所学，所思，所想，所玩。"
   keywords = "代码旅行, tourcoder, 代码, 旅行, 推特, twitter, 播客, podcast, 博客, blog, blogger, youtube, github, 开源, opensource"
-  homeSection = 'home'
 
 [permalinks]
-  post = "/:slug"
+  blog = "/:slug"
   extend = "/:slug"
 
 [menu]
   [[menu.main]]
   name = "博客"
-  url = "/post"
+  url = "/blog"
   weight = 1
   [[menu.main]]
   name = "书影"
