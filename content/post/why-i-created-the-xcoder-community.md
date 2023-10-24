@@ -4,7 +4,7 @@ slug: "why-i-created-the-xcoder-community"
 author: "Bin Hua"
 date: 2023-07-02T00:27:10Z
 tags: ["xcoder", "twitter"]
-draft: true
+draft: false
 ---
 
 You know, it's been almost 7 years since I registered the domain name xcoder.org in 2016. I never knew what kind of product to make with this domain name until recently.
