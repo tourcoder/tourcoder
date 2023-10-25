@@ -1,9 +1,13 @@
 ---
-title: "书单影单"
+title: "读书观影"
 slug: "booklist"
 author: "Bin Hua"
 date: 2015-01-01 09:02:00
 tags: ["读书", "电影", "观后感", "读后感"]
+menu:
+  main:
+    name: "读书观影"
+    weight: 2
 ---
 
 **2023 年**
