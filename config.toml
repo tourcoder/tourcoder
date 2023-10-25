@@ -21,24 +21,6 @@ paginate = 9
 [permalinks]
   blog = "/:slug"
   extend = "/:slug"
-
-[menu]
-  [[menu.main]]
-  name = "博客"
-  url = "/blog"
-  weight = 1
-  [[menu.main]]
-  name = "书影"
-  url = "/booklist"
-  weight = 2
-  [[menu.main]]
-  name = "关于"
-  url = "/about"
-  weight = 3
-  [[menu.main]]
-  name = "搜索"
-  url = "/search"
-  weight = 4
   
 [markup]
   [markup.highlight]

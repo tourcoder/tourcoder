@@ -4,6 +4,10 @@ slug: "search"
 author: "Bin Hua"
 date: 2015-01-01 09:09:00
 tags: ["search", "搜索"]
+menu:
+  main:
+    name: "搜索"
+    weight: 4
 ---
 
 本站搜索是基于 Google，如果你没有翻墙，将无法使用该搜索功能
