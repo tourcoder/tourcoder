@@ -2,12 +2,13 @@
 
 <div id="wrapper">
     <div class="intro">
-    <h1>代码旅行</h1>
-    <h3>程序员，独立博客主</h3>
-    <p>很多时候，我在写自己的<a href="/blog" target="_blank">博客</a>和开发<a href="https://github.com/tourcoder" target="_blank">一些产品</a>，并以此为生。</p>
-    <p>除此之外，我还对一些事情感兴趣，比如<a href="/">运动</a>，<a href="/booklist" target="_blank">阅读，看电影</a>和<a href="https://www.youtube.com/@tourcoder" target="_blank">随手拍视频</a>。</p>
-    <p>当然, 我喜欢玩游戏, 特别是<a href="https://starcraft.com" target="_blank">星际争霸</a>，<a href="https://playwarcraft3.com" target="_blank">魔兽争霸</a>，<a href="https://playoverwatch.com" target="_blank">守望先锋</a>和<a href="https://playhearthstone.com" target="_blank">炉石传说</a>。</p>
-    <p>有时候，我也会在 <a href="https://twitter.com/tourcoder" target="_blank">Twitter</a> 上分享一些信息，我非常喜欢 <a href="mailto:code@tourcoder.com" target="_blank">Email</a>，它是和我联系的最好途径。</p> 
+    {{ with .Site.GetPage "extend" "info.md" }}
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    {{ else }}
+        <p></p>
+    {{ end }}
+
     </div>
     <div class="blog">
       <ul class="bloglist">
