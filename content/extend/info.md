@@ -3,7 +3,7 @@ title: "代码旅行"
 slug: "info"
 author: "Bin Hua"
 date: 2023-10-25T15:22:41+08:00
-tags: ["我的信息", ""]
+tags: ["我的信息", "我是谁"]
 draft: false
 ---
 
