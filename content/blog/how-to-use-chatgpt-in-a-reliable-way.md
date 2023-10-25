@@ -13,9 +13,9 @@ draft: false
 
 这个办法有一定的局限性，但很可靠。
 
-1. 你有一台 iPhone/iPad 
+1. 一台 iPhone/iPad 
 
-2. 你有一张外币信用卡，比如 visa，万事达等
+2. 一张外币信用卡，比如 visa，万事达等
 
 #### ChatGPT 账号
 
