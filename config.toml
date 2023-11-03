@@ -2,6 +2,7 @@ baseURL = "https://tourcoder.com/"
 languageCode = "en-us"
 
 title = "代码旅行"
+logo = "/imgs/logo.jpg"
 copyright = "TOURCODER.COM"
 
 theme = "tchugo"
