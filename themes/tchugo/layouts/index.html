@@ -3,6 +3,7 @@
 <div id="wrapper">
     <div class="intro">
     {{ with .Site.GetPage "extend" "info.md" }}
+      <img src="{{ .Logo }}" alt="logo" />
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     {{ else }}
