@@ -1,5 +1,6 @@
 ---
 title: "代码旅行"
+logo: "/imgs/logo.png"
 slug: "info"
 author: "Bin Hua"
 date: 2023-10-25T15:22:41+08:00
