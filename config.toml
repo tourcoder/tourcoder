@@ -22,6 +22,7 @@ paginate = 9
 [permalinks]
   blog = "/:slug"
   extend = "/:slug"
+  projects = "/:slug"
   
 [markup]
   [markup.highlight]

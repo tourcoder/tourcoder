@@ -13,7 +13,7 @@
     <div class="projects bottomspace">
       <h3>产品</h3>
       <ul class="projectlist">
-        {{ range first 9 (where .Site.Pages "Section" "projects") }}
+        {{ range (where .Site.Pages "Section" "projects") }}
         {{ if ne .File.BaseFileName "_index" }}
           <li class="project-item">
             <a href="{{ .Permalink }}">{{.Title}}</a>
@@ -25,7 +25,7 @@
     <div class="blog bottomspace">
       <h3>博客</h3>
       <ul class="bloglist">
-        {{ range first 9 (where .Site.Pages "Section" "blog") }}
+        {{ range first 9 (where site.RegularPages "Type" "in" .Site.Params.mainSections) }}
           <li class="blog-item">
             <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
             <a href="{{ .Permalink }}">{{.Title}}</a>

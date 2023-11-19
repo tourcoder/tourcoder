@@ -6,8 +6,10 @@
     "axe/structure": [
       "default",
       {
-        "list": "off"
+        "list": "off",
+        "definition-list": "off"
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
