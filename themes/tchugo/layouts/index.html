@@ -1,17 +1,29 @@
 {{ define "main" }}
 
 <div id="wrapper">
-    <div class="intro">
-    {{ with .Site.GetPage "extend" "info.md" }}
-      <img src="{{ .Site.Params.logo }}" alt="logo" class="logo" />
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
-    {{ else }}
-        <p></p>
-    {{ end }}
-
+    <div class="intro bottomspace">
+      {{ with .Site.GetPage "extend" "info.md" }}
+        <img src="{{ .Site.Params.logo }}" alt="logo" class="logo" />
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      {{ else }}
+          <p></p>
+      {{ end }}
     </div>
-    <div class="blog">
+    <div class="projects bottomspace">
+      <h3>产品</h3>
+      <ul class="projectlist">
+        {{ range first 9 (where .Site.Pages "Section" "projects") }}
+        {{ if ne .File.BaseFileName "_index" }}
+          <li class="project-item">
+            <a href="{{ .Permalink }}">{{.Title}}</a>
+          </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+    <div class="blog bottomspace">
+      <h3>博客</h3>
       <ul class="bloglist">
         {{ range first 9 (where .Site.Pages "Section" "blog") }}
           <li class="blog-item">
