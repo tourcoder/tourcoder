@@ -4,9 +4,6 @@
 <div class="blogdetail">
   <header>
     <h2>{{ .Title }}</h2>
-    {{ if ne .Type "extend" }}
-    <p id="versions"><a href="http://translate.google.com/translate?js=n&sl=zh-CN&tl=en&u={{ .Permalink | absURL }}" target="_blank">Switch To Native Language</a></p>
-    {{ end }}
   </header>
 
   <div class="blogcontent">
