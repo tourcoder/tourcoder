@@ -7,7 +7,12 @@
       {{ range (where site.RegularPages "Type" "projects") }}
         <dd class="project-item">
           <a href="{{ .Permalink }}">{{.Title}}</a>
-          <span class="tag"></span>
+          {{ with .Params.tags }}
+              {{ range . }}
+                <span class="tag">{{ . }}</span>
+              {{ end }}
+          {{ end }}
+          
         </dd>
       {{ end }}
   </dl>
