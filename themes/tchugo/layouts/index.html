@@ -13,7 +13,7 @@
     <div class="projects bottomspace">
       <h3>产品</h3>
       <ul class="projectlist">
-        {{ range (where .Site.Pages "Section" "projects") }}
+        {{ range (where .Site.RegularPages "Type" "projects") }}
         {{ if ne .File.BaseFileName "_index" }}
           <li class="project-item">
             <a href="{{ .Permalink }}">{{.Title}}</a>
