@@ -6,7 +6,7 @@
       <dt><h2>产品</h2></dt>
       {{ range (where site.RegularPages "Type" "projects") }}
         <dd class="project-item">
-          <a href="{{ .Permalink }}">{{.Title}}</a>
+          <a href="{{ .Permalink }}">{{.Title}}</a>: <span class="summary">{{ .Summary }}</span>
           {{ with .Params.tags }}
               {{ range . }}
                 <span class="tag">{{ . }}</span>

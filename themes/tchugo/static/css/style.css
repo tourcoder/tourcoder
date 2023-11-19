@@ -68,7 +68,7 @@ del {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.blog-item time {
+.blog-item time, span.summary {
   display: inline-block;
   min-width: 90px;
   margin-right: 10px;
