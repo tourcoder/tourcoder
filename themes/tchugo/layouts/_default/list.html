@@ -4,12 +4,11 @@
   {{ if eq .Type "projects" }}
     <dl class="projectlist">
       <dt><h2>产品</h2></dt>
-      {{ range (where .Site.Pages "Section" "projects") }}
-      {{ if ne .File.BaseFileName "_index" }}
+      {{ range (where site.RegularPages "Type" "projects") }}
         <dd class="project-item">
           <a href="{{ .Permalink }}">{{.Title}}</a>
+          <span class="tag"></span>
         </dd>
-      {{ end }}
       {{ end }}
   </dl>
 {{ else }}

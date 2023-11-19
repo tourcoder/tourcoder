@@ -223,6 +223,13 @@ input[type=submit] {
 .intro h3 {margin: 6px auto 32px;}
 .intro p.name{margin:30px 0;font-weight:400;}
 .bottomspace {margin-bottom: 60px;}
+.tag {
+  background: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.6);
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 1px;
+}
 @media only screen and (max-width: 812px) {
   .intro {
     margin-top: 30px;
