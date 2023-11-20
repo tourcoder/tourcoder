@@ -10,12 +10,14 @@ draft: false
 
 One-click installation script for Docker and Docker Compose
 
-### How to use
+#### How to use
 
 Run following command under root permissions
 
 ```
 curl https://raw.githubusercontent.com/tourcoder/Dockerman/master/dockerman.sh | bash
 ```
+
+#### Links
 
 [Open Source on GitHub](https://github.com/tourcoder/dockerman)

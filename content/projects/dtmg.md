@@ -16,6 +16,8 @@ We all know that Google adds its tracking links to every search result link.
 
 This extension removes Google tracking links and helps you to access target links directly.
 
+#### Links
+
 [DTMG on Mac AppStore](https://apps.apple.com/app/dtmg-target-links/id1595441111)
 
 [Sourcecode on GitHub](https://github.com/tourcoder/DTMG)
