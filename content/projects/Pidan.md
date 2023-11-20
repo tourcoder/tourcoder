@@ -1,7 +1,7 @@
 ---
 title: "Pidan"
 slug: "Pidan"
-summary: "A lightweight bash script to initialize a personalized gitignore file for your project. "
+summary: "A lightweight bash script for gitignore"
 author: "Bin Hua"
 date: 2023-11-20T09:58:12+08:00
 tags: ["Bash", "Git", "Open Source"]
