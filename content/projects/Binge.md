@@ -8,4 +8,8 @@ tags: ["Note", "iOS", "macOS", "Desktop"]
 draft: false
 ---
 
-[GitHub](https://github.com/Binge)
+A note app
+
+#### Links
+
+[OpenSource on GitHub](https://github.com/Binge)
