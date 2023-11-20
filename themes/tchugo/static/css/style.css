@@ -62,17 +62,17 @@ del {
 .bloglist, .blog-item, .projectlist, .project-item {
   list-style: none;
 }
-.blog-item, .project-item {
+.blog-item {
   margin: 11px 0;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.project-item {
+  margin: 11px 0;
+}
 .projectlist-item {
   margin: 11px 0 30px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 .blog-item time, span.summary {
   display: inline-block;
