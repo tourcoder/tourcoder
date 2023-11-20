@@ -10,6 +10,14 @@
         "definition-list": "off"
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
+    "axe/language": "off",
+    "meta-charset-utf-8": "off"
   }
 }

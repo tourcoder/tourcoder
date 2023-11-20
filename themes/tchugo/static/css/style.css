@@ -68,6 +68,12 @@ del {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.projectlist-item {
+  margin: 11px 0 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 .blog-item time, span.summary {
   display: inline-block;
   min-width: 90px;
