@@ -1,10 +1,10 @@
 ---
 title: "Glv"
 slug: "glv"
-summary: "Simple bash script to manage Go versions and GOPATH settings "
+summary: "Simple bash script to manage Go versions and GOPATH settings"
 author: "Bin Hua"
 date: 2023-11-19T23:17:05+08:00
-tags: ["Golang version manager"]
+tags: ["Bash", "Scripts", "Open Source"]
 draft: false
 ---
 
