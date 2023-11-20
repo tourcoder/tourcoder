@@ -10,12 +10,14 @@ draft: false
 
 A class that handles operations on mongoDB
 
-### How to use
+#### How to use
 
 1. Download and put `mongodbOPT` in your project.
 
 2. Import it
 
 3. It will work.
+
+#### Links
 
 [Open Source on GitHub](https://github.com/tourcoder/mongodbOPT)

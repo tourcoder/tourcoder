@@ -10,4 +10,6 @@ draft: false
 
 `glv` is a simple bash script to manage Go versions and GOPATH settings.
 
+#### Links
+
 [GLV on GitHub](https://github.com/glv-go)
