@@ -16,7 +16,7 @@
         {{ range (where .Site.RegularPages "Type" "projects") }}
         {{ if ne .File.BaseFileName "_index" }}
           <li class="project-item">
-            <p><a href="{{ .Permalink }}">{{.Title}}</a></p>
+            <div><a href="{{ .Permalink }}">{{.Title}}</a></div>
             <span class="summary">{{ .Summary }}</span>
           </li>
         {{ end }}
