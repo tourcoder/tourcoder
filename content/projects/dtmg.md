@@ -1,5 +1,5 @@
 ---
-title: "DTMG - Target Links"
+title: "DTMG"
 slug: "dtmg"
 summary: "Access target links directly "
 author: "Bin Hua"
