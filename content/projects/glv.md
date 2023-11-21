@@ -1,5 +1,5 @@
 ---
-title: "Glv"
+title: "GLV"
 slug: "glv"
 summary: "Simple bash script to manage Go versions and GOPATH settings"
 author: "Bin Hua"

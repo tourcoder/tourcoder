@@ -12,16 +12,13 @@
     </div>
     <div class="projects bottomspace">
       <h3>产品</h3>
-      <ul class="projectlist">
+      <div class="projectsgroup">
         {{ range (where .Site.RegularPages "Type" "projects") }}
         {{ if ne .File.BaseFileName "_index" }}
-          <li class="project-item">
-            <div><a href="{{ .Permalink }}">{{.Title}}</a></div>
-            <span class="summary">{{ .Summary }}</span>
-          </li>
+          <a class="project-item" href="{{ .Permalink }}">{{.Title}}</a>
         {{ end }}
         {{ end }}
-      </ul>
+      </div>
     </div>
     <div class="blog bottomspace">
       <h3>博客</h3>
