@@ -27,3 +27,5 @@ So, why can't I create a Mastodon node? This node serves the digital nomads work
 That's [xcoder.org](https://xcoder.org/@about)
 
 I've temporarily built this community with gotosocial, another kind of mastodon. If interested, feel free to visit xcoder.org and join in.
+
+updated@20231125, I apologize for closing this community. There are many such communities available now.Instead, I will develop a client for such communities.
