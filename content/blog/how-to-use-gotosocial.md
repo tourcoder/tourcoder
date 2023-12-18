@@ -110,6 +110,34 @@ docker exec -it your_container_name /gotosocial/gotosocial admin account promote
 docker exec -it your_container_name /gotosocial/gotosocial admin account demote --username your_username
 ```
 
+**更改某个用户的密码**
+
+```
+docker exec -it your_container_name /gotosocial/gotosocial admin account password --username your_username --password your_new_password
+```
+
+### 数据的导出和导入
+
+除了 sqlite 的文件之外，还可以将数据导出成一个 json 文件
+
+```
+docker exec -it your_container_name /gotosocial/gotosocial admin export --path db.json
+```
+
+也可以将该文件导入到实例中
+
+```
+docker exec -it your_container_name /gotosocial/gotosocial admin import --path db.json
+```
+
+需要注意的是，导出是导出到容器，而非主机中，如果要将导出的文件存放到主机中，可以使用 docker 的 cp 命令，即
+
+```
+docker cp container_id:/filename /local_path_on_host/
+```
+
+反之则是将主机本地的文件复制到容器里。
+
 ### 如何使用
 
 现在阶段的 gotosocial 同样也没有一个网页来发内容等，可以用 mastodon 支持的一些应用，比如我在 iOS 上用的是 mastodon，更多能用的应用可以查看 [https://joinmastodon.org/apps](https://joinmastodon.org/apps)。更多关于它的玩法，可以多看看 mastodon。
