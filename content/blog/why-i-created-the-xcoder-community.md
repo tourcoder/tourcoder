@@ -28,4 +28,6 @@ That's [xcoder.org](https://xcoder.org/@about)
 
 I've temporarily built this community with gotosocial, another kind of mastodon. If interested, feel free to visit xcoder.org and join in.
 
-updated@20231125, I apologize for closing this community. There are many such communities available now.Instead, I will develop a client for such communities.
+updated@20231125, I apologize for closing this community. There are many such communities available now. Instead, I will develop a client for such communities.
+
+update@20231221, I reopen this community several days ago because I can't change the data generated under this domain name to another domain name to continue using it. BTW, it seems Twitter is experiencing another downtime. 
