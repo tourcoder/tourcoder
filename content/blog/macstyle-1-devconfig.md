@@ -26,7 +26,7 @@ tags: ["macOS", "Git"]
 
 - Screenshot
 
-    ![](/imgs/macstyle-1-devconfig-01.png)
+    ![](https://storage.tourcoder.com/tcblog/macstyle-1-devconfig-01.png)
 
 - Theme
 

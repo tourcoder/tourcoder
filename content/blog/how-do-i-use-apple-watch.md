@@ -9,7 +9,7 @@ tags: ["Apple", "App", "applewatch", "智能手表"]
 
 在之前的文章「[Apple Watch S4 使用体验](/apple-watch-s4/)」中我说过，现在的 Apple Watch 对我来说还是鸡肋一块。但这不代表 Apple Watch 没有可玩的地方。
 
-![](/imgs/how-do-i-use-apple-watch-01.PNG)
+![](https://storage.tourcoder.com/tcblog/how-do-i-use-apple-watch-01.PNG)
 
 这是我手表的表盘，表盘名字是 Infograph Modular，我所设置的内容有日期，时间，心跳，运动，空气质量和电量。
 
@@ -51,6 +51,6 @@ tags: ["Apple", "App", "applewatch", "智能手表"]
 
 这是我现在的表盘，主题是 Modular Compact
 
-![](/imgs/how-do-i-use-apple-watch-02.PNG)
+![](https://storage.tourcoder.com/tcblog/how-do-i-use-apple-watch-02.PNG)
 
 非常喜欢，一个时间，一个日期，一个运动，一个分呗。

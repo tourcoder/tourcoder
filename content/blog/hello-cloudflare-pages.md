@@ -20,17 +20,17 @@ tags: ["CloudFlare", "GitHub", "Pages"]
 
 - 我用的是 hugo，则在构建部署设置里，命令选择 hugo，输出目录和根目录不修改，环境变量变量名为 `HUGO_VERSION`，值 `0.81.0`，为 hugo 指定版本，使用当前 CloudFlare 默认版本会出现编译通不过的情况。生产力分支选择发布分支，我选择的是 master，当所有的内容合并到 master 分支后，启动部署。
 
-![](/imgs/hello-cloudflare-pages-001.png)
+![](https://storage.tourcoder.com/tcblog/hello-cloudflare-pages-001.png)
 
 配置到此完成，测试下。更改博客的内容，提交并合并到 Master 分支，此时其他分支开始构建预览，并会在 GitHub 给出结果。
 
-![](/imgs/hello-cloudflare-pages-002.png)
+![](https://storage.tourcoder.com/tcblog/hello-cloudflare-pages-002.png)
 
-![](/imgs/hello-cloudflare-pages-003.png)
+![](https://storage.tourcoder.com/tcblog/hello-cloudflare-pages-003.png)
 
 当构建成功后，CloudFlare 将自动完成后面的发布等工作。
 
-![](/imgs/hello-cloudflare-pages-004.png)
+![](https://storage.tourcoder.com/tcblog/hello-cloudflare-pages-004.png)
 
 #### 需要注意
 

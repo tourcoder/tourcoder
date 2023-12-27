@@ -33,14 +33,14 @@ draft: false
 
 更为讽刺的是，当初马斯克开始祸害推特时，大家不满，他弄了两次投票问大家他是不是应该下台，两次投票大家都要求他下台，第一次被他作废，第二次他说他会找一个足够愚蠢的人来接替他。后来这个愚蠢的人找到了，但只是一个傀儡，马斯克依旧在后面操控一切。而在这次，这个傀儡居然大言不惭的发推说他们在乎大家的感受，还特别大写 YOU 强调重视我们。
 
-![](/imgs/musk-vs-zuckerberg-01.png)
+![](https://storage.tourcoder.com/tcblog/musk-vs-zuckerberg-01.png)
 
 这是原推，下面一群人在嘲讽她，当然我也会怼回去，给她留下了下面这段话，我也给她大写的 YOU。
 
-![](/imgs/musk-vs-zuckerberg-02.png)
+![](https://storage.tourcoder.com/tcblog/musk-vs-zuckerberg-02.png)
 
 关于推特和 threads，扎克伯格的一句话我还是蛮认同的，应该有一个十亿人交流沟通的公共平台，推特有机会这么做，但它却无视。
 
-![](/imgs/musk-vs-zuckerberg-03.png)
+![](https://storage.tourcoder.com/tcblog/musk-vs-zuckerberg-03.png)
 
 而现在看来，马斯克不是不知道推特的使命，只是他不想这么做，他只是想把推特做成自己的一个玩具罢了。

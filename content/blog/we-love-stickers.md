@@ -15,9 +15,9 @@ tags: ["sticker", "贴纸"]
 
 章鱼猫，英文名 Octocat，是 GitHub 的吉祥物，其实这里倒是建议每个科技创业公司都应该弄个吉祥物，总觉得一个吉祥物是企业文化的一部分，下面是章鱼猫照片图
 
-![](/imgs/we-love-stickers-01.jpg)
+![](https://storage.tourcoder.com/tcblog/we-love-stickers-01.jpg)
 
-![](/imgs/we-love-stickers-02.jpg)
+![](https://storage.tourcoder.com/tcblog/we-love-stickers-02.jpg)
 
 怎么样，不错吧，这里还有一个神奇的网站 https://octodex.github.com/ 里面有各式章鱼猫。
 
@@ -27,7 +27,7 @@ tags: ["sticker", "贴纸"]
 
 把我喜欢的公司排名的话，Google 应该是排在前三位的，所以，对于他们家的 sticker，以前我都非常喜欢。
 
-![](/imgs/we-love-stickers-03.jpg)
+![](https://storage.tourcoder.com/tcblog/we-love-stickers-03.jpg)
 
 但有点遗憾的是，Google sticker 的质量没有 GitHub 的质量好，而且去年参加 Google 开发者大会，送的贴纸质量更差，我都没有用。
 
@@ -39,6 +39,6 @@ Google sticker 我现在基本都不贴了。
 
 我自己也设计制作过一些 sticker，这些年下来 20 款还是有的。
 
-![](/imgs/we-love-stickers-04.jpeg)
+![](https://storage.tourcoder.com/tcblog/we-love-stickers-04.jpeg)
 
 这是前两年我一台只贴了自制的 Sticker 的电脑，我一般从某宝找商家做。

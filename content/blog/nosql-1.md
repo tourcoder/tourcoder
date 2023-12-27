@@ -53,15 +53,15 @@ NoSQL 和传统的关系型数据库不一样，它是一种非关系型的，�
 
 目前有很多的 NoSQL 数据库，目前我使用的数据库是 [mongodb](https://www.mongodb.com) ，简单介绍下它的安装，在 Mac OSX 上使用。
 
-![](/imgs/nosql-1-01.png)
+![](https://storage.tourcoder.com/tcblog/nosql-1-01.png)
 
 下载
 
-![](/imgs/nosql-1-02.png)
+![](https://storage.tourcoder.com/tcblog/nosql-1-02.png)
 
 解压
 
-![](/imgs/nosql-1-03.png)
+![](https://storage.tourcoder.com/tcblog/nosql-1-03.png)
 
 在根目录下创建 `/data/db` 文件夹，并赋予他们权限
 

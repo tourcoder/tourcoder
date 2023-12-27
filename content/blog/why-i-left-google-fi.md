@@ -8,7 +8,7 @@ tags: ["Gmail", "Google", "Google Fi"]
 
 先上一张图
 
-![](/imgs/why-i-left-google-fi-01.png)
+![](https://storage.tourcoder.com/tcblog/why-i-left-google-fi-01.png)
 
 没错，作为一个不在美国本土的用户，我被 Google Fi 抛弃了。
 
@@ -18,7 +18,7 @@ tags: ["Gmail", "Google", "Google Fi"]
 
 直到一个月前，我收到一封邮件
 
-![](/imgs/why-i-left-google-fi-02.png)
+![](https://storage.tourcoder.com/tcblog/why-i-left-google-fi-02.png)
 
 根据它的 TOS，Google Fi 的目标用户是主要在美国本土的人，即便是所属领土也不行。网上也有一些方案去解决这个问题，也有人解决成功了，但都是治标不治本的方案，而且要求很多，比如要求你有美国银行账户的流水。
 
@@ -40,7 +40,7 @@ tags: ["Gmail", "Google", "Google Fi"]
 
 如果你的账户“自带”了 Google Voice 账户，访问 fi.google.com，点左边的菜单 `Account` 选择 `Your plan`，然后点击右侧最下面的 `Leave Google Fi service`，然后选择 Google Voice 那一项，然后下一步下一步的进行下去即可。
 
-![](/imgs/why-i-left-google-fi-03.png)
+![](https://storage.tourcoder.com/tcblog/why-i-left-google-fi-03.png)
 
 会得到这么一个结果， 一般等待 24 小时后，号码将出现在 Google Voice。
 

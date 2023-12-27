@@ -15,7 +15,7 @@ Starting VM instance "***" failed. Error: The zone 'projects/***/zones/***' does
 
 字面意思就是该区现在没有资源，让转区或者稍后再试。想着要找回 VM 中的数据，而多次尝试启动 VM 总是失败，搜索官方文档找到了这篇[参考文章](https://cloud.google.com/compute/docs/instances/moving-instance-across-zones)，这篇文章说可以将当前实例移动到其他有资源的区，随即按上面的步骤操作。
 
-![](/imgs/get-dbs-from-terminated-vm-of-google-cloud.png)
+![](https://storage.tourcoder.com/tcblog/get-dbs-from-terminated-vm-of-google-cloud.png)
 
 如果上图，初始化并得到授权
 

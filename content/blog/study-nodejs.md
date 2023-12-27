@@ -21,13 +21,13 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
 
         下载对应的 msi 或 exe 文件，双击安装，如下图，一并安装的还有 Node 包管理器 (Node Package Manager 又叫 NPM)
         
-        ![](/imgs/study-nodejs-install_on_windows_01.PNG)
+        ![](https://storage.tourcoder.com/tcblog/study-nodejs-install_on_windows_01.PNG)
         
-        ![](/imgs/study-nodejs-install_on_windows_02.PNG)
+        ![](https://storage.tourcoder.com/tcblog/study-nodejs-install_on_windows_02.PNG)
 
         可以自由的选择安装位置
         
-        ![](/imgs/study-nodejs-install_on_windows_03.PNG)
+        ![](https://storage.tourcoder.com/tcblog/study-nodejs-install_on_windows_03.PNG)
 
         选择安装的内容
 
@@ -39,11 +39,11 @@ Chrome V8 Javascript 引擎上的运行时(runtime)。官方网站 [http://nodej
 
         下载对应的 APK 文件，双击安装，如下图，一并安装的还有 Node 包管理器
         
-        ![](/imgs/study-nodejs-install_on_osx_01.png)
+        ![](https://storage.tourcoder.com/tcblog/study-nodejs-install_on_osx_01.png)
 
         在多个继续的点击后，进入最后一步
         
-        ![](/imgs/study-nodejs-install_on_osx_02.png)
+        ![](https://storage.tourcoder.com/tcblog/study-nodejs-install_on_osx_02.png)
 
         可以看出，Node 的安装位置是 `/usr/local/bin/node`，而 NPM 的安装位置是 `/usr/local/bin/npm`
 

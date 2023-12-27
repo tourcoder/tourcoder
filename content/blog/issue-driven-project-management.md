@@ -19,7 +19,7 @@ tags: ["git", "GitHub", "项目管理", "issue"]
 
     所有的项目相关的内容都会在 Issue 中，结合 GTD 思想将 Issue 分为六个标签，分别为 feature, bug, processing, done, pass, abnormail
     
-    ![](/imgs/issue-driven-project-management.PNG)
+    ![](https://storage.tourcoder.com/tcblog/issue-driven-project-management.PNG)
 
     - feature
 

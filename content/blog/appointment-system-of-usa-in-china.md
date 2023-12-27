@@ -13,27 +13,27 @@ tags: ["签证", "美国领事馆", "公证服务"]
 
 进入下图页面
 
-![](/imgs/appointment-system-of-usa-in-china-000.png)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-000.png)
 
 点击上图右侧的`进行预约`
 
-![](/imgs/appointment-system-of-usa-in-china-001.png)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-001.png)
 
 选择国家和想要预约的领事馆，我在上海，即选了上海
 
-![](/imgs/appointment-system-of-usa-in-china-002.png)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-002.png)
 
 选择上面的 `Make Appointment`
 
-![](/imgs/appointment-system-of-usa-in-china-003.png)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-003.png)
 
 选择需要的服务，并勾选最下面的 `I have read..`，我是需要公正服务，所以选择了第三项
 
-![](/imgs/appointment-system-of-usa-in-china-004.png)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-004.png)
 
 选择自己的日期，黄色表示可以选择的
 
-![](/imgs/appointment-system-of-usa-in-china-005.png)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-005.png)
 
 选中日期后，填写表格内容，从上到下是
 
@@ -67,7 +67,7 @@ Email 地址
 
 在第一个窗口处，把上面打印的那张纸给工作人员看，告诉她我要办理的事情，然后她给了我两张号码牌，如图
 
-![](/imgs/appointment-system-of-usa-in-china-006.jpg)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-006.jpg)
 
 接着进入安检，因为里面是不允许带手机等数码设备，所以手机我免费寄存在安检处了。过了安检，进入了办事大厅，等着叫号。
 
@@ -75,6 +75,6 @@ Email 地址
 
 因为我所办理的业务需要付费，所以工作人员告诉我，让我等收费的九号窗口叫到我去付费，很快就付费完成。这里说明下，上海签证处的收费方式是能够支付美元的信用卡（visa/mastercard），美元现金，人民币现金。其他均不支持。
 
-![](/imgs/appointment-system-of-usa-in-china-007.jpg)
+![](https://storage.tourcoder.com/tcblog/appointment-system-of-usa-in-china-007.jpg)
 
 付费完成后，继续等叫号，该最后的章和签字，工作人员会要求你举起右手宣誓，保证自己的资料正确等等。他盖完章后，业务办理完成。

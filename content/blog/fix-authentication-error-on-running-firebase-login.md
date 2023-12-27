@@ -9,7 +9,7 @@ tags: ["firebase", "node"]
 
 写了个简单的笔记和收藏夹的合体应用，懒得再去搭建后端，使用了 firebase，挺方便的。
 
-![](/imgs/fix-authentication-error-on-running-firebase-login-01.jpg)
+![](https://storage.tourcoder.com/tcblog/fix-authentication-error-on-running-firebase-login-01.jpg)
 
 不过在验证时总是出现问题，即执行命令 `firebase login` 时会出错
 

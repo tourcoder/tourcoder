@@ -13,7 +13,7 @@ tags: ["bug", "outlook", "微软", "hotmail", "代码", "microsoft todo", "task"
 
     当写一封邮件，在收件人地方输入任何一个字母，就会弹出窗口，如下图
     
-    ![](/imgs/fixed-suggested-contacts-on-outlook-dot-com-and-more-00.png)
+    ![](https://storage.tourcoder.com/tcblog/fixed-suggested-contacts-on-outlook-dot-com-and-more-00.png)
     
     比如，当我输入一个字母 a 时候，这时候弹出以前联系过的 Email 中包含 a 的人的 Email 地址，即便你删除了你的通讯录中所有人，删除了所有的邮件，这些人依旧被**微软记录并保存了下来**，在你每次输入的时候，会弹出提示。在这些 Email 旁边有个叉号，可以删除掉，但是！这里的删除是假的，下次登录，还是会出现。搜索下后发现，不只是我有这个问题，很多人都有这个问题，最近一次反馈这个问题的人，在这个月 5 日说他总是在这里看到曾经恐吓他，威胁要杀死他的狗的人 email 地址出现，他都要崩溃了，可以去[这里](https://outlook.uservoice.com/forums/601444-the-new-outlook-com/suggestions/31179604-cannot-delete-the-suggested-contacts)看。
     
@@ -39,7 +39,7 @@ tags: ["bug", "outlook", "微软", "hotmail", "代码", "microsoft todo", "task"
     
     在旧版的 Tasks 界面下，点击左上角的九宫格，在弹出的窗口中右键点击 Mail 的图标，选择新窗口或者新标签打开，这时候你就进入到旧版的 Mail 中了，如下图。
     
-    ![](/imgs/fixed-suggested-contacts-on-outlook-dot-com-and-more-01.png)
+    ![](https://storage.tourcoder.com/tcblog/fixed-suggested-contacts-on-outlook-dot-com-and-more-01.png)
     
     此时，可以新建一封邮件，点收件人那边，在弹出的 Suggested Contacts 中，点击每个人后面的叉号，下次新建邮件就不会再出现这些人了。
     

@@ -171,7 +171,7 @@ tags: ["Gmail", "ubuntu", "邮局系统", "iredmail", "workmail"]
 
 有人按我的教程成功架设了，但只能接收到邮件却发不出邮件，如果遇到这种情况，第一时间去检查 log，log 的地址为 `/var/log/maillog`，打开 log，比如下面
 
-![](/imgs/install-iredmail-on-ubuntu.png)
+![](https://storage.tourcoder.com/tcblog/install-iredmail-on-ubuntu.png)
 
 这里的 log 在说无法连接网络，其实市面上绝大部分的 vps 服务商都将 25 这个端口给封掉的，需要联系他们开启。
 

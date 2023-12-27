@@ -11,7 +11,7 @@ tags: ["workflow", "alfred"]
 
 恰好最近在做开发的时候，需要访问不同端口的 localhost，索性就开发了个 workflow，方便打开不同端口的 localhost。效果如下
 
-![](/imgs/make-a-workflow-for-alfred-07.png)
+![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-07.png)
 
 输入 `qp`，空格，再输入端口，回车即可调用默认浏览器访问对应端口的 localhost。
 
@@ -19,37 +19,37 @@ tags: ["workflow", "alfred"]
 
 1. 进入到 `Alfred` 中 `Workflow` 选项，点击底部 `help` 旁边的加号，选择 `Blank Workflow`
 
-    ![](/imgs/make-a-workflow-for-alfred-01.png)
+    ![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-01.png)
     
     填写对应的内容，保存。
     
 2. 点击左侧刚才保存的 Workflow，在右侧工作区的空白处点击右键
 
-    ![](/imgs/make-a-workflow-for-alfred-02.png)
+    ![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-02.png)
     
     选择 `Inputs->Keyword` 
     
 3. 在弹出的窗口中填写对应的内容
 
-    ![](/imgs/make-a-workflow-for-alfred-03.png)
+    ![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-03.png)
     
     keyword 即是呼起功能的关键词，输入说明，然后保存。
     
 4. 再在工作区空白处点击右键
 
-    ![](/imgs/make-a-workflow-for-alfred-04.png)
+    ![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-04.png)
     
     选择 `Actions->Open URL`
     
 5. 同样在弹出的窗口中填写对应的内容
 
-    ![](/imgs/make-a-workflow-for-alfred-05.png)
+    ![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-05.png)
     
     这里的 `{query}` 即是输入的内容，下面选择默认浏览器，然后保存。
     
 6. 最后用一根线将两个链接起来即可。
 
-    ![](/imgs/make-a-workflow-for-alfred-06.png)
+    ![](https://storage.tourcoder.com/tcblog/make-a-workflow-for-alfred-06.png)
     
 这个 workflow 就开发完成了，如果想要给别人使用，只要点工作区右上角的分享按钮即可。
 

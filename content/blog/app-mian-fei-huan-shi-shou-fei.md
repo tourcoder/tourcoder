@@ -9,7 +9,7 @@ tags: ["iPhone", "Apple", "iOS", "macOS"]
 
 今天看了下iTunes上的 Rewind 2010，并制作了一张图，请看下图
 
-![](/imgs/app-mian-fei-huan-shi-shou-fei-01.jpg)
+![](https://storage.tourcoder.com/tcblog/app-mian-fei-huan-shi-shou-fei-01.jpg)
 
 从这张图中，我们不难发现一个现象，似乎排名前十的应用都是以中国国内为主的应用，而收费的不是这样的情况。这样说明了一些或大或小的问题：
 

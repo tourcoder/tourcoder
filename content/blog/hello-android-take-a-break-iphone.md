@@ -11,11 +11,11 @@ tags: ["iPhone", "Android"]
 
 先看下两个手机首屏的对比
 
-![](/imgs/iphoneandroid_01.png)
+![](https://storage.tourcoder.com/tcblog/iphoneandroid_01.png)
 
 安卓手机
 
-![](/imgs/iphoneandroid_02.PNG)
+![](https://storage.tourcoder.com/tcblog/iphoneandroid_02.PNG)
 
 iPhone
 

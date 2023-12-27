@@ -78,7 +78,7 @@ CLI 即 command-line interface 的简写，中文称命令行界面，是指可�
         
     到这一步基本完成了一个 `hello world` 的 `clt`，执行上面 `package.json` 中 `bin` 中 `key` 的命令即可得到 `hello world`。
     
-    ![](/imgs/how-to-build-a-command-line-tool-in-nodejs-001.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-build-a-command-line-tool-in-nodejs-001.png)
         
 - 发布 `CLT`
 

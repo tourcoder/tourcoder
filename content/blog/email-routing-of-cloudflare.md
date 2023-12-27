@@ -9,7 +9,7 @@ tags: ["Cloudflare", "email", "routing"]
 
 今天收到了 Cloudflare Email Routing 的试用的通知邮件
 
-![](/imgs/email-routing-of-cloudflare-001.jpg)
+![](https://storage.tourcoder.com/tcblog/email-routing-of-cloudflare-001.jpg)
 
 立刻做了下测试。
 
@@ -17,7 +17,7 @@ Cloudflare Email Routing 中文翻译电子邮件路由，Cloudflare 给它的�
 
 配置完如下图，我的域名是 `tourcoder.com`
 
-![](/imgs/email-routing-of-cloudflare-002.jpg)
+![](https://storage.tourcoder.com/tcblog/email-routing-of-cloudflare-002.jpg)
 
 自定义地址：可以设定一个基于域名的邮箱地址，可以将发到该设定邮箱的邮件转发到指定的邮箱，比如我使用了 `code@tourcoder.com`，可以添加多个。
 

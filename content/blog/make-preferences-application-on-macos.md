@@ -25,28 +25,28 @@ tags: ["macOS", "App", "swift", "objc", "Productivity"]
 
 在 XCode 中新建一个项目
 
-![](/imgs/make-preferences-application-on-macos-01.png)
+![](https://storage.tourcoder.com/tcblog/make-preferences-application-on-macos-01.png)
 
 这里选择对应的模板：`Prefernce Pane`
 
-![](/imgs/make-preferences-application-on-macos-02.png)
+![](https://storage.tourcoder.com/tcblog/make-preferences-application-on-macos-02.png)
 
 输入项目名等信息，点击`下一步`直到创建完成。
 
-![](/imgs/make-preferences-application-on-macos-03.png)
+![](https://storage.tourcoder.com/tcblog/make-preferences-application-on-macos-03.png)
 
 创建好后的项目左侧文件，整个文件挺少，是我喜欢的方式，需要注意的是这里自动生成的文件 `BatteryBird.tiff` 是一个空文件，然后就是编码过程，等代码写完，测试通过后，按 `command + B` 对代码进行编译。
 
 PS. 从上面的文件结构可以看出，它默认支持的是 Objc，而不是 Swift，如果需要用 Swift 来写，[这里](https://stackoverflow.com/questions/32041677/using-swift-with-an-os-x-preference-pane-plugin)的一个问答很有帮助。
 
-![](/imgs/make-preferences-application-on-macos-04.png)
+![](https://storage.tourcoder.com/tcblog/make-preferences-application-on-macos-04.png)
 
 编译通过，在 `Products` 文件夹下的文件 `BatteryBird.prefPane` 点右键，选择 `Open with External Editor`，此时会自动打开，需要安装
 
-![](/imgs/make-preferences-application-on-macos-05.png)
+![](https://storage.tourcoder.com/tcblog/make-preferences-application-on-macos-05.png)
 
 点击安装，在安装完成后，即可在 `System Preferences` 中看到相关的 icon 了。
 
-![](/imgs/make-preferences-application-on-macos-06.png)
+![](https://storage.tourcoder.com/tcblog/make-preferences-application-on-macos-06.png)
 
 这基本就是 `Preferences Application` 的开发过程。

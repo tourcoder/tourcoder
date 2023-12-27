@@ -9,7 +9,7 @@ tags: ["GitHub", "Codespaces", "试用"]
 
 刚在玩「炉石」，突然来了一封邮件，是 Github Codespaces 开放通知，我能试用 GitHub Codespaces 了，先简单的试用一下。
 
-![](/imgs/try-github-codespaces-001.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-001.jpg)
 
 ### GitHub Codespaces 是什么？
 
@@ -25,25 +25,25 @@ tags: ["GitHub", "Codespaces", "试用"]
 
 进入到 [Codespaces](https://github.com/codespaces) 的主界面，点击 `New codespace`
 
-![](/imgs/try-github-codespaces-002.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-002.jpg)
 
 选择相关的参数，比如仓库，分支等，然后点击创建即可。
 
-![](/imgs/try-github-codespaces-003.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-003.jpg)
 
 点击创建后，即开始自动配置，这个过程会花费一些时间，但是会自动完成。完成后，两种选择
 
-![](/imgs/try-github-codespaces-004.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-004.jpg)
 
 选择一，等待，然后会自动在当前浏览器中打开
 
-![](/imgs/try-github-codespaces-005.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-005.jpg)
 
 选择二，点击下面的`在 VS Code Desktop 中打开`，它会自动打开 VS Code，询问是否安装相关的插件
 
-![](/imgs/try-github-codespaces-006.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-006.jpg)
 
-![](/imgs/try-github-codespaces-007.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-007.jpg)
 
 选择安装即可。到此，基本上就可以使用了。
 
@@ -51,7 +51,7 @@ tags: ["GitHub", "Codespaces", "试用"]
 
 我尝试在浏览器端打开的 Codespace 增加了点内容，然后关闭该页面，结果显示，这些内容是保存在 Codespace 中的，没有提交到 GitHub 上。
 
-![](/imgs/try-github-codespaces-008.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-008.jpg)
 
 我尝试用 iPad pro 上的 Chrome 打开它，一切正常。
 
@@ -59,7 +59,7 @@ tags: ["GitHub", "Codespaces", "试用"]
 
 进入到 [Codespaces](https://github.com/codespaces) 的主界面，可以看到刚才创建的 Codespaces，可以对它进行相关的操作。
 
-![](/imgs/try-github-codespaces-009.jpg)
+![](https://storage.tourcoder.com/tcblog/try-github-codespaces-009.jpg)
 
 比如可以将当前的修改后的内容保存成一个新的分支，或者停用，甚至删除这个 Codespace。
 

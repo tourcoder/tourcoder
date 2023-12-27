@@ -17,39 +17,39 @@ Google 官方也给出了一个政策，可以通过付钱的方式永久买断�
 
 首先访问 [https://voice.google.com](https://voice.google.com) 登录账号密码。
 
-![](/imgs/make_your_gv_permanent_001.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_001.png)
 
 点击左上角的菜单，选择最下面的 **Legacy Google Voice**
 
-![](/imgs/make_your_gv_permanent_002.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_002.png)
 
 选择 **Phones**，然后点击号码后面的 **Change/Port**
 
-![](/imgs/make_your_gv_permanent_003.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_003.png)
 
 在弹出的窗口中，可以选择 **I want a new number**，这里也可以选择后面的选项，它是将其他服务商的号码转移到 Google Voice，不过目前 Google Voice 支持的转移还很少。
 
-![](/imgs/make_your_gv_permanent_004.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_004.png)
 
 点这里的**Continue**，继续下一步，这里已经说明要花的总费用，一共 30 刀。
 
-![](/imgs/make_your_gv_permanent_005.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_005.png)
 
-![](/imgs/make_your_gv_permanent_006.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_006.png)
 
 根据自己的喜好，给自己找一个好的号码，勾选想要的号码，然后点**Continue**，直到付费完成，这里是先支付 10 刀。
 
-![](/imgs/make_your_gv_permanent_008.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_008.png)
 
 在 10 刀的费用支付完成后，可以在界面里看到账户里有两个号码了，一个是新号码，一个是老号码。其中老号码后面有一个日期，那是这个老号码将会被删除的日期。
 
 这时要做的就是点老号码后面的 **Make permanent**，继续支付剩下的 20 刀。
 
-![](/imgs/make_your_gv_permanent_009.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_009.png)
 
 在支付完这 20 刀后，账户里老号码也被买断了。
 
-![](/imgs/make_your_gv_permanent_010.png)
+![](https://storage.tourcoder.com/tcblog/make_your_gv_permanent_010.png)
 
 自己可以通过 **Make primary** 随意切换哪一个是主号，哪一个是副号。
 

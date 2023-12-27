@@ -11,7 +11,7 @@ tags: ["docker", "笔记"]
 
 **架构**
 
-![](/imgs/study-docker-01.jpg)
+![](https://storage.tourcoder.com/tcblog/study-docker-01.jpg)
 
 左边是传统的虚拟化架构，右边是 Docker 技术。
 
@@ -35,7 +35,7 @@ Docker 有三要素，镜像 (Image)，容器 (Container) 和 仓库 (Repository
 brew cask install docker
 ```
 
-![](/imgs/study-docker-02.png)
+![](https://storage.tourcoder.com/tcblog/study-docker-02.png)
 
 安装完成。
 

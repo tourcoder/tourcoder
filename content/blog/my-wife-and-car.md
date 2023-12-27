@@ -13,23 +13,23 @@ tags: ["夫妻", "开车", "交规"]
 
 但该吐槽还是要吐槽的，有时间我就画一画，更新更新！
 
-![](/imgs/wifedrivescar001.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar001.jpg)
 
-![](/imgs/wifedrivescar002.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar002.jpg)
 
-![](/imgs/wifedrivescar003.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar003.jpg)
 
-![](/imgs/wifedrivescar004.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar004.jpg)
 
-![](/imgs/wifedrivescar005.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar005.jpg)
 
-![](/imgs/wifedrivescar006.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar006.jpg)
 
-![](/imgs/wifedrivescar007.jpg)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar007.jpg)
 
 #### 日常段子
 
-![](/imgs/wifedrivescar008.PNG)
+![](https://storage.tourcoder.com/tcblog/wifedrivescar008.PNG)
 
 **更新于2020.06.17**
 

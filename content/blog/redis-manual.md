@@ -63,7 +63,7 @@ Redis 有多种安装方式
 
     在前台启动 redis 服务，启动后效果如下
     
-    ![](/imgs/redis-manual-01.png)
+    ![](https://storage.tourcoder.com/tcblog/redis-manual-01.png)
     
 #### bin 文件夹下命令工具
 

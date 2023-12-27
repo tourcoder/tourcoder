@@ -26,9 +26,9 @@ macOS 的系统很好安装，目前新买任何 Mac 设备，比如MacBook，Ma
 
 按自己的习惯，进行一些设置。在系统的主界面，点击左上角的苹果图标，选择系统设置，即可进入到系统的设置界面。如图
 
-![](/imgs/macos-manual-01.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-01.png)
 
-![](/imgs/macos-manual-02.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-02.png)
 
 这里是系统设置的内容都在这里，因为我当前是在虚拟机的 macOS 里截图，有些内容显示不太一样，但不妨碍。
 
@@ -36,11 +36,11 @@ macOS 的系统很好安装，目前新买任何 Mac 设备，比如MacBook，Ma
 
 刚进入系统，语言默认是英文的，点击设置界面的 Language & Region，点左边下面的 + 号，在弹出的列表中选择简体中文，然后将简体中文拖到 English 上面。如图
 
-![](/imgs/macos-manual-03.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-03.png)
 
 这时点返回按钮，会提示你是否要重启，选择重启电脑，在重启完成后，你就进入中文界面，依旧点击左上角的苹果图标，进入设置界面。
 
-![](/imgs/macos-manual-04.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-04.png)
 
 这里的每一个设置的内容都描述的很清楚，我不一一讲解，可以按自己的自由习惯去设置，我只说一些通用的设置。
 
@@ -48,7 +48,7 @@ macOS 的系统很好安装，目前新买任何 Mac 设备，比如MacBook，Ma
 
 我很喜欢给我的电子设备起名，给这些设备起名是件很有趣的事情，点击上图系统偏好设置中的共享，这里的电脑名称默认是`你的用户名's Mac**`，我将它改名成了 Feb，为啥叫这名，好记。
 
-![](/imgs/macos-manual-05.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-05.png)
 
 这里是计算机名字，也可以通过命令行解决，在终端中输入
 
@@ -68,7 +68,7 @@ sudo scutil --set HostName 主机名
 
 这里主要牵涉到的一个设置是安装网上下载的第三方应用，点击系统偏好设置里的安全性与隐私，即可进入下图界面
 
-![](/imgs/macos-manual-06.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-06.png)
 
 注意系统的改变
 
@@ -76,15 +76,15 @@ sudo scutil --set HostName 主机名
 
 点右上角的搜索放大镜，在弹出的窗口中输入`终端`
 
-![](/imgs/macos-manual-07.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-07.png)
 
 双击终端，在弹出的终端界面中输入 `sudo spctl --master-disable`
 
-![](/imgs/macos-manual-08.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-08.png)
 
 回车，这里会需要你输入密码，输入密码后，再系统偏好设置，隐藏的那个选项回来了。
 
-![](/imgs/macos-manual-09.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-09.png)
 
 选择这个选项，你就可以使用任何网上下载的应用了。
 
@@ -94,13 +94,13 @@ sudo scutil --set HostName 主机名
 
 至今为止，我们还是只能输入英文，那么如何输入中文呢？依旧是进入系统偏好设置，点击里面的键盘，然后同样是点击左下角的 + 号，选择中文输入法即可，当然你也可以选择其他你需要的输入法。
 
-![](/imgs/macos-manual-10.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-10.png)
 
 **快捷键**
 
 有了两个输入法，自然想通过键盘实现快速切换，同样系统偏好设置里点键盘，选择快捷键 - 输入法，勾选对应的内容即可。
 
-![](/imgs/macos-manual-11.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-11.png)
 
 这样我可以自由的通过键盘切换输入法了。
 
@@ -114,17 +114,17 @@ sudo scutil --set HostName 主机名
 
     点击左上角的苹果图标，选择 App Store，即可在里面下载你要想要的软件。
     
-    ![](/imgs/macos-manual-12.png)
+    ![](https://storage.tourcoder.com/tcblog/macos-manual-12.png)
 
 - 从网上下载
 
     有些软件并没有上线到 App Store，那么你需要在网上下载，通常得到的是一个后缀为 dmg 的文件，双击该文件，然后将文件里的应用文件直接拖入到应用程序这个文件夹中即可。
     
-    ![](/imgs/macos-manual-13.png)
+    ![](https://storage.tourcoder.com/tcblog/macos-manual-13.png)
 
     当然绝大部分软件，都会有提示告诉你如何拖入到应用程序这个文件夹中。比如 qq，下载后得到的 dmg 文件，双击该文件同意后，出现下图界面。
     
-    ![](/imgs/macos-manual-14.png)
+    ![](https://storage.tourcoder.com/tcblog/macos-manual-14.png)
 
     这么简单的提示，相信大家都能懂。
 
@@ -150,7 +150,7 @@ Tips：在终端中输入 `softwareupdate -i -a` 可以帮你升级软件哟
 
 **基础开发环境**
 
-![](/imgs/macos-manual-15.jpg)
+![](https://storage.tourcoder.com/tcblog/macos-manual-15.jpg)
 
 相信不少人见过这张图，具体事什么地方的场景不知道，但觉得每一个程序员都应该有一台 Mac 做开发，哪怕你是做 dotNet 开发的人。推荐的理由也很简单，Mac 系统和它的硬件体验真的太好了，省事，能让你安心于自己的工作内容，减少了很多折腾的时间。
 
@@ -172,15 +172,15 @@ Terminal，中文名叫终端，又叫命令行应用，这是一个神器，在
 
 它的位置：`应用程序`文件夹里面 `Utilities` 文件夹里。
 
-![](/imgs/macos-manual-16.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-16.png)
 
 双击它，即可打开，界面如下
 
-![](/imgs/macos-manual-17.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-17.png)
 
 因为以后会多次用到它，所以把它锁定在 Dock 上，在 Dock 上的终端上点右键，选择选项->保留在 Dock。
 
-![](/imgs/macos-manual-18.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-18.png)
 
 这样，你可以随时点 Dock 上的终端图标打开它了。
 
@@ -194,15 +194,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 中途会要求你输入密码，完成后就可以出现下面的界面。
 
-![](/imgs/macos-manual-19.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-19.png)
 
 继续在终端里输入 `vi ~/.zshrc`，即可编辑它的配置文件，具体配置颜色等，请看它的官网 `http://ohmyz.sh/`，我配置后的效果如下
 
-![](/imgs/macos-manual-20.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-20.png)
 
 我的配置可以去看[这篇博文](/macstyle-1-devconfig/)，设置截图如下
 
-![](/imgs/macos-manual-21.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-21.png)
 
 更新 ZSH，直接在终端中输入 `upgrade_oh_my_zsh`，有时候会提示
 
@@ -233,13 +233,13 @@ cd ~/.oh-my-zsh
 
 在终端中输入上面代码，回车，等待一会安装完成，安装过程中，它会需要到你的密码，如图
 
-![](/imgs/macos-manual-22.png)，有时候会遇到速度慢的问题，可以查看[这篇文章](https://tourcoder.com/homebrew-slowly/)。
+![](https://storage.tourcoder.com/tcblog/macos-manual-22.png)，有时候会遇到速度慢的问题，可以查看[这篇文章](https://tourcoder.com/homebrew-slowly/)。
 
 **使用**
 
 Homebrew 的使用命令也极其的少，在终端中输入 `brew help`，即可查看它的常规使用等，如下图
 
-![](/imgs/macos-manual-23.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-23.png)
 
 命令也非常简单，比如
 
@@ -275,7 +275,7 @@ brew cleanup
 
 既然 Homebrew 能安装包了，能否安装软件呢，答案是肯定的，用 Homebrew Cask 在终端中，可以一条命令安装软件，在另外一个方面解决了 App Store 下载慢，经常下载不下来的问题。
 
-![](/imgs/macos-manual-24.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-24.png)
 
 比如我通过 `brew cask install google-chrome` 命令安装了 Google Chrome 浏览器，瞬间完成。
 
@@ -302,7 +302,7 @@ brew link git //关联 git
 brew update && brew upgrade //更新升级
 ```
 
-![](/imgs/macos-manual-25.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-25.png)
 
 稍等一会，即可安装完成。
 
@@ -310,7 +310,7 @@ brew update && brew upgrade //更新升级
 
 `which git` 查看当前 Git 的位置，通常应该是 `/usr/local/bin/git`
 
-![](/imgs/macos-manual-26.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-26.png)
 
 注意，我这里显示的 git 信息并不是由 brew 安装而来，有时候显示的还是旧的版本，其实是需要更新下，编辑 `~/.zshrc` 文件，因为我用的是 zsh，默认是编辑 `~/.bash_profile`，具体是看使用的是哪个 shell。
 
@@ -1076,7 +1076,7 @@ http://mamp.info/ 是它的官网，可惜被墙了，大家可以翻墙去看�
 
 这个软件有免费版和收费版，不只是 PHP，mysql，现在包含的东西越来越多，而且还自带了版本切换的功能，着实很方便。
 
-![](/imgs/macos-manual-27.jpg)
+![](https://storage.tourcoder.com/tcblog/macos-manual-27.jpg)
 
 如图，安装好后，配置也非常简单，点几下即可。
 
@@ -1084,19 +1084,19 @@ PHP
 
 当然我们也可以通过上篇提到的 Homebrew 来安装 PHP，我们选择安装最新的 PHP7，其实在 macOS 中是自带 PHP 的，在终端中输入 `php -v` 可以看到自带的 PHP 版本信息。
 
-![](/imgs/macos-manual-28.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-28.png)
 
 输入 `brew search php7`，找到要安装的版本，执行安装命令 `brew install` 你所选择的版本
 
-![](/imgs/macos-manual-29.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-29.png)
 
 安装完成后，再次输入 `php -v`，检查版本发现依旧还是旧的版本，看上面的图话，你会知道怎么做，然后再次查看版本
 
-![](/imgs/macos-manual-30.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-30.png)
 
 另外我们也可以让 FPM 开机运行
 
-![](/imgs/macos-manual-31.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-31.png)
 
 需要注意的是，因为墙的关系，这里安装 PHP 7 会有问题，请自行解决翻墙问题，你也可以去 https://homebrew.bintray.com/bottles-php/ 下载你需要的 PHP 版本，然后将它放入到brew 缓存目录，然后再用安装命令安装
 
@@ -1104,7 +1104,7 @@ PHP
 
 Mysql 也可以用同样的方式来安装，在终端中执行 `brew install mysql` 命令。
 
-![](/imgs/macos-manual-32.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-32.png)
 
 在一段等待时间后，即可安装完成。执行 `brew services start mysql` 命令即可启动 mysql，同样你也可以通过 mysql.server 命令来操作 mysql，比如
 
@@ -1117,7 +1117,7 @@ mysql.server stop 表示停止 mysql
 
 想要对数据库操作等，在终端中输入 `mysql -uroot` 进入 mysql 管理界面。
 
-![](/imgs/macos-manual-33.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-33.png)
 
 比如显示当前所有的数据库，则可以用命令 `show databases`; 更多的 mysql 命令建议去官方网站学习下。你可能注意到我在进入 mysql 的时候是没有使用密码的，那是因为默认 root 没有密码，你可以通过命令给 root 增加密码，命令格式如下
 
@@ -1125,7 +1125,7 @@ mysql.server stop 表示停止 mysql
 mysqladmin -u root password 'new-password'
 ```
 
-![](/imgs/macos-manual-34.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-34.png)
 
 上图我通过命令将 root 的密码改成了 123456，当我再次不用密码登录的时候，就会提示没有登录权限，因为没有密码。
 
@@ -1141,13 +1141,13 @@ Node.js 的安装方式有用安装文件 Pkg 安装，源码安装，Homebrew �
 
 你也可以在终端中输入 `brew install node` 安装最新稳定版的 Node.js。
 
-![](/imgs/macos-manual-35.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-35.png)
 
 其他两种安装方式大同小异，这里就不一一介绍。
 
 安装完成后，你可以在终端中输入 `node -v` 查看 Node.js 是否正常安装，并且当前所使用的版本，如下图。
 
-![](/imgs/macos-manual-36.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-36.png)
 
 **NVM**
 
@@ -1157,7 +1157,7 @@ Node.js 发展太快，版本发布也非常快而且多，这时候就需要一
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
 ```
 
-![](/imgs/macos-manual-37.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-37.png)
 
 在终端中执行上面的命令，即可安装 nvm，安装位置为 `~/.nvm`，安装完成后，会提示你
 
@@ -1258,7 +1258,7 @@ export PATH=$PATH:$GOROOT/bin
 
 Ruby 是 macOS 自带的，一度我以为它是能成为 Apple 公司开发专用的语言，有点想太多，因为是自带么，所以，也没有什么需要说的。
 
-![](/imgs/macos-manual-38.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-38.png)
 
 值得一提的是，因为墙的关系，建议各位替换下 Ruby 的包管理器 RubyGems 镜像，使用 Ruby China 的源，地址是 [http://gems.ruby-china.org/](http://gems.ruby-china.org/) 那里也写明了使用方法。
 
@@ -1266,7 +1266,7 @@ Ruby 是 macOS 自带的，一度我以为它是能成为 Apple 公司开发专�
 
 在终端中输入 `java -version` 查看是否安装了 java
 
-![](/imgs/macos-manual-39.png)
+![](https://storage.tourcoder.com/tcblog/macos-manual-39.png)
 
 如果已经安装，则会显示当前 java 版本，没有安装，则如上图，弹出窗口，这是你可以点击更新信息，去 oracle 站点下载。
 

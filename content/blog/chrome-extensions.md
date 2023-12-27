@@ -87,7 +87,7 @@ manifest.json 这是插件非常重要的文件，关于它的内容，请参看
 
 查看该插件是否能够正常的运作，在 chrome 的地址栏中输入 chrome://extensions 并回车，即可看到插件列表，勾选页面顶部的开发者模式，点击左侧的载入未打包的插件，即可，如下图
 
-![](/imgs/chromeextensions_01.png)
+![](https://storage.tourcoder.com/tcblog/chromeextensions_01.png)
 
 这样就可以调试所开发好的插件了。
 
@@ -95,15 +95,15 @@ manifest.json 这是插件非常重要的文件，关于它的内容，请参看
 
 点[这里](https://chrome.google.com/webstore/developer/dashboard)登录网上应用商店
 
-![](/imgs/chromeextensions_02.png)
+![](https://storage.tourcoder.com/tcblog/chromeextensions_02.png)
 
 点这里的添加内容，即可进入发布页面
 
-![](/imgs/chromeextensions_03.png)
+![](https://storage.tourcoder.com/tcblog/chromeextensions_03.png)
 
 上传完成后，会进入一个编辑页面，主要是让你填写完整的信息内容，需要注意的是，如果你是要对外公开发布的，是需要一次性交 5 美元的费用。
 
-![](/imgs/chromeextensions_04.png)
+![](https://storage.tourcoder.com/tcblog/chromeextensions_04.png)
 
 预览发布即可。
 

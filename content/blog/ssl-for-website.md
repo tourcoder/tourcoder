@@ -25,7 +25,7 @@ ssl 就是一道护盾，虽然以前买个 ssl 证书很贵，但现在便宜�
 apt update && apt upgrade -y
 ```
 
-![](/imgs/ssl-for-website-01.png)
+![](https://storage.tourcoder.com/tcblog/ssl-for-website-01.png)
 
 安装需要到的工具
 
@@ -33,7 +33,7 @@ apt update && apt upgrade -y
 apt install -y zip build-essential
 ```
 
-![](/imgs/ssl-for-website-02.png)
+![](https://storage.tourcoder.com/tcblog/ssl-for-website-02.png)
 
 安装 Let's Encrypt client:
 
@@ -41,7 +41,7 @@ apt install -y zip build-essential
 apt install -y letsencrypt
 ```
 
-![](/imgs/ssl-for-website-03.png)
+![](https://storage.tourcoder.com/tcblog/ssl-for-website-03.png)
 
 查看版本
 
@@ -49,7 +49,7 @@ apt install -y letsencrypt
 letsencrypt --version
 ```
 
-![](/imgs/ssl-for-website-04.png)
+![](https://storage.tourcoder.com/tcblog/ssl-for-website-04.png)
 
 获取证书
 

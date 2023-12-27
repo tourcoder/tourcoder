@@ -25,25 +25,25 @@ GitHub Copilot 的 slogan 是 Your AI pair programmer，顾名思义就是你的
     
     可在 Visual Studio Code 插件市场里搜索 GitHub Copilot，然后安装，或者访问[https://marketplace.visualstudio.com/items?itemName=GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) 安装。安装好后入下图
     
-    ![](/imgs/try-github-copilot-001.png)
+    ![](https://storage.tourcoder.com/tcblog/try-github-copilot-001.png)
     
 - 使用步骤
 
   在 VSCode 中授权登录已经拥有 GitHub Copilot 权限的 GitHub 的账号，需要用到 GitHub 账号的原因应该是目前它处于邀请测试阶段，还有代码安全的问题。
   
-  ![](/imgs/try-github-copilot-002.png)
+  ![](https://storage.tourcoder.com/tcblog/try-github-copilot-002.png)
    
-  ![](/imgs/try-github-copilot-003.png)
+  ![](https://storage.tourcoder.com/tcblog/try-github-copilot-003.png)
   
-  ![](/imgs/try-github-copilot-004.png)
+  ![](https://storage.tourcoder.com/tcblog/try-github-copilot-004.png)
   
   新建项目，编写代码，可能是因为网络的原因，刚开始我使用 GitHub Copilot 官方的示例代码都未能唤起 Copilot，无法正常使用，但在“优化”好网络后，能正常唤起 Copilot 了。
   
-  ![](/imgs/try-github-copilot-006.png)
+  ![](https://storage.tourcoder.com/tcblog/try-github-copilot-006.png)
   
   有点意思。
   
-  ![](/imgs/try-github-copilot-007.png)
+  ![](https://storage.tourcoder.com/tcblog/try-github-copilot-007.png)
   
   Copilot 还可以设置全局停止使用或者针对某个语言停止使用。
   

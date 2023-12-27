@@ -21,11 +21,11 @@ git filter-branch --commit-filter '
 
 命令执行，且自动更改后，执行 `git log` 检查得到如下结果
 
-![](/imgs/gitloghistory.png)
+![](https://storage.tourcoder.com/tcblog/gitloghistory.png)
 
 通常情况下，所有的历史 commit 记录的 Email 地址都更改过来了，但是有时候会遇到一个问题，我们挑选任意一个 commit 查看，比如最上面的这个，执行命令 `git show --pretty=format:"%ce" 424c8b2089742b0965089b3317670c6152c2ed2c，oops`，并没有更改过来，还是 `tc@tourcoder.local`
 
-![](/imgs/onegitcommit.png)
+![](https://storage.tourcoder.com/tcblog/onegitcommit.png)
 
 那是因为需要更改 `GIT_COMMITTER_EMAIL`，即在上面的脚本中加入 `GIT_COMMITTER_EMAIL` 的内容即可。
 

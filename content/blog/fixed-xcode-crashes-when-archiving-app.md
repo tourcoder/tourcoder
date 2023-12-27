@@ -13,6 +13,6 @@ tags: ["xcode", "apple"]
 
 进入 Xcode 的 `Preferences`，选择 `Source Control` 选项卡，然后将 `Enable Source Control` 的勾选取消。
 
-![](/imgs/fixed-xcode-crashes-when-archiving-app.png)
+![](https://storage.tourcoder.com/tcblog/fixed-xcode-crashes-when-archiving-app.png)
 
 即将上图的 Source Control 取消勾选即可。

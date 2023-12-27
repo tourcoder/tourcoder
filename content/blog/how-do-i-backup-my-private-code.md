@@ -21,11 +21,11 @@ tags: ["GitHub", "Chaos"]
 
 进入 Source Repositories 后新增一个 repo，进入下面界面
 
-![](/imgs/how-do-i-backup-my-private-code-001.jpg)
+![](https://storage.tourcoder.com/tcblog/how-do-i-backup-my-private-code-001.jpg)
 
 选择 `Connect external repository`
 
-![](/imgs/how-do-i-backup-my-private-code-002.jpg)
+![](https://storage.tourcoder.com/tcblog/how-do-i-backup-my-private-code-002.jpg)
 
 选择要同步的 repo 来源，我这里自然选择 GitHub，然后完成即可。如标题下面的一段话所言
 

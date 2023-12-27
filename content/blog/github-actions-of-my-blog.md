@@ -17,7 +17,7 @@ tags: ["GitHub", "hugo"]
 
 最近在使用 GitHub Actions 做东西，顺便升级了下自己的博客。写博文的步骤更新成：
 
-![](/imgs/github-actions-of-my-blog-01.png)
+![](https://storage.tourcoder.com/tcblog/github-actions-of-my-blog-01.png)
 
 - 开发机上写博文
 

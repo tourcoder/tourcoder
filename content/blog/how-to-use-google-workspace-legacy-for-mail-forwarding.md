@@ -26,19 +26,19 @@ Google 终于给 GSuite legacy 后续进展下了一个定论，要么付费升�
 
 在 Google Workspace 中 Gmail 里有一个路由功能，不升级的时候，该路由功能叫 `Routing`，只能将邮件转发到主域名的邮箱，看下图
 
-![](/imgs/how-to-use-google-workspace-legacy-for-mail-forwarding-01.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-use-google-workspace-legacy-for-mail-forwarding-01.jpg)
 
-![](/imgs/how-to-use-google-workspace-legacy-for-mail-forwarding-03.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-use-google-workspace-legacy-for-mail-forwarding-03.jpg)
 
 而升级后，该路由功能叫 `Default routing`，可以将邮件转发到任意邮箱，如下图
 
-![](/imgs/how-to-use-google-workspace-legacy-for-mail-forwarding-02.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-use-google-workspace-legacy-for-mail-forwarding-02.jpg)
 
 第三步：
 
 增加一个或多个 `Default routing`，第一项选择 `All recipients`，也可以根据自己的需要填写，后面也可以自己修改的。在 `Envelope recipient` 处写转发到的邮箱，比如将所有邮件转发到了 `code@tourcoder.com`，如下图
 
-![](/imgs/how-to-use-google-workspace-legacy-for-mail-forwarding-04.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-use-google-workspace-legacy-for-mail-forwarding-04.jpg)
 
 第四步：
 

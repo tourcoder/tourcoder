@@ -11,9 +11,9 @@ tags: ["支付宝", "iOS", "Android", "outlook"]
 
 而一些大公司的做法就显得更恶心，不说别的，就看下面两张图吧
 
-![](/imgs/say-hehe-to-some-companies-01.jpeg)
+![](https://storage.tourcoder.com/tcblog/say-hehe-to-some-companies-01.jpeg)
 
-![](/imgs/say-hehe-to-some-companies-02.jpg)
+![](https://storage.tourcoder.com/tcblog/say-hehe-to-some-companies-02.jpg)
 
 第一张是 outlook，微软出的邮件客户端，它是正面的例子，作为一个邮件客户端，它请求了该请求的权限 -- 通讯录。
 

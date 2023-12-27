@@ -23,7 +23,7 @@ tags: ["GitHub", "Ghost", "pages", "hugo", "golang", "nodejs", "cloudflare"]
 
 4. 去 GitHub 创建一个仓库，开启 GitHub Pages 功能，如下图
 
-	![](/imgs/from-ghost-to-github-pages-01.png)
+	![](https://storage.tourcoder.com/tcblog/from-ghost-to-github-pages-01.png)
 
 	如果不绑定自己的域名可以用 GitHub pages 的自带域名，还可以开启 ssl，使用自己的域名也可以使用 ssl。这里一个小提示，如果是二级域名，系统会提示你使用 cname 绑定的方式，如果是 apex，即不是二级域名，则指向 ip 地址。
 

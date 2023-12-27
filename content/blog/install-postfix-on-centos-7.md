@@ -29,7 +29,7 @@ tags: ["Gmail", "centos", "postfix"]
 
 便于理解，这里我画了一张图
 
-![](/imgs/install-postfix-on-centos-7-1.jpg)
+![](https://storage.tourcoder.com/tcblog/install-postfix-on-centos-7-1.jpg)
 
 发件人通过 MUA (邮件用户代理，即我们常用的邮件客户端) 操作，让 MTA (邮件传输代理，即 postfix) 将邮件传输到 MDA (邮件投递代理，保存在某一个地方，比如数据库中)，而收件人通过 MUA 访问 MDA 投递的位置收取邮件。
 

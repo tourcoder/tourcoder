@@ -72,7 +72,7 @@ miner.start() //挖矿
 
 在等待一段时间后，会得到如下结果
 
-![](/imgs/dig-eth-on-macos.png)
+![](https://storage.tourcoder.com/tcblog/dig-eth-on-macos.png)
 
 ```
 miner.stop() //停止挖矿

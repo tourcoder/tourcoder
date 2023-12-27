@@ -17,43 +17,43 @@ tags: ["bug", "ifttt"]
 
     按照下面截图的步骤创建一个 Applet，这里便于测试，this 部分用时间
 
-    ![](/imgs/iftttbug_01.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_01.png)
     
     第一步
 
-    ![](/imgs/iftttbug_02.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_02.png)
     
     第二步
 
-    ![](/imgs/iftttbug_03.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_03.png)
     
     第三步
 
-    ![](/imgs/iftttbug_04.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_04.png)
     
     第四步
 
-    ![](/imgs/iftttbug_05.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_05.png)
     
     第五步
 
-    ![](/imgs/iftttbug_06.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_06.png)
     
     第六步
 
-    ![](/imgs/iftttbug_07.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_07.png)
     
     第七步
 
-    ![](/imgs/iftttbug_08.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_08.png)
     
     第八步
 
-    ![](/imgs/iftttbug_09.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_09.png)
     
     第九步
 
-    ![](/imgs/iftttbug_10.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_10.png)
     
     第十步
     
@@ -63,9 +63,9 @@ tags: ["bug", "ifttt"]
 
     进入到之前创建的 Applet，然后更改该 Applet 的 email 地址为 opensource@tourcoder.com，
 
-    ![](/imgs/iftttbug_11.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_11.png)
 
-    ![](/imgs/iftttbug_12.png)
+    ![](https://storage.tourcoder.com/tcblog/iftttbug_12.png)
     
     等待时间到后，会发现邮件还是会发送到 hello@tourcoder.com 这个邮箱，而非更改后的邮箱 opensource@tourcoder.com
     
@@ -73,11 +73,11 @@ tags: ["bug", "ifttt"]
 
 如果更改了账户中的 email，如下图
 
-![](/imgs/iftttbug_13.png)
+![](https://storage.tourcoder.com/tcblog/iftttbug_13.png)
 
 但当你再次创建新的 applet 的时候，email 地址还是 hello@tourcoder.com，这个问题就非常严重了
 
-![](/imgs/iftttbug_14.png)
+![](https://storage.tourcoder.com/tcblog/iftttbug_14.png)
 
 关于这些问题，我提交过多次 issue 给 ifttt，但他们一直没有回复过，也罢。
 

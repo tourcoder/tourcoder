@@ -19,7 +19,7 @@ tags: ["centos", "desktop", "gnome"]
 
 **Gnome 桌面**
 
-![](/imgs/set-network-and-desktop-for-centos.png)
+![](https://storage.tourcoder.com/tcblog/set-network-and-desktop-for-centos.png)
 
 因为这台电脑是需要一个桌面的，所以我选择了个人觉得比较好的 [Gnome](http://gnome.org)
 

@@ -34,7 +34,7 @@ Sublime Text 3 是我喜欢的编辑器，介绍下它在 macOS 下的安装和�
 
 无法直接安装包，需要做一下配置，如下图
 
-![](/imgs/sublime-text-3-01.png)
+![](https://storage.tourcoder.com/tcblog/sublime-text-3-01.png)
 
 进入到 `Package Control` 的 `Settings - User`，在里面增加
 
@@ -85,7 +85,7 @@ Sublime Text 3 是我喜欢的编辑器，介绍下它在 macOS 下的安装和�
 }
 ```
 
-![](/imgs/sublime-text-3-02.png)
+![](https://storage.tourcoder.com/tcblog/sublime-text-3-02.png)
 
 **保存全部文件**
 

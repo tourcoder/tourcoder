@@ -19,17 +19,17 @@ App Store 美国区一直是 App Store 中应用最全，质量最高的区，�
 
 买完后，打开你的 iTunes，比如我这里打开 macOS 中的 iTunes
 
-![Screen-Shot-2019-01-08-at-12.10.59](/imgs/appstore_us_01.png)
+![Screen-Shot-2019-01-08-at-12.10.59](https://storage.tourcoder.com/tcblog/appstore_us_01.png)
 
 点击图中红色标注的 `Redeem`，按步骤进行下去即可。
 
 在 iPhone 中，打开 AppStore，然后点击右上角的头像，进入下面这个界面
 
-![](/imgs/appstore_us_02.png)
+![](https://storage.tourcoder.com/tcblog/appstore_us_02.png)
 
 点击红色圈起来的部分，则进入下面的界面
 
-![](/imgs/appstore_us_03.png)
+![](https://storage.tourcoder.com/tcblog/appstore_us_03.png)
 
 点击下面红色圈起来的，输入你收到的邮件中的号码即可。
 

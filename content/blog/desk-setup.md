@@ -9,7 +9,7 @@ draft: false
 
 先上图，从 2016 年到现在，我书房主要用的桌子变化情况。
 
-![](/imgs/desk-setup-01.jpg)
+![](https://storage.tourcoder.com/tcblog/desk-setup-01.jpg)
 
 - 靠窗的书桌：侧边有一个书架和书桌连在一起，2023 年在书房另一面增加了一个升降桌，是京东[京造的升降桌](https://u.jd.com/0u9zcUS)。
 

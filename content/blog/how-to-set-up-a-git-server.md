@@ -99,7 +99,7 @@ ssh-keygen
 
 此时它会要求你确认保存公钥的位置 `~/.ssh/id_rsa`，直接回车确认，此时会要求你输入密码，可以留空，回车后即可创建完成，通过 `ls` 可以看到，已经存在上面说到的两个文件
 
-![](/imgs/id_rsa_github.png)
+![](https://storage.tourcoder.com/tcblog/id_rsa_github.png)
 
 运行命令 `cat ~/.ssh/id_rsa.pub` 将显示的内容放入到 git 服务器的密钥管理中即可。
 

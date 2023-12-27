@@ -15,7 +15,7 @@ tags: ["微软", "产品体验", "todo"]
 
 ### 建议
 
-![](/imgs/some-user-voices-to-microsoft-todo-01.png)
+![](https://storage.tourcoder.com/tcblog/some-user-voices-to-microsoft-todo-01.png)
 
 这是 Microsoft Todo 在 macOS 上的界面图，其他系统的应用应该差不多。
 
@@ -33,7 +33,7 @@ tags: ["微软", "产品体验", "todo"]
     
 下面是我修改后的图
 
-![](/imgs/some-user-voices-to-microsoft-todo-02.png)
+![](https://storage.tourcoder.com/tcblog/some-user-voices-to-microsoft-todo-02.png)
 
 - Part 1
 

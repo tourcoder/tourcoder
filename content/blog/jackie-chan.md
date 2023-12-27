@@ -11,4 +11,4 @@ tags: ["电影", "成龙", "吴京", "李小龙", "李连杰", "尊龙"]
 
 兴起，写了篇千字博文，但我博客的忠实读者我老婆看了后，硬是让我删除，那我就放一个姜文说过的话吧。
 
-![](/imgs/jackie-chan.jpg)
+![](https://storage.tourcoder.com/tcblog/jackie-chan.jpg)

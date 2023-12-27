@@ -9,13 +9,13 @@ tags: ["Apple", "iCloud", "icloud drive"]
 
 突然生病住院了几天，回来后发现 iCloud Drive 里面的资料全都没有了。之前有听人说 iCloud Drive 会丢失文件，还会错乱文件，未想这件事还让我碰到了。
 
-![](/imgs/i-lost-all-files-in-icloud-drive-001.png)
+![](https://storage.tourcoder.com/tcblog/i-lost-all-files-in-icloud-drive-001.png)
 
-![](/imgs/i-lost-all-files-in-icloud-drive-002.png)
+![](https://storage.tourcoder.com/tcblog/i-lost-all-files-in-icloud-drive-002.png)
 
 iCloud Drive 里已经没有了，甚至已经删除里也没有了。最搞笑的是，iPhone 的 iCloud Drive 里什么文件都没有之外，还多了一些其它的文件，而这些东西并不属于我。
 
-![](/imgs/i-lost-all-files-in-icloud-drive-003.jpeg)
+![](https://storage.tourcoder.com/tcblog/i-lost-all-files-in-icloud-drive-003.jpeg)
 
 可这个时间点，我还在住院。
 

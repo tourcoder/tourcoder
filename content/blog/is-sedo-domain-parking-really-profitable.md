@@ -11,9 +11,9 @@ tags: ["域名", "sedo", "domain parking", "sedo作弊"]
 
 第一个月居然赚了 0.04 欧元，心想这玩意还是有点意思的。因为赚钱少，基本很少打开 Sedo，每次打开账户看到的就是说我账户最近 31 天赚了多少钱。然刚才因为需要打开了具体的报告后，对 Sedo 的报告产生了疑惑，简单的两个报告如下
 
-![](/imgs/is-sedo-domain-parking-really-profitable-001.png)
+![](https://storage.tourcoder.com/tcblog/is-sedo-domain-parking-really-profitable-001.png)
 
-![](/imgs/is-sedo-domain-parking-really-profitable-002.png)
+![](https://storage.tourcoder.com/tcblog/is-sedo-domain-parking-really-profitable-002.png)
 
 我对这份报告有几点疑惑：
 

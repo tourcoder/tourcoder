@@ -11,7 +11,7 @@ tags: ["git", "workflow"]
 
 首先先看下这张图，这张图基本包括了 Git 的一些日常用法，并详细介绍了下它的工作流程。
 
-![](/imgs/git-workflow-01.jpg)
+![](https://storage.tourcoder.com/tcblog/git-workflow-01.jpg)
 
 虽然现在也有很多优秀的图形界面的工具，但使用 Git，我还是建议大家尽可能的使用命令行，以下都是在命令行中完成。
 

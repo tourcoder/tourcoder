@@ -49,7 +49,7 @@ docker tag 231d40e811cd server_ip:5000/nginx
 
 点击 Docker 的图标，进入设置
 
-![dockerregistry00](/imgs/create-your-own-docker-registry-00.png)
+![dockerregistry00](https://storage.tourcoder.com/tcblog/create-your-own-docker-registry-00.png)
 
 在 `Insecure registries` 中输入私有 registry 的地址，如上图，保存重启。
 
@@ -57,11 +57,11 @@ docker tag 231d40e811cd server_ip:5000/nginx
 
 修改 `/etc/default/docker`，增加一行，如下图
 
-![dockerregistry01](/imgs/create-your-own-docker-registry-01.png)
+![dockerregistry01](https://storage.tourcoder.com/tcblog/create-your-own-docker-registry-01.png)
 
 修改 `/lib/systemd/system/docker.service`，增加一行，更新一行，如下图
 
-![dockerregistry02](/imgs/create-your-own-docker-registry-02.png)
+![dockerregistry02](https://storage.tourcoder.com/tcblog/create-your-own-docker-registry-02.png)
 
 重启服务
 

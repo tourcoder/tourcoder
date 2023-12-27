@@ -88,11 +88,11 @@ pg.js
 
     node_modules/.bin/webpack src/index.js --output dist/webpack.js --mode development
     
-![](/imgs/webpack-manual-01.png)
+![](https://storage.tourcoder.com/tcblog/webpack-manual-01.png)
     
 运行后即在 dist 文件夹下看到多了一个 webpack.js 的文件，用浏览器访问 index.html 文件，即可看到
     
-![](/imgs/webpack-manual-02.png)
+![](https://storage.tourcoder.com/tcblog/webpack-manual-02.png)
     
 到此，一个简单的利用 webpack 打包的流程就完成了，更多关于 webpack 的高级玩法，可以去下面查看
 

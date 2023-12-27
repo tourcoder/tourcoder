@@ -25,19 +25,19 @@ Admob 是 Google 于 2009 年底收购的广告平台，国内外类似的广告
 
 登录 Admob 的网站，登录后，选择创建一个新的应用，然后按步骤来
 
-![](/imgs/admob_01.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_01.jpeg)
 
 输入应用名字，选择所在的平台，因为我这个是 iOS 上的应用，所以平台是 iOS。
 
-![](/imgs/admob_02.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_02.jpeg)
 
 选择广告类型，自定义 UI，我选择了顶部的 Banner 形式。
 
-![](/imgs/admob_03.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_03.jpeg)
 
 链接 Firebase 的统计分析，我不需要，选择跳过。
 
-![](/imgs/admob_04.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_04.jpeg)
 
 选择完成，那么在 Admob 网站，你的创建就完成了，记录下这里的 App ID 和 Ad unit ID，后面我们将用用到，就这样我们第一步完成了。
 
@@ -45,11 +45,11 @@ Admob 是 Google 于 2009 年底收购的广告平台，国内外类似的广告
 
 去 Admob 网站下载 SDK，当前 SDK 版本是 7.8.1,
 
-![](/imgs/admob_05.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_05.jpeg)
 
 可以选择手工的添加方式，也可以选择用 CocoaPods，图方便，我采用了 CocaPods
 
-![](/imgs/admob_06.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_06.jpeg)
 
 需要注意的是因为某些“不可抗力”的因素，你在使用 CocoaPods 安装时需要挂 VPN，至于 CocoaPods 这个利器怎么用等，在以后我兴许会写一篇文章。
 
@@ -73,7 +73,7 @@ Admob 是 Google 于 2009 年底收购的广告平台，国内外类似的广告
 
 显示的效果如下
 
-![](/imgs/admob_07.jpeg)
+![](https://storage.tourcoder.com/tcblog/admob_07.jpeg)
 
 怎么样，是不是很简单？！
 

@@ -39,15 +39,15 @@ PWA 全称 Progressive Web Apps，是 Google 几年前提出的技术，我在�
 
 下载 Chrome 上一个插件 Lighthouse，然后对它测试，我的测试结果如下
 
-![](/imgs/upgrade-to-pwa-001.png)
+![](https://storage.tourcoder.com/tcblog/upgrade-to-pwa-001.png)
 
 然后根据每项进行优化即可，下图是我优化后的结果
 
-![](/imgs/upgrade-to-pwa-003.png)
+![](https://storage.tourcoder.com/tcblog/upgrade-to-pwa-003.png)
 
 **部分问题的解决**
 
-![](/imgs/upgrade-to-pwa-002.png)
+![](https://storage.tourcoder.com/tcblog/upgrade-to-pwa-002.png)
 
 [Text elements must have sufficient color contrast against the background](https://dequeuniversity.com/rules/axe/2.2/color-contrast?application=lighthouse)
 

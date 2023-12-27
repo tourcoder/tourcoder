@@ -23,7 +23,7 @@ Multiple commands produce '/Users/TOURCODER/Library/Developer/Xcode/DerivedData/
 
 xcode 中选择 `File->Workspace settings` 会弹出如下图片
 
-![](/imgs/unable-to-boot-device-because-it-cannot-be-located-on-disk001.png)
+![](https://storage.tourcoder.com/tcblog/unable-to-boot-device-because-it-cannot-be-located-on-disk001.png)
 
 选择其中的 `Legacy Build System` 即可解决问题。
 

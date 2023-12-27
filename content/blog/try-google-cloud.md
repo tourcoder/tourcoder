@@ -11,17 +11,17 @@ tags: ["googlecloud"]
 
 首先，创建一个项目，比如我创建了一个项目
 
-![](/imgs/try-google-cloud-create-project.PNG)
+![](https://storage.tourcoder.com/tcblog/try-google-cloud-create-project.PNG)
 
-![](/imgs/try-google-cloud-project-detail.PNG)
+![](https://storage.tourcoder.com/tcblog/try-google-cloud-project-detail.PNG)
 
 创建完项目后的状态，点左上角的菜单图标
 
-![](/imgs/try-google-cloud-choose-cc.PNG)
+![](https://storage.tourcoder.com/tcblog/try-google-cloud-choose-cc.PNG)
 
 选择计算引擎
 
-![](/imgs/try-google-cloud-crea.PNG)
+![](https://storage.tourcoder.com/tcblog/try-google-cloud-crea.PNG)
 
 创建 VM 实例
 
@@ -39,7 +39,7 @@ tags: ["googlecloud"]
 
 其他的暂时可以不配置。
 
-![](/imgs/try-google-cloud-crea-1.PNG)
+![](https://storage.tourcoder.com/tcblog/try-google-cloud-crea-1.PNG)
 
 再次点击左上角的菜单图标，然后选择网络，外部 IP 地址，生成一个 IP 地址，在创建的过程中，你可以将它附加在之前创建好的实例上。
 
@@ -47,7 +47,7 @@ tags: ["googlecloud"]
 
 再次点击左上角的菜单图标，然后选择计算引擎，VM 实例
 
-![](/imgs/try-google-cloud-sshlogin.PNG)
+![](https://storage.tourcoder.com/tcblog/try-google-cloud-sshlogin.PNG)
 
 如黄色标注的部分，点 SSH 下拉，你可以看到有多个连接方式，因为需要我的目标是使用其他 SSH 客户端，这里有说明。
 

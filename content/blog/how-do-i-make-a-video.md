@@ -9,4 +9,4 @@ tags: ["Youtube", "视频"]
 
 刚才整理资料时，发现之前自己想做视频时写的一个流程，分享下
 
-![](/imgs/how-do-i-make-a-video.jpg)
+![](https://storage.tourcoder.com/tcblog/how-do-i-make-a-video.jpg)

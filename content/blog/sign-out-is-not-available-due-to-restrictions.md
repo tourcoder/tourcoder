@@ -9,7 +9,7 @@ tags: ["Apple", "iCloud", "Apple ID", "屏幕时间"]
 
 先上图
 
-![](/imgs/sign-out-is-not-available-due-to-restrictions.JPG)
+![](https://storage.tourcoder.com/tcblog/sign-out-is-not-available-due-to-restrictions.JPG)
 
 想退出 iPhone 的账号，但出现这样的问题，网上搜索了很多办法，都是抄来抄去，没有一个正确的。正确的做法是
 

@@ -29,7 +29,7 @@ gpg --full-generate-key
 
 会让你选择
 
-![](/imgs/gpg_01.png)
+![](https://storage.tourcoder.com/tcblog/gpg_01.png)
 
 一般选择默认 1，可以根据自己的需求来选择其他的选项
 
@@ -37,19 +37,19 @@ gpg --full-generate-key
 
 然后选择有效去，也是默认 0，可以根据自己的需求来选择其他的选项，会有一个确认的过程，整个过程如下图
 
-![](/imgs/gpg_02.png)
+![](https://storage.tourcoder.com/tcblog/gpg_02.png)
 
 然后会要求输入名字，Email 地址以及 COMMENT，最后确认
 
-![](/imgs/gpg_03.png)
+![](https://storage.tourcoder.com/tcblog/gpg_03.png)
 
 此时会要求输入密码和再次确认密码，如下图
 
-![](/imgs/gpg_04.png)
+![](https://storage.tourcoder.com/tcblog/gpg_04.png)
 
 完成后，即可得到结果
 
-![](/imgs/gpg_05.png)
+![](https://storage.tourcoder.com/tcblog/gpg_05.png)
 
 #### 显示和导出公钥和私钥
 
@@ -59,7 +59,7 @@ gpg --list-public-keys //查看所有公钥
 gpg --list-secret-keys //查看所有私钥
 ```
 
-![](/imgs/gpg_06.jpg)
+![](https://storage.tourcoder.com/tcblog/gpg_06.jpg)
 
 通过第一条命令查询后得到的结果，其中虚线上面一条是公钥文件及其保存地址，该文件是一个二进制形式存储的文件，虚线下面的内容是
 
@@ -95,7 +95,7 @@ gpg --armor --output privatekeyfile.txt --export-secret-keys <邮箱或者指纹
 
   访问 [https://github.com/settings/keys](https://github.com/settings/keys), 点击右侧的 `New GPG keys`，将公钥输入进去，**注意是公钥，不是私钥**，得到的结果如下图。
   
-  ![](/imgs/gpg_07.png)
+  ![](https://storage.tourcoder.com/tcblog/gpg_07.png)
   
   本地电脑设置密钥，我习惯了用终端，这里就介绍下终端下的设置
   
@@ -127,11 +127,11 @@ gpg --armor --output privatekeyfile.txt --export-secret-keys <邮箱或者指纹
   
   当执行最后一步成功时会有一个弹窗要求输入密钥的密码，输入密码即可。完成 `git commit` 后可以通过命令 `git log --show-signature -1` 查看是否已经签名。
   
-  ![](/imgs/gpg_08.png)
+  ![](https://storage.tourcoder.com/tcblog/gpg_08.png)
   
   上图是在 GitHub 上的效果图，其实两个都是带有签名的，但有一个却显示 `Unverified`，其原因是这一条 `commit` 的 `user.email` 不是 GPG 生成的密钥中的 email 地址。
   
-  ![](/imgs/gpg_09.png)
+  ![](https://storage.tourcoder.com/tcblog/gpg_09.png)
   
   对由网页端操作进行认证，使用 GitHub 的密钥，如上图，先导入
   

@@ -54,11 +54,11 @@ Gmail 的用户名最少是 6 位，随着其用户越来越多，能够得到�
 
     访问页面 `https://accounts.google.com/SignUpMobile?loc=CN&hl=en`，输入相关信息
     
-    ![](/imgs/get-short-gmail-username-01.png)
+    ![](https://storage.tourcoder.com/tcblog/get-short-gmail-username-01.png)
     
     输入手机号码
     
-    ![](/imgs/get-short-gmail-username-02.png)
+    ![](https://storage.tourcoder.com/tcblog/get-short-gmail-username-02.png)
     
     提交后，会有一个提示，等待一段时间。然后根据提示获取到`专属链接`，记得是 `Copy as cURL`。
     

@@ -13,7 +13,7 @@ tags: ["Safari", "extension", "Apple", "AppStore"]
 
 因为是在 macOS 上的应用，所以选择的是 `macOS -> Safari Extension App`
 
-![](/imgs/how-to-distribute-safari-extension-on-mac-app-store-001.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-distribute-safari-extension-on-mac-app-store-001.jpg)
 
 
 ### Certificates
@@ -30,9 +30,9 @@ tags: ["Safari", "extension", "Apple", "AppStore"]
 
 ### 在 Xcode 中配置
 
-![](/imgs/how-to-distribute-safari-extension-on-mac-app-store-002.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-distribute-safari-extension-on-mac-app-store-002.jpg)
 
-![](/imgs/how-to-distribute-safari-extension-on-mac-app-store-003.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-distribute-safari-extension-on-mac-app-store-003.jpg)
 
 如上图所示，在 `target` 中，为 app 和 extension 选择对应的 Identifier 和 Provisioning Profile。
 

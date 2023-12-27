@@ -7,7 +7,7 @@ date: 2016-06-09T15:17:26Z
 tags: ["魔兽", "暴雪", "星际争霸", "青春"]
 ---
 
-![](/imgs/warcraft.jpg)
+![](https://storage.tourcoder.com/tcblog/warcraft.jpg)
 
 因为知道看这部电影时，自己会热泪盈眶，甚至会哭，所以包了场，一个人看完。
 
