@@ -141,7 +141,7 @@ taxonomies:
 
 进入到 [https://podcastsconnect.apple.com/](https://podcastsconnect.apple.com/) 登录后，输入源的地址，点击验证，没有问题的话，即可得到如下图的界面
 
-![](/imgs/make-podcast-rss-basic-on-ghost-01.jpg)
+![](https://storage.tourcoder.com/tcblog/make-podcast-rss-basic-on-ghost-01.jpg)
 
 等待 Apple 审核即可。
 

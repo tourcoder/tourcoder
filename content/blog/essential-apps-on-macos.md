@@ -46,7 +46,7 @@ brew install slowquitapps --cask
 
 这样就安装完成了，打开这个应用给它一定的权限，完事，当每次再出现手残情况时就会出现如下界面
 
-![](/imgs/sqa_01.png)
+![](https://storage.tourcoder.com/tcblog/sqa_01.png)
 
 会有一个倒计时的进度条，当进度条跑满后，应用就可以退出了。
 
@@ -86,7 +86,7 @@ defaults read com.dteoh.SlowQuitApps
 
 Lulu 算是一款保护你隐私的应用，它检测网络链接的请求，并及时地通知。
 
-![](/imgs/lulu_01.png)
+![](https://storage.tourcoder.com/tcblog/lulu_01.png)
 
 它也是一款开源的应用，可以从[这里](https://github.com/objective-see/LuLu/releases)下载。
 
@@ -100,7 +100,7 @@ Lulu 算是一款保护你隐私的应用，它检测网络链接的请求，并
 
 作为一个长期对着电脑工作的人，眼睛的保护显得非常重要，Flux 就是这么一款保护眼睛的应用
 
-![](/imgs/flux_01.png)
+![](https://storage.tourcoder.com/tcblog/flux_01.png)
 
 它会根据时间来降低屏幕的光度等，这也是一款免费的应用，从[官网](https://justgetflux.com/)下载即可。
 

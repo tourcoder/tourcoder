@@ -17,6 +17,6 @@ Telegram 提供了两种方式解决这个问题
 
 一时半会肯定是想不起密码，只能通过重置账户，点击重置账户，它会提示你过去的聊天信息和数据将会丢失，输入收到的手机验证码后，会收到一条如下图的消息
 
-![](/imgs/telegram_2steps.PNG)
+![](https://storage.tourcoder.com/tcblog/telegram_2steps.PNG)
 
 没错，Telegram 的重置账户就是删除你的账户，当然最后我还是取消了重置，因为很多数据，实在是不能够丢失，我还是尽量想出密码吧。

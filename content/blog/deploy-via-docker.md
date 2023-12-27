@@ -59,7 +59,7 @@ service docker start
     
     因为用到了 koa，所以需要先安装，在源码根目录下安装 `npm install koa`，完成后执行 `node app.js`，这时候访问 `http://localhost:3000`，就会出现 `Hello World`，如下图
     
-    ![](/imgs/deploy-via-docker-01.png)
+    ![](https://storage.tourcoder.com/tcblog/deploy-via-docker-01.png)
     
     至此，项目代码完成，并通过了测试。
     
@@ -110,11 +110,11 @@ service docker start
     
     `-t` 参数的作用是指定后面的名字，也可以在名字后面增加 `:版本号`，如果不增加，则是 `latest`。
     
-    ![](/imgs/deploy-via-docker-02.png)
+    ![](https://storage.tourcoder.com/tcblog/deploy-via-docker-02.png)
     
     命令执行完成后，可以通过 `docker images` 命令看到已经生成了 image。
     
-    ![](/imgs/deploy-via-docker-03.png)
+    ![](https://storage.tourcoder.com/tcblog/deploy-via-docker-03.png)
     
     这样 image 文件创建完成。但这种情况下，创建的的 image 文件会很大，比如我这个文件就有 900 多 M，那么可以给它瘦身。查看 Dockerfile 文件，可以看出 node 来自 `node:latest`，它本身就很大，把它改成精简版，做成一个基础镜像，具体看[这里](https://pkgs.alpinelinux.org/packages)，它包含了大多数精简版的包。那么本文的 node 包就可以用这种方式精简。
    
@@ -159,7 +159,7 @@ service docker start
     
     执行完成后，即可得到如下
 
-    ![](/imgs/deploy-via-docker-05.png)
+    ![](https://storage.tourcoder.com/tcblog/deploy-via-docker-05.png)
 
     表示已经登录成功。
     
@@ -169,7 +169,7 @@ service docker start
     docker push docker.pkg.github.com/tourcoder/dockerdemo/IMAGE_NAME:VERSION
     ```
     
-    ![](/imgs/deploy-via-docker-04.png)
+    ![](https://storage.tourcoder.com/tcblog/deploy-via-docker-04.png)
     
     完成即可。
 

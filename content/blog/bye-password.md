@@ -11,7 +11,7 @@ tags: ["密码", "用户体验"]
 
 那么，是否有可能不使用密码呢？在最近的一个项目中，我们就做了这方面的尝试。
 
-![](/imgs/byepassword_01.jpg)
+![](https://storage.tourcoder.com/tcblog/byepassword_01.jpg)
 
 对，就是采用短信验证码的方式。我们是这样考虑的：
 

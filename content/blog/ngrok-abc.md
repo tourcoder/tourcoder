@@ -28,7 +28,7 @@ tags: ["ngrok", "开发工具"]
 
   这里的端口号是本地程序运行的端口号，比如我的程序端口号是 3700，则执行 `./ngrock http 3700` 即可得到如下结果
 
-  ![](/imgs/ngrok-abc-01.jpg)
+  ![](https://storage.tourcoder.com/tcblog/ngrok-abc-01.jpg)
 
   如上图，`http://2d2a38beadcf.ngrok.io` 这个就是与本地程序衍射的外部链接，除了 http 链接外，它还提供了 https 的链接。
 

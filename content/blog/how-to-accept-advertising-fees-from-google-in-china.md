@@ -11,10 +11,10 @@ tags: ["Google", "Admob", "Adsense", "Adwards"]
 
 到银行取号，告诉前台的服务人员说明了来由，她给和我核对了下信息，其实就是让我出具一个证明，证明这个钱是 Google 给我打的，以及是什么理由给我打的。只要给他们提供这份文件即可。
 
-![](/imgs/how-to-accept-advertising-fees-from-google-in-china-002.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-accept-advertising-fees-from-google-in-china-002.jpg)
 
 下载地址是，点结算单的那个链接即可，如下图
 
-![](/imgs/how-to-accept-advertising-fees-from-google-in-china-001.jpg)
+![](https://storage.tourcoder.com/tcblog/how-to-accept-advertising-fees-from-google-in-china-001.jpg)
 
 2021年11月27日更新：一早银行来电话说，还需要我手写一个证明给他们。补充了手写证明，等待。

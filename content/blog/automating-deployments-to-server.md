@@ -29,17 +29,17 @@ Git Hooks，俗称钩子，关于它的官方文档 [Git Hooks](https://git-scm.
 
 - 服务器部分
 
-    ![](/imgs/automating-deployments-to-server-01.png)
+    ![](https://storage.tourcoder.com/tcblog/automating-deployments-to-server-01.png)
 
     新建 server 文件夹作为服务器端，在服务器端里创建一个自动部署的目录 `autodeploy`，使用 `git init --bare` 初始化，查看这个目录你会发现，它将 `.git` 的内容显示出来了。它和 `git init` 的区别是它显示的是 `.git` 中的内容，而 `git init` 是初始化一个常规仓库，并且将 `.git` 作为一个隐藏的文件夹在这个仓库里的。
 
     `blogdata` 是服务器上需要被自动部署到的地方，进入这个文件夹，将自动部署的内容克隆过来，执行命令 `git clone ~/desktop/server/autodeploy posts`，完成后查看，`posts` 存在了，自动部署的内容将会被自动部署在 `posts` 这个文件夹里。
     
-    ![](/imgs/automating-deployments-to-server-03.png)
+    ![](https://storage.tourcoder.com/tcblog/automating-deployments-to-server-03.png)
 
     进入到 `autodeploy/hooks` 这个文件夹，执行命令 `vi post-receive`，创建一个文件，在文件中输入上面的内容，完成编辑保存。
     
-    ![](/imgs/automating-deployments-to-server-02.png)
+    ![](https://storage.tourcoder.com/tcblog/automating-deployments-to-server-02.png)
 
     赋予 `post-receive` 文件执行权限，到这里，自动部署的服务器部分基本完成了。
     
@@ -47,15 +47,15 @@ Git Hooks，俗称钩子，关于它的官方文档 [Git Hooks](https://git-scm.
 
     和日常开发一样，并没有什么特别的地方
     
-    ![](/imgs/automating-deployments-to-server-04.png)
+    ![](https://storage.tourcoder.com/tcblog/automating-deployments-to-server-04.png)
 
     创建一个文件夹，用 `git init` 初始化，添加远程库，注意这里要添加的是自动部署的库，添加完成后查看。
     
-    ![](/imgs/automating-deployments-to-server-05.png)
+    ![](https://storage.tourcoder.com/tcblog/automating-deployments-to-server-05.png)
     
     日常开始，添加内容，比如添加了 `test.md` 文件，然后 `push` 到服务器端。
     
-    ![](/imgs/automating-deployments-to-server-06.png)
+    ![](https://storage.tourcoder.com/tcblog/automating-deployments-to-server-06.png)
 
     进入到服务器端查看，会发现，已经自动部署到对应的文件夹了。
     

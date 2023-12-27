@@ -9,7 +9,7 @@ tags: ["twitter"]
 
 要在 twitter 上宣传产品，使用很久前注册的 twitter 账号，因为很久没有登录，莫名其妙的 follow（关注） 了很多人，如图
 
-![](/imgs/twitterunfollowing_01.png)
+![](https://storage.tourcoder.com/tcblog/twitterunfollowing_01.png)
 
 1411 人基本都是一些莫名其妙的账户，尤其是里面很多是阿拉伯文的账号，只能取消关注，但如果一个一个点取消，那是一项相当大的工程，在研究了下 unfollow（取消关注） 这个按钮的执行机制后，得到下面的方式可以批量取消关注。
 
@@ -21,11 +21,11 @@ $(".following .js-follow-btn").click()
 
 输入命令后，等待一段时间，即可出现下图执行效果
 
-![](/imgs/twitterunfollowing_02.png)
+![](https://storage.tourcoder.com/tcblog/twitterunfollowing_02.png)
 
 刚才批量取消关注了 576 人。
 
-![](/imgs/twitterunfollowing_03.png)
+![](https://storage.tourcoder.com/tcblog/twitterunfollowing_03.png)
 
 效果还不错吧？
 

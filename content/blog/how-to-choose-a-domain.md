@@ -9,7 +9,7 @@ tags: ["domain", "域名"]
 
 今天我收到这么一封邮件，内容如下
 
-![](/imgs/choose_a_domain.jpg)
+![](https://storage.tourcoder.com/tcblog/choose_a_domain.jpg)
 
 每个商家都有自己的营销手段，这个我无能为力，但有些情况是完全可以避免的。
 

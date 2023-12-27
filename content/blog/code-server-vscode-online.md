@@ -33,7 +33,7 @@ cd code-server-3.11.0-linux-amd64
 
 运行后，可得到下面的内容
 
-![](/imgs/code-server-vscode-online-01.png)
+![](https://storage.tourcoder.com/tcblog/code-server-vscode-online-01.png)
 
 直接访问是访问不了的，需要修改配置
 
@@ -41,7 +41,7 @@ cd code-server-3.11.0-linux-amd64
 vi ~/.config/code-server/config.yaml
 ```
 
-![](/imgs/code-server-vscode-online-02.png)
+![](https://storage.tourcoder.com/tcblog/code-server-vscode-online-02.png)
 
 将 `bind-addr` 中的 `127.0.0.1` 改成 `0.0.0.0` 即可，这里的端口也可以按需要修改。
 
@@ -49,16 +49,16 @@ vi ~/.config/code-server/config.yaml
 
 访问 `ip:端口` 即可得到如下界面
 
-![](/imgs/code-server-vscode-online-03.png)
+![](https://storage.tourcoder.com/tcblog/code-server-vscode-online-03.png)
 
 输入上面配置文件 `~/.config/code-server/config.yaml` 中的密码即可进入。
 
 ### 一些使用界面
 
-![](/imgs/code-server-vscode-online-04.png)
+![](https://storage.tourcoder.com/tcblog/code-server-vscode-online-04.png)
 
-![](/imgs/code-server-vscode-online-05.png)
+![](https://storage.tourcoder.com/tcblog/code-server-vscode-online-05.png)
 
-![](/imgs/code-server-vscode-online-06.png)
+![](https://storage.tourcoder.com/tcblog/code-server-vscode-online-06.png)
 
 功能还挺多的，还真的很不错。

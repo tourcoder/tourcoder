@@ -13,4 +13,4 @@ tags: ["paypal", "读后感", "彼得·蒂尔"]
 
 **读后感@20190301**
 
-![](/imgs/notesofzerotoone.jpg)
+![](https://storage.tourcoder.com/tcblog/notesofzerotoone.jpg)

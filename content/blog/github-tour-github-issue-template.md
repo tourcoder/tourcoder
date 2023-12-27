@@ -11,27 +11,27 @@ tags: ["GitHub", "问题模板", "issue"]
 
 先进入 GitHub 上的项目库，点击设置 (Settings)
 
-![](/imgs/githubissue_001.png)
+![](https://storage.tourcoder.com/tcblog/githubissue_001.png)
 
 在设置中选择左侧的 `options`，然后右侧找到 `issues`，并点击右侧的 `Set up templates`
 
-![](/imgs/githubissue_002.png)
+![](https://storage.tourcoder.com/tcblog/githubissue_002.png)
 
 选择一个模板形式，我这选择自定义模板
 
-![](/imgs/githubissue_003.png)
+![](https://storage.tourcoder.com/tcblog/githubissue_003.png)
 
 选择已经生成的自定义模板的 `Preview and edit`
 
-![](/imgs/githubissue_004.png)
+![](https://storage.tourcoder.com/tcblog/githubissue_004.png)
 
 点击编辑按钮，即可编辑该 issue 的模板
 
-![](/imgs/githubissue_005.png)
+![](https://storage.tourcoder.com/tcblog/githubissue_005.png)
 
 然后点击右上角的 `Propose changes`
 
-![](/imgs/githubissue_006.png)
+![](https://storage.tourcoder.com/tcblog/githubissue_006.png)
 
 最后提交该更新即可。
 

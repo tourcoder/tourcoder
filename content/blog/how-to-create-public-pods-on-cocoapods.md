@@ -19,7 +19,7 @@ Cocoapods 是一个很棒的开发管理库，有时候为了方便，自己也�
     
     这里的 hello@tourcoder.com 和 tourcoder 换成自己的，输入命令后，hello@tourcoder.com 会收到一封邮件，点击邮件里面的确认链接，即可得到下图
     
-    ![](/imgs/cocoapods_ss01.png)
+    ![](https://storage.tourcoder.com/tcblog/cocoapods_ss01.png)
     
     注册成功，提醒你回到终端。
     
@@ -66,7 +66,7 @@ Cocoapods 是一个很棒的开发管理库，有时候为了方便，自己也�
         
     在等待一段时间后，会出现相关的内容，如果有错误，就根据错误来修正即可，正确的应该是出现绿色的 passed 字样，如下图
     
-    ![](/imgs/cocoapods_ss02.png)
+    ![](https://storage.tourcoder.com/tcblog/cocoapods_ss02.png)
     
 - 发布 pods
 
@@ -79,7 +79,7 @@ Cocoapods 是一个很棒的开发管理库，有时候为了方便，自己也�
     
     然后在终端中执行命令 `pod trunk push notifylabel.podspec`，在一段时间的等待后，会出现下图的成功提示
     
-    ![](/imgs/cocoapods_ss03.png)
+    ![](https://storage.tourcoder.com/tcblog/cocoapods_ss03.png)
     
     上面的命令执行了一套流程
     
@@ -97,7 +97,7 @@ Cocoapods 是一个很棒的开发管理库，有时候为了方便，自己也�
 
 在终端中输入 `pod search notifylabel` 命令，在一段时间等待后，会出现
 
-![](/imgs/cocoapods_ss04.png)
+![](https://storage.tourcoder.com/tcblog/cocoapods_ss04.png)
 
 表示已经发布成功，如果使用，即执行命令 `pod install notifylabel`。
 

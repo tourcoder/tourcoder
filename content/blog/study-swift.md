@@ -9,4 +9,4 @@ tags: ["Apple", "App", "swift", "笔记", "apple developer"]
 
 这是我之前学习 Swift 的时候的笔记，脑图模式，图片有点大。
 
-![](/imgs/study-swift-01.PNG)
+![](https://storage.tourcoder.com/tcblog/study-swift-01.PNG)

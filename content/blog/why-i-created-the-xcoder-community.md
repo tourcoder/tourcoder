@@ -13,14 +13,14 @@ Twitter represents one of the shining gems of the Web 2.0 epoch, a platform I fi
 
 But now, everything has changed since Musk's acquisition. It's not the same Twitter that I once loved so much. The most significant thing I've ever said about Twitter.
 
-![](/imgs/why-i-created-the-xcoder-community-01.png)
+![](https://storage.tourcoder.com/tcblog/why-i-created-the-xcoder-community-01.png)
 
-![](/imgs/why-i-created-the-xcoder-community-02.png)
+![](https://storage.tourcoder.com/tcblog/why-i-created-the-xcoder-community-02.png)
 
 
 Mastodon is a good app, but it's not a replacement for Twitter. Mastodon is more for a group of people than for everyone on the planet. It takes a lot of effort to discover what's in it than twitter. It really can't make information flow as quickly and widely as twitter does.
 
-![](/imgs/why-i-created-the-xcoder-community-03.png)
+![](https://storage.tourcoder.com/tcblog/why-i-created-the-xcoder-community-03.png)
 
 So, why can't I create a Mastodon node? This node serves the digital nomads working from the planet. They are developers, designers, creators, etc. 
 

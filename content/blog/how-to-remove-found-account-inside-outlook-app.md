@@ -9,11 +9,11 @@ tags: ["outlook", "microsoft"]
 
 想必很多用 outlook app 的人遇到过一个烦人的事情，当下载 outlook app，打开它后，常常会出现`发现账户`，如下图
 
-![](/imgs/outlook_bugs_01.jpg)
+![](https://storage.tourcoder.com/tcblog/outlook_bugs_01.jpg)
 
 有时候会出现多个账户，即便你跳过它登录了其他的账户，它还是很烦人的出现在 outlook app 里，如下图的侧边 office 365 的 icon，和这个账户是不是 office 365 没有任何关系。
 
-![](/imgs/outlook_bugs_02.jpg)
+![](https://storage.tourcoder.com/tcblog/outlook_bugs_02.jpg)
 
 这个问题非常多的人反馈了，但至今没有一个解决方案。在 outlook app 里面和客服聊，他们是完全不理我，没办法在 twitter 上喷了后，它们的官方推特给我一个连接让我和客服联系，初级客服解决不了问题，把问题在线转移给高级客服，过程各种操作，就不一一细说，反正就是没有成功，最后的结果是客服建议我把手机恢复出厂设置。可是如果让我手机恢复出厂设置的话，我找客服做什么？我之前解决这个问题就是用恢复出厂设置的，但这次的问题是我现在手机有太多重要资料，我无法这么做，反正就是微软客服那边是没有任何办法了。
 

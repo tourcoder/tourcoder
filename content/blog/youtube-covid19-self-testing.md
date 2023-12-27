@@ -17,4 +17,4 @@ draft: true
 
 本视频在 Youtube 上，链接点[这里](https://www.youtube.com/watch?v=xkfNLo6htGY)。
 
-![](/imgs/youtube-covid19-self-testing.jpg)
+![](https://storage.tourcoder.com/tcblog/youtube-covid19-self-testing.jpg)

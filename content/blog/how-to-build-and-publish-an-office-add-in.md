@@ -25,4 +25,4 @@ tags: ["Microsoft", "office", "add-in", "howto"]
 
 基本就上面这些内容，我唯一遇到问题的地方是开发者账户验证。开发者身份需要的资料和 Partner 身份需要的资料是一样的，我提交了很多次，但都无法通过。而他们又说不清楚自己要的东西，最后甚至发一封邮件甩锅给我，关键发来的邮件是谎话连篇。我昨天早上九点多回怼了一封邮件揭穿了谎言，然后晚上十一点多收到邮件说帮我解决了，一早醒来一看，开发者账户通过验证了。浪费了我很多天时间。下面是我当时回复他们的邮件。
 
-![](/imgs/how-to-build-and-publish-an-office-add-in-001.png)
+![](https://storage.tourcoder.com/tcblog/how-to-build-and-publish-an-office-add-in-001.png)

@@ -11,16 +11,16 @@ Teddy 之前尝鲜 Mojave，导致自己的系统一直是测试版，一早他�
 
 - 进入到系统设置中
 
-    ![](/imgs/how-to-stop-using-beta-plan-of-macos-01.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-stop-using-beta-plan-of-macos-01.png)
 
 - 选择软件更新
 
-    ![](/imgs/how-to-stop-using-beta-plan-of-macos-02.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-stop-using-beta-plan-of-macos-02.png)
 
 - 点击左侧的详情，在弹出的窗口中点击恢复
 
-    ![](/imgs/how-to-stop-using-beta-plan-of-macos-03.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-stop-using-beta-plan-of-macos-03.png)
 
 - 完成后，可以看左边已经取消了测试版资格，done
 
-    ![](/imgs/how-to-stop-using-beta-plan-of-macos-04.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-stop-using-beta-plan-of-macos-04.png)

@@ -11,7 +11,7 @@ tags: ["Google", "Google Fi", "中国制造", "海淘", "转运", "产品体验"
 
 2020.11.01 重点更新
 
-![](/imgs/try-google-fi-0001.png)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-0001.png)
 
 我和客服的对话，客服说如果用户第一次在非美国地区激活了 Google Fi, 也没有用。如果不在乎，那可以继续看下去。
 
@@ -22,15 +22,15 @@ tags: ["Google", "Google Fi", "中国制造", "海淘", "转运", "产品体验"
 
 在转运公司多次涨价后，一早拿到了 Google Fi 的 SIM 卡，包装很是 Google 风
 
-![](/imgs/try-google-fi-2074.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-2074.jpg)
 
 不过挺有意思的，包装的背面清楚的写着 Made in China
 
-![](/imgs/try-google-fi-2075.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-2075.jpg)
 
 不得不说，中国制造是真的牛，里面的东西是这样的
 
-![](/imgs/try-google-fi-2076.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-2076.jpg)
 
 一张 SIM 卡，一个取卡针，一个 iPhone 设置说明卡。
 
@@ -48,7 +48,7 @@ Google Fi 的卡是免费的，可以通过我的邀请链接 [http://fi.tourcod
 
 - 打开 Fi app，按步骤操作即可完成
 
-![](/imgs/try-google-fi-115635.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-115635.jpg)
 
 #### 注意点
 
@@ -60,15 +60,15 @@ Google Fi 的卡是免费的，可以通过我的邀请链接 [http://fi.tourcod
 
 - 晚上有些人提到的几个月需要激活的问题，我咨询了客服，客服的回复是一年最多停机 180 天，并且每次最长 90 天。客服的留言如下
 
-![](/imgs/try-google-fi-googlefi-pausequestions.png)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefi-pausequestions.png)
 
 #### 使用感受
 
 **2018-12-28 补充**：前两天收到了账单邮件，在 Google Fi 的 App 中也有显示
 
-![](/imgs/try-google-fi-2120.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-2120.jpg)
 
-![](/imgs/try-google-fi-2121.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-2121.jpg)
 
 我是 2018 年 12 月 22 日拿到卡并激活的，但账单记录显示我的结算日是 24 日，真是的原因是第一次账单是会在激活后的第二天产生，如果激活日期是 28 日到 31 日或者是 1 日，第一次账单都会是在 2 日产生。
 
@@ -92,35 +92,35 @@ Google Fi 的卡是免费的，可以通过我的邀请链接 [http://fi.tourcod
 
 出了带有电话号码的电话卡之外，Google Fi 还有一个数据卡，名叫 Data-only SIM，顾名思义，只有流量的卡，可以将这个卡插在 iPad / iPhone 等其他设备上，但需要注意的是数据卡也要激活才可以，数据卡的激活是在主卡账户里完成的，这就意味着必须要有一个主卡才可以。
 
-![](/imgs/try-google-fi-3852.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-3852.jpg)
 
-![](/imgs/try-google-fi-3853.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-3853.jpg)
 
 外包装和 Google Fi 基本是一样的，只是薄一点，里面一侧是一张卡，一个卡针，另外一侧是使用说明，反面是 Data only SIM
 
 大致激活过程就是访问网站 [fi.google.com/data](https://fi.google.com/data) ，并登录你的账户，输入流量卡上的 SECRET CODE，然后插上卡即可使用，流程图如下
 
-![](/imgs/try-google-fi-googlefidata01.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefidata01.jpg)
 
 访问上面说的地址，会进入这个界面，要求输入 16 位的 SECRET CODE，然后点击激活按钮
 
-![](/imgs/try-google-fi-googlefidata02.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefidata02.jpg)
 
 激活完成后，会跳转到一个激活完成的页面，但会瞬间跳转到上图的页面，下面是点击上图中不同的按钮会得到内容
 
-![](/imgs/try-google-fi-googlefidata04.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefidata04.jpg)
 
 点击 iPhone 
 
-![](/imgs/try-google-fi-googlefidata05.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefidata05.jpg)
 
 点击安卓
 
-![](/imgs/try-google-fi-googlefidata06.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefidata06.jpg)
 
 点击其他
 
-![](/imgs/try-google-fi-googlefidata03.jpg)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefidata03.jpg)
 
 点击下一步。
 
@@ -130,7 +130,7 @@ Google Fi 的卡是免费的，可以通过我的邀请链接 [http://fi.tourcod
 
 Google fi 开始支持 iPhone 的 eSIM 卡了，不过和客服聊过后，并不乐观。她建议激活在美国本土，在美国本土之外激活，有可能出现问题。下面的对话客服说了相关的内容。
 
-![](/imgs/try-google-fi-googlefichat.png)
+![](https://storage.tourcoder.com/tcblog/try-google-fi-googlefichat.png)
 
 #### 更多的问题
 

@@ -25,10 +25,10 @@ zip -er zippedname.zip sourcefolder
 
 后面是一样要求输入两次密码。
 
-![](/imgs/encrypt-files-on-macos-encrypt.png)
+![](https://storage.tourcoder.com/tcblog/encrypt-files-on-macos-encrypt.png)
 
 #### 解压过程
 
 双击压缩后的文件，会要求输入密码，输入正确的密码即可解压成功。
 
-![](/imgs/encrypt-files-on-macos-decrypt.png)
+![](https://storage.tourcoder.com/tcblog/encrypt-files-on-macos-decrypt.png)

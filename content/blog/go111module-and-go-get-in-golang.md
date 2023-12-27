@@ -25,7 +25,7 @@ Go 语言在 1.11 中加入了 Go Module 作为官方包管理形式，因而不
 
   可以通过 `go env -w GO111MODULE=off` 设置生效，此时的 Go 命令行不支持 module 功能，沿用旧版本通过 vendor 目录或者 `$GOPATH` 模式来寻找依赖包。通过 `go get` 下载的第三方包都会被下载到 `$GOPATH/src` 这个文件夹中，同时会在 `pkg` 这个文件夹中生成对应的文件，同样用上面的 Gin 举例，得到的目录结构如下图
   
-  ![](/imgs/go111module-and-go-get-in-golang-002.png)
+  ![](https://storage.tourcoder.com/tcblog/go111module-and-go-get-in-golang-002.png)
 
   此模式下，可以在 源码中直接通过 `import` 引入这个包，比如新建文件 `hello.go`，加入下面代码
   
@@ -49,7 +49,7 @@ Go 语言在 1.11 中加入了 Go Module 作为官方包管理形式，因而不
 
   可以通过 `go env -w GO111MODULE=on` 设置生效，此时的 Go 命令行会使用 modules，并不会去 `$GOPATH` 目录下查找。通过 `go get` 下载的第三方包都会被下载到 `$GOPATH/pkg` 这个文件夹中。比如下载 Go 的 web 开发框架 Gin，`go get github.com/gin-gonic/gin` 得到目录结构如下图
   
-  ![](/imgs/go111module-and-go-get-in-golang-001.png)
+  ![](https://storage.tourcoder.com/tcblog/go111module-and-go-get-in-golang-001.png)
   
   和上面方式一样，创建新文件 `hello.go` 并加入上上面的代码，执行 `go run hello.go`，则会提示错误
   

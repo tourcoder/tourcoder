@@ -9,7 +9,7 @@ tags: ["npm", "npmjs"]
 
 做过 NPMJS 包的人都知道，通过命令 `npm info 包名字` 可以查看到维护人员的 Email 地址，如下图中红色标注出来的
 
-![](/imgs/how-to-update-the-email-address-of-package-maintainers-on-npmjs-000.png)
+![](https://storage.tourcoder.com/tcblog/how-to-update-the-email-address-of-package-maintainers-on-npmjs-000.png)
 
 但有时候遇到一个问题是想更改这里的 Email 地址，在官网找到相关资料，有小伙伴和我说唯一的办法是删除掉这个包，然后用新的 Email 地址重新上传。再和 NPMJS 官方多次联系后，我基本确认两个事情
 
@@ -25,11 +25,11 @@ tags: ["npm", "npmjs"]
 
 第三步，登录后，运行命令 `npm owner add tourcoder 包名字`，比如我这里执行 `npm owner add tourcoder a-yarn-demo`，会出现增加成功的提示，如下图
 
-![](/imgs/how-to-update-the-email-address-of-package-maintainers-on-npmjs-002.png)
+![](https://storage.tourcoder.com/tcblog/how-to-update-the-email-address-of-package-maintainers-on-npmjs-002.png)
 
 第四步，等待一两分钟，执行命令 `npm owner rm tourcoder 包名字`，完成，这时会发现维护人的 Email 地址更新好了。
 
-![](/imgs/how-to-update-the-email-address-of-package-maintainers-on-npmjs-003.png)
+![](https://storage.tourcoder.com/tcblog/how-to-update-the-email-address-of-package-maintainers-on-npmjs-003.png)
 
 这个所谓的漏洞可能是一个设计的“缺陷”，NPM 应该在执行一些命令，比如所有者命令时，会做账户刷新校验，然后根据数据进行了更新。
 

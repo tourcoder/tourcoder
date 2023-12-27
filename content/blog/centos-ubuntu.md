@@ -174,7 +174,7 @@ mkdir -p /data/db
 
 但这个只是前台启动，如果 Session 窗口关闭，mongodb 也会关闭，mongodb 还提供了后台 Daemon 启动的方式，加上 `--fork` 参数，但需要注意，如果使用 `--fork` 参数，就必须使用 `--logpath` 参数。
 
-![](/imgs/centos-ubuntu-08.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-08.png)
 
 ```
 ./mongod --dbpath=/data/db --fork --logpath=/var/log/mongodb/mongodb.log
@@ -744,7 +744,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 sudo apt-get install python-software-properties
 ```
 
-![](/imgs/centos-ubuntu-01.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-01.png)
 
 去[这里](https://github.com/nodesource/distributions)查看最新的源，这里我选择了 6.x
 
@@ -752,15 +752,15 @@ sudo apt-get install python-software-properties
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 ```
 
-![](/imgs/centos-ubuntu-02.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-02.png)
 
 注意，`deb.nodesource.com` 指向的是上面所给地址 `https://github.com/nodesource/distributions` 下的 deb 内
 
 运行命令 `apt install nodejs` 直接安装，并检查版本
 
-![](/imgs/centos-ubuntu-03.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-03.png)
 
-![](/imgs/centos-ubuntu-04.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-04.png)
 
 **补充个源码安装的方式**
 
@@ -913,7 +913,7 @@ Mysql 在运行的时候，经常会遇到如下的错误
 ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
 ```
 
-![](/imgs/centos-ubuntu-05.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-05.png)
 
 下面是一个解决方式
 
@@ -949,7 +949,7 @@ ls -lart /var/run/mysqld
 
 可以看到
 
-![](/imgs/centos-ubuntu-06.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-06.png)
 
 需要 mysql 的执行权限，执行命令
 
@@ -959,7 +959,7 @@ chown -R mysql /var/run/mysqld
 
 再次查看
 
-![](/imgs/centos-ubuntu-07.png)
+![](https://storage.tourcoder.com/tcblog/centos-ubuntu-07.png)
 
 重启 Mysql，问题解决，MariaDB 也是一样的处理方式。
 

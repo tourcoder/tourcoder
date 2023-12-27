@@ -384,7 +384,7 @@ ps. iOS 中自带的字体
 
 **Xcode 项目工程的结构**
 
-![](/imgs/ios-dev-tips-01.png)
+![](https://storage.tourcoder.com/tcblog/ios-dev-tips-01.png)
 
 这是我常用的项目工程结构，其中包含了 Pods.
 

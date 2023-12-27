@@ -31,15 +31,15 @@ tags: ["Apple", "macOS", "数据安全"]
 
 FileVault 在 macOS 上对整个磁盘加密，别人通过物理方式偷数据或修改数据变得困难。开启步骤，打开`系统设置`，进入到`安全和隐私`，选择 `FileVault`，如下图
 
-![](/imgs/keep_your_data_safe_on_macos_0011.png)
+![](https://storage.tourcoder.com/tcblog/keep_your_data_safe_on_macos_0011.png)
 
 点击打开 `FileVault`，会进入下一步
 
-![](/imgs/keep_your_data_safe_on_macos_0021.png)
+![](https://storage.tourcoder.com/tcblog/keep_your_data_safe_on_macos_0021.png)
 
 因为我并不相信 iCloud 的技术，所以，我选择了下一项，记录本地的恢复码，注意选择这项的一定要保存好这个恢复码。
 
-![](/imgs/keep_your_data_safe_on_macos_0031.png)
+![](https://storage.tourcoder.com/tcblog/keep_your_data_safe_on_macos_0031.png)
 
 点下一步后，它就开始加密整个磁盘，时间也会比较长，完成后重启电脑即可。
 

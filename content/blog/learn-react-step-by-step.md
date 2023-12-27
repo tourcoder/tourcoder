@@ -43,7 +43,7 @@ draft: false
 
 通过 `npx create-react-app blog` 命令初始化创建一个名叫 blog 的 react 应用，执行该命令后，在 loading 一段时间后就会创建这个 blog 应用。其结构如下
 
-![](/imgs/learn-react-step-by-step-001.png)
+![](https://storage.tourcoder.com/tcblog/learn-react-step-by-step-001.png)
 
 在 `public` 文件夹下的文件中
 
@@ -1283,7 +1283,7 @@ export default PostComments;
 
 改完后，页面的基本样式也有了，到此，项目的目录结构如下图
 
-![](/imgs/learn-react-step-by-step-002.png)
+![](https://storage.tourcoder.com/tcblog/learn-react-step-by-step-002.png)
 
 ### 通用组件
 
@@ -1524,7 +1524,7 @@ export default HomePage;
 
 有一些功能需要写入到数据库，而 mockjs 无法实现这样的功能，这里借助 firebase 来实现这样的功能。先进入到 firebase.google.com，创建一个 Cloud Firestore 的数据库，并且给它预置一个集合 users 和两条数据，其中密码部分没有加密。
 
-![](/imgs/learn-react-step-by-step-003.png)
+![](https://storage.tourcoder.com/tcblog/learn-react-step-by-step-003.png)
 
 回到代码处继续，先将 firebase 添加到项目工程中
 

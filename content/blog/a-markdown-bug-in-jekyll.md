@@ -39,7 +39,7 @@ tags: ["bug", "jekyll"]
 
         Review this post, you will see this
         
-        ![](/imgs/markdown-error-in-jekyll-01.png)
+        ![](https://storage.tourcoder.com/tcblog/markdown-error-in-jekyll-01.png)
 
         The strikethrough doesn't work.
 
@@ -70,4 +70,4 @@ I installed Jekyll at local, and created a new site, and added more text at the 
 
 It's a bug, look at following image
 
-![](/imgs/markdown-error-in-jekyll-02.png)
+![](https://storage.tourcoder.com/tcblog/markdown-error-in-jekyll-02.png)

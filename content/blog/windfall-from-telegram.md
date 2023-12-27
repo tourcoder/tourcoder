@@ -13,15 +13,15 @@ tags: ["安全", "telegram"]
 
 和往常一样，我用电脑端的 telegram 客户端和这位朋友聊天，聊天的内容是我最近吐槽的 outlook 和 Google 的用户安全机制等，但 telegram 突然弹出一个窗口
 
-![](/imgs/windfall-from-telegram-000.jpg)
+![](https://storage.tourcoder.com/tcblog/windfall-from-telegram-000.jpg)
 
 点击上面的 `More info` 后
 
-![](/imgs/windfall-from-telegram-001.jpg)
+![](https://storage.tourcoder.com/tcblog/windfall-from-telegram-001.jpg)
 
 什么？从它的机器人名称到内容的意思，我被识别为发送垃圾信息的人了，可是每次我都只和这个朋友聊天，怎么就变成发送垃圾信息的人了？继续点 `Start`，就有了下面的这段和机器人的对话
 
-![](/imgs/windfall-from-telegram-002.jpg)
+![](https://storage.tourcoder.com/tcblog/windfall-from-telegram-002.jpg)
 
 本也稀松平常的事情的，但却让我觉得有些事情似乎不太对。
 

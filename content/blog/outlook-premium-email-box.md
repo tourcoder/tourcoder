@@ -27,39 +27,39 @@ outlook 的域名邮箱就是使用你当前的 outlook/hotmail/live/msn 邮箱�
 
 访问 outlook.live.com，用的订阅版账户登录，在界面的右上角会有一个钻石的标志，点它。
 
-![](/imgs/outlook-premium-email-box-001.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-001.png)
 
 在弹出的窗口中，点击 `Feature` 里面 `Personalized email address` 后面的 `Get Started`，如下图
 
-![](/imgs/outlook-premium-email-box-002.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-002.png)
 
 因为域名已经转移到 Godaddy，所以点下图中最下面的 `I already own a Godaddy domain`
 
-![](/imgs/outlook-premium-email-box-003.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-003.png)
 
 注意，这里有一个坑，如果你想要用一个新域名，不要通过上面的 `Get a domain` 来注册一个新域名，我尝试了多次，都无法成功，最后先在 Godaddy 注册好域名，然后再使用，就没有问题。
 
-![](/imgs/outlook-premium-email-box-004.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-004.png)
 
 输入自己要用的域名
 
-![](/imgs/outlook-premium-email-box-005.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-005.png)
 
 会自动验证，注意另外一个坑，如上面准备工作中所说，一定要用 Godaddy 的 Nameservers，不然会验证通不过。其实可以通过设置让验证通过，但是，即便这里通过了，后面的操作会出现大量错误问题，所以一定要用 Godaddy 的 Nameservers。
 
-![](/imgs/outlook-premium-email-box-006.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-006.png)
 
 连接 Godaddy，如上所说，如果不用它的 Nameservers，这个界面是访问不到的。
 
-![](/imgs/outlook-premium-email-box-007.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-007.png)
 
 验证成功后，会自动返回到 outlook.live.com 的邮箱界面。
 
-![](/imgs/outlook-premium-email-box-008.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-008.png)
 
 输入邮箱的用户名
 
-![](/imgs/outlook-premium-email-box-009.png)
+![](https://storage.tourcoder.com/tcblog/outlook-premium-email-box-009.png)
 
 这样，域名邮箱就完成设置了，和你的 hotmail 邮箱是同一个邮箱。
 

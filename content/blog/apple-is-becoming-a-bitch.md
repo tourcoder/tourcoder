@@ -11,7 +11,7 @@ tags: ["Apple", "iCloud", "安全"]
 
 **本地密码**
 
-![](/imgs/apple-is-becoming-a-bitch-001.png)
+![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-001.png)
 
 解释下上面这张图，我在 Mac 上登录 iCloud 的账户，它要我输入 iPhone 的开屏密码。
 
@@ -21,7 +21,7 @@ tags: ["Apple", "iCloud", "安全"]
 
 几年前，我一直用系统自带的邮件客户端，后来因为一些不可抗力，我没有再继续使用。直到最近这几天我计划用它，先看一张图
 
-![](/imgs/apple-is-becoming-a-bitch-002.png)
+![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-002.png)
 
 从上面的图可以看出来
 
@@ -37,7 +37,7 @@ tags: ["Apple", "iCloud", "安全"]
 
     成功退出 iCloud 账户后，再次没有登录任何账号的情况下打开 mail 这个自带的邮件客户端，新建邮件，得到如下的图
     
-    ![](/imgs/apple-is-becoming-a-bitch-003.png)
+    ![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-003.png)
     
     没有了任何提示。
     
@@ -51,11 +51,11 @@ tags: ["Apple", "iCloud", "安全"]
 
     又在一台完全没有登录过 iCloud，完全没有使用过这个自带邮件客户端的 Mac 上继续实验。直接打开这个客户端如下图
     
-    ![](/imgs/apple-is-becoming-a-bitch-004.png)
+    ![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-004.png)
     
     需要一个账户才能使用，随即注册了一个完全全新的 hotmail 邮箱，并在自带的邮件客户端里登录
     
-    ![](/imgs/apple-is-becoming-a-bitch-005.png)
+    ![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-005.png)
     
     然后新建邮件，是没有任何的提示，和不登录那个 iCloud 账号一样，而当我在这台 Mac 上登录那个 iCloud 账户并且**关闭了 iCloud 中的所有同步等内容**，但这些内容都又出来了。
     
@@ -74,11 +74,11 @@ tags: ["Apple", "iCloud", "安全"]
 Siri 就不用我多说了，它就是一个彻头彻尾的信息间谍软件，它可以在你的系统中做任何事情，即便你已经关闭了它，它依旧活跃的，无任何阻拦地获取用户的信息，比如下面
 
 
-![](/imgs/apple-is-becoming-a-bitch-006.jpg)
+![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-006.jpg)
 
 再比如下面的
 
-![](/imgs/apple-is-becoming-a-bitch-008.jpg)
+![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-008.jpg)
 
 我在 Mac 上都没有启用 Siri，更没有给它阅读邮件的权限，但是它就是能够阅读我的邮件，并且给我建议。同样的问题，我在 Twitter 上也喷过。
 
@@ -89,7 +89,7 @@ Siri 就不用我多说了，它就是一个彻头彻尾的信息间谍软件，
 
 就拿最近的一次来说吧，我有一个域名，任何基于该域名的邮箱注册 Apple ID 时，都会得到提示无法使用该邮箱。我猜想是不是该域名进入了 Apple 系统的黑名单，随即寻求了客服帮助，证实并没有进入黑名单。但是从初级客服一直到高级客服，我全力配合他们，又是录屏又是截图的，但就是解决不了问题，甚至有一些解决方式是完全违背客服基础知识的。这样来来回回电话邮件折腾了很长时间，最后一次他们给我发邮件要我协助。
 
-![](/imgs/apple-is-becoming-a-bitch-007.png)
+![](https://storage.tourcoder.com/tcblog/apple-is-becoming-a-bitch-007.png)
 
 他们让我截图证明我的邮箱能够接受不是来自 Apple 的邮件。我当时的想法是什么？我的邮箱注册不了 Apple ID 和我是否能接受别人的邮件有什么关系？我只要能接受到来自 Apple 的邮件就可以了啊。而且我卡在通不过风控，还没有到 Apple 给我发邮件这一步。我实在接受不了这样愚蠢的浪费时间，随即拒绝了！
 

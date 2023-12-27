@@ -13,7 +13,7 @@ tags: ["Gmail", "GitHub", "2018", "hiphop"]
 
 这是我的本质工作，从 2018 年 3 月 1 日起，坚持每天写代码，一直到今天未断。
 
-![](/imgs/goodbye-2018-01.jpg)
+![](https://storage.tourcoder.com/tcblog/goodbye-2018-01.jpg)
 
 可惜从这天开始，我已经把代码管理从 github 转移到自己开发的私有库中心，小绿块再见咯。
 
@@ -37,6 +37,6 @@ tags: ["Gmail", "GitHub", "2018", "hiphop"]
 
 今年读了七本书，三本还是旧书再读，偷懒，没怎么写读书笔记。
 
-![](/imgs/goodbye-2018-02.jpg)
+![](https://storage.tourcoder.com/tcblog/goodbye-2018-02.jpg)
 
 买的纸张书不多，很多还是我老婆买的，我买的是电子书居多。

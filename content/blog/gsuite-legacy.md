@@ -11,6 +11,6 @@ tags: ["Google", "gsuite", "googledrive", "代码", "Google workspace"]
 
 但买这个一定要注意一个问题，就是一定要把主域名控制在自己手里，不然即便你购买了账户，而主域名的拥有者依旧可以删除你的整个账户。具体看客服给我的回复
 
-![](/imgs/gsuite-legacy.png)
+![](https://storage.tourcoder.com/tcblog/gsuite-legacy.png)
 
 主域名拥有者可以要求释放自己的域名，而释放这个域名的唯一办法就是删除这个账户😓

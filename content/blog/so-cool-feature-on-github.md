@@ -9,11 +9,11 @@ tags: ["GitHub", "风控"]
 
 访问 GitHub，收到了如下的提醒
 
-![](/imgs/so-cool-feature-on-github-01.png)
+![](https://storage.tourcoder.com/tcblog/so-cool-feature-on-github-01.png)
 
 心想我邮箱早就验证过了，怎么还会要求这个，点进去后发现是这样的
 
-![](/imgs/so-cool-feature-on-github-02.png)
+![](https://storage.tourcoder.com/tcblog/so-cool-feature-on-github-02.png)
 
 突然意识到，是不是我的邮箱挂了？赶紧查看邮箱，果不其然，邮箱挂掉了。
 

@@ -15,17 +15,17 @@ tags: ["iOS", "swift", "font"]
 
 访问 IcoMoon 的网站，选择需要用到的字体，比如这里选择耳机
 
-![](/imgs/how-to-use-icon-font-in-ios-01.png)
+![](https://storage.tourcoder.com/tcblog/how-to-use-icon-font-in-ios-01.png)
 
 选中后，点击下面的 `Generate Font` 生成字体，在下一个界面下载字体，同时记录下这个字体的编码
 
-![](/imgs/how-to-use-icon-font-in-ios-00.png)
+![](https://storage.tourcoder.com/tcblog/how-to-use-icon-font-in-ios-00.png)
 
 #### 开发
 
 - 创建项目，并将刚才下载的字体添加到项目中
 
-    ![](/imgs/how-to-use-icon-font-in-ios-02.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-use-icon-font-in-ios-02.png)
 
 - 编辑 `Info.plist` 文件，引入字体
 
@@ -45,7 +45,7 @@ tags: ["iOS", "swift", "font"]
     
     先初始化字体，然后输入字体的编码即可，运行后的效果如下
     
-    ![](/imgs/how-to-use-icon-font-in-ios-04.png)
+    ![](https://storage.tourcoder.com/tcblog/how-to-use-icon-font-in-ios-04.png)
     
 #### 源码
 

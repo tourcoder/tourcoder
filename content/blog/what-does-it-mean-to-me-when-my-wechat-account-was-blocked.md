@@ -9,17 +9,17 @@ tags: ["微信", "墙国", "老鼠"]
 
 早上发了个朋友圈，内容如下
 
-![](/imgs/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-000.jpg)
+![](https://storage.tourcoder.com/tcblog/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-000.jpg)
 
 下午的时候，有人问我是不是把早上的朋友圈内容删了，问了其他朋友，都告诉我说看不见我朋友圈，随即发现我的微信朋友圈似乎被屏蔽了，发了推吐槽了下，也没当回事，没想到过了几个小时，收到了微信的通知。
 
-![](/imgs/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-001.jpg)
+![](https://storage.tourcoder.com/tcblog/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-001.jpg)
 
-![](/imgs/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-003.jpg)
+![](https://storage.tourcoder.com/tcblog/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-003.jpg)
 
 哈哈哈，喜提半个月的群聊，朋友圈等功能的封禁。原因互联网相关法律法规的要求，我尝试了下在群里发消息和发朋友圈，均无法成功。
 
-![](/imgs/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-002.jpg)
+![](https://storage.tourcoder.com/tcblog/what-does-it-mean-to-me-when-my-wechat-account-was-blocked-002.jpg)
 
 微信真的是好样的。当然我也向微信申诉了，我想知道我的什么话，触动了老鼠们的神经，让它们害怕到封禁我的群聊和朋友圈等功能。
 

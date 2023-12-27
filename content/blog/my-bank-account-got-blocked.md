@@ -34,7 +34,7 @@ tags: ["中国银行", "封锁"]
 
 以上是整个过程的大概情况，目前账户还是被冻结着，出于程序员该死的逻辑心，我简单分析了下这次的事情。
 
-![](/imgs/my-bank-account-got-blocked.jpg)
+![](https://storage.tourcoder.com/tcblog/my-bank-account-got-blocked.jpg)
 
 这是一个大概过程，很多地方的人被骗了钱，在各地报警，然后各地的公安局就从接收被害人钱的账户开始，一层一层的封。就这样，导致了我的账户被多个地方的公安局封了。
 

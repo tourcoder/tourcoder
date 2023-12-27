@@ -13,7 +13,7 @@ tags: ["二次认证", "Google", "安全"]
 
 最近收到几个账户异地登录的提醒，如下图
 
-![](/imgs/using-2-factor-authentication-for-your-accounts.png)
+![](https://storage.tourcoder.com/tcblog/using-2-factor-authentication-for-your-accounts.png)
 
 不过因为我开启了二次认证，所以貌似没什么太多的威胁。即便他知道了我的密码，也没有办法进入我的账户。
 

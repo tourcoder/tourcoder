@@ -1,3 +1,4 @@
+w
 ---
 title: "《支付战争》读后感"
 slug: "paypal-wars"
@@ -9,7 +10,7 @@ tags: ["支付战争", "paypal", "读后感"]
 
 断断续续的读完了埃里克·M·杰克逊的《支付战争》，英文名 < The PayPal Wars >，这是一本讲述 PayPal 诞生记的书，我更觉得它是关于 PayPal 的史书。读后感触良多，有几点非常值得一提。
 
-![](/imgs/paypal-wars.jpg)
+![](https://storage.tourcoder.com/tcblog/paypal-wars.jpg)
 
 - 时间紧，快很重要 本书的章节排序很有意思，是根据几个月一排序作为一章节，每个时间点走的每一步都很重要，快是本书全文都透着的一点。
 

@@ -9,11 +9,11 @@ tags: ["jquery", "codeigniter", "php"]
 
 最近在基于 PHP 的框架 Codeigniter（以下简称 CI 框架） 开发一款系统，其中用到了上传功能，考虑到用户体验等问题，采用了开源的 Jquery File Upload，如下图
 
-![](/imgs/ci_uploader_01.png)
+![](https://storage.tourcoder.com/tcblog/ci_uploader_01.png)
 
 上传之前
 
-![](/imgs/ci_uploader_02.png)
+![](https://storage.tourcoder.com/tcblog/ci_uploader_02.png)
 
 上传之后
 

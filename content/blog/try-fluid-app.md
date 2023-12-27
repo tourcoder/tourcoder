@@ -29,17 +29,17 @@ tags: ["Gmail", "electron", "fluid"]
 
     打开软件，并参考下图填入相关信息
 
-    ![](/imgs/try-fluid-app-01.png)
+    ![](https://storage.tourcoder.com/tcblog/try-fluid-app-01.png)
     
     点击 Create，稍等一会，你的 Gmail 应用已经诞生了，很方便是不是？
 
     运行刚才创建的 Gmail App，你可以点击顶部菜单 Gmail-Preferences，还可以设置
 
-    ![](/imgs/try-fluid-app-02.png)
+    ![](https://storage.tourcoder.com/tcblog/try-fluid-app-02.png)
 
     其它更多的设置自行研究，我重点说下它的 userscripts，点菜单栏中的 `Window->userscripts`
 
-    ![](/imgs/try-fluid-app-03.png)
+    ![](https://storage.tourcoder.com/tcblog/try-fluid-app-03.png)
 
     点左下角的 +，创建一个 Gmail，在右上部填写 Gmail 的几个地址，右下面就是你的 js 工作区。fluid 官方也提供了一些接口，[Fluid API](http://fluidapp.com/developer)。
 

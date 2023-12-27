@@ -13,7 +13,7 @@ tags: ["人工工学", "椅子"]
 
 这个级别我买过一款西昊的，当时价格是 500 多，刚才去某东看了，现在价格是 400 多
 
-![](/imgs/chair-is-so-important-01.jpg)
+![](https://storage.tourcoder.com/tcblog/chair-is-so-important-01.jpg)
 
 这椅子总体来说，还是蛮舒服的，不足的地方是不知道是不是我的体重问题，我感觉它总是向一个方向偏。
 
@@ -21,7 +21,7 @@ tags: ["人工工学", "椅子"]
 
 千元级别的这个椅子种类很多，我买这个椅子是受游戏启发。我一直喜欢打游戏（以前玩星际，现在玩守望先锋），一次看游戏直播，突然想到这些职业选手每天要坐在椅子上训练十几个小时，那么他们的椅子就应该很好，所以，就入了这个椅子。
 
-![](/imgs/chair-is-so-important-02.jpg)
+![](https://storage.tourcoder.com/tcblog/chair-is-so-important-02.jpg)
 
 这个椅子的牌子叫 DXRACER，在电竞圈子里比较有名，它也有千元以下的，我用下来的确不错，就是夏天坐着不舒服。
 
@@ -29,7 +29,7 @@ tags: ["人工工学", "椅子"]
 
 提到这个级别的椅子，不得不说 Herman Miller Embody，关于它的信息，随便搜索下就可以搜到很多，是国内外很多公司的标配。
 
-![](/imgs/chair-is-so-important-03.jpg)
+![](https://storage.tourcoder.com/tcblog/chair-is-so-important-03.jpg)
 
 这个椅子我实在说不出什么缺点，我也只是坐了半年，就被人 “ 讹 ” 去了。
 

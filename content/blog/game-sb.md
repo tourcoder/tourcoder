@@ -11,7 +11,7 @@ tags: ["游戏", "吃鸡", "和平精英"]
 
 比如下面的一场比赛，如下图
 
-![](/imgs/gamesb.jpg)
+![](https://storage.tourcoder.com/tcblog/gamesb.jpg)
 
 已经到最后的缩圈范围，
 

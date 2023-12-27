@@ -15,7 +15,7 @@
     <itunes:email>hello@tourcoder.com</itunes:email>
 </itunes:owner>
 <itunes:explicit>false</itunes:explicit>
-<itunes:image href="https://tourcoder.com/imgs/podcastlogo.jpg"/>
+<itunes:image href="https://storage.tourcoder.com/podcast/podcastlogo.jpg"/>
 <itunes:category text="Comedy" />
 <itunes:category text="Technology" />
 <itunes:category text="Arts" />

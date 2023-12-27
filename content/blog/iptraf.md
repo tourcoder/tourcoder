@@ -21,12 +21,12 @@ tags: ["iptraf", "centos"]
 
 **运行**
 
-![](/imgs/iptraf-01.png)
+![](https://storage.tourcoder.com/tcblog/iptraf-01.png)
 
 提示错误，因为在 centOS 中，当安装 iptraf 的时候，已经自动的安装了 `iptraf-ng`，所以这里应该执行命令 `iptraf-ng`。
 
 注意，你要调整你的终端尺寸，否则也会报错，一切正常后，进入
 
-![](/imgs/iptraf-02.png)
+![](https://storage.tourcoder.com/tcblog/iptraf-02.png)
 
 至于怎么用，都是图文化的界面，很容易。

@@ -9,19 +9,19 @@ tags: ["版权", "iOS", "App"]
 
 下面这张图的信息，相信所有有 AppStore 中国区开发者帐号的人在 iTunesConnect 后台看到了，那么具体是个什么情况呢？是否有绕过的办法呢？
 
-![](/imgs/fgr_01.png)
+![](https://storage.tourcoder.com/tcblog/fgr_01.png)
 
 目前并不是所有的应用都需要提交这些信息，当开发者在后台将应用的类别选择是游戏的时候，那么在审核的信息里面就会有提示，需要进入版号。
 
-![](/imgs/fgr_02.png)
+![](https://storage.tourcoder.com/tcblog/fgr_02.png)
 
 如果是其他非游戏类的应用时，即将应用类别改成非游戏，则没有任何的提示
 
-![](/imgs/fgr_04.png)
+![](https://storage.tourcoder.com/tcblog/fgr_04.png)
 
 那么我继续选择应用类别为游戏，而发行地区选择不包含中国大陆地区，即该游戏应用不在中国大陆地区运营
 
-![](/imgs/fgr_04.png)
+![](https://storage.tourcoder.com/tcblog/fgr_04.png)
 
 但可惜的是，依旧提示需要版号。
 
