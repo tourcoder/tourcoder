@@ -2,9 +2,9 @@
 title: "合同和关系"
 slug: "contracts-vs-relationship"
 author: "Bin Hua"
-lastmod: 2016-11-05 06:53:58
 date: 2016-11-05 06:53:58
 tags: ["商业", "合同"]
+draft: false
 ---
 
 一早婉拒了一个项目，不做他们的项目主要是两点异议，违约条款和付款周期。

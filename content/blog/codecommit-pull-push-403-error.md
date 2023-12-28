@@ -2,9 +2,9 @@
 title: "解决 AWS Codecommit 在 pull / push 的 403 错误"
 slug: "codecommit-pull-push-403-error"
 author: "Bin Hua"
-lastmod: 2017-06-05 07:02:25
 date: 2017-06-05 07:02:25
 tags: ["Codecommit", "aws", "git"]
+draft: false
 ---
 
 最近使用了下 AWS 推出的 Codecommit 的版本控制托管服务，简单明了，加上我也在用他家的云服务，配合部署，很方便。

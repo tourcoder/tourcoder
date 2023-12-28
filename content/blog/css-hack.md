@@ -2,9 +2,9 @@
 title: "css hack 速查手册"
 slug: "css-hack"
 author: "Bin Hua"
-lastmod: 2009-01-21 05:10:00
 date: 2009-01-21 05:10:00
 tags: ["css", "web前端"]
+draft: false
 ---
 
 屏蔽IE浏览器（也就是IE下不显示）

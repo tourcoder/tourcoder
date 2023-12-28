@@ -2,9 +2,9 @@
 title: "程序员学点啥"
 slug: "cheng-xu-yuan-xue-dian-sha"
 author: "Bin Hua"
-lastmod: 2020-08-06 10:45:48
 date: 2020-08-06 10:45:48
 tags: ["正则", "GitHub"]
+draft: false
 ---
 
 这本是我在 GitHub 上的一个 repo，索性移到我的博客。话说自己作为程序员也有不少年头，多种语言会而不精通，但现在看来，对一个程序员来说，一些基本功还是很有必要的。

@@ -2,9 +2,9 @@
 title: "Chrome 插件开发"
 slug: "chrome-extensions"
 author: "Bin Hua"
-lastmod: 2018-03-06 07:31:14
 date: 2018-03-06 07:31:14
 tags: ["Google", "chrome", "代码示例"]
+draft: false
 ---
 
 烦透了 Chrome 打开一个新标签时的下面的缩略图，所以就想是不是可以开发一个 Chrome 的插件，说干就干。看了下 Chrome Extensions 的官方开发指南，从文档中可以看出，重点是 `manifest.json` 这个文件

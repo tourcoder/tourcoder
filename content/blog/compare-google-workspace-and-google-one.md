@@ -2,9 +2,9 @@
 title: "比较 Google Workspace 和 Google One"
 slug: "compare-google-workspace-and-google-one"
 author: "Bin Hua"
-lastmod: 2022-10-22T06:41:17Z
 date: 2022-10-22T06:41:17Z
 tags: ["GoogleWorkspace", "GoogleOne", "Google", "GSuite"]
+draft: false
 ---
 
 Google 有两套账户体系，一套是以 `@gmail.com` 为后缀的账户或者以用户自己其他 email 地址（比如 foobar@yahoo.com）为用户名的账户。另外一套账户是以用户自有域名邮箱为用户名的账户。根据功能特色，我将这两套账户体系分别称为 `Google One(Personal account)` 和 `Google Workspace(Workspace account)`。

@@ -2,9 +2,9 @@
 title: "CSS3 中自定义字体"
 slug: "custom-font-in-css3"
 author: "Bin Hua"
-lastmod: 2018-05-07 07:38:42
 date: 2018-05-07 07:38:42
 tags: ["web前端", "webfont", "fontawesome"]
+draft: false
 ---
 
 虽然现在有 Google web font 这么一个好用的字体库，但有时网页中需要用到自定义的字体，在 css3 中就能很好的解决这个问题。

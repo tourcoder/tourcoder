@@ -2,9 +2,9 @@
 title: "被逼，做了一次“流氓”"
 slug: "css-hacker-01"
 author: "Bin Hua"
-lastmod: 2009-04-29 05:39:11
 date: 2009-04-29 05:39:11
 tags: ["web前端", "css"]
+draft: false
 ---
 
 一个项目一下子恢复到最初的table的混乱状态，尤其是table的居左，居中，居右问题，如果一个页面一个页面修改，那要死人了，怎么办？

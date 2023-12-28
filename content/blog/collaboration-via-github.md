@@ -2,9 +2,9 @@
 title: "利用 GitHub 协同工作"
 slug: "collaboration-via-github"
 author: "Bin Hua"
-lastmod: 2019-05-07 03:01:53
 date: 2019-05-07 03:01:53
 tags: ["GitHub", "stuff", "workflow", "collaboration", "协同工作", "issue"]
+draft: false
 ---
 
 GitHub 的强大不用我多说，今天这一篇就好好的写一下如何用 GitHub 进行有效的协同工作，基本是看完这篇文章后，GitHub 协同工作就会了。
