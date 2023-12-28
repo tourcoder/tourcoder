@@ -2,9 +2,9 @@
 title: "复仇者联盟 3 观后感"
 slug: "avengers-3-infinity-war"
 author: "Bin Hua"
-lastmod: 2018-05-12 07:39:20
 date: 2018-05-12 07:39:20
 tags: ["电影", "观后感"]
+draft: false
 ---
 
 刷一遍复联 3，差点睡着了，可能是因为最近没有好好睡觉的缘故。说说自己的观影感受。

@@ -2,9 +2,9 @@
 title: "Linux 下利用 crontab 自动备份"
 slug: "auto-backup-on-linux"
 author: "Bin Hua"
-lastmod: 2014-03-22 06:37:07
 date: 2014-03-22 06:37:07
 tags: ["crontab", "linux", "mysql"]
+draft: false
 ---
 
 数据有多重要，不用我详说，如果每天人工备份，又太繁琐，所以利用 crontab 来自动备份文件就是一个很不错的办法。

@@ -2,9 +2,9 @@
 title: "让我开始略感厌恶的 Apple"
 slug: "apple-is-becoming-a-bitch"
 author: "Bin Hua"
-lastmod: 2019-12-14 12:43:13
 date: 2019-12-14 12:43:13
 tags: ["Apple", "iCloud", "安全"]
+draft: false
 ---
 
 **Apple 让我开始感到厌恶**，我觉得有必要将这句话加黑加粗。

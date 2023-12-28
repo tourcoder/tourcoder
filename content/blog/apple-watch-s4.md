@@ -2,9 +2,9 @@
 title: "Apple Watch S4 使用体验"
 slug: "apple-watch-s4"
 author: "Bin Hua"
-lastmod: 2019-01-22 03:53:51
 date: 2019-01-22 03:53:51
 tags: ["Apple", "applewatch", "产品体验", "智能手表"]
+draft: false
 ---
 
 买了 Apple Watch S4，并使用了一段时间，感受只有两个字 -- 鸡肋，“也许”只是对我这类生活方式的人来说是鸡肋。

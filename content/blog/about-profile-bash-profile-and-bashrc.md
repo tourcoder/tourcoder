@@ -2,9 +2,9 @@
 title: "一张表格看懂 profile,bashrc,bash_profile 的区别"
 slug: "about-profile-bash-profile-and-bashrc"
 author: "Bin Hua"
-lastmod: 2019-01-05 07:58:19
 date: 2019-01-05 07:58:19
 tags: ["macOS", "linux", "bash"]
+draft: false
 ---
 
 在 Linux/macOS 系统中，经常会使用到 profile，bash-profile 和 bashrc，那么他们具体表达的意思是什么呢？通过一张表格可以看出来

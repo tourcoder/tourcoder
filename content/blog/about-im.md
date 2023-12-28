@@ -2,9 +2,9 @@
 title: "多少个IM才能满足要求"
 slug: "about-im"
 author: "Bin Hua"
-lastmod: 2010-05-01T06:05:03Z
 date: 2010-05-01T06:05:03Z
 tags: ["IM", "QQ", "MSN", "SKYPE", "GTALK"]
+draft: false
 ---
 
 想必大家都会遇到这么一个情况，办公室里经常响起“滴滴”，“叮叮当”的声音，而且这声音此起彼伏...没错，这就是一直在我们身边的QQ和MSN等IM的声音，它们一直响在我们身边。

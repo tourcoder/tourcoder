@@ -2,9 +2,9 @@
 title: "我的数字账户"
 slug: "about-my-digital-accounts"
 author: "Bin Hua"
-lastmod: 2019-03-02 14:41:24
 date: 2019-03-02 14:41:24
 tags: ["数字账户", "digitallife"]
+draft: false
 ---
 
 数字生活已经有很多年，一直没有好好整理过，但过年期间我好好的思考了下这些东西，然后做了下简单的整理。

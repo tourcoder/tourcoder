@@ -2,9 +2,9 @@
 title: "Apple 开发者帐号的问题"
 slug: "an-issue-of-apple-developer-account"
 author: "Bin Hua"
-lastmod: 2019-09-15 04:48:01
 date: 2019-09-15 04:48:01
 tags: ["Apple", "apple developer", "苹果开发者账户", "appstore"]
+draft: false
 ---
 
 昨天深夜上传了个新应用，没几个小时，也就今天早上五点多的时候，收到 Apple 发来的邮件，随即登录开发者后台查看。

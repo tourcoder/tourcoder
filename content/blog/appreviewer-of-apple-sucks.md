@@ -2,9 +2,9 @@
 title: "记录一次 App 审核"
 slug: "appreviewer-of-apple-sucks"
 author: "Bin Hua"
-lastmod: 2018-02-08 07:25:08
 date: 2018-02-08 07:25:08
 tags: ["Apple", "App", "应用审核"]
+draft: false
 ---
 
 最近被 Apple 的 App 审核给搞惨了，过程也让我对 Apple 感到失望，很多情况体现出了这些审核人员极度不负责，极度的敷衍了事。就拿一个具有代表性的 App 来说吧。

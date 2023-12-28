@@ -2,9 +2,9 @@
 title: "A Markdown bug in Jekyll"
 slug: "a-markdown-bug-in-jekyll"
 author: "Bin Hua"
-lastmod: 2018-03-06T16:47:00Z
 date: 2018-03-06T16:47:00Z
 tags: ["bug", "jekyll"]
+draft: false
 ---
 
 #### reproduce

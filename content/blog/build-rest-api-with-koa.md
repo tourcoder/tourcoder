@@ -2,9 +2,9 @@
 title: "用 koa 开发 REST API"
 slug: "build-rest-api-with-koa"
 author: "Bin Hua"
-lastmod: 2018-08-06 07:42:25
 date: 2018-08-06 07:42:25
 tags: ["MongoDB", "api", "nodejs", "koa", "RESTFUL"]
+draft: false
 ---
 
 Nodejs 特点之一是高并发，Koa2 是下一代的 Nodejs 框架。所以，我尝试写一套基于 Koa2 的 REST API。

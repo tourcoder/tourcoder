@@ -2,9 +2,9 @@
 title: "将博客程序换回了 Ghost"
 slug: "back-to-ghost-and-find-a-bug"
 author: "Bin Hua"
-lastmod: 2018-11-26 14:12:23
 date: 2018-11-26 14:12:23
 tags: ["bug", "ghost", "GitHub Pages"]
+draft: false
 ---
 
 如前面所说，我的博客在 Github Pages 上架设了一段时间，随着我在 Github 的私有库到期，我不计划续费，架设在 Github Pages 上的博客自然要迁出。其实不用迁出用公开库也行的，只是我不愿意让自己的博客在公开库中。

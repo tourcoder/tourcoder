@@ -2,9 +2,9 @@
 title: "Telegram 的二次验证"
 slug: "2-step-verification-on-telegram"
 author: "Bin Hua"
-lastmod: 2019-02-01T05:06:58Z
 date: 2019-02-01T05:06:58Z
 tags: ["二次验证", "telegram", "2step verification"]
+draft: false
 ---
 
 做了一件特别蠢的事情，在不清醒的时候，给 Telegram 开启了二次验证，并且还没有设置 Email 地址，导致的结果是忘记密码的我，只能够在自己的手机上使用 Telegram。

@@ -2,9 +2,9 @@
 title: "一个简单的短网址系统"
 slug: "a-simple-short-url-app"
 author: "Bin Hua"
-lastmod: 2019-07-15T03:42:19Z
 date: 2019-07-15T03:42:19Z
 tags: ["App", "Productivity", "shorturl"]
+draft: false
 ---
 
 厌烦了现在博客的 url 长地址，虽然在 SEO 上是有一定的帮助，但分享起来，还是比较麻烦，索性就给本博客增加了一个外部的短网址系统。当前博客程序用的是 ghost，它本身提供了一套 API，只是因为懒得去读它的文档，索性就是写了个外部的。

@@ -2,9 +2,9 @@
 title: "预约美国领事馆服务及后续办理流程"
 slug: "appointment-system-of-usa-in-china"
 author: "Bin Hua"
-lastmod: 2020-06-24 09:44:03
 date: 2020-01-14 11:54:28
 tags: ["签证", "美国领事馆", "公证服务"]
+draft: false
 ---
 
 最近需要护照公正，特预约了下美国领事馆的公证服务，记录下流程。

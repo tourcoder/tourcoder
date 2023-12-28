@@ -2,9 +2,9 @@
 title: "一堂生活中的商业课"
 slug: "a-business-lesson-in-life"
 author: "Bin Hua"
-lastmod: 2021-01-29T09:08:00Z
 date: 2021-01-29T09:08:00Z
 tags: ["商业课", "生活", "京东", "淘宝", "天猫", "拼多多"]
+draft: false
 ---
 
 今天发生这么一件事，让我不知道是自己太老实太相信人，还是我太蠢了。

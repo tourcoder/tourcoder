@@ -2,9 +2,9 @@
 title: "SQL server 2K5的自动备份"
 slug: "auto-backup-in-sqlserver2k5"
 author: "Bin Hua"
-lastmod: 2009-07-06 05:40:34
 date: 2009-07-06 05:40:34
 tags: ["crontab", "sql"]
+draft: false
 ---
 
 大家都知道数据库中的数据非常重要，而因为多方面的原因，很多公司未必请了专门的数据库方面的人才，只能靠程序员兼做着，今天就和大家分享一个偷懒但很实用的放大，自动备份数据，具体的创建步骤如下

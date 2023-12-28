@@ -2,9 +2,9 @@
 title: "利用 Git Hooks 自动部署到服务器"
 slug: "automating-deployments-to-server"
 author: "Bin Hua"
-lastmod: 2018-02-12 07:28:14
 date: 2018-02-12 07:28:14
 tags: ["git", "GitHub"]
+draft: false
 ---
 
 使用自动部署的原因很多，我们主要是因为人手关系，还有就是希望开发人员专注于代码的开发，提升代码质量，而非被这些机械式的事情浪费大量时间。

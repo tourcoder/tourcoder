@@ -2,9 +2,9 @@
 title: "REST API 规范手册"
 slug: "api-manual"
 author: "Bin Hua"
-lastmod: 2013-07-25 06:36:11
 date: 2013-07-25 06:36:11
 tags: ["restful", "api"]
+draft: false
 ---
 
 这是我之前写 REST API 的规范手册，在具体的项目中会有调整

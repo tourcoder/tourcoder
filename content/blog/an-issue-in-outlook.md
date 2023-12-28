@@ -2,9 +2,9 @@
 title: "MS OFFICE OUTLOOK中的问题"
 slug: "an-issue-in-outlook"
 author: "Bin Hua"
-lastmod: 2009-01-21 05:08:00
 date: 2009-01-21 05:08:00
 tags: ["bug", "outlook"]
+draft: false
 ---
 
 今天同事使用了新的邮件刊模板，然后生成的邮件刊，在写的过程中他使用了

@@ -2,9 +2,9 @@
 title: "IFTTT 中的 bug"
 slug: "a-bug-on-ifttt"
 author: "Bin Hua"
-lastmod: 2019-03-25T04:37:15Z
 date: 2019-03-25T04:37:15Z
 tags: ["bug", "ifttt"]
+draft: false
 ---
 
 严格上说，这不是一个 bug，是一个功能缺失，具体复现步骤如下

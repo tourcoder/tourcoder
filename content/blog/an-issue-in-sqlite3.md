@@ -2,9 +2,9 @@
 title: "解决问题Sqlite3问题"
 slug: "an-issue-in-sqlite3"
 author: "Bin Hua"
-lastmod: 2009-02-02 05:34:42
 date: 2009-02-02 05:34:42
 tags: ["bug", "sqlite3", "sql"]
+draft: false
 ---
 
 不知道大家注意到没，这段时间，我的BLOG总是不断出现 `This Database is Locked` 的现象，回复留言极其痛苦，今天解决了这个问题，在这里给出这个问题的原因和解决过程

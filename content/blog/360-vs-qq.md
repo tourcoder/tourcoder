@@ -2,9 +2,9 @@
 title: "360和QQ"
 slug: "360-vs-qq"
 author: "Bin Hua"
-lastmod: 2010-11-03T06:07:49Z
 date: 2010-11-03T06:07:49Z
 tags: ["QQ", "360", "周鸿祎", "腾讯", "马化腾"]
+draft: false
 ---
 
 我佩服的人不多，周鸿祎算是一个。
