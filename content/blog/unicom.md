@@ -2,9 +2,9 @@
 title: "联通和它的uphone/unistore"
 slug: "unicom"
 author: "Bin Hua"
-lastmod: 2010-11-05 06:08:48
 date: 2010-11-05 06:08:48
 tags: ["iPhone", "Google", "联通"]
+draft: false
 ---
 
 坊间消息，千呼万唤的联通unistore将于2010年12月20日揭开神秘的面纱，但这个unistore的价值如何，它所面向的对象又是什么样的呢？这里我们做点猜想

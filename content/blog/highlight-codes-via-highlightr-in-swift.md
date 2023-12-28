@@ -2,9 +2,9 @@
 title: "通过 Highlightr 在 Swift 中实现代码高亮"
 slug: "highlight-codes-via-highlightr-in-swift"
 author: "Bin Hua"
-lastmod: 2019-09-23 07:11:10
 date: 2019-09-23 07:11:10
 tags: ["iOS", "App", "swift", "highlightr"]
+draft: false
 ---
 
 前些天在一款应用中需要对代码进行高亮显示，用到了 `Highlightr` 这个第三方库，这个类库搜使用的核心库是 [highlight.js](https://highlightjs.org/)。

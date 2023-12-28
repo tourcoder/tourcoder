@@ -2,9 +2,9 @@
 title: "账户的二次验证"
 slug: "using-2-factor-authentication-for-your-accounts"
 author: "Bin Hua"
-lastmod: 2018-02-27 07:29:03
 date: 2018-02-27 07:29:03
 tags: ["二次认证", "Google", "安全"]
+draft: false
 ---
 
 在一个安全异常重要的时代，开启二次认证也许是一个很不错的办法

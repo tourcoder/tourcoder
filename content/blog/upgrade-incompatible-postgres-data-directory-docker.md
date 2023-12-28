@@ -2,9 +2,9 @@
 title: "Docker 中升级 postgres"
 slug: "upgrade-incompatible-postgres-data-directory-docker"
 author: "Bin Hua"
-lastmod: 2021-01-03 08:01:43
 date: 2021-01-03 07:59:43
 tags: ["docker", "postgresql", "docker-compose"]
+draft: false
 ---
 
 在将 Docker 方式安装的 Postgres 升级时总是不成功，通过 `docker logs --details 该数据容器的id` 查看，得到如下信息

@@ -2,9 +2,9 @@
 title: "试用 macOS Catalina GM Seed"
 slug: "try-macos-catalina-gm-seed"
 author: "Bin Hua"
-lastmod: 2019-10-06 14:42:43
 date: 2019-10-06 14:42:43
 tags: ["Apple", "macOS", "apple developer", "MBA", "MBP"]
+draft: false
 ---
 
 前两天 Apple 释放了 macOS Catalina GM Seed，按以前一贯的作风，如果没有特别大的 bug，GM 版本基本就是最终正式版。

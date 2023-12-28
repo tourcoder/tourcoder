@@ -2,9 +2,9 @@
 title: "Fluid App 初步使用"
 slug: "try-fluid-app"
 author: "Bin Hua"
-lastmod: 2017-10-12 07:11:58
 date: 2017-10-12 07:11:58
 tags: ["Gmail", "electron", "fluid"]
+draft: false
 ---
 
 昨天有朋友看了我博文后，问了我几个问题

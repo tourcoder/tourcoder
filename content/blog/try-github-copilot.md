@@ -2,9 +2,9 @@
 title: "试用 Github Copilot"
 slug: "try-github-copilot"
 author: "Bin Hua"
-lastmod: 2021-07-14T11:37:30Z
 date: 2021-07-14T11:37:30Z
 tags: ["GitHub", "Copilot", "VSCode"]
+draft: false
 ---
 
 有幸获得了 GitHub Copilot 的邀请，今天正好有时间，就写一个简单的中文教程吧。

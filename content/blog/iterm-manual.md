@@ -2,9 +2,9 @@
 title: "iTerm 学习笔记"
 slug: "iterm-manual"
 author: "Bin Hua"
-lastmod: 2019-01-19 13:20:45
 date: 2019-01-19 13:20:45
 tags: ["terminal", "iterm", "vim", "vi"]
+draft: false
 ---
 
 2019 年在工作学习方面有几个 flag，其中一个就是全面掌握 vi/vim，而 iTerm 是很好的 vi/vim 学习工具。

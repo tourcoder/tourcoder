@@ -2,9 +2,9 @@
 title: "为什么我会拒绝"
 slug: "why-i-reject-you"
 author: "Bin Hua"
-lastmod: 2018-03-13 07:34:42
 date: 2018-03-13 07:34:42
 tags: ["社交"]
+draft: false
 ---
 
 这事本来没有计划写一篇博文，但考虑到今天又发生了同类的事情，索性写一篇博文吧。

@@ -2,7 +2,7 @@
 title: "Docker 部署项目笔记(持续更新)"
 slug: "deploy-via-docker"
 author: "Bin Hua"
-lastmod: 2019-10-29T07:16:56Z
+draft: false
 date: 2019-10-29T07:16:56Z
 tags: ["nodejs", "GitHub", "docker", "package"]
 ---

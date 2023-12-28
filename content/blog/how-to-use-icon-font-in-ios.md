@@ -2,9 +2,9 @@
 title: "iOS 中使用图标字体"
 slug: "how-to-use-icon-font-in-ios"
 author: "Bin Hua"
-lastmod: 2019-09-06 06:45:31
 date: 2019-09-06 06:45:31
 tags: ["iOS", "swift", "font"]
+draft: false
 ---
 
 之前写过一篇在 iOS 中自定义字体的「[博文](/ios-dev-tips/)」，随着现在字体的图形化，在 iOS 开发中也可以通过使用这些图形字体来替代图片，也能减少应用的体积。

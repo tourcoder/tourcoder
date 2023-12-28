@@ -2,9 +2,9 @@
 title: "关于本次 fakerjs 事件的一些想法"
 slug: "some-thoughts-on-this-fakerjs-event"
 author: "Bin Hua"
-lastmod: 2022-01-17T09:10:27Z
 date: 2022-01-17T09:10:27Z
 tags: ["fakerjs", "colorjs", "GitHub", "Marak"]
+draft: false
 ---
 
 本次 Marak 删除 faker.js 的事件其实在开源圈里很常见，与之前不同的是这次的影响有点大，也因为影响有点大，冒出了很多声音，其中有些声音和做法是我所不能接受的。

@@ -2,9 +2,9 @@
 title: "SQL server中的随机数"
 slug: "rand-in-sqlserver"
 author: "Bin Hua"
-lastmod: 2009-07-29 05:45:37
 date: 2009-07-29 05:45:37
 tags: ["sql server", "sql"]
+draft: false
 ---
 
 随机函数：rand()

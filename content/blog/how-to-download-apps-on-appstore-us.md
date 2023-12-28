@@ -2,9 +2,9 @@
 title: "如何使用 App Store 美国区"
 slug: "how-to-download-apps-on-appstore-us"
 author: "Bin Hua"
-lastmod: 2019-01-08 04:14:31
 date: 2019-01-08 04:14:31
 tags: ["giftcard", "Apple", "App", "iTunes", "AppStore"]
+draft: false
 ---
 
 App Store 美国区一直是 App Store 中应用最全，质量最高的区，虽然也有刷榜等因素，但好过其他地区的泛滥。

@@ -2,9 +2,9 @@
 title: "创业者说"
 slug: "startup"
 author: "Bin Hua"
-lastmod: 2014-08-12 06:39:50
 date: 2014-08-12 06:39:50
 tags: ["创业"]
+draft: false
 ---
 
 **写在前面**

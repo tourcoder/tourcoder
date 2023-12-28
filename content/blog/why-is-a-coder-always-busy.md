@@ -2,9 +2,9 @@
 title: "为什么程序员总是很忙"
 slug: "why-is-a-coder-always-busy"
 author: "Bin Hua"
-lastmod: 2018-07-30 07:41:43
 date: 2018-07-30 07:41:43
 tags: ["程序员"]
+draft: false
 ---
 
 程序员总是很忙，相信他们的身边人深有体会。那么为什么他们总是这么忙呢？就拿我本人来说吧。

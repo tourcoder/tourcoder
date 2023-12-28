@@ -2,9 +2,9 @@
 title: "泰国九日"
 slug: "nine-days-in-thailand"
 author: "Bin Hua"
-lastmod: 2018-12-15 10:17:43
 date: 2018-12-15 10:17:43
 tags: ["Thailand", "Phuket", "Bangkok", "2018", "旅行", "泰国", "曼谷", "普吉岛", "Youtube", "视频"]
+draft: false
 ---
 
 本文配有视频在 Youtube 上，[点击观看](https://www.youtube.com/watch?v=ZM6OnQ7jupQ)

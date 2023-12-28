@@ -2,9 +2,9 @@
 title: "Git 服务器架设"
 slug: "how-to-set-up-a-git-server"
 author: "Bin Hua"
-lastmod: 2019-03-24 12:15:13
 date: 2019-03-24 12:15:13
 tags: ["git", "GitHub"]
+draft: false
 ---
 
 Git 现在基本都是开发团队的标配，网上也有大量的相关服务，比如 GitHub，但也可以自己架设一个简单实用的 Git 服务器。

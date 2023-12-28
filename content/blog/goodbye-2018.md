@@ -2,9 +2,9 @@
 title: "Goodbye 2018"
 slug: "goodbye-2018"
 author: "Bin Hua"
-lastmod: 2018-12-30 15:56:26
 date: 2018-12-30 15:56:26
 tags: ["Gmail", "GitHub", "2018", "hiphop"]
+draft: false
 ---
 
 在 2018 年的倒数第二天，上海飘起了雪，多少年没有在上海见过雪了啊，借着着瑞雪，总结下自己的 2018！

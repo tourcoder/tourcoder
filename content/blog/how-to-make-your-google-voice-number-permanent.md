@@ -2,9 +2,9 @@
 title: "Google Voice 号码买断"
 slug: "how-to-make-your-google-voice-number-permanent"
 author: "Bin Hua"
-lastmod: 2020-11-10 03:40:48
 date: 2020-11-09 08:48:39
 tags: ["Google", "google voice", "google voice保号", "30刀两个永久免费的美国号码"]
+draft: false
 ---
 
 Google Voice 是个好东西，可以通过它可以获得一个美国号码，可以免费接受全世界的短信，接全世界的电话，而且终身免月租费。以前获得这些号码是免费的，但这两年获取的成本有点高，而且还很费事。

@@ -2,9 +2,9 @@
 title: "Office 365 Exchange Online 的糟糕设计"
 slug: "ugly-design-in-office-365-exchange"
 author: "Bin Hua"
-lastmod: 2018-03-12 07:34:08
 date: 2018-03-12 07:34:08
 tags: ["bug", "Gmail", "office365", "微软"]
+draft: false
 ---
 
 开大会，翻山越岭的工具出了一些大问题，Gmail 没法很好的访问，随即切换到 Office 365 Exchange Online。

@@ -2,9 +2,9 @@
 title: "IPTraf 安装与使用"
 slug: "iptraf"
 author: "Bin Hua"
-lastmod: 2017-01-18 06:54:38
 date: 2017-01-18 06:54:38
 tags: ["iptraf", "centos"]
+draft: false
 ---
 
 最近在做一个采集程序的时候遇到一个问题，自己感觉跑的流量和服务器供应商给出来的统计相差很大，想多方面检测下具体的情况，就使用了 IPTraf。

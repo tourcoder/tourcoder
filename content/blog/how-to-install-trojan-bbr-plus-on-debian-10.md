@@ -2,9 +2,9 @@
 title: "在 Debian 10 上安装 Trojan 和 bbr plus"
 slug: "how-to-install-trojan-bbr-plus-on-debian-10"
 author: "Bin Hua"
-lastmod: 2022-03-05T09:17:22Z
 date: 2022-03-05T09:17:22Z
 tags: ["trojan", "bbr", "Debian", "trojan go"]
+draft: false
 ---
 
 Trojan 协议出来很久了，一直没有尝试过，借此机会尝试下，也尝试下 BBR PLUS。

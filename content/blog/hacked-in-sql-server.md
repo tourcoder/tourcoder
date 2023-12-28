@@ -2,9 +2,9 @@
 title: "SQL SERVER防注入"
 slug: "hacked-in-sql-server"
 author: "Bin Hua"
-lastmod: 2009-08-14 05:47:00
 date: 2009-08-14 05:47:00
 tags: ["sqlserver", "sql", "安全"]
+draft: false
 ---
 
 该死，单位的 SQL 被通过一个ASP程序的漏洞挂马了，不同的是，这次挂马不是正常挂马，别人挂马是为了获利，进而挂上他们的链接 `<sc…`，而这次是非正常的，直接删除了数据。除了打上对应的漏洞的补丁外，在数据库方面也和大家分享下，如果防注入。

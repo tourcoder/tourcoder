@@ -2,9 +2,9 @@
 title: "团队的项目工作流"
 slug: "project-flow-for-team"
 author: "Bin Hua"
-lastmod: 2018-03-15 07:35:27
 date: 2018-03-15 07:35:27
 tags: ["碎碎念", "运营"]
+draft: false
 ---
 
 从一个项目项目开发开始到结束，主要涉及三个过程 -- 需求，开发，测试。利用 GTD 的概念，我设计了这么一个团队的工作流，目前我是在 GitHub 的自带工具 Projects 里面做的，其实在 Trello 上也一样。

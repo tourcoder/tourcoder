@@ -4,7 +4,7 @@ slug: "youtube-try-google-bard"
 author: "Bin Hua"
 date: 2023-03-27T00:23:52Z
 tags: ["Google", "Bard", "AI", "chatGPT", "openAI"]
-draft: true
+draft: false
 ---
 
 试用了一会 Google Bard，总体感觉还很弱。

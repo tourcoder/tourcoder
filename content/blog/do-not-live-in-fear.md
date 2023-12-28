@@ -2,7 +2,7 @@
 title: "不要活在恐惧中"
 slug: "do-not-live-in-fear"
 author: "Bin Hua"
-lastmod: 2022-05-01T09:42:09Z
+draft: false
 date: 2022-05-01T09:42:09Z
 tags: ["新冠", "灾后重建"]
 ---

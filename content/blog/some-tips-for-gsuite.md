@@ -2,9 +2,9 @@
 title: "G Suite 的设置贴士"
 slug: "some-tips-for-gsuite"
 author: "Bin Hua"
-lastmod: 2019-04-11 13:38:14
 date: 2019-04-11 13:38:14
 tags: ["Gmail", "Google", "gsuite", "googlecloud", "oracle", "甲骨文"]
+draft: false
 ---
 
 Thomas Kurian 不愧是从 Oracle 过来的，没多久就给 Google Cloud 来了一波骚操作，作为一个资深用户，我对他的这波操作还是有异议的，比如 G Suite 取消了年度支付的折扣。

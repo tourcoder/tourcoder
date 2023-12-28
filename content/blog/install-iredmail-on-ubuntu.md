@@ -2,9 +2,9 @@
 title: "使用 iRedmail 架设邮局系统"
 slug: "install-iredmail-on-ubuntu"
 author: "Bin Hua"
-lastmod: 2019-08-16 14:50:28
 date: 2019-08-16 14:50:28
 tags: ["Gmail", "ubuntu", "邮局系统", "iredmail", "workmail"]
+draft: false
 ---
 
 因为几个因素，放弃了现在购买的邮局系统，自行搭建了 iRedmail，记录下整个过程。

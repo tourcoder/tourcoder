@@ -2,9 +2,9 @@
 title: "NodeJS 学习笔记"
 slug: "study-nodejs"
 author: "Bin Hua"
-lastmod: 2015-07-04 06:42:39
 date: 2015-07-04 06:42:39
 tags: ["nodejs", "笔记"]
+draft: false
 ---
 
 **前言: 关于NodeJS**

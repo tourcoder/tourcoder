@@ -2,9 +2,9 @@
 title: "外国人的鸡吧和中国人的生命"
 slug: "foreigner-s-cock-and-chinese-life"
 author: "Bin Hua"
-lastmod: 2022-04-01T17:00:29Z
 date: 2022-04-01T17:00:29Z
 tags: ["新冠", "人人平等"]
+draft: false
 ---
 
 2022 年晚上十点五十三分，也就是昨天晚上，上海市第六人民医院的微信公众号发了一篇标题为「新冠笼罩下的‘丁丁保卫战’」文章，但没过多久这篇文章就被删除了。

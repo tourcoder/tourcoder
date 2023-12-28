@@ -2,9 +2,9 @@
 title: "如何删除 outlook app 中烦人的建议账户"
 slug: "how-to-remove-found-account-inside-outlook-app"
 author: "Bin Hua"
-lastmod: 2019-11-15 07:03:42
 date: 2019-11-15 07:03:42
 tags: ["outlook", "microsoft"]
+draft: false
 ---
 
 想必很多用 outlook app 的人遇到过一个烦人的事情，当下载 outlook app，打开它后，常常会出现`发现账户`，如下图

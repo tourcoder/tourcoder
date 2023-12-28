@@ -4,6 +4,7 @@ slug: "sublime-text-3"
 author: "Bin Hua"
 date: 2016-08-20 06:50:24
 tags: ["sublimetxt"]
+draft: false
 ---
 
 Sublime Text 3 是我喜欢的编辑器，介绍下它在 macOS 下的安装和配置

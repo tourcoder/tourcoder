@@ -2,9 +2,9 @@
 title: "要创业，先花钱"
 slug: "startup-clearly"
 author: "Bin Hua"
-lastmod: 2016-08-29 06:50:57
 date: 2016-08-29 06:50:57
 tags: ["创业"]
+draft: false
 ---
 
 这几天有人和我说让我帮忙给他的创业项目弄下网站，我说没有时间，让他去外面找外包。

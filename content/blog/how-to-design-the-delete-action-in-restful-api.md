@@ -2,9 +2,9 @@
 title: "RESTFUL API 中删除操作的设计"
 slug: "how-to-design-the-delete-action-in-restful-api"
 author: "Bin Hua"
-lastmod: 2019-12-05 05:59:22
 date: 2019-12-05 05:59:22
 tags: ["api", "restful"]
+draft: false
 ---
 
 RESTFUL API 中删除操作的设计比较特殊，并不是一味的使用一个 DELETE 就可以解决问题。

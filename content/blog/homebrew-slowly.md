@@ -2,9 +2,9 @@
 title: "解决 Homebrew 速度慢的问题"
 slug: "homebrew-slowly"
 author: "Bin Hua"
-lastmod: 2019-10-13 15:47:03
 date: 2019-10-13 15:47:03
 tags: ["macOS", "cocoapods", "npm", "homebrew", "brew", "ruby"]
+draft: false
 ---
 
 最近 Homebrew 慢的出奇，甚至连安装其本身都出现了问题，归根揭底是 GitHub 在国内访问慢导致，一劳永逸的解决办法估计只有换源吧。更换的地方有两处，一是其本身，还有一个是 cask。我使用了中科大的源。

@@ -2,9 +2,9 @@
 title: "为什么我不喜欢显示 IP 这个功能"
 slug: "why-i-donot-like-the-feature-of-showing-up"
 author: "Bin Hua"
-lastmod: 2022-08-23T12:23:35Z
 date: 2022-08-23T12:23:35Z
 tags: ["IP", "隐私", "统治手段"]
+draft: false
 ---
 
 昨天在 segmentfault 上回答了问题，然后发现，我擦，旁边显示着根据 IP 关联的地址。

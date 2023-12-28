@@ -2,9 +2,9 @@
 title: "解决 firebase login 时的验证失败的问题"
 slug: "fix-authentication-error-on-running-firebase-login"
 author: "Bin Hua"
-lastmod: 2021-05-30T16:31:46Z
 date: 2021-05-30T16:31:46Z
 tags: ["firebase", "node"]
+draft: false
 ---
 
 写了个简单的笔记和收藏夹的合体应用，懒得再去搭建后端，使用了 firebase，挺方便的。

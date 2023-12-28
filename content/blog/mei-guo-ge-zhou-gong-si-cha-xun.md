@@ -2,9 +2,9 @@
 title: "美国各州公司查询"
 slug: "mei-guo-ge-zhou-gong-si-cha-xun"
 author: "Bin Hua"
-lastmod: 2018-08-12 16:00:00
 date: 2018-08-12 16:00:00
 tags: ["美国旅游", "公司管理", "公司注册", "美国"]
+draft: false
 ---
 
 英文州名      州名缩写             中文州名              查询网址

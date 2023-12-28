@@ -2,9 +2,9 @@
 title: "让人担忧的Android"
 slug: "hi-android"
 author: "Bin Hua"
-lastmod: 2010-06-05 06:07:13
 date: 2010-06-05 06:07:13
 tags: ["App", "Google", "Android"]
+draft: false
 ---
 
 作为一个Android的从业人员，我是不应该唱衰Android的，尤其是在当前Android的增长势头如此之猛的情况下，但最近的一款游戏，让我不得不对Android有了一些简单的思考。同样的一款游戏，是同一个公司开发的，在ipad上使用很舒服，但在android pad上，就玩得非常痛苦，以至于到了让人一点都不想玩的程度。为什么会这样，就是因为在android pad上手感奇差，效果奇差！当然，这里的Android pad是一款山寨的pad，google本身是没有出pad的。下面我从以下几个方面说说为什么我担忧Android可能会失败：

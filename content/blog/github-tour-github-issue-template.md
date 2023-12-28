@@ -2,9 +2,9 @@
 title: "玩转 Github: Github Issue Template"
 slug: "github-tour-github-issue-template"
 author: "Bin Hua"
-lastmod: 2021-02-04T04:41:52Z
 date: 2021-02-04T04:41:52Z
 tags: ["GitHub", "问题模板", "issue"]
+draft: false
 ---
 
 对常用 GitHub 的人来说，利用 GitHub 的 issue 功能作为问题的反馈中心，并用它驱动工作很不错，但有个问题是用户在提交 issue 的时候常常乱七八糟，格式不统一，描述问题不清晰，带来了很大的沟通成本，用 issue 的 template 就可以解决这个问题。

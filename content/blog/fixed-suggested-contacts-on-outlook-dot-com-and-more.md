@@ -2,9 +2,9 @@
 title: "微软 hotmail.com 中 bug 及解决办法"
 slug: "fixed-suggested-contacts-on-outlook-dot-com-and-more"
 author: "Bin Hua"
-lastmod: 2019-11-11 15:08:33
 date: 2019-11-11 15:08:33
 tags: ["bug", "outlook", "微软", "hotmail", "代码", "microsoft todo", "task", "live.com"]
+draft: false
 ---
 
 因为 hotmail 邮箱中的一个问题，发现了一连串的问题，而且挺严重的，也许是微软的设计缺陷，也许是其他因素。

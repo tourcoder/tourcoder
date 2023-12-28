@@ -2,9 +2,9 @@
 title: "用 ElectronJS 开发应用"
 slug: "make-an-app-by-using-electronjs"
 author: "Bin Hua"
-lastmod: 2018-11-07 07:48:54
 date: 2018-11-07 07:48:54
 tags: ["iOS", "macOS", "App", "electron"]
+draft: false
 ---
 
 需要开发多桌面系统的应用，图省事，选择了 ElectronJS，因为时间关系，开发前没有细致的阅读文档，导致在开发的时候，查资料时间比较多。建议各位在用它做开发前，熟读它的文档。

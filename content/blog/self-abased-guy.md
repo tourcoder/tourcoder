@@ -2,9 +2,9 @@
 title: "自卑的杠精"
 slug: "self-abased-guy"
 author: "Bin Hua"
-lastmod: 2018-10-02 07:47:20
 date: 2018-10-02 07:47:20
 tags: ["国庆", "支付宝"]
+draft: false
 ---
 
 国庆假期第一天，比较大的一个新闻应该是支付宝的文案所引发的新闻吧。

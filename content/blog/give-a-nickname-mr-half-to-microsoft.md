@@ -2,9 +2,9 @@
 title: "半吊子微软"
 slug: "give-a-nickname-mr-half-to-microsoft"
 author: "Bin Hua"
-lastmod: 2017-10-18 07:17:04
 date: 2017-10-18 07:17:04
 tags: ["SKYPE", "outlook", "微软", "wunderlist", "hotmail"]
+draft: false
 ---
 
 心血来潮，给微软起了个绰号 “Mr Half”，中文就叫他半吊子吧！他们热衷于换名字的游戏，有句玩笑话说，微软是专注改名几十年！我这里就重点拿这些年让我痛心的产品来说一说吧。

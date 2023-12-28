@@ -2,9 +2,9 @@
 title: "XML+XSL"
 slug: "xml-xsl"
 author: "Bin Hua"
-lastmod: 2009-01-30T05:33:41Z
 date: 2009-01-30T05:33:41Z
 tags: ["xml", "xsl", "ibm"]
+draft: false
 ---
 
 前段时间和同事谈起过 XML + XSL，今天却好又和海马谈到这个玩意，感觉这个东西貌似是一个趋势，一个以后做站的趋势（技术方面），需要关注的朋友可以关注下：推荐一些内容

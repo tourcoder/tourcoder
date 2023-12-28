@@ -2,9 +2,9 @@
 title: "Issue 驱动的项目管理"
 slug: "issue-driven-project-management"
 author: "Bin Hua"
-lastmod: 2018-12-26 15:43:13
 date: 2018-12-26 15:43:13
 tags: ["git", "GitHub", "项目管理", "issue"]
+draft: false
 ---
 
 今天基本耗了一天时间在安装系统，主要是安装过程中遇到了一个安全问题，然后就在那边研究这个问题，具体我的 twitter 上有说明，这里就不展开说了。

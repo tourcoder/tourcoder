@@ -2,9 +2,9 @@
 title: "Git 更改 commit 历史"
 slug: "how-to-change-the-email-in-git-commit"
 author: "Bin Hua"
-lastmod: 2018-02-08 07:26:39
 date: 2018-02-08 07:26:39
 tags: ["git", "GitHub"]
+draft: false
 ---
 
 之前我在 `git config` 中都会将 Email 地址设置成我当前使用的电脑的名字，比如我当前使用的电脑名字叫 tourcoder，所以我就会设置成 `tc@tourcoder.local`，命令是 `git config --global user.emai tc@tourcoder.local`。最近因为工作需要，我需要将 Email 设置成真实的地址，比如我这里改成了 `tc@****`，除了在全局变量中做了修改，还要修改之前的历史 commit 记录中的 Email 地址。于是我执行了脚本命令

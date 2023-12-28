@@ -2,9 +2,9 @@
 title: "CentOS 7 上安装配置 postfix"
 slug: "install-postfix-on-centos-7"
 author: "Bin Hua"
-lastmod: 2019-03-15 05:04:34
 date: 2019-03-15 05:04:34
 tags: ["Gmail", "centos", "postfix"]
+draft: false
 ---
 
 最近被 Google 弄得贼闹心，加上邮件转发的需要，所以尝试用开源软件在 CentOS 7 上搭建了邮件服务。之前买过 exchange server，也用过 zimbra 都太臃肿，这次用 postfix 来搭建。

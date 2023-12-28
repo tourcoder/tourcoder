@@ -2,9 +2,9 @@
 title: "Ghost中文安装指南"
 slug: "ghost-install-manual"
 author: "Bin Hua"
-lastmod: 2016-10-11 06:52:16
 date: 2016-10-11 06:52:16
 tags: ["ghost", "blog", "vultr"]
+draft: false
 ---
 
 “哥，你的博客好漂亮啊，是最近写的吗？”，同事猛不丁的对我嚷嚷起来。

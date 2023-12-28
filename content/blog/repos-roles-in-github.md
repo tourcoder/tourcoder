@@ -2,9 +2,9 @@
 title: "Github 和代码权限"
 slug: "repos-roles-in-github"
 author: "Bin Hua"
-lastmod: 2017-10-09 07:11:10
 date: 2017-10-09 07:11:10
 tags: ["git", "GitHub"]
+draft: false
 ---
 
 在经过一圈的折腾后，我们又回到 Github，用它来进行协同开发，之前我们用过其他同类的服务(commitcode,bb)，也用开源软件搭建过私有服务(gitlab,gs)，甚至基于开源自己也二次开发了一套，但现在全都抛弃，回到Github，主要有两点：

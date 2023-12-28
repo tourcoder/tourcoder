@@ -2,9 +2,9 @@
 title: "iOS Dev Tips"
 slug: "ios-dev-tips"
 author: "Bin Hua"
-lastmod: 2011-11-10 06:35:13
 date: 2011-11-10 06:35:13
 tags: ["AVPlayer", "iOS", "MD5", "字体"]
+draft: false
 ---
 
 **AVPlayer 暂停继续播放**

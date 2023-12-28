@@ -2,9 +2,9 @@
 title: "终端的代理"
 slug: "proxychains-and-terminal"
 author: "Bin Hua"
-lastmod: 2018-12-24 14:28:31
 date: 2018-12-24 14:28:31
 tags: ["terminal", "proxy", "ProxyChains"]
+draft: false
 ---
 
 作为一个命令行爱好者，终端 (Terminal) 的使用尤其频繁，这就难免有时候需要用到代理的时候

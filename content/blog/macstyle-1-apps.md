@@ -2,9 +2,9 @@
 title: "MacStyle 之软件"
 slug: "macstyle-1-apps"
 author: "Bin Hua"
-lastmod: 2016-08-10 06:49:00
 date: 2016-08-10 06:49:00
 tags: ["macOS", "App"]
+draft: false
 ---
 
 除了我自己的自用软件外，这里是我在 Mac 上的软件，基本满足了我的需求。

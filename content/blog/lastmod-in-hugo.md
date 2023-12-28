@@ -4,6 +4,7 @@ slug: "lastmod-in-hugo"
 author: "Bin Hua"
 date: 2023-02-11T03:00:28Z
 tags: ["hugo", "最后更新"]
+draft: false
 ---
 
 我的这个博客是基于 hugo + GitHub + Cloudflre pages 构成，因为我不定期更新博客的旧内容，所以增加了个提示，即在博文下面提醒阅读者本篇博文的最后更新时间。
@@ -18,7 +19,6 @@ title: "Hugo 中最后更新的时间显示"
 slug: "lastmod-in-hugo"
 author: "Bin Hua"
 date: 2023-02-11T03:00:28Z
-lastmod: 2023-02-11T03:00:28Z
 tags: ["hugo", "最后更新"]
 ---
 ```

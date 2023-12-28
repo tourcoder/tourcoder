@@ -2,9 +2,9 @@
 title: "MongoDB 学习手册"
 slug: "mongoldb-manual"
 author: "Bin Hua"
-lastmod: 2018-11-06 05:51:00
 date: 2018-11-06 05:51:00
 tags: ["mongodb", "database", "笔记"]
+draft: false
 ---
 
 #### 安装

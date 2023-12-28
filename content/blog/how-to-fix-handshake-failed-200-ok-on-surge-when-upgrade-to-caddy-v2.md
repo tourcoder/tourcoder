@@ -2,9 +2,9 @@
 title: "修复升级到 Caddy V2 后 Surge 中出现的 Handshake Failed 错误"
 slug: "how-to-fix-handshake-failed-200-ok-on-surge-when-upgrade-to-caddy-v2"
 author: "Bin Hua"
-lastmod: 2021-12-20T09:10:33Z
 date: 2021-12-20T09:10:33Z
 tags: ["Caddy", "Surge", "handshake", "bugfixed", "v2ray"]
+draft: false
 ---
 
 这个问题是我在几个月前将 Caddy 升级到 v2 的时候遇到的。在升级后，其他代理软件均可以使用，唯独 Surge。也去其官网和给作者发了邮件，但均未有回应。在 Caddy 的社区也和作者讨论了很长时间，也未能解决。后来在研究后发现并解决了这个问题。需要变更一处地方，Caddy 在配置路由时

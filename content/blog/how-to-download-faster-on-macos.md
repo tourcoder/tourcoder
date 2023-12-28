@@ -2,9 +2,9 @@
 title: "macOS 下通过 Aria2 进行高速下载"
 slug: "how-to-download-faster-on-macos"
 author: "Bin Hua"
-lastmod: 2019-11-08 07:23:57
 date: 2019-11-08 07:23:57
 tags: ["macOS", "aria2", "百度网盘"]
+draft: false
 ---
 
 目前看来，Aria2 是 macOS 下比较干净舒服的高速下载方式了，但很多人卡在了配置上。

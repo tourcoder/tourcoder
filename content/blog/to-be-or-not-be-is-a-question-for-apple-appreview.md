@@ -2,9 +2,9 @@
 title: "Apple App Review 的双刃剑"
 slug: "to-be-or-not-be-is-a-question-for-apple-appreview"
 author: "Bin Hua"
-lastmod: 2018-03-16 07:36:06
 date: 2018-03-16 07:36:06
 tags: ["Apple", "App"]
+draft: false
 ---
 
 两个 App 又被拒绝了，拒绝的理由依旧是很奇葩，习惯就好。App Review 这件事是一把双刃剑，做得好了，能提升 AppStore 平台，做得差了，也能毁掉平台。很可惜，现在 App Review 正在向差的方向大踏步，而导致这个现象的主要原因是专业性和态度。

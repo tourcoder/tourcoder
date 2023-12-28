@@ -2,9 +2,9 @@
 title: "Docker 学习笔记"
 slug: "study-docker"
 author: "Bin Hua"
-lastmod: 2020-07-18 06:09:07
 date: 2017-06-10 07:05:02
 tags: ["docker", "笔记"]
+draft: false
 ---
 
 之前学习 Docker 时，在本子上做的笔记，整理下，放在自己的博客上，方便保存，同时也温习一下，需要注意的是，这些内容是我学习后的解释，便于理解，而非官方的解释。

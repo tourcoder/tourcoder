@@ -2,9 +2,9 @@
 title: "开发 Alfred 的 Workflow"
 slug: "make-a-workflow-for-alfred"
 author: "Bin Hua"
-lastmod: 2019-10-11 13:49:58
 date: 2019-10-11 13:49:58
 tags: ["workflow", "alfred"]
+draft: false
 ---
 
 我在以前的博文中写过 Alfred 这一个神器，它是我必用的应用之一，购买它的许可后，就能够使用 workflow，绝对的效率神器。

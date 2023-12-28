@@ -2,9 +2,9 @@
 title: "给网站加 SSL"
 slug: "ssl-for-website"
 author: "Bin Hua"
-lastmod: 2017-03-05 06:56:35
 date: 2017-03-05 06:56:35
 tags: ["ssl", "https"]
+draft: false
 ---
 
 信息安全无容置疑，现在好多网站还是 http 的方式在跑着，应该早点转到 https。

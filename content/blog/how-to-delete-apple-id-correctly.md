@@ -2,9 +2,9 @@
 title: "合理的删除 Apple ID"
 slug: "how-to-delete-apple-id-correctly"
 author: "Bin Hua"
-lastmod: 2019-06-27 05:20:45
 date: 2019-06-27 05:20:45
 tags: ["Apple", "安全", "Apple ID"]
+draft: false
 ---
 
 去年十月份删除了一个不常用的 Apple ID，但今天却给自己带来了麻烦，这个 Apple ID 所使用的 Email 地址将无法再次在 Apple ID 的系统中被使用。在和 Apple 客服近半个小时的电话沟通后，自然确认这个 Email 地址基本无望能够再次被使用了。

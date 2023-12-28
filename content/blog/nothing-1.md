@@ -2,9 +2,9 @@
 title: "无题，乱扯一气"
 slug: "nothing-1"
 author: "Bin Hua"
-lastmod: 2010-05-28 06:06:31
 date: 2010-05-28 06:06:31
 tags: ["iPhone", "Apple", "App", "Google", "Android"]
+draft: false
 ---
 
 时间过得好快，离我写上一篇BLOG已经过去大半个月的时间了，这几天也发生了一些小事情，和大家分享分享，尤其是一些事情，希望也给大家提个醒，不犯我这样的错误。

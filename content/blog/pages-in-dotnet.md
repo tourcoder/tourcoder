@@ -2,9 +2,9 @@
 title: ".net 文章分页"
 slug: "pages-in-dotnet"
 author: "Bin Hua"
-lastmod: 2009-01-22 05:12:51
 date: 2009-01-22 05:12:51
 tags: ["dotnet"]
+draft: false
 ---
 
 .net 文章分页，主要是通过文章页面字符的个数进行分页的，这里需要注意的是

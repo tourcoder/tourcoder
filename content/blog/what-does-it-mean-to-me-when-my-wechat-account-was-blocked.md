@@ -2,9 +2,9 @@
 title: "微信被封，对我意味着什么"
 slug: "what-does-it-mean-to-me-when-my-wechat-account-was-blocked"
 author: "Bin Hua"
-lastmod: 2022-10-20T12:32:24Z
 date: 2022-10-20T12:32:24Z
 tags: ["微信", "墙国", "老鼠"]
+draft: false
 ---
 
 早上发了个朋友圈，内容如下

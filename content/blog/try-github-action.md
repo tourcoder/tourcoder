@@ -2,9 +2,9 @@
 title: "GitHub Action Beta"
 slug: "try-github-action"
 author: "Bin Hua"
-lastmod: 2019-02-01 04:53:21
 date: 2019-02-01 04:53:21
 tags: ["GitHub", "workflow", "action"]
+draft: false
 ---
 
 收到了 GitHub 的邮件，邀请试用 GitHub Actions Beta

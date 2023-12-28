@@ -2,9 +2,9 @@
 title: "基于 Ghost 做一个 Podcast 源"
 slug: "make-podcast-rss-basic-on-ghost"
 author: "Bin Hua"
-lastmod: 2019-10-18 07:03:43
 date: 2019-10-18 07:03:43
 tags: ["Apple", "ghost", "podcast"]
+draft: false
 ---
 
 精力旺盛，心血来潮，想弄一个 `Podcast` 玩玩，看了一圈后，还是想基于自己的博客平台来做 rss 源。分享下大致的过程。

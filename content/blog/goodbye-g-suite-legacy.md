@@ -2,9 +2,9 @@
 title: "再见，GSuite legacy"
 slug: "goodbye-g-suite-legacy"
 author: "Bin Hua"
-lastmod: 2022-01-20T11:36:20Z
 date: 2022-01-20T11:36:20Z
 tags: ["Google", "GSuite"]
+draft: false
 ---
 
 看到一则让我感觉糟糕的消息，Google 取消了 GSuite Legacy 的免费，并要求用户在 2022 年 7 月 1 日前完成升级，不然将会被停用核心功能。[Google 官方说明](https://support.google.com/a/answer/60217?hl=zh-Hans)。

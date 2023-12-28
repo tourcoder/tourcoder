@@ -2,9 +2,9 @@
 title: "华氏锡山堂家谱"
 slug: "family-tree"
 author: "Bin Hua"
-lastmod: 2022-01-15T16:24:26Z
 date: 2022-01-15T16:24:26Z
 tags: ["家谱", "锡山堂"]
+draft: false
 ---
 
 在整理 Google Drive 的内容，发现一份很多年前的家族谱序，特记录一下

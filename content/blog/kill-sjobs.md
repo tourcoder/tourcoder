@@ -2,9 +2,9 @@
 title: "'杀死'乔布斯"
 slug: "kill-sjobs"
 author: "Bin Hua"
-lastmod: 2010-01-11 05:51:11
 date: 2010-01-11 05:51:11
 tags: ["乔布斯", "iPhone", "Apple"]
+draft: false
 ---
 
 iPhone，一个足以载入科技和通讯史册的手机产品，它重新发新了手机，也正是从它发布的第一天开始起，以后每一年，都会有一阵轰动和疯狂。

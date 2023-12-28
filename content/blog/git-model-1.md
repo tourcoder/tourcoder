@@ -2,9 +2,9 @@
 title: "Git 开发模式的更新"
 slug: "git-model-1"
 author: "Bin Hua"
-lastmod: 2016-06-13 06:47:37
 date: 2016-06-13 06:47:37
 tags: ["GitHub", "git", "model"]
+draft: false
 ---
 
 现在大部分的团队都已经使用 Git 作为版本控制的主要软件，在这里分享下，我们团队中的 Git 开发模式

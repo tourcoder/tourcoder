@@ -2,9 +2,9 @@
 title: "开发 macOS 中 Preferences Application"
 slug: "make-preferences-application-on-macos"
 author: "Bin Hua"
-lastmod: 2019-07-13 12:02:29
 date: 2019-07-13 12:02:29
 tags: ["macOS", "App", "swift", "objc", "Productivity"]
+draft: false
 ---
 
 想必有很多和我一样喜欢拿着 mac 在外面写点东西的人都遇到过一个问题，当专心写东西往往没有注意 mac 没电，直到没电关机，要是有一个 app 能想 iPhone 上那样低电量提醒就好了。

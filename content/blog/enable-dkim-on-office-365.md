@@ -2,9 +2,9 @@
 title: "Office 365 中开启 dkim"
 slug: "enable-dkim-on-office-365"
 author: "Bin Hua"
-lastmod: 2019-04-01 05:03:32
 date: 2019-04-01 05:03:32
 tags: ["Email", "office365", "微软", "dkim", "代码", "microsoft365"]
+draft: false
 ---
 
 邮局系统开启 DKIM 是一件必做的事情，什么是 dkim 就不解释了，主要说下它的效果，看下面两张图

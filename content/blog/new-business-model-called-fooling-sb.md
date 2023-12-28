@@ -2,9 +2,9 @@
 title: "新的商业模式--骗傻逼"
 slug: "new-business-model-called-fooling-sb"
 author: "Bin Hua"
-lastmod: 2017-12-11 07:19:18
 date: 2017-12-11 07:19:18
 tags: ["商业"]
+draft: false
 ---
 
 两三年前，曾说过，这社会已经进化出一个新的商业模式叫骗傻逼。这话怎么讲呢？比如此刻，我坐在星巴克里面边写东西边等人，隔壁两个人的聊天就很好的演示了一遍我说的这种商业模式。

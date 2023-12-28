@@ -4,6 +4,7 @@ slug: "macos-manual"
 author: "Bin Hua"
 date: 2017-02-28 06:56:02
 tags: ["macOS", "手册"]
+draft: false
 ---
 
 计划每天用一些零碎的时间，写一份 macOS 的手册。

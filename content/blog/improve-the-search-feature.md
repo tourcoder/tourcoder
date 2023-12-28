@@ -2,9 +2,9 @@
 title: "本站搜索的改进"
 slug: "improve-the-search-feature"
 author: "Bin Hua"
-lastmod: 2019-06-12 01:10:54
 date: 2019-06-12 01:10:54
 tags: ["Google", "search"]
+draft: false
 ---
 
 Ghost 自身是没有带站点搜索功能的，考虑到搜索的需要，我通过 page 实现了一个简单的搜索。

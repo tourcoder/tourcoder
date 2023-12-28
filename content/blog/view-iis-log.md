@@ -2,9 +2,9 @@
 title: "巧看IIS LOG"
 slug: "view-iis-log"
 author: "Bin Hua"
-lastmod: 2009-07-18 05:41:50
 date: 2009-07-18 05:41:50
 tags: ["iis", "log"]
+draft: false
 ---
 
 维护服务器的时候，大家都会遇到一个情况，就是IIS LOG看起来实在是太痛苦了，这里给大家推荐一个方法，能很好的处理这个问题

@@ -2,9 +2,9 @@
 title: "在 Swift 项目中使用 Objc 的第三方库"
 slug: "how-to-use-pods-written-in-objc-in-swift"
 author: "Bin Hua"
-lastmod: 2019-04-16 15:04:29
 date: 2019-04-16 15:04:29
 tags: ["Apple", "iOS", "cocoapods", "swift", "objc"]
+draft: false
 ---
 
 最近在用 Swift 写项目，发现其中用到的一些第三方库还是用 Objc 来写的，还好 Swift 中提供了很方便的引用 Objc 第三方库的办法。

@@ -2,9 +2,9 @@
 title: "创建一个 PWA"
 slug: "tutorial-how-to-create-a-pwa"
 author: "Bin Hua"
-lastmod: 2022-09-25T04:51:32Z
 date: 2022-09-25T04:51:32Z
 tags: ["pwa", "Google", "教程"]
+draft: false
 ---
 
 PWA 是 Progressive Web Apps 的简称，翻译过来就是渐进式 Web 应用。由 Google 提出来的 web 技术，我第一次知道它是在 2017 年的 Google 开发者大会上。我那时希望它能越来越强大，能直接干掉原生的应用。2018 年也做过一个简单的尝试，将自己的博客换成了 PWA，具体看[这篇](https://tourcoder.com/upgrade-to-pwa/)，但几年下来，回头看看，似乎这阵风并没有吹很大。

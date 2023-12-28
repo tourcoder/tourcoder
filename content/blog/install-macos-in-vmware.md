@@ -2,9 +2,9 @@
 title: "虚拟机中安装 macOS"
 slug: "install-macos-in-vmware"
 author: "Bin Hua"
-lastmod: 2017-02-26 06:55:20
 date: 2017-02-26 06:55:20
 tags: ["macOS", "vmware", "虚拟机"]
+draft: false
 ---
 
 一时心血来潮，在家里的 pc 上安装了虚拟机，并在里面安装了最新版的 macOS 10.12，下面是大致的安装步骤。

@@ -2,9 +2,9 @@
 title: "Cloudflare 的客服是蠢货"
 slug: "how-stupid-the-cloudflare-agent-is"
 author: "Bin Hua"
-lastmod: 2022-03-01T13:43:50Z
 date: 2022-03-01T13:43:50Z
 tags: ["Cloudflare", "蠢货"]
+draft: false
 ---
 
 很抱歉，除了骂他们，我已经没有任何办法了，因为从第一次和他们联系处理这个问题到现在，和他们来来回回已经几个月了，有点受不了他们了。

@@ -2,9 +2,9 @@
 title: "如何在中国境内接收来自 Google 的广告费"
 slug: "how-to-accepting-advertising-fees-from-google-in-china"
 author: "Bin Hua"
-lastmod: 2021-11-25T10:31:44Z
 date: 2021-11-25T10:31:44Z
 tags: ["Google", "Admob", "Adsense", "Adwards"]
+draft: false
 ---
 
 其实很多年前开始，每个月都陆续收到来自 Google 的广告费，除了第一次收钱去银行验证了下，后面都正常自动入账。但本月 21 日收到 Google 付款的邮件后，今天接到了银行的电话说需要验证下，随即去银行，顺便记录下这个过程。

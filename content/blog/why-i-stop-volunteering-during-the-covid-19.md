@@ -2,9 +2,9 @@
 title: "为什么我不再做新冠肺炎期间的志愿者"
 slug: "why-i-stop-volunteering-during-the-covid-19"
 author: "Bin Hua"
-lastmod: 2022-04-20T10:16:06Z
 date: 2022-04-20T10:16:06Z
 tags: ["新冠肺炎", "志愿者", "政策"]
+draft: false
 ---
 
 一早和其他几个志愿者打了个招呼，然后退出了自己所在的几个志愿者群，从今天开始，如非特殊情况，我不再做新冠肺炎的志愿者。原因是源于昨晚想到的几点：

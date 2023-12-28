@@ -2,9 +2,9 @@
 title: "macOS 上必装的应用"
 slug: "essential-apps-on-macos"
 author: "Bin Hua"
-lastmod: 2019-08-14 04:25:36
 date: 2019-08-14 04:25:36
 tags: ["macOS", "alfred", "slowquitapps", "lulu", "micro snitch", "dozer", "flux", "spectacle", "ntfs"]
+draft: false
 ---
 
 因为工作需要，我在 macOS 上安装了很多应用，除了和工作相关的应用之外，我在 macOS 有几款必装的应用。

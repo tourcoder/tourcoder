@@ -2,9 +2,9 @@
 title: "我常用的一些 iOS 插件"
 slug: "some-cocoapods-i-use"
 author: "Bin Hua"
-lastmod: 2015-10-03 06:44:15
 date: 2015-10-03 06:44:15
 tags: ["插件", "iOS"]
+draft: false
 ---
 
 在 iOS/OSX 应用开发中，我会用到一些插件，其中比较常规的有几个，我的 Podfile 文件内容如下

@@ -2,9 +2,9 @@
 title: "Oh 百度"
 slug: "oh-baidu"
 author: "Bin Hua"
-lastmod: 2009-01-26 05:14:40
 date: 2009-01-26 05:14:40
 tags: ["春晚", "百度"]
+draft: false
 ---
 
 晚上的晚会虽然我没看全，但看到了一个人出现了至少四次，这个人就是百度的CEO--李彦宏！

@@ -2,9 +2,9 @@
 title: "一次找回 Google Cloud VM 实例中数据的过程分享"
 slug: "get-dbs-from-terminated-vm-of-google-cloud"
 author: "Bin Hua"
-lastmod: 2019-05-21 02:01:23
 date: 2019-05-21 02:01:23
 tags: ["googlecloud", "iterm", "SDK", "vm", "snapshots", "images"]
+draft: false
 ---
 
 Google Cloud 的 VM 实例在停止后无法再次重启，总是提示

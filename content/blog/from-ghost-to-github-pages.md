@@ -2,9 +2,9 @@
 title: "From Ghost to Github Pages"
 slug: "from-ghost-to-github-pages"
 author: "Bin Hua"
-lastmod: 2020-12-25 07:21:08Z
 date: 2020-12-25 07:21:08Z
 tags: ["GitHub", "Ghost", "pages", "hugo", "golang", "nodejs", "cloudflare"]
+draft: false
 ---
 
 把本博客从 Ghost 迁移到了 GitHub Pages，原因有二

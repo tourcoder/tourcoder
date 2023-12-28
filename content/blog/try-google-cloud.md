@@ -2,9 +2,9 @@
 title: "Google Cloud 体验"
 slug: "try-google-cloud"
 author: "Bin Hua"
-lastmod: 2017-03-12 06:57:51
 date: 2017-03-12 06:57:51
 tags: ["googlecloud"]
+draft: false
 ---
 
 体验了下 Google Cloud，还不错，这里分享下如何创建一个 VM，并且能通过外部 SSH 登录。
