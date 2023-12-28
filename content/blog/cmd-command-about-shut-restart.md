@@ -2,9 +2,9 @@
 title: "定时关机/重启CMD命令"
 slug: "cmd-command-about-shut-restart"
 author: "Bin Hua"
-lastmod: 2009-07-29 05:45:03
 date: 2009-07-29 05:45:03
 tags: ["命令行", "windows"]
+draft: false
 ---
 
 Windows XP 的关机是由 Shutdown.exe 程序来控制的，位于 `Windows＼System32` 文件夹中 。如果想让 Windows 2000 也实现同样的效果，可以把 Shutdown.exe 复制到系统目录下

@@ -2,9 +2,9 @@
 title: "搭建 Docker 私有仓库"
 slug: "create-your-own-docker-registry"
 author: "Bin Hua"
-lastmod: 2020-01-13 04:25:46
 date: 2020-01-13 04:25:46
 tags: ["docker", "registry", "self-hosted"]
+draft: false
 ---
 
 安全起见，不想用 Docker Hub 的私有服务，也不想用 GitHub 的 Docker registry，那么剩下的办法就是自建。挺好，Docker 提供了这方面的内容。

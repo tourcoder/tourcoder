@@ -2,9 +2,9 @@
 title: "[播客]疯狂的比特币，买还是不买"
 slug: "crazybitcoin-001"
 author: "Bin Hua"
-lastmod: 2020-11-28 23:56:18
 date: 2020-12-27 06:37:00
 tags: ["播客", "podcast", "比特币", "bitcoin", "btc", "加密货币"]
+draft: false
 ---
 
 比特币已经涨疯了，这时候是应该买，还是不买呢？

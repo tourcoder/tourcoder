@@ -2,9 +2,9 @@
 title: "CocoaPods 慢"
 slug: "cocoapods-slowly"
 author: "Bin Hua"
-lastmod: 2017-03-22 07:00:43
 date: 2017-03-22 07:00:43
 tags: ["cocoapods", "iOS", "macOS"]
+draft: false
 ---
 
 CocoaPods 在 iOS/macOS 应用开发中经常用到，但因为墙等因素，会经常遇到问题，慢显得特别严重，这里提供一些解决办法，至于如何安装使用等基本问题，请去[官网](https://cocoapods.org/)查看

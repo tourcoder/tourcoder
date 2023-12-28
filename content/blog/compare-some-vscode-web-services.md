@@ -2,9 +2,9 @@
 title: "比较几个 vscode 的网页版"
 slug: "compare-some-vscode-web-services"
 author: "Bin Hua"
-lastmod: 2022-09-27T05:34:43Z
 date: 2022-09-27T05:34:43Z
 tags: ["vscode", "GitHub", "Microsoft", "Copilot", "Apple", "iPad Pro"]
+draft: false
 ---
 
 我之前一直有一个开发机，近小半年，我开始使用了下几个在线的 VS Code 的服务，下面做一个比较。主要功能的比对，需要注意的是，这里没有比较自建的，也仅限使用率高的。

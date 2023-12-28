@@ -2,9 +2,9 @@
 title: "Codeigniter 中集成 Jquery File Upload"
 slug: "codeigniter-jquery-file-upload-integrated"
 author: "Bin Hua"
-lastmod: 2017-06-05 07:03:47
 date: 2017-06-05 07:03:47
 tags: ["jquery", "codeigniter", "php"]
+draft: false
 ---
 
 最近在基于 PHP 的框架 Codeigniter（以下简称 CI 框架） 开发一款系统，其中用到了上传功能，考虑到用户体验等问题，采用了开源的 Jquery File Upload，如下图

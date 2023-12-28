@@ -2,9 +2,9 @@
 title: "NPM 中 Module 安装后无法找到"
 slug: "command-not-found-in-nodejs-npm"
 author: "Bin Hua"
-lastmod: 2019-03-25 03:51:38
 date: 2019-03-25 03:51:38
 tags: ["bug", "nodejs", "npm"]
+draft: false
 ---
 
 在全局安装一些 npm 中的 module 文件后，执行该 module 会经常会出现 Command not found 的问题。

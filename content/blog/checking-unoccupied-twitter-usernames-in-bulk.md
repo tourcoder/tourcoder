@@ -2,9 +2,9 @@
 title: "批量查看未被占用的 Twitter 用户名"
 slug: "checking-unoccupied-twitter-usernames-in-bulk"
 author: "Bin Hua"
-lastmod: 2019-09-12 12:05:08
 date: 2019-09-12 12:05:08
 tags: ["nodejs", "twitter"]
+draft: false
 ---
 
 前些天一个自己用来“批评”科技公司的 Twitter 账户被封了，原因是说我违反了他们的用户条款。其实我只是在那个帐号发了一些科技产品的 bug，不过无所谓了，重新注册一个即可。

@@ -2,9 +2,9 @@
 title: "使用 iCloud Plus 中的 Custom Email Domain"
 slug: "custom-email-domain-on-icloud-plus"
 author: "Bin Hua"
-lastmod: 2021-09-21T12:53:27Z
 date: 2021-09-21T12:53:27Z
 tags: ["iCloud", "plus", "Apple", "email"]
+draft: false
 ---
 
 今天登录 iCloud.com 后发现里面多了个 `Custom Email Domain`，应该就是基于 iCloud mail 的域名邮箱服务，随即试了下。

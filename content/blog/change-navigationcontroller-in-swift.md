@@ -2,9 +2,9 @@
 title: "Swift 中 NavigationController 的切换改变"
 slug: "change-navigationcontroller-in-swift"
 author: "Bin Hua"
-lastmod: 2019-05-29 05:08:30
 date: 2019-05-29 05:08:30
 tags: ["iOS", "swift", "CATransition", "pushviewcontroller", "popviewcontroller", "navigationcontroller", "代码示例"]
+draft: false
 ---
 
 最近在一个用 Swift 写的项目中，用到了 `NavigationController` 来进行界面的切换，即用到了 `pushViewController` 和 `popViewController`，众所周知，pushViewController 是从右向左载入新界面，而 popViewController 是从左向右退回返回到旧界面。那么是否有可能让它们的方向是相反的呢？
