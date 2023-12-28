@@ -1,5 +1,5 @@
 ---
-title: "分享一次上海公司注销的经历"
+title: "分享一次注销上海公司的经历"
 slug: "how-to-deregister-a-company-in-shanghai"
 author: "Bin Hua"
 date: 2023-12-28T05:04:42Z
