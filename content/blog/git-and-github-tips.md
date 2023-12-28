@@ -1,8 +1,10 @@
 ---
 title: "Git and Github Tips"
 slug: "git-and-github-tips"
+author: "Bin Hua"
 date: 2020-01-09T07:39:54Z
 tag: ["git", "GitHub"]
+draft: false
 ---
 
 ### .gitignore 无法过滤文件夹或文件

@@ -2,9 +2,9 @@
 title: "甲骨文 vps 的防火墙设置"
 slug: "iptables-settings-to-oracle-cloud-vm-instance"
 author: "Bin Hua"
-lastmod: 2021-05-25T13:14:36Z
 date: 2021-05-25T13:14:36Z
 tags: ["cloud", "oracle", "甲骨文", "IPv6"]
+draft: false
 ---
 
 测试签发的银行卡，顺道撸了个甲骨文云的永久免费的 VPS，在上面搭建了一个饭饭服务。搭建后发现无法访问需要用到的 80/443 这两个端口。

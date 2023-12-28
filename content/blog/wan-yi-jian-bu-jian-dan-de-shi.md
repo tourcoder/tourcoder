@@ -2,9 +2,9 @@
 title: "玩--一件不简单的事"
 slug: "wan-yi-jian-bu-jian-dan-de-shi"
 author: "Bin Hua"
-lastmod: 2011-06-04 06:33:05
 date: 2011-06-04 06:33:05
 tags: ["功夫熊猫", "观后感"]
+draft: false
 ---
 
 《功夫熊猫2》的上线，牵动了不少人的神经，他们又开始沮丧，失落起来，理由极其的简单，也同样引用一篇影评来说：

@@ -2,9 +2,9 @@
 title: "自建 RSS 阅读器"
 slug: "rss-reader"
 author: "Bin Hua"
-lastmod: 2019-12-16 09:10:58
 date: 2019-12-16 09:10:58
 tags: ["php", "rss", "miniflux", "self-hosted"]
+draft: false
 ---
 
 自从暂停自己的机器人新闻采集工具后，一直通过 rss 方式进行订阅阅读，源的同步使用了 Feedly 的服务，客户端用的是 Reeder。但最近 Feedly 在 Reeder 上的同步出了一些问题，到了基本无法使用的程度，妖风作怪，是时候自建一个了。

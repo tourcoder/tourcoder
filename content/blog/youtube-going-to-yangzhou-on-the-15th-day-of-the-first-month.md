@@ -4,7 +4,7 @@ slug: "going-to-Yangzhou-on-the-15th-day-of-the-first-month"
 author: "Bin Hua"
 date: 2023-02-09T02:27:01Z
 tags: ["扬州", "中国新年", "正月十五", "东关街", "2023"]
-draft: true
+draft: false
 ---
 
 作为一个扬州乡下人，基本没怎么逛过现在的扬州城，主要是对它不感冒。这次有幸拖福，小逛了下扬州，简单的记录下了。算上从上海到扬州的来回，一共是两日一夜，几乎没怎么逛。所有的过程内容，都在这个视频里了，点 [Youtube 观看](https://www.youtube.com/watch?v=nVN0pl-ejco)。

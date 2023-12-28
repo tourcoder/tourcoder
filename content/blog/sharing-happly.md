@@ -2,9 +2,9 @@
 title: "分享的快乐"
 slug: "sharing-happly"
 author: "Bin Hua"
-lastmod: 2010-05-10 06:05:45
 date: 2010-05-10 06:05:45
 tags: ["分享"]
+draft: false
 ---
 
 今天收到一封好友的Email，他现在人在新加坡，邮件中还是如往常的一样拉了一些家常，分享了一些观点和行情.

@@ -2,9 +2,9 @@
 title: "如何停止使用 macOS 的测试版"
 slug: "how-to-stop-using-beta-plan-of-macos"
 author: "Bin Hua"
-lastmod: 2018-12-27 03:20:49
 date: 2018-12-27 03:20:49
 tags: ["Apple", "macOS", "beta"]
+draft: false
 ---
 
 Teddy 之前尝鲜 Mojave，导致自己的系统一直是测试版，一早他问我怎么从测试版变成正式稳定版，他不想重装系统，随告诉他步骤

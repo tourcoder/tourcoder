@@ -2,9 +2,9 @@
 title: "CentOS 网络设置和桌面"
 slug: "set-network-and-desktop-for-centos"
 author: "Bin Hua"
-lastmod: 2019-02-20 12:27:52
 date: 2019-02-20 12:27:52
 tags: ["centos", "desktop", "gnome"]
+draft: false
 ---
 
 如前一篇「Windows 10 安装 U 盘的制作」中说到，我制作了 CentOS 的安装 U 盘，制作过程如前面说的一样，不同的是把 Windows 10 的映像文件换成 CentOS 的文件，可以去 CentOS 的官方下载，下载地址：[https://www.centos.org/download/](https://www.centos.org/download/)

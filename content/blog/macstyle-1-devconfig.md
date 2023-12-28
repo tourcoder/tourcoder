@@ -4,6 +4,7 @@ slug: "macstyle-1-devconfig"
 author: "Bin Hua"
 date: 2016-08-10 06:49:45
 tags: ["macOS", "Git"]
+draft: false
 ---
 
 **Git** 版本控制环境

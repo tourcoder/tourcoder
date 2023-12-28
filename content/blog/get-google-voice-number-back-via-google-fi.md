@@ -2,9 +2,9 @@
 title: "找回被回收的 Google Voice 号码"
 slug: "get-google-voice-number-back-via-google-fi"
 author: "Bin Hua"
-lastmod: 2019-05-22 05:57:25
 date: 2019-05-22 05:57:25
 tags: ["Google Fi", "google voice", "google voice保号"]
+draft: false
 ---
 
 Google Voice 的号码被回收，并且 Google Voice 的账户被停用，即便我和他们一条一条的说明我没有违背 TOS，但均被拒绝恢复 Google Voice 帐号。

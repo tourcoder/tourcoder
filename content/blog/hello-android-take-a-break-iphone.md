@@ -2,9 +2,9 @@
 title: "Hello Android, Take a break iPhone"
 slug: "hello-android-take-a-break-iphone"
 author: "Bin Hua"
-lastmod: 2017-07-08 07:08:42
 date: 2017-07-08 07:08:42
 tags: ["iPhone", "Android"]
+draft: false
 ---
 
 因双卡的需要，又不愿意拿着两个手机，索性入了款安卓手机。

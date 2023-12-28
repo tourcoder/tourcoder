@@ -2,9 +2,9 @@
 title: "Unable to boot device because it cannot be located on disk."
 slug: "unable-to-boot-device-because-it-cannot-be-located-on-disk"
 author: "Bin Hua"
-lastmod: 2019-09-29 05:27:42
 date: 2019-09-29 05:27:42
 tags: ["iOS", "cocoapods", "swift"]
+draft: false
 ---
 
 昨天做了下磁盘清理，导致今天在用 xcode 编译一个应用时出现了两个问题

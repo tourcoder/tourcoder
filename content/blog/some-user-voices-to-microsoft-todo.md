@@ -2,9 +2,9 @@
 title: "给 Microsoft Todo 的一点建议"
 slug: "some-user-voices-to-microsoft-todo"
 author: "Bin Hua"
-lastmod: 2019-06-26 02:55:17
 date: 2019-06-26 02:55:17
 tags: ["微软", "产品体验", "todo"]
+draft: false
 ---
 
 前几天我在 Twitter 上说留给 Wunderlist 的时间不多了，但即便如此，我还是觉得 Microsoft Todo 还不足以能够替代 Wunderlist。目前，Microsoft Todo 还是很混乱，准确的说。

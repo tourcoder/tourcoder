@@ -2,9 +2,9 @@
 title: "如何对 Debian 进行大版本升级"
 slug: "how-to-upgrade-debian"
 author: "Bin Hua"
-lastmod: 2021-12-14T15:09:46Z
 date: 2021-12-14T15:09:46Z
 tags: ["Debian", "how-to"]
+draft: false
 ---
 
 发现 Docker 的安装脚本在 Debian 的服务器上已经不被支持，通过 `cat /etc/os-release` 查看，得到如下结果

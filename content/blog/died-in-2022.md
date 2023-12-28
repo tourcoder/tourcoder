@@ -2,7 +2,7 @@
 title: "Died in 2022"
 slug: "died-in-2022"
 author: "Bin Hua"
-lastmod: 2023-01-03T01:46:59Z
+draft: false
 date: 2023-01-03T01:46:59Z
 tags: ["人生", "葬礼"]
 ---

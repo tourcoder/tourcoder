@@ -2,9 +2,9 @@
 title: "Redis 学习笔记"
 slug: "redis-manual"
 author: "Bin Hua"
-lastmod: 2019-01-11 03:51:15
 date: 2019-01-11 03:51:15
 tags: ["redis", "笔记"]
+draft: false
 ---
 
 Redis 可以理解为缓存数据库

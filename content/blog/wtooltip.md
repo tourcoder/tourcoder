@@ -2,9 +2,9 @@
 title: "jQuery 插件 wTooltip"
 slug: "wtooltip"
 author: "Bin Hua"
-lastmod: 2009-09-28 05:50:13
 date: 2009-09-28 05:50:13
 tags: ["web前端", "jquery"]
+draft: false
 ---
 
 今天听同事说，她用了 2 天的时间还没做好一个提示的功能，细问下，原来是要实现一个鼠标移到连接字上，显示出说明文字，但不能使用TITLE,ALT之类，细想下，jQuery插件可以轻松解决这个问题，而且还有很好的延伸作用。

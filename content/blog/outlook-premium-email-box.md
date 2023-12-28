@@ -2,7 +2,7 @@
 title: "踩坑 outlook 的域名邮箱"
 slug: "outlook-premium-email-box"
 author: "Bin Hua"
-lastmod: 2019-11-09 15:08:42
+draft: false
 date: 2019-11-09 15:08:42
 tags: ["office365", "outlook", "微软"]
 ---

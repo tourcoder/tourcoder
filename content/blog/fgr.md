@@ -2,9 +2,9 @@
 title: "中国游戏开发者的版号"
 slug: "fgr"
 author: "Bin Hua"
-lastmod: 2016-07-05 06:48:22
 date: 2016-07-05 06:48:22
 tags: ["版权", "iOS", "App"]
+draft: false
 ---
 
 下面这张图的信息，相信所有有 AppStore 中国区开发者帐号的人在 iTunesConnect 后台看到了，那么具体是个什么情况呢？是否有绕过的办法呢？

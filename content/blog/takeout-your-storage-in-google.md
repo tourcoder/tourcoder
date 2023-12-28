@@ -2,9 +2,9 @@
 title: "一次性下载 Google 上所有的内容"
 slug: "takeout-your-storage-in-google"
 author: "Bin Hua"
-lastmod: 2018-11-19 07:49:42
 date: 2018-11-19 07:49:42
 tags: ["Google", "googledrive", "googlephoto"]
+draft: false
 ---
 
 我拍摄的照片和视频是一直保存在 Google Photo 里面，差不多有 200 多个 G 的内容，保存在十几个 Google 账号里面 :(

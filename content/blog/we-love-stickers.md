@@ -2,9 +2,9 @@
 title: "Sticker 欣赏"
 slug: "we-love-stickers"
 author: "Bin Hua"
-lastmod: 2017-09-05 07:10:01
 date: 2017-09-05 07:10:01
 tags: ["sticker", "贴纸"]
+draft: false
 ---
 
 作为有点 geek 范的程序员，很多人都喜欢在在电脑上贴一些 sticker，其实有时候 sticker 就是我们的信仰之一。

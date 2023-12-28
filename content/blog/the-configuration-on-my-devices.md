@@ -2,9 +2,9 @@
 title: "我常用设备的配置"
 slug: "the-configuration-on-my-devices"
 author: "Bin Hua"
-lastmod: 2021-08-21T21:57:26Z
 date: 2021-08-21T21:57:26Z
 tags: ["macOS", "Debian", "iOS", "iPadOS", "watchOS", "MacBoo Pro", "iPhone", "iPad", "Apple Watch"]
+draft: false
 ---
 
 整天整理了下自己的 MacBook Pro，发现以前写如何配置设备写了好几篇，太散乱，索性整理到这篇博文里。其实我有很长一段时间不折腾系统了，很多配置都是默认配置。这篇博文主要记录我日常使用的设备的配置情况及少量我必用的应用。

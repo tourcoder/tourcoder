@@ -2,9 +2,9 @@
 title: "如何在 Mac App Store 里发布一个 Safari 扩展"
 slug: "how-to-distribute-safari-extension-on-mac-app-store"
 author: "Bin Hua"
-lastmod: 2021-11-16T17:43:47Z
 date: 2021-11-16T17:43:47Z
 tags: ["Safari", "extension", "Apple", "AppStore"]
+draft: false
 ---
 
 成功在 Mac App Store 上上架了一个 Safari 插件，整个过程资料缺失的是发布过程，连 Apple 官方都没有详细的说明，特分享一下我的发布过程。

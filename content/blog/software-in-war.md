@@ -2,9 +2,9 @@
 title: "战争中的软件"
 slug: "software-in-war"
 author: "Bin Hua"
-lastmod: 2022-03-04T19:53:59Z
 date: 2022-03-04T19:53:59Z
 tags: ["software", "乌克兰", "俄罗斯", "React", "open source", "GitHub"]
+draft: false
 ---
 
 很糟糕，乌克兰和俄罗斯的战争还在继续，似乎越来越向失控的方向发展。一同跟着失控的，还有软件行业，不管是商业软件，还是开源软件，也被制裁弄得有点头热，有点乱套了。

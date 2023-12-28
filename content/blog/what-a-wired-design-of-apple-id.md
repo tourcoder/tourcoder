@@ -2,9 +2,9 @@
 title: "Apple ID 的奇怪设计"
 slug: "what-a-wired-design-of-apple-id"
 author: "Bin Hua"
-lastmod: 2019-10-13 04:02:25
 date: 2019-10-13 04:02:25
 tags: ["bug", "Apple", "Apple ID"]
+draft: false
 ---
 
 这几天腿受伤，不怎么方便外出，用手机的时间相对于多了点，发现了很多 iOS 和 macOS Catalina 的 bug，昨天给他们提交 bug 提交到晚上十点多，最后还发了个推吐槽了下其中的一个和 Apple ID 相关的 bug。

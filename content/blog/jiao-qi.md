@@ -2,9 +2,9 @@
 title: "治脚气的小偏方"
 slug: "jiao-qi"
 author: "Bin Hua"
-lastmod: 2010-02-16 06:00:08
 date: 2010-02-16 06:00:08
 tags: ["脚气", "偏方"]
+draft: false
 ---
 
 这是一个老偏方，还不错

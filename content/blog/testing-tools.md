@@ -2,9 +2,9 @@
 title: "一些压力测试工具"
 slug: "testing-tools"
 author: "Bin Hua"
-lastmod: 2018-03-07 07:31:56
 date: 2018-03-07 07:31:56
 tags: ["工具", "abtest"]
+draft: false
 ---
 
 压力测试是一个 web 应用必须要做的，不只是为了测试程序的强壮性。压力测试的服务和工具很多，比如网上就很专业的压力测试的服务，也有 ab，webbench，siege，tcpcoy 等这样的测试工具。

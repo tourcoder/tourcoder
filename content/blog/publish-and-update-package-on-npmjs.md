@@ -2,9 +2,9 @@
 title: "在 NPMJS 上发布并维护包"
 slug: "publish-and-update-package-on-npmjs"
 author: "Bin Hua"
-lastmod: 2019-03-28 04:44:57
 date: 2019-03-28 04:44:57
 tags: ["nodejs", "npm", "yarn", "npmjs"]
+draft: false
 ---
 
 做 nodejs 的开发基本都会用到 npm 都包，那么如何在 npmjs 上发布并维护一个包呢？

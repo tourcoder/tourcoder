@@ -2,9 +2,9 @@
 title: "Made in China 的 Google Fi 到了"
 slug: "try-google-fi"
 author: "Bin Hua"
-lastmod: 2020-11-03 05:07:32
 date: 2018-12-22 03:42:00
 tags: ["Google", "Google Fi", "中国制造", "海淘", "转运", "产品体验", "google voice", "保号"]
+draft: false
 ---
 
 #### 开始之前

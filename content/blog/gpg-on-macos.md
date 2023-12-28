@@ -2,9 +2,9 @@
 title: "macOS 下使用 GPG"
 slug: "gpg-on-macos"
 author: "Bin Hua"
-lastmod: 2019-10-04 11:45:51
 date: 2019-10-04 11:45:51
 tags: ["macOS", "git", "GitHub", "加密", "homebrew", "gpg", "GNU"]
+draft: false
 ---
 
 GPG 是 GNU Privacy Guard 的简称，又名 GnuPG 是一种加密软件，它是 PGP 即 Pretty Good Privacy 的替代物，因为 PGP 不开源不免费，所以 GPG 使用还是比较广泛。在 macOS 下使用也比较方便。

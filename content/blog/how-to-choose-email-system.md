@@ -2,9 +2,9 @@
 title: "企业邮局的选择"
 slug: "how-to-choose-email-system"
 author: "Bin Hua"
-lastmod: 2016-10-20 06:53:13
 date: 2016-10-20 06:53:13
 tags: ["email", "gsuite", "aws", "office365"]
+draft: false
 ---
 
 Email 在平时工作中使用率非常高，虽然现在有很多“变异” 的 Email 工具越来越靠近 IM，但依旧无法取代 Email。

@@ -2,9 +2,9 @@
 title: "吃相难看"
 slug: "say-hehe-to-some-companies"
 author: "Bin Hua"
-lastmod: 2017-10-16 07:15:36
 date: 2017-10-16 07:15:36
 tags: ["支付宝", "iOS", "Android", "outlook"]
+draft: false
 ---
 
 做安卓开发的基本都知道安卓系统权限相对比较开放，很多权限都能请求，其实 iOS 也差不多，但因为 iOS 的应用都需要经过审核才能够上线，而安卓的应用任何人都可以发布，所以导致的相对来说，安卓更加不安全。

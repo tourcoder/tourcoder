@@ -2,9 +2,9 @@
 title: "macOS 的安全设置"
 slug: "how-to-keep-your-data-safe-on-macos"
 author: "Bin Hua"
-lastmod: 2020-08-04 02:02:44
 date: 2020-07-12 14:26:20
 tags: ["Apple", "macOS", "数据安全"]
+draft: false
 ---
 
 我日常用的 MacBook Air 出了一点问题，让我想到了保护上面的数据。搜索了一圈后，我发现我该做的保护都做到了，特分享下。

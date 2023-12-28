@@ -2,9 +2,9 @@
 title: "Mongoose 学习笔记"
 slug: "study-mongoose"
 author: "Bin Hua"
-lastmod: 2018-08-22 07:45:57
 date: 2018-08-22 07:45:57
 tags: ["nodejs", "mongodb", "笔记", "mongoose"]
+draft: false
 ---
 
 之前写的用 [koa 开发 REST API](/build-rest-api-with-koa)，有提到过这个总让我想起加拿大鹅的中间件，索性好好学习一下。

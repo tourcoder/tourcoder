@@ -2,9 +2,9 @@
 title: "各种美国电话号码的简单比较"
 slug: "get-an-american-phone-number"
 author: "Bin Hua"
-lastmod: 2019-01-27 03:46:21
 date: 2019-01-27 03:46:21
 tags: ["美国号码", "Google Fi", "lycamobile", "二次验证"]
+draft: false
 ---
 
 为什么要办一个美国号码？因为出差，还因为二次验证方便，不过今天的重点不是原因，而是简单比较下美国号码的获取途径，以及简单说说它们之间的不同。

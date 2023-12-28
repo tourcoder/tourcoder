@@ -2,9 +2,9 @@
 title: "iPhone 设置些什么"
 slug: "iphone-ying-gai-ru-he-she-zhi"
 author: "Bin Hua"
-lastmod: 2020-06-27 15:10:39
 date: 2020-06-27 15:10:39
 tags: ["iPhone", "Apple", "安全"]
+draft: false
 ---
 
 作为一个 iPhone 用户，随着 iOS 的不断升级，设置的内容也变得很多，但一些基础的设置基本没有变化。我的常规设置有如下一些，以下下内容基于 iOS 14 开发者版本。

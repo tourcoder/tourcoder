@@ -2,7 +2,7 @@
 title: "删除相同数据"
 slug: "delete-the-same-data"
 author: "Bin Hua"
-lastmod: 2009-01-20 04:58:00
+draft: false
 date: 2009-01-20 04:58:00
 tags: ["sql", "database"]
 ---

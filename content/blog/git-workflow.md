@@ -2,9 +2,9 @@
 title: "Git 及工作流"
 slug: "git-workflow"
 author: "Bin Hua"
-lastmod: 2017-03-14 06:58:29
 date: 2017-03-14 06:58:29
 tags: ["git", "workflow"]
+draft: false
 ---
 
 日常开发中，Git 必不可少，之前的文章我有简单介绍过 Git，具体看[这篇](/git-model-1)，今天我介绍下 Git 的日常用法。

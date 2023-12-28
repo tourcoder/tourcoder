@@ -2,9 +2,9 @@
 title: "iPhone 家族的冲击波(游戏篇)"
 slug: "iphone-vs-others"
 author: "Bin Hua"
-lastmod: 2010-02-13 05:59:28
 date: 2010-02-13 05:59:28
 tags: ["iPhone", "Apple", "PSP", "游戏"]
+draft: false
 ---
 
 昨天在网上碰到同事，闲聊中聊到了游戏，然后就天马行空聊到了 iPhone 家族对 PSP 的冲击，最后我们得到的结论是，iPhone 家族给了 PSP 沉重的打击，这打击更是致命的，如果 PSP 采用了网上所说的方法，将采用 Android 作为它的平台系统的话，那将加快它的死亡。

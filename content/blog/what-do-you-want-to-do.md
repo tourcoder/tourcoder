@@ -2,9 +2,9 @@
 title: "你们都要干吗啊？"
 slug: "what-do-you-want-to-do"
 author: "Bin Hua"
-lastmod: 2010-04-21 06:04:24
 date: 2010-04-21 06:04:24
 tags: ["职场", "支付宝", "Gmail", "91助手"]
+draft: false
 ---
 
 把这几天遇到的一些扯的事情，放在一起做个总结
@@ -28,7 +28,7 @@ tags: ["职场", "支付宝", "Gmail", "91助手"]
 Delivery to the following recipient failed permanently:
     user@mydomain.com
 Technical details of permanent failure:
-Google tried to deliver your message, but it was rejected by the recipient domain. We recommend contacting the other email provider for further information about the cause of this error. The error that the other server returned was: 550 550 No Such User Here (state 14).
+Google tried to deliver your message, but it was rejected by the recipient domain. We recommend contacting the other email provider for further information about the cause of this error. The error that the other server returned was: 550 550 No Such User Here (state 14).draft: false
 ----- Message suppressed -----
 ```
 

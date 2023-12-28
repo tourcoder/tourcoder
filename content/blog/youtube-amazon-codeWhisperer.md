@@ -4,7 +4,7 @@ slug: "youtube-amazon-codeWhisperer"
 author: "Bin Hua"
 date: 2023-04-16T01:12:28Z
 tags: ["AI", "GitHub", "Copilot", "Amazon", "CodeWhisperer"]
-draft: true
+draft: false
 ---
 
 亚马逊用几十亿代码训练出来的，强还是蛮强的。

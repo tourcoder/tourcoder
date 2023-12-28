@@ -2,9 +2,9 @@
 title: "基于 AWS 的架构"
 slug: "evolution-on-aws"
 author: "Bin Hua"
-lastmod: 2017-03-07 06:57:18
 date: 2017-03-07 06:57:18
 tags: ["aws", "unitserver", "架构"]
+draft: false
 ---
 
 凌晨我们更新了服务器端，本次更新抛开功能等因素，但在技术架构方面更为合理的使用了 AWS，趁现在有空，做点笔记。

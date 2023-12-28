@@ -2,9 +2,9 @@
 title: "获取 Nginx Cloudflare 架构中客户端真实的 IP"
 slug: "get-client-realip-in-the-nginx-cloudflare-architecture"
 author: "Bin Hua"
-lastmod: 2021-12-23T12:34:42Z
 date: 2021-12-23T12:34:42Z
 tags: ["Cloudflare", "nginx"]
+draft: false
 ---
 
 在 nginx+cloudflare 的架构中，如果不做设置，获取到的客户端 IP 地址是 cloudflare 的地址，而非真实的客户端 IP，需要做如下的设置。

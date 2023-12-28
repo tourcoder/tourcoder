@@ -2,9 +2,9 @@
 title: "SSH管理网站"
 slug: "sshguan-li-wang-zhan"
 author: "Bin Hua"
-lastmod: 2011-04-06 06:31:24
 date: 2011-04-06 06:31:24
 tags: ["ssh", "shell", "cmd"]
+draft: false
 ---
 
 今天家里的21端口又莫名其妙的被封了，懒得动，又不想去公司，所以，研究了下SSH管理网站

@@ -2,9 +2,9 @@
 title: "搭建私有的 wiki"
 slug: "install-bookstack-via-docker"
 author: "Bin Hua"
-lastmod: 2020-01-13 14:10:55
 date: 2020-01-13 14:10:55
 tags: ["维基百科", "self-hosted", "wiki", "Bookstack"]
+draft: false
 ---
 
 很早就想搭建一个家庭私有的 wiki，主要是方便家庭成员分享一些人生经历，一些思考，还有家庭树方面的内容，而这些很多内容是不方便在博客上分享的。最近碰到了一个开源的程序 `Bookstack` 就很不错。这次通过 Docker 来部署搭建。

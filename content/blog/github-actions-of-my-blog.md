@@ -2,9 +2,9 @@
 title: "基于 Github Actions 部署我的博客"
 slug: "github-actions-of-my-blog"
 author: "Bin Hua"
-lastmod: 2021-06-02T22:34:08Z
 date: 2021-06-02T22:34:08Z
 tags: ["GitHub", "hugo"]
+draft: false
 ---
 
 之前有说过我的博客移到了 GitHub Pages，我写博客的步骤是：

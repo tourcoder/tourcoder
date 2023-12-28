@@ -2,9 +2,9 @@
 title: "修正 GitLab 安装时因 UTF-8 引起的错误"
 slug: "how-to-fix-utf-8-error-when-installing-gitlab"
 author: "Bin Hua"
-lastmod: 2021-11-22T03:34:54Z
 date: 2021-11-22T03:34:54Z
 tags: ["GitLab", "GitHub", "issue", "Git"]
+draft: false
 ---
 
 昨天在安装 GitLab 时遇到一个错误

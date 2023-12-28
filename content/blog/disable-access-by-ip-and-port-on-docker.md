@@ -2,7 +2,7 @@
 title: "Docker 中禁止 IP 和端口访问"
 slug: "disable-access-by-ip-and-port-on-docker"
 author: "Bin Hua"
-lastmod: 2019-12-27 05:59:42
+draft: false
 date: 2019-12-27 05:59:42
 tags: ["docker", "nginx"]
 ---

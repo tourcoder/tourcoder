@@ -2,9 +2,9 @@
 title: "以太坊开发笔记"
 slug: "yi-tai-fang-kai-fa"
 author: "Bin Hua"
-lastmod: 2017-09-12T16:00:00Z
 date: 2017-09-12T16:00:00Z
 tags: ["eth", "以太坊"]
+draft: false
 ---
 
 通过椭圆曲线算法生成钥匙对（公钥和私钥），以太坊采用的是secp256k1曲线。公钥采用uncompressed模式，生成的私钥为长度32的16进制字串，公钥为长度64的公钥字串。公钥04开头。

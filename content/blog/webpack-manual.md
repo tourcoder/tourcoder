@@ -2,9 +2,9 @@
 title: "webpack 学习笔记"
 slug: "webpack-manual"
 author: "Bin Hua"
-lastmod: 2019-01-22 06:00:55
 date: 2019-01-22 06:00:55
 tags: ["nodejs", "webpack", "npm"]
+draft: false
 ---
 
 越来越多的 module 被放到了 npmjs.org 上，甚至一些 css 框架都被放在了上面，我本身认为 npmjs 上只是放 M 和 V 的东西，没想到 C 的东西也放在了上面。对 css 内容的调用，除了最直接的

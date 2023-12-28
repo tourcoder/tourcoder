@@ -2,9 +2,9 @@
 title: "GitHub 的一个巧妙设计"
 slug: "so-cool-feature-on-github"
 author: "Bin Hua"
-lastmod: 2019-06-04 15:17:27
 date: 2019-06-04 15:17:27
 tags: ["GitHub", "风控"]
+draft: false
 ---
 
 访问 GitHub，收到了如下的提醒

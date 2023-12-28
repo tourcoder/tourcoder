@@ -2,9 +2,9 @@
 title: "我是如何在 iPad 上工作的"
 slug: "how-do-i-work-on-ipad"
 author: "Bin Hua"
-lastmod: 2019-12-24 06:56:22
 date: 2019-12-24 06:56:22
 tags: ["远程工作", "GitHub", "iPad"]
+draft: false
 ---
 
 拉了下统计，发现今年所写的代码中有 17% 的量是在 iPad 上完成的，比我之前想的要多。除此了写代码之外，其他也有不少工作是在 iPad 上完成的，比如邮件，文字之类的工作。

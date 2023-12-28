@@ -2,9 +2,9 @@
 title: "IRC 快速入门"
 slug: "new-to-irc"
 author: "Bin Hua"
-lastmod: 2021-05-30T10:33:28Z
 date: 2021-05-30T10:33:28Z
 tags: ["irc", "freenode", "libera"]
+draft: false
 ---
 
 最近 freenode 的收购方做了一些谜一样的操作导致大家都开始逃离 freenode 这个长达十多年的 IRC 服务。IRC 是一种网络聊天协议，freenode 根据该协议组成了聊天网络，其实也有其他的聊天网络，只不过 freenode 更为出名，基本是“古老”开源的标配了。

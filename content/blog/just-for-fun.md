@@ -2,9 +2,9 @@
 title: "Just for Fun 读后感"
 slug: "just-for-fun"
 author: "Bin Hua"
-lastmod: 2018-05-20 07:40:36
 date: 2018-05-20 07:40:36
 tags: ["linux", "读后感", "linus"]
+draft: false
 ---
 
 这是一本 Linus 的自传，Linus 是谁？就是那个创造了 Linux 和 Git 的男人。

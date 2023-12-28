@@ -2,9 +2,9 @@
 title: "如何使用 Google Workspace legacy 进行邮件转发"
 slug: "how-to-use-google-workspace-legacy-for-mail-forwarding"
 author: "Bin Hua"
-lastmod: 2022-04-09T08:12:53Z
 date: 2022-04-09T08:12:53Z
 tags: ["GSuite", "Google", "Google Workspace", "Email"]
+draft: false
 ---
 
 Google 终于给 GSuite legacy 后续进展下了一个定论，要么付费升级使用，要么使用 no-cost 方案，no-cost 方案缺少了一些核心的功能，比如 Gmail。具体说明看[这里](https://support.google.com/a/answer/60217#nocost)。

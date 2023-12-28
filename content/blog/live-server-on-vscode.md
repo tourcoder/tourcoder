@@ -2,9 +2,9 @@
 title: "VSCode 中实时预览 HTML"
 slug: "live-server-on-vscode"
 author: "Bin Hua"
-lastmod: 2019-10-21 10:09:36
 date: 2019-10-21 10:09:36
 tags: ["vim", "vscode", "html"]
+draft: false
 ---
 
 有时候会写一些静态页面，但在 vim 中预览这些页面就会比较难受，VS Code 的一个插件很好的解决了这个问题。

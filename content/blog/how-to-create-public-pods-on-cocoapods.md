@@ -2,9 +2,9 @@
 title: "创建公有的 Cocoapods 库"
 slug: "how-to-create-public-pods-on-cocoapods"
 author: "Bin Hua"
-lastmod: 2019-03-26 02:10:00
 date: 2019-03-26 02:10:00
 tags: ["iOS", "macOS", "cocoapods", "github", "terminal"]
+draft: false
 ---
 
 Cocoapods 是一个很棒的开发管理库，有时候为了方便，自己也会制作一些库上传到上面，这里分享下过程。

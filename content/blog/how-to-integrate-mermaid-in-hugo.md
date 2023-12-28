@@ -4,6 +4,7 @@ slug: "how-to-integrate-mermaid-in-hugo"
 author: "Bin Hua"
 date: 2023-03-09T10:10:41Z
 tags: ["hugo", "mermaid"]
+draft: false
 ---
 
 [Mermaid](http://mermaid.js.org/) 是一个能通过 markdown 画流程图，甘特图等图表的库，我很喜欢。今天尝试将它集成到 hugo 的系统里。

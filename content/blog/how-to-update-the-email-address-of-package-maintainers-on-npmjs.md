@@ -2,9 +2,9 @@
 title: "更新 NPMJS 中维护人员的 email 地址"
 slug: "how-to-update-the-email-address-of-package-maintainers-on-npmjs"
 author: "Bin Hua"
-lastmod: 2019-12-17 07:20:04
 date: 2019-12-17 07:20:04
 tags: ["npm", "npmjs"]
+draft: false
 ---
 
 做过 NPMJS 包的人都知道，通过命令 `npm info 包名字` 可以查看到维护人员的 Email 地址，如下图中红色标注出来的

@@ -2,9 +2,9 @@
 title: "修正 nodejs 连接 mongodb 时出现的错误"
 slug: "how-to-fixed-mongoServerError-authentication-failed-with-nodejs"
 author: "Bin Hua"
-lastmod: 2021-12-12T15:45:40Z
 date: 2021-12-12T15:45:40Z
 tags: ["mongodb", "nodejs"]
+draft: false
 ---
 
 在服务器上通过 docker 拉起了一个 mongodb，通过客户端链接一切正常。但在 nodejs 中用 MongoClient 去连接时总是提示错误

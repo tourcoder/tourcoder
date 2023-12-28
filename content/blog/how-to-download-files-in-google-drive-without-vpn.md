@@ -2,9 +2,9 @@
 title: "不翻墙下载 Google Drive 中的内容"
 slug: "how-to-download-files-in-google-drive-without-vpn"
 author: "Bin Hua"
-lastmod: 2019-03-25 10:27:32
 date: 2019-03-25 10:27:32
 tags: ["Google", "googlecloud", "googlephoto", "google drive", "dropbox"]
+draft: false
 ---
 
 众所周知的原因，Google Drive 是无法正常访问的，那么要下载里面的内容就需要用到梯子，但当你的文件过大时候，如果梯子不稳定或者速度慢，基本是没有希望将里面的内容下载下来的。这时候可以考虑用跳板的方式来处理这个问题。

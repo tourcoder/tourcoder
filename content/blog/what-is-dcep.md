@@ -2,9 +2,9 @@
 title: "DC/EP 是什么"
 slug: "what-is-dcep"
 author: "Bin Hua"
-lastmod: 2021-02-11T10:06:49Z
 date: 2021-02-11T10:06:49Z
 tags: ["dcep", "数字人民币", "bitcoin", "比特币", "btc", "以太坊", "加密货币"]
+draft: false
 ---
 
 之前有简单体验过的 DC/EP 的应用，没有什么太多的感觉，直到今天才有机会第一次做产品的拆解。鉴于当前的保密协议，我只写一些我能说的。

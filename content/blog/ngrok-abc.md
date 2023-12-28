@@ -4,6 +4,7 @@ slug: "ngrok-abc"
 author: "Bin Hua"
 date: 2021-06-18T11:50:07Z
 tags: ["ngrok", "开发工具"]
+draft: false
 ---
 
 日常情况下，我都是在一台带有公网独立 IP 的 vps 上做开发，给外部提供调试链接是一件很方便的事。而在没有公网 IP 的本地电脑上，就有一个好用的东西提供了类似的服务 -- ngrok。这个东西使用极其简单，以 macOS 为例

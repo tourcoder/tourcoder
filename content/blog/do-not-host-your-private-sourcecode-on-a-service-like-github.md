@@ -2,7 +2,7 @@
 title: "不要在 GitHub 之类的服务商那托管你的私有代码"
 slug: "do-not-host-your-private-sourcecode-on-a-service-like-github"
 author: "Bin Hua"
-lastmod: 2019-12-12 03:43:11
+draft: false
 date: 2019-12-12 03:43:11
 tags: ["GitHub", "gitlab", "代码托管"]
 ---

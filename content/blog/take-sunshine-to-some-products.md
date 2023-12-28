@@ -2,9 +2,9 @@
 title: "给一些产品一些出路"
 slug: "take-sunshine-to-some-products"
 author: "Bin Hua"
-lastmod: 2018-01-25 07:24:22
 date: 2018-01-25 07:24:22
 tags: ["SKYPE", "守望先锋"]
+draft: false
 ---
 
 使用一个产品久了，自然会发现里面的问题

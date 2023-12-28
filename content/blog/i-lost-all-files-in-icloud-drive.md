@@ -2,9 +2,9 @@
 title: "iCloud Drive 搞丢了我所有的文件"
 slug: "i-lost-all-files-in-icloud-drive"
 author: "Bin Hua"
-lastmod: 2020-10-29 00:19:08
 date: 2020-10-29 00:19:08
 tags: ["Apple", "iCloud", "icloud drive"]
+draft: false
 ---
 
 突然生病住院了几天，回来后发现 iCloud Drive 里面的资料全都没有了。之前有听人说 iCloud Drive 会丢失文件，还会错乱文件，未想这件事还让我碰到了。

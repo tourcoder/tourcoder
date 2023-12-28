@@ -2,9 +2,9 @@
 title: "手动清除远程桌面记录"
 slug: "remove-history-of-remote-history"
 author: "Bin Hua"
-lastmod: 2009-07-22 05:43:18
 date: 2009-07-22 05:43:18
 tags: ["windows", "远程"]
+draft: false
 ---
 
 运行regedit，打开注册表，找到 `HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default`

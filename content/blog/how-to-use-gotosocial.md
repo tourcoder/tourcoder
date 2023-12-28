@@ -2,9 +2,9 @@
 title: "搭建自己的节点之 Gotosocial 篇"
 slug: "how-to-use-gotosocial"
 author: "Bin Hua"
-lastmod: 2022-12-18T05:55:03Z
 date: 2022-12-18T05:55:03Z
 tags: ["mastodon", "twitter", "gotosocial", "elonmusk"]
+draft: false
 ---
 
 基于三个原因，我还是决定将自己的吃饭游玩日常打卡和叨逼叨的内容转移到自己的服务器

@@ -4,6 +4,7 @@ slug: "stuff"
 author: "Bin Hua"
 date: 2017-12-31 04:32:00
 tags: ["stuff", "edc"]
+draft: false
 ---
 
 ### 2023 年

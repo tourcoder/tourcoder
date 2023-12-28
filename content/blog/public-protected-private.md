@@ -2,9 +2,9 @@
 title: "基本功要扎实：概述public、protected、private"
 slug: "public-protected-private"
 author: "Bin Hua"
-lastmod: 2009-08-31 05:48:27
 date: 2009-08-31 05:48:27
 tags: ["dotnet"]
+draft: false
 ---
 
 事实上public、protected、private就是水平访问和垂直访问的区别。水平访问就是能被类

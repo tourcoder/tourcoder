@@ -2,9 +2,9 @@
 title: "Shell 的变量默认值"
 slug: "shell-default-value"
 author: "Bin Hua"
-lastmod: 2021-05-01T14:21:06Z
 date: 2021-05-01T14:21:06Z
 tags: ["shell"]
+draft: false
 ---
 
 一共有两种格式， `${bar-default_value}` 和 `${bar:-default_value}`，在不同的时候显示的结果也不一样

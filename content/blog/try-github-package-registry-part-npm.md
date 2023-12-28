@@ -2,9 +2,9 @@
 title: "GitHub Package Registry 试用(NPM 部分)"
 slug: "try-github-package-registry-part-npm"
 author: "Bin Hua"
-lastmod: 2019-09-12 04:02:55
 date: 2019-09-12 04:02:55
 tags: ["nodejs", "GitHub", "docker", "webpack", "npm", "npmjs"]
+draft: false
 ---
 
 纯粹的巧合，在我发邮件给 NPMJS 请他们协助我删除掉我账户里面所有的 Package 后三个小时，我发现自己的 GitHub 账户里已经可以使用 GitHub Package Registry 服务。

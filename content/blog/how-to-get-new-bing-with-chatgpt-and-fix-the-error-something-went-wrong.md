@@ -4,6 +4,7 @@ slug: "how-to-get-new-bing-with-chatgpt-and-fix-the-error-something-went-wrong"
 author: "Bin Hua"
 date: 2023-02-26T08:35:14Z
 tags: ["new", "bing", "chatgpt", "微软", "e01003", "e01002", "e01005"]
+draft: false
 ---
 
 带有 chatGPT 聊天功能的新 bing 这些日子很火，以至于排队都要等很久才能拿到试用权限。有个简单的办法可能会更快的拿到试用权限，我也是申请第二个账号时偶然发现，具体是否一直有效，不详。

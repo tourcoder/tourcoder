@@ -2,9 +2,9 @@
 title: "macOS 下加密压缩"
 slug: "encrypt-files-on-macos"
 author: "Bin Hua"
-lastmod: 2019-03-12 15:41:59
 date: 2019-03-12 15:41:59
 tags: ["macOS", "加密", "encrypt"]
+draft: false
 ---
 
 我买了商业版的 G Suite，有无限空间，正好我可以用它来存储照片，但我不想把自己照片放在 Google Photo 里面，只想压缩后放在 Google Drive 中，而单纯的压缩，还是容易被查看到的，所以在 macOS 下做一下加密压缩，就显得特别重要。

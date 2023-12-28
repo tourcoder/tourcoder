@@ -2,9 +2,9 @@
 title: "逼格太高，钱包跟不上"
 slug: "git-world"
 author: "Bin Hua"
-lastmod: 2017-03-29 07:01:10
 date: 2017-03-29 07:01:10
 tags: ["git", "GitHub"]
+draft: false
 ---
 
 下午有人和我吐槽 Github Enterprise 价格高，硬件要求高，说白了就是他感觉投入太大，对他这样的小企业承受不起。我回了他一句：“你这是典型的逼格太高，钱包跟不上”。

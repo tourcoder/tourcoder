@@ -2,9 +2,9 @@
 title: "获取 6 个字符的 Gmail 用户名"
 slug: "get-short-gmail-username"
 author: "Bin Hua"
-lastmod: 2019-09-20 15:43:34
 date: 2019-05-27 04:16:35
 tags: ["Gmail", "github", "centos", "python"]
+draft: false
 ---
 
 Gmail 的用户名最少是 6 位，随着其用户越来越多，能够得到一个较短的用户名也比较麻烦了，恰好在 GitHub 上发现了一个比较好玩的库，用来查找 Gmail 中还剩下的 6 位字符的用户名。

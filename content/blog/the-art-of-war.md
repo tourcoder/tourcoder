@@ -2,9 +2,9 @@
 title: "孙子兵法白话版"
 slug: "the-art-of-war"
 author: "Bin Hua"
-lastmod: 2018-01-23 07:23:34
 date: 2018-01-23 07:23:34
 tags: ["孙子兵法", "读后感"]
+draft: false
 ---
 
 **写在前面**

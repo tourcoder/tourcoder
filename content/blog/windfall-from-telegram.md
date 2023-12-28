@@ -2,9 +2,9 @@
 title: "来自 Telegram 的“意外收获”"
 slug: "windfall-from-telegram"
 author: "Bin Hua"
-lastmod: 2019-11-22 03:28:24
 date: 2019-11-22 03:28:24
 tags: ["安全", "telegram"]
+draft: false
 ---
 
 我用 telegram 有一段时间，用它的原因是源自它的宣传 -- 安全加密，在当前信息隐私泄漏满天飞的时代，它无疑是一个很不错的，值得我信任的软件，只到昨天晚上。

@@ -2,9 +2,9 @@
 title: "每月家庭的网络产品使用帐"
 slug: "the-family-billing-on-online-products"
 author: "Bin Hua"
-lastmod: 2022-08-13 04:44:30
 date: 2019-12-25 00:28:55
 tags: ["开销", "消费"]
+draft: false
 ---
 
 下面是相对来说比较固定的开销，均按年计费。

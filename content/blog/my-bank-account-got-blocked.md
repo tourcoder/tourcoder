@@ -4,6 +4,7 @@ slug: "my-bank-account-got-blocked"
 author: "Bin Hua"
 date: 2023-03-22T10:22:58Z
 tags: ["中国银行", "封锁"]
+draft: false
 ---
 
 我接了一笔钱，银行账户就被封了，所以我想把这件事情分享出来，希望大家能够从中学到经验，预防被骗。大致的过程是这样的：

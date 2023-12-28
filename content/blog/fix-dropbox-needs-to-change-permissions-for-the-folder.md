@@ -2,9 +2,9 @@
 title: "修复 macOS 下 Dropbox Needs to Change Permissions for the Folder 的问题"
 slug: "fix-dropbox-needs-to-change-permissions-for-the-folder"
 author: "Bin Hua"
-lastmod: 2022-02-02T15:52:21Z
 date: 2022-02-02T15:52:21Z
 tags: ["Dropbox", "macOS"]
+draft: false
 ---
 
 我最近修改了 macOS 的用户名及其文件夹，导致 Dropbox 无法正常启动了，总是提示

@@ -4,7 +4,7 @@ slug: "youtube-covid19-self-testing"
 author: "Bin Hua"
 date: 2022-04-24T08:55:00Z
 tags: ["新冠", "上海封城"]
-draft: true
+draft: false
 ---
 
 昨天晚上小区群里有人说抗原自测的生产商有阳性的，接着又讨论到大家收到的自测试剂的问题，其中有一条是正版的是有“艾科”两个字，而没有“艾科”两个字的可能是盗版。

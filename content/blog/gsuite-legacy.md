@@ -2,9 +2,9 @@
 title: "购买 G Suite legacy 要注意的问题"
 slug: "gsuite-legacy"
 author: "Bin Hua"
-lastmod: 2020-10-29 09:11:25
 date: 2020-10-29 09:11:25
 tags: ["Google", "gsuite", "googledrive", "代码", "Google workspace"]
+draft: false
 ---
 
 很多人想使用 G Suite (目前已经改名 Google Workspace)，但不想付费，转而去购买了 G Suite legacy，一种免费版本的 G Suite，只要一次付费给卖家，以后就可以一直免费用下去。这个东西是 2012 年前 Google 提供免费注册的，那时候还叫 Google Apps，后来一路改名到现在的 Google Workspace，这个过程就不展开谈了。

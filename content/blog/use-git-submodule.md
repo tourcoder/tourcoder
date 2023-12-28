@@ -2,9 +2,9 @@
 title: "Git Submodule 的使用"
 slug: "use-git-submodule"
 author: "Bin Hua"
-lastmod: 2018-02-11 07:27:29
 date: 2018-02-11 07:27:29
 tags: ["git", "submodule"]
+draft: false
 ---
 
 之前都是博客源码和内容文件放在一起，总感觉怪怪的，今天更新了下本博客的结构，让代码和内容分开，Repository 也分成了代码和内容两个部分。分开后的结构是这样的：

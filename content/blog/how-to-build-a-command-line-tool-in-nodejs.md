@@ -2,9 +2,9 @@
 title: "用 NodeJS 写 CLI"
 slug: "how-to-build-a-command-line-tool-in-nodejs"
 author: "Bin Hua"
-lastmod: 2019-08-07 03:31:10
 date: 2019-08-07 03:31:10
 tags: ["nodejs", "terminal", "iterm", "clt", "cmd"]
+draft: false
 ---
 
 CLI 即 command-line interface 的简写，中文称命令行界面，是指可在用户提示符下键入可执行指令的界面，通常不支持鼠标，用户通过键盘输入指令，计算机接收到指令后，予以执行。因为最近工作需要，使用 NodeJS 写了一次 CLI。

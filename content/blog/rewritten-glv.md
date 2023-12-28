@@ -2,9 +2,9 @@
 title: "重写 GLV"
 slug: "rewritten-glv"
 author: "Bin Hua"
-lastmod: 2021-11-14T07:09:14Z
 date: 2021-11-14T07:09:14Z
 tags: ["glv", "golang"]
+draft: false
 ---
 
 半夜睡不着了，重写了下 `glv`，已经更新到 GitHub。

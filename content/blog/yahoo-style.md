@@ -2,9 +2,9 @@
 title: "被 Yahoo 收购了"
 slug: "yahoo-style"
 author: "Bin Hua"
-lastmod: 2015-01-11T06:41:48Z
 date: 2015-01-11T06:41:48Z
 tags: ["雅虎", "阿里巴巴", "Yahoo"]
+draft: false
 ---
 
 阿里巴巴上市，Yahoo套现，梅耶尔又有钱开始收购了，这不，刚收购了一家印度的公司。

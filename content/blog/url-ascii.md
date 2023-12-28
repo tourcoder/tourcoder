@@ -2,9 +2,9 @@
 title: "URL 地址中字符的转义对照表"
 slug: "url-ascii"
 author: "Bin Hua"
-lastmod: 2016-09-26 06:51:32
 date: 2016-09-26 06:51:32
 tags: ["ascii"]
+draft: false
 ---
 
 ```

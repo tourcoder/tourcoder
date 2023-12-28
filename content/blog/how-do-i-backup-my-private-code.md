@@ -2,9 +2,9 @@
 title: "我如何备份私有代码"
 slug: "how-do-i-backup-my-private-code"
 author: "Bin Hua"
-lastmod: 2022-03-05T12:17:34Z
 date: 2022-03-05T12:17:34Z
 tags: ["GitHub", "Chaos"]
+draft: false
 ---
 
 我一直用 GitHub 作为代码存储的主力工具，不用 GitLab 的原因是之前 GitLab 出了个针对中国和俄罗斯的政策，这里就不细说了，具体可以搜索下。GitHub 同样也做过类似的事情，比如无任何征兆的封禁了一些国家地区的账号。甚至有些项目中因为有伊朗的开发者贡献过代码，整个项目都被封掉了。比如 Aurelia 这个项目。

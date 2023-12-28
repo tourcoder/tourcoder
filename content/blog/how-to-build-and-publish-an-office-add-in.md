@@ -2,9 +2,9 @@
 title: "开发并发布一个 Office 插件 (Add-in) 的经验分享"
 slug: "how-to-build-and-publish-an-office-add-in"
 author: "Bin Hua"
-lastmod: 2022-08-24T08:50:12Z
 date: 2022-08-24T08:50:12Z
 tags: ["Microsoft", "office", "add-in", "howto"]
+draft: false
 ---
 
 这几天学习开发了一个 Microsoft office word 的 add-in，也刚提交审核，分享点经验。

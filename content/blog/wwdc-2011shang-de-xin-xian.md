@@ -2,9 +2,9 @@
 title: "WWDC 2011上的'新鲜'"
 slug: "wwdc-2011shang-de-xin-xian"
 author: "Bin Hua"
-lastmod: 2011-06-07 06:33:54
 date: 2011-06-07 06:33:54
 tags: ["iPhone", "Apple", "Gmail", "App", "wwdc", "iCloud", "2011"]
+draft: false
 ---
 
 昨天熬夜看完了 WWDC 2011,有些意料之内,也有一些意料之外...意料之内的是推出了一系列的先前已经被猜出来的东西,甚至是mobileme免费,意料之外的是,本以为只有iphone等移动设备会向着SNS方向发展,但现在整体看下来,整个苹果的产品线似乎都在向着SNS发展.

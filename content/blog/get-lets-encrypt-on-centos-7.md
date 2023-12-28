@@ -2,9 +2,9 @@
 title: "CentOS 7 下签发 Let's Encrypt https 证书"
 slug: "get-lets-encrypt-on-centos-7"
 author: "Bin Hua"
-lastmod: 2019-02-09 15:15:00
 date: 2019-02-09 15:15:00
 tags: ["ssl", "centos", "https", "let's encrypt"]
+draft: false
 ---
 
 在当今网络世界，HTTPS 是必备的，但 SSL 证书买起来比较贵，多亏 Let's Encrypt 提供了免费的证书，地址是：[https://letsencrypt.org/](https://letsencrypt.org/) 希望大家可以去捐赠他们。

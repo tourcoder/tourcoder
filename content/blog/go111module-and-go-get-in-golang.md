@@ -2,9 +2,9 @@
 title: "Go 语言中的 GO111MODULE 和 Go Get"
 slug: "go111module-and-go-get-in-golang"
 author: "Bin Hua"
-lastmod: 2021-07-26T12:13:24Z
 date: 2021-07-26T12:13:24Z
 tags: ["golang", "gomodule"]
+draft: false
 ---
 
 Go 语言在 1.11 中加入了 Go Module 作为官方包管理形式，因而不同的设置会导致执行 `go get` 下载第三方包时，包将下载到工作区的根目录下的不同的文件夹中，引用也会不一样。

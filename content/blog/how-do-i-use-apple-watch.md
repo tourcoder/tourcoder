@@ -2,9 +2,9 @@
 title: "我是怎么玩 Apple Watch 的"
 slug: "how-do-i-use-apple-watch"
 author: "Bin Hua"
-lastmod: 2019-02-23 14:54:43
 date: 2019-02-23 14:54:43
 tags: ["Apple", "App", "applewatch", "智能手表"]
+draft: false
 ---
 
 在之前的文章「[Apple Watch S4 使用体验](/apple-watch-s4/)」中我说过，现在的 Apple Watch 对我来说还是鸡肋一块。但这不代表 Apple Watch 没有可玩的地方。

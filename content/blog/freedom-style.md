@@ -2,9 +2,9 @@
 title: "你自由的风格"
 slug: "freedom-style"
 author: "Bin Hua"
-lastmod: 2022-06-02T02:10:20Z
 date: 2022-06-02T02:10:20Z
 tags: ["上海封城", "新冠"]
+draft: false
 ---
 
 上海“解封”了

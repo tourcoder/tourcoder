@@ -2,9 +2,9 @@
 title: "修复 Centos 下 Appstream 错误"
 slug: "how-to-fix-appstream-error-on-centos"
 author: "Bin Hua"
-lastmod: 2022-03-05T17:26:41Z
 date: 2022-03-05T17:26:41Z
 tags: ["Centos", "Appstream"]
+draft: false
 ---
 
 今天在 centos 上操作 `yum update` 时遇到了一个错误，错误信息是

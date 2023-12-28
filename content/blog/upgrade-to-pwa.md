@@ -2,9 +2,9 @@
 title: "本博客升级到 PWA，附升级教程"
 slug: "upgrade-to-pwa"
 author: "Bin Hua"
-lastmod: 2018-11-20 07:50:32
 date: 2018-11-20 07:50:32
 tags: ["GitHub", "jekyll", "pwa"]
+draft: false
 ---
 
 昨晚将本博客升级到了 PWA，现在用安卓手机访问本博客，都会有「添加到桌面」的提示，按提示操作，你会得到一个本博客的 webapp 安装在你的手机里。

@@ -4,6 +4,7 @@ slug: "hello-cloudflare-pages"
 author: "Bin Hua"
 date: 2021-09-21T07:39:09Z
 tags: ["CloudFlare", "GitHub", "Pages"]
+draft: false
 ---
 
 之前本博客是架设在 GitHub Pages 上，利用 GitHub Actions 进行自动化部署，具体看[这篇](https://tourcoder.com/github-actions-of-my-blog/)，在最近几个月的试用下来，有三个问题很严重。

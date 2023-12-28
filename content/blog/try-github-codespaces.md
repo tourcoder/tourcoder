@@ -2,9 +2,9 @@
 title: "试用 Github Codespaces"
 slug: "try-github-codespaces"
 author: "Bin Hua"
-lastmod: 2022-05-17T06:28:01Z
 date: 2022-05-17T06:28:01Z
 tags: ["GitHub", "Codespaces", "试用"]
+draft: false
 ---
 
 刚在玩「炉石」，突然来了一封邮件，是 Github Codespaces 开放通知，我能试用 GitHub Codespaces 了，先简单的试用一下。

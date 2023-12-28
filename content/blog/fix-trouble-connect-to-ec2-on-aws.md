@@ -2,9 +2,9 @@
 title: "AWS ec2 实例连接的问题"
 slug: "fix-trouble-connect-to-ec2-on-aws"
 author: "Bin Hua"
-lastmod: 2019-03-18 08:09:00
 date: 2019-03-18 08:09:00
 tags: ["aws", "ec2"]
+draft: false
 ---
 
 相信不少人被 aws ec2 连接的问题给折腾得够呛，每每看到 `Permission denied (publickey,gssapi-keyex,gssapi-with-mic)` 这句话，头都要大了。搜索了下，各种答案，但没有一个有效的。

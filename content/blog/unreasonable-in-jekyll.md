@@ -2,9 +2,9 @@
 title: "Jekyll 结构的不合理"
 slug: "unreasonable-in-jekyll"
 author: "Bin Hua"
-lastmod: 2018-03-05 07:30:25
 date: 2018-03-05 07:30:25
 tags: ["bug", "GitHub", "jekyll"]
+draft: false
 ---
 
 过年期间，图省事将博客放到了 GitHub Pages，结合 Jekyll，省事多了。
