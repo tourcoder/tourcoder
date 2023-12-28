@@ -2,9 +2,9 @@
 title: "币圈"
 slug: "about-ico"
 author: "Bin Hua"
-lastmod: 2018-03-11T07:33:22Z
 date: 2018-03-11T07:33:22Z
 tags: ["区块链", "blockchain", "比特币", "币圈"]
+draft: false
 ---
 
 我想尝试着挽救区块链的名声，显然这并不太现实，但聊胜于无，至少从今天此刻开始，我会有意识的把 ICO 和区块链技术分开说。

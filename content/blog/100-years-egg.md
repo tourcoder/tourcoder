@@ -2,9 +2,9 @@
 title: "皮蛋菜谱"
 slug: "100-years-egg"
 author: "Bin Hua"
-lastmod: 2008-04-06T04:49:00Z
 date: 2008-04-06T04:49:00Z
 tags: ["皮蛋", "美食"]
+draft: false
 ---
 
 这里分享一些皮蛋做的菜。

@@ -2,9 +2,9 @@
 title: "几十张图给你一份我的 macOS 基本设置"
 slug: "all-configured-on-my-mac"
 author: "Bin Hua"
-lastmod: 2018-12-27 05:58:58
 date: 2018-12-27 05:58:58
 tags: ["macOS", "系统设置"]
+draft: false
 ---
 
 年岁大了，记忆力不如当年，设置个电脑都忘东忘西，索性将自己电脑的基础设置截图写份博文。至于如何安装 macOS，可以去[这里](/search/)搜索。

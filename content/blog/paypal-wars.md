@@ -1,11 +1,10 @@
-w
 ---
 title: "《支付战争》读后感"
 slug: "paypal-wars"
 author: "Bin Hua"
-lastmod: 2017-04-02 07:01:40
 date: 2017-04-02 07:01:40
 tags: ["支付战争", "paypal", "读后感"]
+draft: false
 ---
 
 断断续续的读完了埃里克·M·杰克逊的《支付战争》，英文名 < The PayPal Wars >，这是一本讲述 PayPal 诞生记的书，我更觉得它是关于 PayPal 的史书。读后感触良多，有几点非常值得一提。

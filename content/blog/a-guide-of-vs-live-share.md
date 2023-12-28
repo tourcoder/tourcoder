@@ -2,9 +2,9 @@
 title: "VS Code 中的 Live Share"
 slug: "a-guide-of-vscode-live-share"
 author: "Bin Hua"
-lastmod: 2019-01-28T02:33:31Z
 date: 2019-01-28T02:33:31Z
 tags: ["GitHub", "微软", "VSCode", "plus", "workflow"]
+draft: false
 ---
 
 如果团队的程序员不在一个场所工作，分享编码的屏幕进行协同工作，就比较重要。VS Live Share 就是一个很不错的方案，这里用 VS Code 做演示。

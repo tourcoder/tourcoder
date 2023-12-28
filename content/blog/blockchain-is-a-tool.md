@@ -2,9 +2,9 @@
 title: "区块链:财富转移的工具"
 slug: "blockchain-is-a-tool"
 author: "Bin Hua"
-lastmod: 2018-03-02 07:29:43
 date: 2018-03-02 07:29:43
 tags: ["财务自由", "区块链", "blockchain"]
+draft: false
 ---
 
 之前写过一篇区块链的文章，这次又有了一些新的想法。区块链是一项很好的技术，可惜它到现在非但没有很好的落地，反而成了很多圈钱项目的高技术外衣。

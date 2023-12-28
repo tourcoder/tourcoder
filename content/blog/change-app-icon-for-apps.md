@@ -2,9 +2,9 @@
 title: "iOS 应用动态更改图标"
 slug: "change-app-icon-for-apps"
 author: "Bin Hua"
-lastmod: 2019-02-21 04:23:16
 date: 2019-02-21 04:23:16
 tags: ["Apple", "iOS", "SDK", "代码示例", "GitHub"]
+draft: false
 ---
 
 Apple 很早就已经将 iOS 应用动态更改图标的接口放了出来，只是信息比较零碎，文档看这里 [https://developer.apple.com/documentation/uikit/uiapplication/2806818-setalternateiconname](https://developer.apple.com/documentation/uikit/uiapplication/2806818-setalternateiconname), 它对 SDK 的要求是 iOS 10.3+ / tvOS 10.2+。

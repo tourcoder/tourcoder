@@ -2,9 +2,9 @@
 title: "App，免费还是收费？"
 slug: "app-mian-fei-huan-shi-shou-fei"
 author: "Bin Hua"
-lastmod: 2010-03-02 06:00:53
 date: 2010-03-02 06:00:53
 tags: ["iPhone", "Apple", "iOS", "macOS"]
+draft: false
 ---
 
 今天看了下iTunes上的 Rewind 2010，并制作了一张图，请看下图

@@ -2,9 +2,9 @@
 title: "阿里巴巴上市"
 slug: "alibaba-ipo"
 author: "Bin Hua"
-lastmod: 2014-09-23 06:41:04
 date: 2014-09-23 06:41:04
 tags: ["Apple", "阿里巴巴"]
+draft: false
 ---
 
 不知道为啥，阿里巴巴的上市似乎戳中了很多人的G点，各种言论层出不穷，最有代表性的是下面一段话:

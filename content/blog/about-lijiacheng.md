@@ -2,9 +2,9 @@
 title: "告诉你不一样的李嘉诚-揭秘李嘉诚是如何赚钱的"
 slug: "about-lijiacheng"
 author: "Bin Hua"
-lastmod: 2009-04-30 05:39:49
 date: 2009-04-30 05:39:49
 tags: ["商业"]
+draft: false
 ---
 
 在大家都把李嘉诚捧为神明的时候，我来用我的切身体会说点相反的事情。

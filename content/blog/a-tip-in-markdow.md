@@ -2,9 +2,9 @@
 title: "A tip in Markdown"
 slug: "a-tip-in-markdow"
 author: "Bin Hua"
-lastmod: 2019-01-04T05:41:15Z
 date: 2019-01-04T05:41:15Z
 tags: ["markdown"]
+draft: false
 ---
 
 在 Markdown 文档中在反引号里使用反引号，如 `` control+` `` 

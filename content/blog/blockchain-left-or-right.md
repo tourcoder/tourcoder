@@ -2,9 +2,9 @@
 title: "区块链:向左走还是向右走"
 slug: "blockchain-left-or-right"
 author: "Bin Hua"
-lastmod: 2018-01-13 07:22:35
 date: 2018-01-13 07:22:35
 tags: ["财务自由", "加密货币", "区块链", "blockchain"]
+draft: false
 ---
 
 我非常认同2018 年将会是区块链的爆发年，但我感觉 2018 年估计也会是造币骗钱更疯狂的一年。

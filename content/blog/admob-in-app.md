@@ -2,9 +2,9 @@
 title: "如何在应用中集成 Admob"
 slug: "admob-in-app"
 author: "Bin Hua"
-lastmod: 2016-06-11 06:45:09
 date: 2016-06-11 06:45:09
 tags: ["iOS", "App", "admob"]
+draft: false
 ---
 
 如何让免费的应用有额外的收入？Admob是个不错的选择。

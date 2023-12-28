@@ -2,9 +2,9 @@
 title: "找工作，你真的准备好了吗？"
 slug: "are-you-ready-to-find-a-job"
 author: "Bin Hua"
-lastmod: 2009-04-13 05:38:29
 date: 2009-04-13 05:38:29
 tags: ["职场"]
+draft: false
 ---
 
 因为受经济危机的影响，工作非常难找，所有应聘者应该理性的认真对待才是，但昨天的招聘会却让我大跌眼镜~

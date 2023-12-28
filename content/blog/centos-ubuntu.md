@@ -4,6 +4,7 @@ slug: "centos-ubuntu"
 author: "Bin Hua"
 date: 2017-12-20 07:21:49
 tags: ["centos", "ubuntu", "nginx", "debian", "caddy", "sudo", "mongodb"]
+draft: false
 ---
 
 在开始之前
