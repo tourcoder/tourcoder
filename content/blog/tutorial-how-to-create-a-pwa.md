@@ -135,7 +135,7 @@ self.addEventListener('fetch', event => {
 
 最后将代码上传到服务器，通过网址访问，然后在浏览器中，将该页面增加到桌面即可。
 
-测试地址： [https://pwa.demo.tourcoder.com](https://pwa.demo.tourcoder.com)
+测试地址： [https://pwademo.appman.cc](https://pwademo.appman.cc)
 
 ### 参考教程
 
