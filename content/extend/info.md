@@ -11,7 +11,7 @@ draft: false
 
 我有很多的网名昵称，最近常用 B.H
 
-很多时候，我在写自己的[博客](/blog)、开发[产品](/projects)和[随手拍视频](https://www.youtube.com/@tourcoder)。
+很多时候，我在写自己的[博客](/blog)、开发一些[项目](/projects)和[随手拍视频](https://www.youtube.com/@tourcoder)。
 
 除此之外，我还对一些事情感兴趣，比如[运动](/)，[阅读，看电影](/booklist)和玩[游戏](/)。
 
