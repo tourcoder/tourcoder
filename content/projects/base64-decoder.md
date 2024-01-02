@@ -4,7 +4,7 @@ slug: "base64-decoder"
 summary: "Help you decode the base64 encode string you selected in the web page"
 author: "Bin Hua"
 date: 2024-01-01T04:51:18Z
-tags: ["base64", "decode", "encode"]
+tags: ["base64", "decode", "encode", "chrome", "extension", "firefox", "add-on", "safari"]
 draft: false
 ---
 
