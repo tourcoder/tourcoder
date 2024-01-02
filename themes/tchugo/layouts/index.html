@@ -11,7 +11,8 @@
       {{ end }}
     </div>
     <div class="projects bottomspace">
-      <h3>项目</h3>
+      {{ with .Site.GetPage "section" "projects" }}
+      <h3>{{ .Title }}</h3>
       <div class="projectsgroup">
         {{ range (where .Site.RegularPages "Type" "projects") }}
         {{ if ne .File.BaseFileName "_index" }}
@@ -19,9 +20,11 @@
         {{ end }}
         {{ end }}
       </div>
+      {{ end }}
     </div>
     <div class="blog bottomspace">
-      <h3>博客</h3>
+      {{ with .Site.GetPage "section" "blog" }}
+      <h3>{{ .Title }}</h3>
       <ul class="bloglist">
         {{ range first 9 (where site.RegularPages "Type" "blog") }}
           <li class="blog-item">
@@ -31,6 +34,7 @@
         {{ end }}
         <li><a href="/blog">阅读更多...</a></li>
       </ul>
+      {{ end }}
     </div>
 </div>
 
