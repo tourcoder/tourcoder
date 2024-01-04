@@ -20,6 +20,8 @@ paginate = 9
   logo = "/imgs/logo.jpg"
   # 开启本地搜索
   fastSearch = true
+  home_project_limit = 20
+  home_blog_limit = 9
 
 [permalinks]
   blog = "/:slug"
