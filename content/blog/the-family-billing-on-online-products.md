@@ -9,6 +9,10 @@ draft: false
 
 下面是相对来说比较固定的开销，均按年计费。
 
+### 2023 年
+
+我将主要的内容移动到了 Google Docs 里，看[这里](https://docs.google.com/spreadsheets/d/1BNRZU5wEAY7ZET7gkenep9O-ghoSizCzaTEhk6SrhlY/edit?usp=sharing)。
+
 ### 2022 年
 
 |订阅|花费|说明|
