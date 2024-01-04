@@ -18,6 +18,8 @@ paginate = 9
   description = "代码旅行是我的个人博客，它集合了我的学习笔记，播客以及视频的内容。分享我的所学，所思，所想，所玩。"
   keywords = "代码旅行, tourcoder, 代码, 旅行, 推特, twitter, 播客, podcast, 博客, blog, blogger, youtube, github, 开源, opensource"
   logo = "/imgs/logo.jpg"
+  # 开启本地搜索
+  fastSearch = true
 
 [permalinks]
   blog = "/:slug"
@@ -48,4 +50,7 @@ paginate = 9
 
 [frontmatter]
   lastmod = ['lastmod', ':git', ':fileModTime', 'date', 'publishDate']
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
