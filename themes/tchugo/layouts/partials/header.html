@@ -4,5 +4,9 @@
     {{ range .Site.Menus.main }}
     <a href="{{ .URL }}"> {{ .Name }}</a>
     {{ end }}
+    <a id="search-btn" style="display: inline-block;" href="javascript:void(0);">
+      搜索
+    </a>
   </nav>
 </header>
+{{ partial "search.html" . }}
