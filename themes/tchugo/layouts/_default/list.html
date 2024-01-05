@@ -19,7 +19,24 @@
         </dd>
       {{ end }}
     </dl>
-    {{ end }}
+  {{ end }}
+  {{ else if eq .Type "sof" }}
+  {{ with .Site.GetPage "section" "sof" }}
+    <dl class="soflist">
+      <dt>
+        <h2>{{ .Title }}</h2>
+        <span>{{ .Summary }}</span>
+      </dt>
+      {{ range (where site.RegularPages "Type" "sof") }}
+        <dd class="sof">
+          <div class="sof-content">{{ .Content }}</div>
+          {{- if not .Date.IsZero -}}
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+          {{- end }}
+        </dd>
+      {{ end }}
+    </dl>
+  {{ end }}
   {{ else }}
   {{ with .Site.GetPage "section" "blog" }}
     <dl class="bloglist">
