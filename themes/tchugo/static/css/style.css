@@ -162,7 +162,10 @@ pre {
   margin: 0.2em 0;
   padding: 0.3em 0.2em;
 }
-.buzz {
+.soflist dt {
+  margin-bottom: 22px;
+}
+.sof {
   position: relative;
   margin-bottom: 24px;
   padding: 24px;
@@ -171,28 +174,31 @@ pre {
   transition: transform .1s;
   border: 1px solid #333;
 }
-.buzz .buzz-content p {
+.sof .sof-content p {
   color: rgba(255,255,255,0.72);
   margin-bottom: 20px;
 }
-.buzz .buzz-content p a {
+.sof .sof-content p a {
   color: rgba(225,225,225,0.6);
   text-decoration: underline;
 }
-.buzz .buzz-content img {
+.sof .sof-content img {
   border-radius: 4px;
   display: block;
   max-width: 100%;
 }
-.buzz time {
+.sof .sof-content ul, .sof .sof-content dl, .sof .sof-content ol {
+  margin-left: 15px;
+}
+.sof time {
   font-size: 13px;
   color: rgba(255,255,255,0.6);
 }
-.buzz .icofont-location-pin {
+.sof .icofont-location-pin {
   margin-left: 10px;
   color: #58A6FF;
 }
-.buzz .currentgeo {
+.sof .currentgeo {
   font-size: 13px;
   color: #58A6FF;
 }
