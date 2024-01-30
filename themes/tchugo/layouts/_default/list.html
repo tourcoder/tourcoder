@@ -1,26 +1,7 @@
 {{ define "main" }}
 {{- partial "header.html" . -}}
 <div id="wrapper">
-  {{ if eq .Type "projects" }}
-  {{ with .Site.GetPage "section" "projects" }}
-    <dl class="projectlist">
-      <dt><h2>{{ .Title }}</h2></dt>
-      {{ range (where site.RegularPages "Type" "projects") }}
-        <dd class="projectlist-item">
-          <div class="ptitle"><a href="{{ .Permalink }}">{{.Title}}</a></div>
-          <span class="summary">{{ .Summary }}</span>
-          <div class="tags">
-            {{ with .Params.tags }}
-                {{ range . }}
-                  <span class="tag">{{ . }}</span>
-                {{ end }}
-            {{ end }}
-          </div>
-        </dd>
-      {{ end }}
-    </dl>
-  {{ end }}
-  {{ else if eq .Type "sof" }}
+  {{ if eq .Type "sof" }}
   {{ with .Site.GetPage "section" "sof" }}
     <dl class="soflist">
       <dt>

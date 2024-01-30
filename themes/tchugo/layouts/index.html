@@ -10,18 +10,6 @@
           <p></p>
       {{ end }}
     </div>
-    <div class="projects bottomspace">
-      {{ with .Site.GetPage "section" "projects" }}
-      <h3>{{ .Title }}</h3>
-      <div class="projectsgroup">
-        {{ range first .Site.Params.home_project_limit (where .Site.RegularPages "Type" "projects") }}
-        {{ if ne .File.BaseFileName "_index" }}
-          <a class="project-item" href="{{ .Permalink }}">{{.Title}}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
     <div class="blog bottomspace">
       {{ with .Site.GetPage "section" "blog" }}
       <h3>{{ .Title }}</h3>
