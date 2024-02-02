@@ -28,6 +28,6 @@ draft: false
     must match pattern "^[a-zA-Z0-9-._]*@[a-zA-Z0-9-._]+$"
     ```
     
-    建议填写成 email 地址，Firefox 官方文档也是这样。如果不设置这个 `browser_specific_settings`，在上传到 Firefox 的时候会报错。
+    参考 email 地址，不过要注意这个是提交后无法修改的，不要写成 email 地址，虽然 Firefox 官方文档是写成 email 地址。如果不设置这个 `browser_specific_settings`，在上传到 Firefox 的时候会报错。
 
 2. 也不要在项目源文件里直接增加上面的 `browser_specific_settings` 属性，因为这个属性会导致 Chrome 那边也报错。所以这个简单的处理办法是直接在编译完成的 `manifest.json` 里写就行了。
