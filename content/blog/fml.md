@@ -85,7 +85,31 @@ draft: false
   timedatectl set-timezone Asia/Shanghai
   ```
   
-  一般情况下，VPS 和本地时间存在时区的差异，分秒的时间几乎不差。但有时候也有出现差的情况，则用 `date -s '2012-12-11 01:01:01'` 这样修改时间，再将通过 `hwclock -w` 写入到硬件中。
+  一般情况下，VPS 和本地时间存在时区的差异，分秒的时间几乎不差。但有时候也有出现差的情况，则用 `date -s '2012-12-11 01:01:01'` 这样修改时间，再将通过 `hwclock -w` 写入到硬件中。另外，也可以通过 ntp 即 network time protocol 来实现时间的毫秒级同步。
+
+  ```
+  apt install ntp ntpdate -y
+  ```
+
+  暂停 ntp
+
+  ```
+  service ntpd stop
+  ```
+
+  让服务器和时间服务器同步
+
+  ```
+  ntpdate us.pool.ntp.org
+  ```
+
+  重启服务器
+
+  ```
+  service ntpd start
+  ```
+
+  即可。
   
 ## 基础内容
 
