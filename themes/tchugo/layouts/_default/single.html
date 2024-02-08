@@ -10,7 +10,7 @@
     {{ .Content }}
     {{ if and .Date (eq .Type "blog")}}
     <hr class="break-line">
-      <time>本文由 {{ .Params.author }} 发表于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}，最后修改于 {{ .Lastmod.Local | time.Format "2006-01-02 15:04:05" }}</time>
+      <time>本文由 {{ .Params.author }} 发表于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}</time>
       <p>> 可在 <a href="https://twitter.com/intent/tweet?text=读了%20{{ .Permalink }}这篇文章，... %40tourcoder" target="_blank">Twitter/X</a> 上评论该篇文章</p>
     {{ end }}
   </div>
