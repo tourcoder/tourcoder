@@ -11,7 +11,7 @@ draft: false
 
 我有过很多的网名昵称，「代码旅行」只是这个博客名。
 
-很多时候，我在写自己的[博客](/blog)、[随手拍视频](https://www.youtube.com/@tourcoder)以及做些开发的工作。
+很多时候，我在写自己的[博客](/blog)、[随手拍视频](https://www.youtube.com/@tourcoder)以及开发一些[产品](https://www.producthunt.com/@tourcoder)。
 
 除此之外，我还对一些事情感兴趣，比如[运动](/)，[阅读，看电影](/booklist)和玩[游戏](/)。
 
