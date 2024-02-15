@@ -194,14 +194,6 @@ pre {
   font-size: 13px;
   color: rgba(255,255,255,0.6);
 }
-.sof .icofont-location-pin {
-  margin-left: 10px;
-  color: #58A6FF;
-}
-.sof .currentgeo {
-  font-size: 13px;
-  color: #58A6FF;
-}
 ul.pagination {
   margin: 60px auto;
 }

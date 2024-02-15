@@ -9,7 +9,7 @@ draft: false
 
 ### 信仰永恒，无所畏惧
 
-我有过很多的网名昵称，「代码旅行」只是这个博客名。
+我有过很多的网名昵称，但「代码旅行」只是这个博客名。
 
 很多时候，我在写自己的[博客](/blog)、随手拍[视频](https://www.youtube.com/@tourcoder)以及开发一些[产品](https://www.producthunt.com/@tourcoder)。
 
