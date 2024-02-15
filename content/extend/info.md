@@ -15,6 +15,6 @@ draft: false
 
 除此之外，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)和玩[游戏](/)。
 
-我也会在 [Twitter](https://twitter.com/tourcoder) 上分享一些信息。我非常喜欢 [Email](mailto:code@tourcoder.com)，它是和我联系的最好途径。
+我也会在 [Twitter](https://twitter.com/tourcoder) 上分享一些信息。我非常喜欢 [Email](mailto:code(AT)TOURCODER(dot)com)，它是和我联系的最好途径。
 
 至于这个博客的更多信息，比如订阅方式，许可证书等，请看[关于](/about)里内容。
