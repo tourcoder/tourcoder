@@ -173,7 +173,7 @@ sudo service sshd restart
 		
     - 退出固件工具，重启电脑即可。
 
-  - 隐藏用户：有时候不希望别人登录电脑时显示自己的账户，可以通过隐藏的方式，以下 hiddenuser 就是要隐藏的用户名
+  - 隐藏用户：有时候不希望别人登录电脑时显示自己的账户，可以通过隐藏的方式，以下 hiddenuser 就是要隐藏的用户名。我主要是用它来隐藏管理员用户，我日常用的账户是一个普通账户。
 		
     ```
     sudo dscl . create /Users/hiddenuser IsHidden 1
