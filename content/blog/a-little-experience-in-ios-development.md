@@ -1,5 +1,5 @@
 ---
-title: "一个 iOS 开发的小经验"
+title: "一点 iOS 开发的小经验"
 slug: "a-little-experience-in-ios-development"
 author: "Bin Hua"
 date: 2024-02-19T06:54:38Z
