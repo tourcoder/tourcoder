@@ -20,3 +20,9 @@ draft: false
 - 最后引入库，比如用 Cocoapods 这种东西
 
 这种方式不只是符合个人开发，同样也适合团队开发，能省很多痛苦的时间。
+
+### Tips
+
+刚才解决了 「Command PhaseScriptExecution failed with a nonzero exit code」 这个问题，提供给一个解决方案。
+
+将 `use_frameworks!` 从 Podfile 里面删除！
