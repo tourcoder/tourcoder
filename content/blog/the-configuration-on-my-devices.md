@@ -105,6 +105,20 @@ sudo service sshd restart
 		 
 这基本就是我的开发机 Nerd 的配置情况。
 
+### 随身带的开发机
+
+最近在学习做一些前端的东西，这玩意包太大了，搞得系统很乱，不能忍受，就在本地安装了个虚拟机，将和 npm 开发相关的项目都丢进去了。
+
+配置的东西和上面的开发机差不多。虚拟机用的是 [VirtualBox](https://www.virtualbox.org/) + [Debian](https://debian.org)。
+
+话说甲骨文这么多年没有把 VirtualBox 变成收费项目，也是佩服的。用 Debian 是因为我太喜欢它了。
+
+另外系统还要设置的东西有两个
+
+一个是使用账户 `su -` 进去后，在 `/etc/sudoers` 里给当前用户增加个 sudo 的权限。
+
+另外一个是共享文件夹，在 macOS 中在要共享的文件夹属性里修改成共享，然后在 VirtualBox 里设置共享文件夹指向这个文件夹，设置完后重启下虚拟机。最后进入系统后，用命令 `sudo mount -t vboxsf 共享的文件夹名 /mnt` 即可将内容挂载到 `/mnt` 下。
+
 ### MacBook Pro
 
 - 系统：都会更新最新最稳定版本的系统，开发者测试版本的系统我会用另外一台 MacBook Air 进行测试。
