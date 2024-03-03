@@ -26,7 +26,33 @@ draft: false
 
 - 设置 `Info.plist` 文件
 
-    将 `Delegate Class Name` 里面的内容改成 `$(PRODUCT_MODULE_NAME).AppNameApp`，并删除 `UISceneStoryboardFile` 和其值 `Main`
+    将 `Delegate Class Name` 里面的内容改成 `$(PRODUCT_MODULE_NAME).AppNameApp`，并删除 `UISceneStoryboardFile` 和其值 `Main`，大致的代码如下
+
+    ```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+        <key>UISceneConfigurations</key>
+        <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+            <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>$(PRODUCT_MODULE_NAME).AppNameApp</string>
+            </dict>
+        </array>
+        </dict>
+    </dict>
+    </dict>
+    </plist>
+    ```
 
 - 设置 `TARGETS`
 
