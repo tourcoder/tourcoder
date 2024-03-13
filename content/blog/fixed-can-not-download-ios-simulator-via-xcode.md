@@ -24,3 +24,7 @@ xcrun simctl runtime add "your_path/iOS_17.2_Simulator_Runtime.dmg"
 ```
 
 需要注意的是安装完成后，这个文件不能删除，如果删除了，xcode 会提示错误。
+
+### 其它
+
+进入到 ` ~/Library/Caches/` 文件夹，右键点击 `com.apple.dt.Xcode` 这个文件，选择 `Show Package Contents`，将上面下载的 dmg 文件放到这里的 `Downloads` 文件夹里。重启 xcode 进入到模拟器下载界面点下载也可。
