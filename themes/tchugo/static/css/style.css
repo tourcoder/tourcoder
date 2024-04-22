@@ -265,7 +265,7 @@ h2, h3 {
 }
 
 #fastSearch input {
-  width: 720px;
+  width: 90%;
   margin: 144px auto 20px;
   padding: 12px 4px;
   font-size: 1em;
@@ -297,7 +297,7 @@ h2, h3 {
 #searchResults {
   visibility: inherit;
   display: block;
-  width: 720px;
+  width: 90%;
   margin: 0 auto;
   max-height: calc(100vh - 120px);
   overflow: hidden;
@@ -317,10 +317,4 @@ h2, h3 {
 }
 .social a {
   margin-right: 10px;
-}
-
-@media only screen and (max-width: 750px) {
-  .intro {
-    margin-top: 30px;
-  }
 }
