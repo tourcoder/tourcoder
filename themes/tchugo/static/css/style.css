@@ -318,9 +318,3 @@ h2, h3 {
 .social a {
   margin-right: 10px;
 }
-
-@media only screen and (max-width: 750px) {
-  #top {
-    margin-top: 30px;
-  }
-}
