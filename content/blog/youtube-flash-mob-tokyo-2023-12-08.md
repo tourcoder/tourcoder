@@ -1,9 +1,9 @@
 ---
-title: "快闪东京"
+title: "[视频]快闪东京 20231208"
 slug: "youtube-flash-mob-tokyo-2023-12-08"
 author: "Bin Hua"
 date: 2023-12-10T13:48:09Z
-tags: ["旅游", "日本", "东京"]
+tags: ["旅游", "日本", "东京", "2023", "youtube"]
 draft: false
 ---
 
