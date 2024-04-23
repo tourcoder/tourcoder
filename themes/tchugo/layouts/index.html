@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div id="wrapper">
+    <div class="intro bottomspace">
+      {{ with .Site.GetPage "extend" "info.md" }}
+        <img src="{{ .Site.Params.logo }}" alt="logo" class="logo" />
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+      {{ else }}
+          <p></p>
+      {{ end }}
+    </div>
+</div>
+
+{{ end }}
