@@ -29,6 +29,14 @@ RSS 方式订阅
 
 [播客 RSS 方式订阅](https://tourcoder.com/podcasts.xml)
 
+**Twitter**
+
+[Twitter](https://www.twitter.com/tourcoder)
+
+**GitHub**
+
+[GitHub](https://www.github.com/tourcoder)
+
 #### LICENSE
 
 这个博客现在是基于 [HUGO](https://gohugo.io)，主题是我写的，都可以拿去免费使用，遵守 [MIT License](/mit) 协议。
