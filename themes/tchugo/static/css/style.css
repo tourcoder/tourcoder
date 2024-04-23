@@ -66,6 +66,11 @@ del {
 .bloglist, .blog-item, .projectlist, .project-item {
   list-style: none;
 }
+.bloglist dt h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
 .blog-item {
   margin: 11px 0;
   white-space: nowrap;
@@ -92,7 +97,6 @@ del {
 }
 .blog-item time, span.summary {
   display: inline-block;
-  min-width: 90px;
   margin-right: 10px;
   font-size: 15px;
   color: rgba(255,255,255,0.6);
