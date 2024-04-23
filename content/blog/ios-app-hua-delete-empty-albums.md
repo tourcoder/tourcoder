@@ -1,5 +1,5 @@
 ---
-title: "删除 iOS 中的空相册"
+title: "[App]删除 iOS 中的空相册"
 slug: "ios-app-hua-delete-empty-albums"
 author: "Bin Hua"
 date: 2023-05-24T01:14:18Z
@@ -13,6 +13,6 @@ draft: false
 
 1. 点击这个[下载链接](https://apps.apple.com/app/id1540421101)下载。
 
-2. 如果上面的方法无法下载，可以在 App Store 里搜索 `hua` 或者 `hua - delete empty albums` 下载，图标是这样的。
+2. ~~如果上面的方法无法下载，可以在 App Store 里搜索 `hua` 或者 `hua - delete empty albums` 下载，图标是这样的。~~目前应用改名为 Borofish，搜索 borofish 即可。
 
-![](https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/c8/55/16/c8551611-ca79-6344-6e74-bfc2b327d9a7/AppIcon-1x_U007epad-85-220.png/246x0w.webp)
+![](https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/d7/bf/1ad7bf09-0cdc-f663-d383-daac6961de35/AppIcon-1x_U007epad-0-85-220-0.png/460x0w.webp)
