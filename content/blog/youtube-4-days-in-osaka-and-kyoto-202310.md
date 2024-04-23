@@ -1,6 +1,6 @@
 ---
 title: "[视频]大阪京都四日 202310"
-slug: "4-days-in-osaka-and-kyoto-202310"
+slug: "youtube-4-days-in-osaka-and-kyoto-202310"
 author: "Bin Hua"
 date: 2023-10-22T10:39:52Z
 tags: ["2023", "旅游", "日本", "大阪", "京都"]
