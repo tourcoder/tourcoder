@@ -4,7 +4,9 @@
     <body class="dark" id="top">
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
+        {{ if not .IsHome }}
+        <script src="/js/fuse.min.js"></script>
+        <script src="/js/fastsearch.js"></script>
+        {{ end }}
     </body>
-    <script src="/js/fuse.min.js"></script>
-    <script src="/js/fastsearch.js"></script>
 </html>
