@@ -87,6 +87,8 @@ draft: false
         npm notice
         + npmdemo@0.0.1
         ```
+
+        包的名字有时候是 `@orgname/packagename`，需要缴费开启私有包库，如果不想付费是公开的包，则执行 `npm publish --access public` 来发布。
         
 - 更新包
 
