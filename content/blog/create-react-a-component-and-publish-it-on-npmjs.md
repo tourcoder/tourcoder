@@ -7,7 +7,7 @@ tags: ["react", "npm", "yed", "sass", "node-sass"]
 draft: false
 ---
 
-最近在写一个 React 的项目，也产生了一些组件。特意弄了一个网站 [yed.app](https://yed.app)，会逐步将这些组件放在这个网站上。
+最近在写一个 React 的项目，也产生了一些组件。特意弄了一个网站 [yeci.org](https://yeci.org)，会逐步将这些组件放在这个网站上。
 
 回到正题，写篇博文记录下如何创建一个 React 组件并将它发布到 npmjs。
 
