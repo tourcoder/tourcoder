@@ -31,3 +31,5 @@ I've temporarily built this community with gotosocial, another kind of mastodon.
 updated@20231125, I apologize for closing this community. There are many such communities available now. Instead, I will develop a client for such communities.
 
 update@20231221, I reopen this community several days ago because I can't change the data generated under this domain name to another domain name to continue using it. BTW, it seems Twitter is experiencing another downtime. 
+
+update@20240429, Sorry I closed this community again. This domain name Xcoder.org will be used on another project.
