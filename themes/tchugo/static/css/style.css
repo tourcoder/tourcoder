@@ -16,7 +16,7 @@
 }
 body {
   font-family: "jinkaifont","jetbrainfont", -apple-system,"pingfang sc",Arial,"microsoft yahei",poppins,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
-  font-size: 16px;
+  font-size: 1.1em;
   line-height: 1.6;
   word-break: break-word;
 }
@@ -42,12 +42,12 @@ del {
 }
 .nav a.sitetitle {
   color: rgba(255,255,255,0.8);
-  font-size: 22px;
+  font-size: 1.8em;
   font-weight: 700;
 }
 .nav .menu a {
   color: rgba(255,255,255,0.8);
-  font-size: 15px;
+  font-size: 1.1em;
   margin: 0 8px;
 }
 #wrapper {
