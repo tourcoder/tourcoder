@@ -322,3 +322,10 @@ h2, h3 {
 .social a {
   margin-right: 10px;
 }
+@media screen and (max-width: 750px) {
+  .nav .menu a:first-child {
+    color: rgba(255,255,255,.8);
+    font-size: 1.1em;
+    margin-left: 0;
+  }
+}
