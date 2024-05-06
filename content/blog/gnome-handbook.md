@@ -1,6 +1,6 @@
 ---
-title: "Debian 学习手册"
-slug: "debian-handbook"
+title: "Gnome 学习手册"
+slug: "gnome-handbook"
 author: "Bin Hua"
 date: 2024-05-01T11:47:51Z
 tags: ["linux", "debian", "学习手册"]
@@ -13,9 +13,11 @@ draft: false
 
 ### 安装
 
-我是从 [Debian](https://debian.org) 官方下载了 iso 文件，然后制作成 U 盘安装，安装全程没有遇到任何问题，也没有什么特别需要注意的。
+我是从 [Debian](https://debian.org) 官方下载了 iso 文件，然后制作成 U 盘安装，安装全程没有遇到任何问题，也没有什么特别需要注意的。在安装的过程中会让选择桌面，选择 Gnome 即可。
 
 ### 配置
+
+下面是一些常规配置，更为详细的配置，可以看我的开发机配置或者服务器版本的配置，在本博客中搜索相关关键字即可，或者阅读「[CentOS 和 Ubuntu](/centos-ubuntu)」。
 
 - 给用户增加 sudo 的权限
 
@@ -45,7 +47,7 @@ draft: false
 
 - 开发环境
 
-  这些内容就没有说的必要了，就是一些我在日后开发中会用到的，我以前的博文都有说过。主要是 python/node/c/c++/go/docker/sublimetext/vscode/zsh/git。
+  这些内容就没有说的必要了，就是一些我在日后开发中会用到的，我以前的博文都有说过。主要是 python/node/c/c++/go/docker/sublimetext/vscode/zsh/git/vim。
 
 - 软件安装平台
 
@@ -74,5 +76,10 @@ draft: false
 - 电池时间/电源适配器
 
   这个和系统关系不是特别大，这更多的是电脑本身。现在的电源适配器还是一个小砖块，这就很离谱。至于电池续航能力，我希望这情况能有改善。
+
+
+### 资料
+
+Gnome 官网：[www.gnome.org](https://www.gnome.org/)
 
 
