@@ -31,8 +31,6 @@ menu:
 
 [ProductHunt](https://www.producthunt.com/@tourcoder)
 
-#### LICENSE
+#### 其他
 
-这个博客现在是基于 [HUGO](https://gohugo.io)，主题是我写的，都可以拿去免费使用，遵守 [MIT License](/mit) 协议。
-
-内容（包含但不限于图片，视频，音频，文字）是属于我的私人财产，除特别注明外，所有均采用 [Creative Commons BY-NC-ND 4.0（自由转载-保持署名-非商用-禁止演绎）协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)发布，你如需要转载，请先与我取得[联系](mailto:code@tourcoder.com)。
+[隐私政策及版权声明](/privacy)
