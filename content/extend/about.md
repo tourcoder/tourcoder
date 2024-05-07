@@ -19,7 +19,7 @@ menu:
 
 在公元 2021 年 11 月 24 日，我整理了下这个博客，将它开源在 [GitHub](https://github.com/tourcoder/tourcoder)，不过通过 [https://tourcoder.com](https://tourcoder.com) 的阅读体验应该更好。
 
-#### 订阅
+### 订阅
 
 博客 RSS 订阅：[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
 
@@ -31,6 +31,6 @@ menu:
 
 [ProductHunt](https://www.producthunt.com/@tourcoder)
 
-#### 其他
+### 其他
 
 [隐私政策及版权声明](/privacy)
