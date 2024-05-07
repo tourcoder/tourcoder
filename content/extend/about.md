@@ -21,25 +21,15 @@ menu:
 
 #### 订阅
 
-**本站博文订阅**
+博客 RSS 订阅：[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
 
-RSS 方式订阅
-
-[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
-
-**播客内容订阅**
-
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686)
-
-[播客 RSS 方式订阅](https://tourcoder.com/podcasts.xml)
-
-**Twitter**
+播客订阅：[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686) 或 [播客 RSS 订阅](https://tourcoder.com/podcasts.xml)
 
 [Twitter](https://www.twitter.com/tourcoder)
 
-**GitHub**
-
 [GitHub](https://www.github.com/tourcoder)
+
+[ProductHunt](https://www.producthunt.com/@tourcoder)
 
 #### LICENSE
 
