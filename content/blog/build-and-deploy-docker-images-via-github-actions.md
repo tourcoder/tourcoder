@@ -75,6 +75,24 @@ jobs:
 
 - 最后一个 push 表示只是对 master 分支起作用，即向 master 分支 push 或 merge 才会激发该 action。致此，一个通过 Github Actions 创建并发布 Docker images 的功能就实现了。
 
+- 上面是常规的内容，很多是固定写好的，在实际操作中也会将一些内容做环境变量等。比如 ghrc 的内容 `ghcr.io/tourcoder/dockerdemo/dockerdemo:latest` 其中 `tourcoder/dockerdemo` 就可以通过 `${{ github.repository_owner }}` 来获取，而 `dockerdemo:latest` 中的镜像名字可以在文件中设置 env，也可以在 actions 创建的地方设置一个变量，然后通过 `${{ vars.IMAGE_NAME }}` 这样的方式来读取。特别需要注意的是在实际生成镜像的过程中是需要 repo 的名字都是小写的，很多时候，需要先将 repo 的名字改成小写，所以上面的 github.yaml 文件内容会变成
+
+```
+name: GitHub Actions Demo
+//...
+      - name: Convert repository_owner to lowercase
+        run: echo "REPO_OWNER=$(echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+      - name: Build image and GitHub Container Registry
+        uses: docker/build-push-action@v2.7.0
+        with:
+          context: ./
+          tags: |
+            ghcr.io/${{ env.REPO_OWNER }}/${{ vars.IMAGE_NAME }}:latest
+          push: ${{ github.ref == 'refs/heads/master' }}
+```
+
+部分内容省略。
+
 #### 利用 GitHub Actions 将 images 自动 pull 到服务器
 
 GitHub 并不建议这么做，应该的做法是在服务器上进行部署的操作，这里我只是做了一个实验。大概的步骤是通过 ssh 登录到服务器，然后执行 docker pull 命令即可，用 GitHub Actions 就是下面的内容
