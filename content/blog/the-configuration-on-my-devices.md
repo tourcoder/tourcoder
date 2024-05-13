@@ -338,19 +338,17 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 
 - 美区的 Apple ID，一个是 App 比较多，另外就是安全系数更高。
 
-安装的应用不是很多，iPad Pro 和 iPhone 上都基本一样
+安装的应用不是很多，iPad Pro 和 iPhone 上都差不多
 
-- GitHub：代码管理器
+- [GitHub](https://github.com)：代码管理器
 
 - 支付宝
 
 - Testflight：测试发布
 
-- Twitter
+- [Twitter](https://twitter.com)
 
 - MindNode：和 macOS 上一样，脑图工具
-
-- Google Docs：协同工作文档，应该是做得最好的，一同还有 Google Sheets, Google Slides
 
 - Gmail：邮件客户端，里面还包含了 Chat 和 Meetings
 
@@ -360,43 +358,27 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 
 - 炉石传说：比较喜欢的游戏
 
-- Kindle：读书
-
 - 微信
 
 - Telegram：主要用来聊天的
 
 - Authenticator：二次认证
 
-- Dropbox：和 macOS 上一样
-
 - Exif：移除照片的 EXIF 标签
 
-- iMovie：我 YouTube 频道上的视频现在都用它来做，主要是简单，傻瓜式
-
-- Loon：网络调试应用
+- Surge iOS：之前用的 Loon 和小火箭作为备选了
 
 - Net Analyzer：网络应用
 
 - Speedtest：网络测试应用
 
-- Snapseed：图片处理应用
-
-- Todoist：任务管理器
-
 - 无忧行：移动公司的应用，我的移动的手机号码就是通过它虚拟化，可以在全球任何一个地方接中国号码的电话
-
-- 小红书：我老婆弄自己的小红书，非要在我的设备上也安装这个玩意
-
-- 携程旅行：旅行应用，订票订酒店等
 
 - Youtube：视频应用
 
-- 中国银行
-
 - Procreate：画图应用。
 
-- Notability：笔记应用。
+- GoodNotes：笔记应用，在 Notability 突然变卦后入手了 GoodNotes，但没想到这破玩意也随着变相收费了。
 
 ### Apple Watch
 
