@@ -127,7 +127,7 @@ sudo service sshd restart
 	
 - 用户：具体设置位置在`系统偏好设置->用户和组`里修改。
 
-  - 通常我只会使用一个用户，并允许它管理该电脑，同时允许它通过 Apple ID 重置密码。
+  - 我的设备里有两个账户，普通账户和管理员账户，允许管理员账户通过 Apple ID 重置密码。
 	
   - 关闭访客账户的所有权限。
 
@@ -206,7 +206,7 @@ sudo service sshd restart
 
   - 干掉烦人的 `.DS_Store` 文件
 
-  在 `/usr/sbin` 下有一个脚本文件 `dot_clean`，可用它来做这个事情。比如我要禁止我的工作目录下产生这个文件，即 `/usr/sbin/dot_clean -m ~/Worksapce` 即可，在禁止产生的同时还会自动删除掉已经有的 `.DS_Store` 文件，爽的一批。
+    在 `/usr/sbin` 下有一个脚本文件 `dot_clean`，可用它来做这个事情。比如我要禁止我的工作目录下产生这个文件，即 `/usr/sbin/dot_clean -m ~/Worksapce` 即可，在禁止产生的同时还会自动删除掉已经有的 `.DS_Store` 文件，爽的一批。
 
 - 必装软件
 
@@ -227,14 +227,14 @@ sudo service sshd restart
   - [Pixelmator Pro](https://www.pixelmator.com/pro/)：图片处理工具，感觉和 Photoshop 差不多。
 		
   - [Mounty](http://mounty.app/)：在 macOS 下面比较窝心的一件事是 NTFS 格式外接盘的读取写入，之前用的一家最出名的实在有点贵，还是每年付，就切换到了它。
+
+  - [BuhoNTFS](https://www.drbuho.com/buhontfs)：收费版本的 NTFS 工具，比上面的要好。
 		
   - [usbkill](https://github.com/hephaest0s/usbkill)：usbkill 是一个检测 usb 接口安全的工具。
 		
   - [iTerm](https://iterm2.com)：我比较喜欢的终端，它的主题我使用的是 minimal。
 		
   - [AppCleaner](https://freemacsoft.net/appcleaner/)：更有效的清理删除应用。
-		
-  - [MacDown](https://macdown.uranusjr.com)：Markdown 格式文档写作工具，我这篇博文就是用它写的。
 		
   - [MindNode](https://mindnode.com)：我用来做脑图的应用。
 		
@@ -254,8 +254,6 @@ sudo service sshd restart
         
   - [VSCode](https://code.visualstudio.com)：微软出的开发工具。
   
-  - [ImageOptim](https://imageoptim.com/mac)：图片压缩软件。
-  
   - [Xscope](https://xscopeapp.com/)：测绘软件。
   
   - [VLC](https://www.videolan.org/)：功能强大的播放器。
@@ -264,11 +262,13 @@ sudo service sshd restart
   
   - [ColorSlurp](https://colorslurp.com/)：取色工具。
   
-  - [DTMG](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)：移除 Safari 里 Google 搜索结果的追踪链接，是 Safari 的一个插件。
+  - [TargetLinks](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)：移除 Safari 里 Google 搜索结果的追踪链接，是 Safari 的一个插件。
   
   - [WiFi Scanner](https://apps.apple.com/us/app/wifi-scanner/id411680127?mt=12)：检索 WiFi 信号。
 
   - [Firefox](https://www.mozilla.org/en-US/firefox/)：我默认使用的浏览器，同时也安装了 Chrome，主要是用来开发调试，一个特别的设置，在输入框输入 `about:config`，搜索 `browser.fullscreen.exit_on_escape`，将它的值改成 `false`，解决 ESC 键退出浏览器全屏。
+
+  - [Lulu](https://github.com/objective-see/LuLu/releases)：Lulu 算是一款保护你隐私的应用，它检测网络链接的请求，并及时地通知。
 	
 - 环境配置
 
