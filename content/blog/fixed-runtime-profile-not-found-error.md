@@ -14,4 +14,8 @@ The com.apple.CoreSimulator.SimRuntime.iOS-17-4 Simulator runime is not availabl
 runtime profile not found using "System" match policy Download the com.apple.CoreSimulator.SimRuntime.iOS-17-4 simulator runtime from the Xcode Settinas.
 ```
 
-最简单的解决办法是打开 xcode，进入到模拟器管理界面，删除掉里面的设备模拟器，然后重新增加即可。
+最简单的解决办法是打开 xcode，进入到模拟器管理界面，删除掉里面的设备模拟器，然后重新增加即可。还有一个解决办法，在终端中输入下面的命令
+
+```
+sudo killall -9 com.apple.CoreSimulator.CoreSimulatorService
+```
