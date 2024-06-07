@@ -4,14 +4,14 @@ slug: "about"
 author: "Bin Hua"
 lastmod: 2021-03-17 06:43:11
 date: 2010-03-17 06:49:00
-tags: ["关于"]
+tags: ["关于", "我的信息", "我是谁", "信仰永恒，无所畏惧", "Do Faith No Fear"]
 menu:
   main:
     name: "关于"
     weight: 5
 ---
 
-写这个博客有一些年头了，期间域名及博客程序也更换过好几次，也因为服务器的迁移导致数据丢失了很多。
+写这个博客有一些年头了，期间域名及博客程序也更换过好几次，也因为服务器的迁移导致数据丢失了很多。博客的名字也随着我更换网名也变很多。但最后我用了「代码旅行」是我喜欢的东西两样 -- 代码和旅行。
 
 写这个博客的初衷是分享学习笔记，分享观点，分享生活趣事，有一段时间也特别不想写，主要是因为觉得自己太菜了，觉得分享的内容没有价值。直到看到一段话，翻译过来就是“你不需要成为顶级才可以分享，有时候一些初级的人分享的更值得其他人参考”。
 
@@ -19,11 +19,27 @@ menu:
 
 在公元 2021 年 11 月 24 日，我整理了下这个博客，将它开源在 [GitHub](https://github.com/tourcoder/tourcoder)，不过通过 [https://tourcoder.com](https://tourcoder.com) 的阅读体验应该更好。
 
+### 信仰永恒，无所畏惧
+
+这是我的「座右铭」，英文版本是 Do Faith No Fear。
+
+### 关于我
+
+我有过很多网名，但近很多年都用的本名。
+
+目前，我是一个小企业主，也算是一个独立创作者。
+
+除此之外，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder)。
+
+我一般通过 [Twitter](https://twitter.com/tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
+
+我非常喜欢 [Email](mailto:code(AT)TOURCODER(dot)com)，它是和我联系的最好途径。
+
 ### 订阅
 
 博客 RSS 订阅：[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
 
-播客订阅：[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686) 或 [播客 RSS 订阅](https://tourcoder.com/podcasts.xml)
+播客订阅：[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686) 或 [其他订阅方式](https://tourcoder.com/podcasts.xml)
 
 [Twitter](https://www.twitter.com/tourcoder)
 
