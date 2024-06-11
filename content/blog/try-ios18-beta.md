@@ -1,5 +1,5 @@
 ---
-title: "尝试 iOS18 beta"
+title: "试用 iOS18 beta"
 slug: "try-ios18-beta"
 author: "Bin Hua"
 date: 2024-06-11T07:32:07Z
