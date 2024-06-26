@@ -156,6 +156,8 @@ docker cp container_id:/filename /local_path_on_host/
 
 - 修改 `docker-compose.yaml` 文件后，需要先 `docker compose down`，然后再拉起容器。
 
+看到这里有点不容易啊，不过今天，也就是 2024 年 6 月 26 日，我想告诉你的是，到现在为止我不建议使用这个程序。原因是它的问题挺多的，本来一个社交软件最应该做的是信息流通，但它真的阻碍了信息的流通，有点鸡肋。
+
 ### 相关资源
 
 - GoToSocial 官网: [gotosocial.org](https://gotosocial.org)
