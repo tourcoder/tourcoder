@@ -15,7 +15,7 @@
       {{ range .Params.tags }}
         {{ $tags = (print $tags " #" .) }}
       {{ end }}
-      <p>> 可在 <a href="https://twitter.com/intent/tweet?text=读了“{{ .Title }}” 这篇文章... {{ .Permalink }} %40tourcoder {{ $tags }}" target="_blank">Twitter/X</a> 上评论该篇文章或在下面留言</p>
+      <p>> 可在 <a href="https://twitter.com/intent/tweet?text=读了“{{ .Title }}” 这篇文章... {{ .Permalink }} %40tourcoder {{ $tags }}" target="_blank">Twitter/X</a> 上评论该篇文章或在下面留言（需要有 GitHub 账号）</p>
       <script src="https://utteranc.es/client.js"
         repo="tourcoder/tourcoder"
         issue-term="pathname"
