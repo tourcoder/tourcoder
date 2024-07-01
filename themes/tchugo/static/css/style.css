@@ -36,8 +36,8 @@ del {
 }
 .nav .menu a {
   color: rgba(255,255,255,0.8);
-  font-size: 1.1em;
-  margin: 0 8px;
+  font-size: 1.0em;
+  margin-left: 8px;
 }
 #wrapper {
   position: relative;
