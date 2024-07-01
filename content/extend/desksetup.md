@@ -4,7 +4,10 @@ slug: "desk-setup"
 author: "Bin Hua"
 date: 2022-05-22T01:57:04Z
 tags: ["工作台", "workspace", "desk setup"]
-draft: false
+menu:
+  main:
+    name: "工作台"
+    weight: 6
 ---
 
 先上图，从 2016 年到现在，我书房主要用的桌子变化情况。
@@ -36,3 +39,5 @@ draft: false
 桌子上还有一些乱七八糟的东西，就不一一列举了。
 
 其余的就都是书了。
+
+而每天所携带的东西，可以看[这一篇](https://tourcoder.com/stuff/)，手机的使用可以看[这一篇](https://tourcoder.com/my-cell-phones-and-more/)。
