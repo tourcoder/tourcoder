@@ -1324,6 +1324,10 @@ sudo swapon /swapfile //激活交换内存
 
 - 打开 `/etc/sysctl.conf` 文件，在里面增加 `vm.swappiness=10` 即可。
 
+**修正 apt install 时遇到的 ‘Media change: please insert the disc labeled’ 错误**
+
+运行命令 `vi /etc/apt/sources.list` 编辑 sources.list，将 `deb cdrom:[Debian GNU/Linux` 这样开头的内容注释掉即可。
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
