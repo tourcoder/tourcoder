@@ -291,7 +291,7 @@ draft: false
   
   下载 `warp.sh` 文件，然后运行 `./warp.sh menu` 命令逐步执行出现的菜单中的`安装 Cloudflare WARP 官方客户端`，`安装 WireGuard 相关组件`和`自动配置 WARP WireGuard 双栈全局网络`三项即可。
   
-  _这里的`自动配置 WARP WireGuard 双栈全局网络`是 `IPv4` 和 `IPv6`，也可以单独选择 4 或者 6 安装。_
+  _这里的`自动配置 WARP WireGuard 双栈全局网络`是 `IPv4` 和 `IPv6`，也可以单独选择 5 或者 6 安装。_
   
   **手动安装**
   
