@@ -25,27 +25,21 @@ menu:
 
 ### 关于我
 
-Blogger, Programmer, Youtuber
-
 曾经网名颇多，但近很多年都用的本名。
 
-除此之外，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder)。
+除了写博客和代码，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder)。
 
 我一般通过 [Twitter](https://twitter.com/tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
 
-我非常喜欢 [Email](mailto:code(AT)TOURCODER(dot)com)，它是和我联系的最好途径。
+我非常喜欢 [Email](mailto:code@TOURCODER.com)，它是和我联系的最好途径。
 
 ### 订阅
 
 博客 RSS 订阅：[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
 
-播客订阅：[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686) 或 [其他订阅方式](https://tourcoder.com/podcasts.xml)
+播客 RSS 订阅：[https://tourcoder.com/podcasts.xml](https://tourcoder.com/podcasts.xml)
 
-[Twitter](https://www.twitter.com/tourcoder)
-
-[GitHub](https://www.github.com/tourcoder)
-
-[ProductHunt](https://www.producthunt.com/@tourcoder)
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686)
 
 ### 其他
 
