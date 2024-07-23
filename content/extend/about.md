@@ -25,9 +25,9 @@ menu:
 
 ### 关于我
 
-曾经网名颇多，但近很多年都用的本名。
+Blogger, Programmer, Youtuber
 
-目前，我是一个小企业主，也算是一个独立创作者。
+曾经网名颇多，但近很多年都用的本名。
 
 除此之外，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder)。
 
