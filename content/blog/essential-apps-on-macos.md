@@ -27,11 +27,11 @@ sudo vi /etc/hosts
 
 在里面增加 `199.232.28.133 raw.githubusercontent.com` 即可。也可以通过代理终端的方式解决。
 
-#### Raycast
+#### H9
 
-这是一款效率工具，[官网](https://www.raycast.com/)
+自制的启动器类的工具，可以在 [GitHub](https://github.com/h9) 上下载到。
 
-我用它取代了之前一直用的 alfred
+我用它取代了之前一直用的 alfred 和 raycast。
 
 #### Slowquitapps
 
