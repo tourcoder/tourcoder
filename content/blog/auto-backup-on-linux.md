@@ -119,6 +119,8 @@ draft: false
 
 - 第6列要运行的命令
 
+如果没有 crontab，需要先安装 `apt install cron -y`。
+
 执行命令
 
 ```
@@ -210,26 +212,36 @@ exit 0
 
 **延伸内容**
 
-导出 `Mysql/Mariadb` 数据库，然后备份上传
+- 打包的加密
 
-```
-#!/bin/sh
-DB_USER="username"
-DB_PASS="password"
-DB_HOST="localhost"
-DB_NAME="database_name"
-BIN_DIR="/usr/bin"            #the mysql bin path
-BACKUP_DIR="/root"    #the backup file directory
-DATE=`date +%Y%m%d%H`
-$BIN_DIR/mysqldump —single-transaction -u$DB_USER -p$DB_PASS -h$DB_HOST $DB_NAME > $BACKUP_DIR/db_$DATE.sql
-cd ~
-gdrive upload db_$DATE.sql
-# 删除本地压缩文件
-rm db_$DATE.sql
-# gdrive info
-gdrive about
-exit 0
-```
+  直接将压缩包文件上传到外界网盘是件非常危险的事情，所以在打包的时候建议加密压缩一次，比如下面的方式，只写了核心部分
+
+  ```
+  PASSWORD="你的加密密码"
+  # 用 openssl 加密
+  openssl enc -aes-256-cbc -salt -pbkdf2 -in $BACKUP_FOLDER/$DATA_FOLDER -out $BACKUP_FOLDER/$ENCRYPTED_DATA_FOLDER -k $PASSWORD
+  ```
+
+- 导出 `Mysql/Mariadb` 数据库，然后备份上传
+
+    ```
+    #!/bin/sh
+    DB_USER="username"
+    DB_PASS="password"
+    DB_HOST="localhost"
+    DB_NAME="database_name"
+    BIN_DIR="/usr/bin"            #the mysql bin path
+    BACKUP_DIR="/root"    #the backup file directory
+    DATE=`date +%Y%m%d%H`
+    $BIN_DIR/mysqldump —single-transaction -u$DB_USER -p$DB_PASS -h$DB_HOST $DB_NAME > $BACKUP_DIR/db_$DATE.sql
+    cd ~
+    gdrive upload db_$DATE.sql
+    # 删除本地压缩文件
+    rm db_$DATE.sql
+    # gdrive info
+    gdrive about
+    exit 0
+    ```
 
 **自动备份到 Dropbox**
 
