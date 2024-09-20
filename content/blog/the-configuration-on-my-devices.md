@@ -197,6 +197,8 @@ sudo service sshd restart
 		
 - 其他设置
 
+  - 关闭并删除本地的 timemachine，这块太占空间了。在磁盘工具中选择左侧的磁盘，点顶部菜单的视图 -> APFS，删除即可。
+
   - 关闭 message 和 facetime
 
   - 开机登录密码：设置一个复杂的开机登录密码
