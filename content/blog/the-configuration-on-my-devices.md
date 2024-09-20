@@ -197,7 +197,7 @@ sudo service sshd restart
 		
 - 其他设置
 
-  - 关闭并删除本地的 timemachine，这块太占空间了。在磁盘工具中选择左侧的磁盘，点顶部菜单的视图 -> APFS，删除即可。
+  - 关闭并删除本地的 timemachine 快照，这块太占空间了。在磁盘工具中选择左侧的磁盘，点顶部菜单的视图 -> APFS，删除快照即可。也可以通过命令行操作，比如查看本地快照 `tmutil listlocalsnapshots /`，查看本地快照日期 `tmutil listlocalsnapshotdates`，删除某个快照 `tmutil deletelocalsnapshots '2024-09-20-127238'`
 
   - 关闭 message 和 facetime
 
