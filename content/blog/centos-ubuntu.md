@@ -1328,6 +1328,10 @@ sudo swapon /swapfile //激活交换内存
 
 运行命令 `vi /etc/apt/sources.list` 编辑 sources.list，将 `deb cdrom:[Debian GNU/Linux` 这样开头的内容注释掉即可。
 
+** nohup ./binfile & 服务**
+
+通过 nohup 拉起来的服务，如果没有关闭命令，可以通过 `ps aux I grep binfile` 查看 PID(进程 ID)，然后用 `kill -9 PID` 来退出。具体可以看拉起服务时的输出日志文件 `nohup.out`。
+
 **推荐**
 
 鸟哥的 linux 私房菜：http://cn.linux.vbird.org/linux_basic/0110whatislinux.php
