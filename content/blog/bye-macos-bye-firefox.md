@@ -1,5 +1,5 @@
 ---
-title: "Bye Macos Bye Firefox"
+title: "两个蠢货"
 slug: "bye-macos-bye-firefox"
 author: "Bin Hua"
 date: 2024-09-22T12:56:23Z
