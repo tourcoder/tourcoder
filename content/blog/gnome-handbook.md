@@ -57,6 +57,12 @@ draft: false
 
   Alfred 和 raycast 都没有 Linux 版本，但 Gnome 自带的已经足够好用了，按 Windows 键就可以呼叫出来。也有其他的替代品，目前我都没有尝试，可以看[这里](https://alternativeto.net/software/alfred/?platform=linux)
 
+- 自定义桌面侧边栏
+
+  修改 user-dirs.dirs 文件，`~/.config/user-dirs.dirs`，注释掉不想要的，让其变成普通的的文件夹书签，`source ~/.config/user-dirs.dirs`，生效然后删除即可。
+
+  也可以通过修改 xdg 的默认配置文件也行 `/etc/xdg/user-dirs.defaults`。这个方法更适合，第一个方法在从重启后会失效。
+
 ### 吐槽
 
 目前，我对 Gnome 桌面还处在熟悉的阶段，有些功能我还不太会用，所以有些吐槽可能还不准确。
