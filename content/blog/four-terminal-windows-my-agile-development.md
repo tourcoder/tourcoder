@@ -4,7 +4,7 @@ slug: "four-terminal-windows-my-agile-development"
 author: "Bin Hua"
 date: 2024-10-06T06:34:16Z
 tags: ["terminal", "development"]
-draft: true
+draft: false
 ---
 
 最近写了一点 iOS/macOS app，虽然偏前端，但更多的时间在写服务器端的接口和服务。这里介绍写我敏捷开发的模式。
