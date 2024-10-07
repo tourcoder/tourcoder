@@ -7,9 +7,11 @@ tags: ["fnm", "nodejs", "terminal", "iTerm", "macOS", "zsh"]
 draft: false
 ---
 
-发现在 macOS 15 上通过 fnm 安装的 nodejs，在终端重启后，总是无法被使用和切换，通过 `node -v` 会得到提示「找不到 node 命令」。
+发现在 macOS 15 上通过 fnm 安装的 nodejs 在终端重启后总是无法被使用和切换，执行命令 `node -v` 会得到提示「找不到 node 命令」。
 
-研究后发现是安装路径问题导致了 shell 配置文件（我用的是 zsh，所以配置文件是 `~/.zshrc`，以下同样）中对应的代码执行的失败。安装完 fnm 后会在  shell 配置文件中自动添加
+研究后发现，安装路径问题导致了 shell 配置文件中对应的代码执行失败。我用的是 zsh，所以配置文件是 `~/.zshrc`，以下同样。
+
+安装完 fnm 后会在  shell 配置文件中自动添加
 
 ```
 # fnm
@@ -20,7 +22,9 @@ if [ -d "$FNM_PATH" ]; then
 fi
 ```
 
-实际情况是，fnm 的安装目录并不是上面这个目录，实际目录是 `/Users/your_account_name/.local/share/fnm`，该目录可以通过 `fnm env` 命令获取到。修改上面的代码即可解决问题
+**从上面的代码可以看出，fnm 的安装目录是 `/Users/your_account_name/Library/Application Support/fnm`，但 fnm 的实际安装目录是 `/Users/your_account_name/.local/share/fnm`，该目录可以通过 `fnm env` 命令获取到。**
+
+所以，修改上面的安装目录即可解决问题
 
 ```
 # fnm
