@@ -7,7 +7,7 @@ tags: ["Backblaze", "Cloudflare", "Private cloud storage"]
 draft: false
 ---
 
-最早的时候，「代码旅行」这个博客的图片都是和 markdown 文件一样都是存放在这个库的，很不方便，后来将它移动到了 Backblaze，并使用 Cloudflare 打破了它的流量限制，分享下大致的配置。
+最早的时候，「代码旅行」这个博客的图片和 markdown 文件一样都是存放在这个库的，很不方便，后来将它移动到了 Backblaze，并使用 Cloudflare 打破了它的流量限制，分享下大致的配置。
 
 ### Backblaze 端
 
@@ -27,4 +27,4 @@ draft: false
 
 - 缓存（可选）：既然是图库一般图片上传后都很少更新，还是有必要增加缓存的。在「规则->页面规则」里增加一个规则即可。URL 设置为 `https://storage.tourcoder.com/*`，时间按需设置。
 
-基本完成了。最后表扬下 backblaze，还是蛮稳的，我的博客它存储图片用了这么久，没有出现过问题。
+基本完成了。最后表扬下 Backblaze，还是蛮稳的，我的博客它存储图片用了这么久，没有出现过问题。
