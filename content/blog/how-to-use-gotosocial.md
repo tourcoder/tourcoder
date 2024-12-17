@@ -45,8 +45,6 @@ draft: false
 - 修改 docker-compose.yaml 文件，我修改后的文件是这样的
 
     ```
-    version: "3.3"
-
     services:
     gotosocial:
         image: superseriousbusiness/gotosocial:latest
@@ -62,6 +60,12 @@ draft: false
         GTS_LETSENCRYPT_EMAIL_ADDRESS: ""
         ## For reverse proxy setups:
         # GTS_TRUSTED_PROXIES: "172.x.x.x"
+        GTS_SMTP_HOST: 
+        GTS_SMTP_PORT: 
+        GTS_SMTP_USERNAME: 
+        GTS_SMTP_PASSWORD: 
+        GTS_SMTP_FROM: 
+        GTS_ACCOUNTS_REGISTRATION_OPEN: "true"
         ports:
         - "8080:8080"
         ## For letsencrypt:
@@ -157,6 +161,8 @@ docker cp container_id:/filename /local_path_on_host/
 - 修改 `docker-compose.yaml` 文件后，需要先 `docker compose down`，然后再拉起容器。
 
 看到这里有点不容易啊，不过今天，也就是 2024 年 6 月 26 日，我想告诉你的是，到现在为止我不建议使用这个程序。原因是它的问题挺多的，本来一个社交软件最应该做的是信息流通，但它真的阻碍了信息的流通，有点鸡肋。
+
+2024 年 12 月 17 日，这两天又折腾了下这个程序，主要是将它移动到了 Oracle Cloud 的免费小鸡上。也更新了下 STMP 的配置，开启了注册和去掉文件顶部的版本信息（具体看上面的 Docker Compose 文件）。另外就是我抽空在基于它的数据库结构和数据做一个更简单的版本。
 
 ### 相关资源
 
