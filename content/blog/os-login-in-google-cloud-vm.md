@@ -4,7 +4,7 @@ slug: "os-login-in-google-cloud-vm"
 author: "Bin Hua"
 date: 2024-12-24T06:29:07Z
 tags: ["googlecloud", "oslogin"]
-draft: true
+draft: false
 ---
 
 在 Google Cloud VM 有个不能算是问题的烦人事情 -- OS Login，它会自动的更新用户目录下 `.ssh/authorized_keys` 文件，即便这个文件是用户自己创建的。要解决这个问题有几个办法。
