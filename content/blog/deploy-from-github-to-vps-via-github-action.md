@@ -80,8 +80,46 @@ jobs:
 
 - 配置 GitHub 对应的仓库
 
-在上面的 yaml 文件中，有一些 secrets 的信息，是不应该直接写在配置文件里的，要在 GitHub 对应的仓库里设置。具体位置 `Settings->Secrets and variables->Actions secrets and variables->Repository secrets`。
+在上面的 yaml 文件中，有一些 secrets 的信息，是不应该直接写在配置文件里的，要在 GitHub 对应的仓库里设置。具体位置 `Settings->Secrets and variables->Actions secrets and variables->Repository secrets`。有时候 yaml 文件中也有一些变量，比如 images 的名字，那么可以写在变量里，即 `Settings->Secrets and variables->Actions secrets and variables->Repository variables`。
 
-创建对应的参数，name 就是这里的 VPS_IP 等，对应的值（Secret）就是对应值。其中 SSH_KEY 是 VPS 的上创建的 key。用 ssh-keygen 来创建，然后将 .pub 的内容放入到 `~/.ssh/authorized_keys`，而这里的 key 是对应的私钥的内容。
+创建对应的参数，参考如下
 
-此次，完成了所有的内容，当 master 分支 push 后，即可触发。
+Secret 的格式
+
+```
+name: VPS_IP
+secret: 对应的值
+```
+
+变量的格式
+
+```
+name: 变量名
+value: 变量值
+```
+
+这里强烈建议用 ssh key 来登录 VPS，创建 ssh key 的步骤如下
+
+```
+ssh-keygen -t rsa
+```
+
+一路下去，不要设置密码，会得到两个文件 id_rsa 和 id_rsa.pub，前面为私钥，后面为公钥。然后执行
+
+```
+cat /home/your_username/.ssh/id_rsa.pub >> /home/your_username/.ssh/authorized_keys
+chmod 600 /home/your_username/authorized_keys
+```
+
+将公钥导入，并设置了权限。私钥 id_rsa 的内容就是 ssh key。此次，完成了所有的内容，当 master 分支 push 后，即可触发。
+
+需要注意的是，有时候我们需要修改 vps 的登录方式，即 `vi /etc/ssh/sshd_config`，将它设置为
+
+```
+PasswordAuthentication no // 一般都默认为 no
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+```
+
+记得重启 `sudo service sshd restart`。
