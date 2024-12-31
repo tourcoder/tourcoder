@@ -15,7 +15,7 @@ draft: false
 
 **编写设备**
 
-60% 左右的代码是在最后一代的 MacBook Pro 上写的，25% 左右是在 Debian/Linux 上写的，15% 左右是在最后一代非 M 芯片的 iPad Pro 上写的。
+60% 左右的代码是在最后一代 Intel 芯片的 MacBook Pro 上写的，25% 左右是在 Debian/Linux 上写的，15% 左右是在最后一代 Intel 芯片的 iPad Pro 上写的。
 
 **编写内容**
 
