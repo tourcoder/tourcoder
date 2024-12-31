@@ -9,6 +9,26 @@ draft: false
 
 刚才锻炼的时候突然想到一个问题，是不是记录下以后每年写的第一行（段）和最后一行（段）代码？感觉是个有意思的事情，就从 2024 年开始吧。
 
+#### 2025 年
+
+第一段代码写于 2024 年 01 月 01 日，在东京的酒店写的，这段代码用于一款 AR 的 iOS 应用，用户部分的 Model。这款应用会在一个月内上线，采用快速迭代的方式
+
+```
+struct User: Codable, Identifiable {
+    let id: String
+    let email: String
+    var username: String
+    var profileImageUrl: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case email
+        case username
+        case profileImageUrl = "profile_image_url"
+    }
+}
+```
+
 #### 2024 年
 
 第一段代码写于 2024 年 01 月 01 日，这段代码是初始化 chrome 插件后的 manifest.json 文件。是笔记应用 Binge 的 Chrome 插件的内容。
