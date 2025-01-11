@@ -43,3 +43,7 @@ AI 帮了很大的忙，这些代码中有超过 20% 是由  AI 生成的，我�
 ![](https://storage.tourcoder.com/tcblog/hit-all-green-on-github-again-2024-02.png)
 
 强迫症版本 :)
+
+![](https://storage.tourcoder.com/tcblog/hit-all-green-on-github-again-2024-03.png)
+
+更强迫的版本 :)
