@@ -122,7 +122,9 @@ docker exec -it your_container_name /gotosocial/gotosocial admin account passwor
 
 **恢复 suspended 的用户**
 
-目前官方本身不支持这个操作，但有个办法。通过修改数据库的数据来实现
+目前官方本身不支持这个操作，看[这里](https://github.com/superseriousbusiness/gotosocial/issues/3039)。
+
+但是可以通过修改数据库的数据来实现
 
 ```
 UPDATE accounts
