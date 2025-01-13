@@ -120,6 +120,20 @@ docker exec -it your_container_name /gotosocial/gotosocial admin account demote 
 docker exec -it your_container_name /gotosocial/gotosocial admin account password --username your_username --password your_new_password
 ```
 
+**恢复 suspended 的用户**
+
+目前官方本身不支持这个操作，看[这里](https://github.com/superseriousbusiness/gotosocial/issues/3039)。
+
+但是可以通过修改数据库的数据来实现
+
+```
+UPDATE accounts
+SET suspended_at = NULL
+WHERE username = 'suspended_username';
+```
+
+这是恢复本地的用户，如果是恢复另外一个域上的用户，在 `where` 条件后面增加 `AND domain = 'remote_server_domain_name';` 即可。
+
 ### 数据的导出和导入
 
 除了 sqlite 的文件之外，还可以将数据导出成一个 json 文件
