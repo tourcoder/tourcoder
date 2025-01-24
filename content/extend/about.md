@@ -31,6 +31,8 @@ menu:
 
 我一般通过 [Twitter](https://twitter.com/tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
 
+除了这个博客，我也有其他絮絮叨叨的地方，[联邦宇宙的 Xcoder](https://xcoder.org/@tourcoder) 和 [Twitter/X](https://x.com/tourcoder)。
+
 我非常喜欢 [Email](mailto:code@TOURCODER.com)，它是和我联系的最好途径。
 
 ### 订阅
