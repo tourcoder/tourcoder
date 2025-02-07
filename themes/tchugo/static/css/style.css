@@ -29,10 +29,13 @@ del {
   line-height: 60px;
   padding: 24px;
 }
-.nav .sitetitle {
+.nav h1.sitetitle {
   color: rgba(255,255,255,0.8);
   font-size: 1.8em;
   font-weight: 700;
+}
+.nav a {
+  color: rgba(255,255,255,0.8);
 }
 .nav .menu a {
   color: rgba(255,255,255,0.8);
