@@ -384,13 +384,13 @@ draft: false
 
 - 客户端
 
-  这些年我用过很多客户端，目前是 [Surge](https://nssurge.com) 全家桶，它还是个比较强劲的开发者工具，比如有抓包等功能。不过有两个小缺点：1，目前只有 Apple 平台的，安卓、Linux 和 Windows 平台目前没有。2，对只是用来科学上网的人来说，价格不是那么亲民。
+  这些年我用过很多客户端，目前在 Apple 平台（macOS / iOS / iPadOS / tvOS）使用的是 [Surge](https://nssurge.com) 全家桶，它还是个比较强劲的开发者工具，比如有抓包等功能。不过有两个小缺点：1，目前只有 Apple 平台的，安卓、Linux 和 Windows 平台目前没有；2，对只是用来科学上网的人来说，价格不是那么亲民。
   
   **其他客户端**
   
   iPhone / iPad: [Shadowrocket]()，[Loon]()
   
-  Android: [Clash for Android]()
+  Android: [Clash for Android]()，[Surfboard for Android]()
 
 ## 说在最后
 
