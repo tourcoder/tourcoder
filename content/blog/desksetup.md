@@ -2,12 +2,9 @@
 title: "我的工作台"
 slug: "desk-setup"
 author: "Bin Hua"
+draft: false
 date: 2022-05-22T01:57:04Z
 tags: ["工作台", "workspace", "desk setup"]
-menu:
-  main:
-    name: "工作台"
-    weight: 6
 ---
 
 先上图，从 2016 年到现在，我书房主要用的桌子变化情况。
