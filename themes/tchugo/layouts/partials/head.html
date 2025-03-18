@@ -6,7 +6,7 @@
   <link rel="shortcut icon" href="/imgs/favicon.ico">
   <title>{{ if not .IsHome }} {{ .Title }}@{{ end }}{{ .Site.Title }}{{ if .Site.Params.Slogan }} :: {{ .Site.Params.Slogan }} {{ end }}</title>
   {{- if .Site.Params.description }}
-  <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+  <meta name="description" content="{{ .Description | default .Site.Params.description }} ">
   {{- end }}
   {{- if .Site.Params.keywords }}
   <meta name="keywords" content="{{ default .Site.Params.keywords }}">
