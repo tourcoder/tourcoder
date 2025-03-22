@@ -37,11 +37,11 @@ sudo service sshd restart
 
 - 常用工具
 
-  - Docker：通过 [Dockerman](https://github.com/tourcoder/dockerman) 安装。
+  - Podman: 直接通过命令 `sudo apt install podman -y` 安装，比起 Docker，我现在基本用它。如果喜欢 Docker，可以通过 [Dockerman](https://github.com/tourcoder/dockerman) 安装。
 		
   - Git：直接通过命令 `sudo apt install git -y` 安装。
  
-  - Pidan: Git helper，通过 `curl https://pidan.hua.info/pidan | bash` 安装，更多可以看 [https://github.com/Pidan/pidan](https://github.com/Pidan/pidan)。
+  - Pidan: Git helper，安装方式在 [https://github.com/Pidan/pidan](https://github.com/Pidan/pidan)。
 	
   - Go：通过 [glv](https://github.com/glv-go/glv) 安装。
 	
@@ -126,6 +126,8 @@ sudo service sshd restart
 
 ### MacBook Pro
 
+这个博客关于 macOS 信息写得很多，其他的基本不用看了，看这篇文章即可。
+
 - 系统：目前设置的系统版本是 macOS 15，即 macOS sequoia，更新到最新最稳定版本。
 
 - 机器名称：Deck，点屏幕左上角的苹果 logo 选择进入`系统设置->通用->关于`里修改。
@@ -191,7 +193,7 @@ sudo service sshd restart
     
     开启 `FileValut` 功能，`FileVault` 会把整个硬盘每个文件每个字节全部加密，没有密码看不到数据。
 
-    开启 `Lockdown Mode`。
+    开启 `Lockdown Mode`，需要注意，开启它 AirDrop 会出现问题。
 
     高级中的内容都开启。
 		
@@ -203,7 +205,7 @@ sudo service sshd restart
 
   - 开机登录密码：设置一个复杂的开机登录密码
 		
-  - 固件密码：设置一个固件密码让被人即便拿到电脑也无法获取里面的内容，操作步骤是
+  - (这一步在 Apple M 系列芯片上已经没有了)固件密码：设置一个固件密码让被人即便拿到电脑也无法获取里面的内容，操作步骤是
 		
     - 开机，按下 Command 和 R 键来启动恢复模式，选择`工具-固件密码实用工具`。
 		
@@ -223,7 +225,7 @@ sudo service sshd restart
 
   其实随着 macOS 系统的逐步更新，很多以前必装的软件都逐步变得不重要，就说一些常规的吧。
 	
-  - [Homebrew](https://brew.sh)：严格说它并不是一个软件，它是一个安装软件和包的工具，通过 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 安装即可。
+  - [Homebrew](https://brew.sh)：严格说它并不是一个软件，它是一个安装软件和包的工具，去官网看详细说明。
 	
   - [Micro Snitch](https://obdev.at/products/microsnitch/)：一款隐私保护的应用，它能检测那些应用在使用摄像头和麦克风
 		
@@ -244,8 +246,6 @@ sudo service sshd restart
   - [iTerm](https://iterm2.com)：我比较喜欢的终端，它的主题我使用的是 minimal。
 		
   - [AppCleaner](https://freemacsoft.net/appcleaner/)：更有效的清理删除应用。
-		
-  - [MindNode](https://mindnode.com)：我用来做脑图的应用。
 		
   - [NameChanger](https://mrrsoftware.com/namechanger/)：有时候我写东西时批量命名会弄错，就用它来批量修改名字，比用命令行简便。
 		
@@ -360,8 +360,6 @@ iPhone 和 iPad Pro 我现在并不常用，也只是做了一些基本的设置
 - Testflight：测试发布
 
 - [Twitter](https://twitter.com)
-
-- MindNode：和 macOS 上一样，脑图工具
 
 - Gmail：邮件客户端，里面还包含了 Chat 和 Meetings
 
