@@ -217,10 +217,6 @@ sudo service sshd restart
 
     编辑 `/etc/pam.d/sudo`，在第一行增加 `auth sufficient pam_tid.so` 即可。
 
-  - 干掉烦人的 `.DS_Store` 文件
-
-    在 `/usr/sbin` 下有一个脚本文件 `dot_clean`，可用它来做这个事情。比如我要禁止我的工作目录下产生这个文件，即 `/usr/sbin/dot_clean -m ~/Workspace` 即可，在禁止产生的同时还会自动删除掉已经有的 `.DS_Store` 文件，爽的一批。
-
 - 必装软件
 
   其实随着 macOS 系统的逐步更新，很多以前必装的软件都逐步变得不重要，就说一些常规的吧。
