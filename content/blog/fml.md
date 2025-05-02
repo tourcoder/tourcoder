@@ -46,6 +46,8 @@ draft: false
   sed -ri 's/^#?(PasswordAuthentication)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
   systemctl restart sshd
   ```
+
+  这里有个点：有时候不只是一个地方需要设置 PasswordAuthentication 为 yes，用 `sudo grep -R "PasswordAuthentication" /etc/ssh` 命令查看都有哪些需要设置的。
   
   **安装必要的软件**
   
