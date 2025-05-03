@@ -260,6 +260,10 @@ draft: false
       }
     }
     ```
+  
+  - Trojan 和 Trojan
+
+    具体可以看[这里](https://tourcoder.com/how-to-install-trojan-bbr-plus-on-debian-10/)。
 
 ## 辅助内容
 
