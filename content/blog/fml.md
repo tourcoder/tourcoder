@@ -261,7 +261,7 @@ draft: false
     }
     ```
   
-  - Trojan 和 Trojan
+  - Trojan 和 Trojan-go
 
     具体可以看[这里](https://tourcoder.com/how-to-install-trojan-bbr-plus-on-debian-10/)。
 
