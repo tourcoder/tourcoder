@@ -23,12 +23,15 @@ Google 有两套账户体系，一套是以 `@gmail.com` 为后缀的账户或�
 |Google Play|家庭成员之间可以共享自己 Google Play 上的内容|无法共享|One|
 |Google Chat|无法使用一些专门为 workspace 做的功能，比如无法使用 Chat 里面的其他 app 功能。|都能使用，但根据付费不一样，能用的程度也不一样。比如 72 美元一年的这个套餐就不支持`将外部人员拉入到群组`中|50%-50%|
 |Google Drive|有一个 computers 功能，非常好用|没有 computers 功能|One|
+|Google Photos|根据购买的 plan 确定|无限空间|Google Worspace|
 
 **总结**
 
 - Google Workspace 主要是面向工作的，是为公司/团队来设置的。但有些用户，需要用自己的域名来构建邮箱，作为自己个人账户使用，所以我才会写这篇博文，将 Workspace 和 One 做了比较。
 
 - 这里有一个特殊的地方，就是本文开头说到的，Google 的个人账户用户名也可以是自己其他的 email 地址，比如 `foobar@yahoo.com`，那么这个账户里是没有 gmail 功能的，和 gmail 关联的很多功能都无法使用，比如 Google Chat 的全家桶。
+
+- Google Workspace 的 Photos 无限空间太有吸引力了。
 
 - 容量这块真的很夸张，相差很大。以我自己的实际使用举例说明，我照片视频有 480G+，我老婆备份的照片视频有 200G+，我还有一个账户里面有 18G+ 的资料，我现在用的 Google One 是 2T 每年收费 99.99 美元。但如果我换成 Google Workspace 的话，我需要买三个 2T 容量的账户，费用是每个账户每年 144 美元，三个账户就是 432 美元。就是因为容量没法共享，而且不支持单独购买，其实我完全可以为那个只有 18G+ 资料的账户买一个一年 72 美元的套餐，但在 Google Workspace 里目前还无法这么做，要按最高的容量需求的账户来买。
 
