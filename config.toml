@@ -9,7 +9,8 @@ theme = "tchugo"
 publishDir = "public"
 disableKinds = ["taxonomy", "term"]
 
-paginate = 9
+[pagination]
+  pagerSize = 9
 
 [params]
   author = "Bin HUA" #replace with your name
