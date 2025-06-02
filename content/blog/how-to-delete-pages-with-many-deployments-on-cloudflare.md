@@ -21,11 +21,11 @@ Your project has too many deployments to be deleted, follow this guide to delete
 
 需要删除过的部署，让数量控制在 100 个之内即可
 
-- 方法一: 直接手动删除
+- 方法一：直接手动删除
 
   如果部署的次数比 100 多不多少，就手动删除一些，将部署的内容控制在 100 个之内即可删除项目了。
 
-- 使用 Cloudflare API 删除部署
+- 方法二：使用 Cloudflare API 删除部署
 
   先要获取一些基本信息：
 
