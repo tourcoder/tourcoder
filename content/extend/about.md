@@ -19,6 +19,8 @@ menu:
 
 在公元 2021 年 11 月 24 日，我整理了下这个博客，将它开源在 [GitHub](https://github.com/tourcoder/tourcoder)，不过通过 [https://tourcoder.com](https://tourcoder.com) 的阅读体验应该更好。
 
+**特别注意**：本博客内容纯手写，坚决杜绝 AI 参与写作，思考深度难免会有缺失，所以阅读时请多加思考。
+
 ### 信仰永恒，无所畏惧
 
 这是我的「座右铭」，翻译成英文是 Do Faith No Fear。
