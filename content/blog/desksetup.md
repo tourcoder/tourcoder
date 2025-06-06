@@ -11,7 +11,7 @@ tags: ["工作台", "workspace", "desk setup"]
 
 ![](https://storage.tourcoder.com/tcblog/desk-setup-01.jpg)
 
-- 靠窗的书桌：侧边有一个书架和书桌连在一起，2023 年在书房另一面增加了一个升降桌，是京东[京造的升降桌](https://u.jd.com/0u9zcUS)。
+- 靠窗的书桌：侧边有一个书架和书桌连在一起，2023 年在书房另一面增加了一个升降桌，是京东[京造的升降桌](https://u.jd.com/0u9zcUS)，在用了两年后我的升降桌的感受看本文末的图片。
 
 - 手办：桌子上手办挺多的，主要是我喜欢这些玩意。
 
@@ -38,3 +38,7 @@ tags: ["工作台", "workspace", "desk setup"]
 其余的就都是书了。
 
 而每天所携带的东西，可以看[这一篇](https://tourcoder.com/stuff/)，手机的使用可以看[这一篇](https://tourcoder.com/my-cell-phones-and-more/)。
+
+升降桌用了两年后的体验
+
+![](https://storage.tourcoder.com/tcblog/desk-setup-02.jpg)
