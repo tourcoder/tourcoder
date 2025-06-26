@@ -27,6 +27,12 @@ draft: false
 
 左右两侧在实际使用中拖拽调整宽度，上下也一样方式调整高度。
 
+![](https://storage.tourcoder.com/tcblog/coding_split_old.png)
+
 ### 后续想法
 
 最近有个新想法，在 document 中集成 AI，因为现在 AI 这部分还是 iTerm2 和浏览器之间切换的。
+
+2025 年 06 月 26 日：Gemini CLI 几个小时前更新，加上之前的 Claude Code 等，现在我的编码窗口已经变成了
+
+![](https://storage.tourcoder.com/tcblog/coding_split_new.png)
