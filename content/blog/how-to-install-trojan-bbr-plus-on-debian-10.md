@@ -102,6 +102,20 @@ chmod +x tcp.sh
 
 Trojan Go 这个项目可以理解为是升级版的 Trojan，网上有大神搞了带多用户管理的程序，地址是：[https://github.com/Jrohy/trojan](https://github.com/Jrohy/trojan) ，安装方式里面写的也很清楚，非常方便。通过它安装的配置文件位置是 `/usr/local/etc/trojan/config.json`
 
+发现很多人是直接用了这个仓库里的 docker 安装方式，什么都没有修改，这个很危险！！！至少要把数据库的 docker 配置改一下，可以改成
+
+```
+docker run --name trojan-mariadb \
+--restart=always \
+-p 127.0.0.1:3306:3306 \
+-v /home/admin/mariadb:/var/lib/mysql \
+-e MYSQL_ROOT_PASSWORD=你的 root 用户密码 \
+-e MYSQL_DATABASE=你的数据表名 \
+-d mariadb:10.2
+```
+
+如上，至少把端口限制成宿主使用，修改下 root 密码和数据表名，这是最基本的！
+
 #### 客户端
 
 至于在客户端如何配置，自行查看网上的其它教程。
