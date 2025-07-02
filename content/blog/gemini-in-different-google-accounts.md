@@ -1,5 +1,5 @@
 ---
-title: "Gemini in Different Google Accounts"
+title: "Gemini 在 Google 不同账户里的情况"
 slug: "gemini-in-different-google-accounts"
 author: "Bin Hua"
 date: 2025-07-02T02:58:07Z
