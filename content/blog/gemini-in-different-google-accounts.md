@@ -15,9 +15,15 @@ draft: false
 
 ![](https://storage.tourcoder.com/tcblog/gemini-in-different-google-accounts-001.png)
 
-![](https://storage.tourcoder.com/tcblog/gemini-in-different-google-accounts-001.png)
+Google Worksapce Business Standard/Plus
 
-![](https://storage.tourcoder.com/tcblog/gemini-in-different-google-accounts-001.png)
+![](https://storage.tourcoder.com/tcblog/gemini-in-different-google-accounts-002.png)
+
+Google Workspace Business Starter/G Suite
+
+![](https://storage.tourcoder.com/tcblog/gemini-in-different-google-accounts-003.png)
+
+Google Personal Account
 
 具体说明如下：
 
