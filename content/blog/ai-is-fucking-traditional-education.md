@@ -4,7 +4,7 @@ slug: "ai-is-fucking-traditional-education"
 author: "Bin Hua"
 date: 2025-07-03T05:13:46Z
 tags: ["AI", "传统教育"]
-draft: false
+draft: true
 ---
 
 这个标题写得有点大，这种改变的进度会因为多方面原因有点慢，但是迟早的事。至少现在 AI 已经改变了我们获取知识的方式。
