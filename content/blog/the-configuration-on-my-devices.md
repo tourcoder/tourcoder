@@ -83,30 +83,15 @@ sudo service sshd restart
   export LANG=en_US.UTF-8
   ```
 		
-  主题是我做的一个简单的主题，进入 `~/.oh-my-zsh/themes`，新建 `simple.zsh-theme` 文件，将下面的内容填写进去
-		
-  ```
-  # simple.zsh-theme
-  if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
-  local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
-  # primary
-  promptPROMPT='$FG[237]------------------------------------------------------------%{$reset_color%}
-  $FG[032]%~\
-  $(git_prompt_info) \
-  $FG[105]%(!.#.»)%{$reset_color%} '
-  PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
-  RPS1='${return_code}'
-  # color vars
-  eval my_gray='$FG[237]'
-  eval my_orange='$FG[214]'
-  # git settings
-  ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]($FG[078]"
-  ZSH_THEME_GIT_PROMPT_CLEAN=""
-  ZSH_THEME_GIT_PROMPT_DIRTY="$my_orange*%{$reset_color%}"
-  ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[075])%{$reset_color%}"
-  ```
-		
-  编辑 `~/.zshrc`，将里面的 `ZSH_THEME` 后面的值改成 `simple`。
+  主题是我做的一个简单的主题 [larn](https://github.com/tourcoder/larn.zsh-theme)，进入 `~/.oh-my-zsh/themes`，将 larn 主题添加进去，最后编辑 `~/.zshrc`，将里面的 `ZSH_THEME` 后面的值改成 `larn`。
+
+  - nvim，lazy.vim 和主题
+
+  nvim 的安装可以看官方 GitHub 上的[安装指南](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+
+  lazy.vim 的安装可以看官方 GitHub 上的[安装指南](https://github.com/folke/lazy.nvim)
+
+  我也写了一个小主题 [larn](https://github.com/tourcoder/larn.nvim)
 		 
 这基本就是我的开发机 Nerd 的配置情况。
 
@@ -221,8 +206,6 @@ sudo service sshd restart
 
   其实随着 macOS 系统的逐步更新，很多以前必装的软件都逐步变得不重要，就说一些常规的吧。
 	
-  - [Homebrew](https://brew.sh)：严格说它并不是一个软件，它是一个安装软件和包的工具，去官网看详细说明。
-	
   - [Micro Snitch](https://obdev.at/products/microsnitch/)：一款隐私保护的应用，它能检测那些应用在使用摄像头和麦克风
 		
   - [Spectacle](https://www.spectacleapp.com/)：它通过键盘控制各应用窗口的位置，对我这种快捷键爱好者来说很适宜，它的源码托管在 [GitHub](https://github.com/eczarny/spectacle) 上。
@@ -322,6 +305,8 @@ sudo service sshd restart
     ```
       
     最后 `source ~/.zshrc` 使其生效即可。每次需要刷新 DNS 时，在终端中输入 `resetdns` 即可。
+
+  - [nvim](https://neovim.io)：我是直接下载安装包，解压改名成 `.nvim-macos-arm64`，然后在 `~/.zshrc` 里增加 `export PATH="$HOME/.nvim-macos-arm64/bin:$PATH"`。
 
   - 其它环境，主要有 go，python，node 和 git。macOS 15 已经默认自带 python3 和 git。而 go 和 node 的安装可以看上面开发机部分。
 		
