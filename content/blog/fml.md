@@ -400,7 +400,7 @@ draft: false
 
   Linux/Debian: [sing-box]()，[clash-verge-rev]()
 
-  其中 sing-box 在 Debian 上的基础配置使用可以看 [https://github.com/tourcoder/sing-box-configuration-demo/tree/main](https://github.com/tourcoder/sing-box-configuration-demo/tree/main)，里面都有基础文件。
+  其中 sing-box 在 Debian 上的基础配置使用可以看 [https://github.com/tourcoder/sing-box-configuration-demo](https://github.com/tourcoder/sing-box-configuration-demo)，里面都有基础文件。
 
 ## 说在最后
 
