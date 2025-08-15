@@ -398,6 +398,10 @@ draft: false
   
   Android: [Clash for Android]()，[Surfboard for Android]()
 
+  Linux/Debian: [sing-box]()，[clash-verge-rev]()
+
+  其中 sing-box 在 Debian 上的基础配置使用可以看 [https://github.com/tourcoder/sing-box-configuration-demo/tree/main](https://github.com/tourcoder/sing-box-configuration-demo/tree/main)，里面都有基础文件。
+
 ## 说在最后
 
 我设置自己的 fml 服务的主要目的是为了方便自己学习工作时查阅资料，更容易的使用一些服务。给自己节省大量的时间精力，丰富自己的知识眼界，仅此而已。
