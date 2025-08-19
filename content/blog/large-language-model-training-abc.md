@@ -7,15 +7,15 @@ tags: ["llm", "模型微调", "模型训练", "入门教程"]
 draft: false
 ---
 
-昨天和朋友聊天，他建议我写一些关于模型微调训练的入门教程，嗯，这就写起来。我会分几篇文章来分享模型的微调训练，旨在给大家展示下我是如何入门的，这当中有错误的地方，欢迎大家指正。
+昨天和朋友聊天，他建议我写一些关于模型微调训练的入门教程，嗯，这就写起来。我会分几次分享模型的微调训练过程，旨在给大家展示下我是如何入门的，这当中有错误的地方，欢迎大家指正。
 
 ### 准备工作
 
-- 电脑：我计划在 M4 芯片的 Mac 上完成
+- 电脑：计划在 M4 芯片的 Mac 上完成
 
 - 环境：Python，其实也有一些 GUI 辅助工具能够更为直观的完成工作，但我习惯了终端，所以这里直接用 py 脚本来做这些工作
 
-- 基模型：Gemma-3-270m，模型可以自由选择，我喜欢 Gemma 所以就它了。你也可以在我之前用来做测试的[模型](https://huggingface.co/tourcoder/distilbert-base-uncased-finetuned-emotion-analysis)上进行微调，学习这一过程😁
+- 基模型：Gemma-3-270m，模型可以自由选择。也可以在我之前用来做测试的[模型](https://huggingface.co/tourcoder/distilbert-base-uncased-finetuned-emotion-analysis)上进行微调，学习这一过程😁
 
 - 账户：HuggingFace 账户
 
