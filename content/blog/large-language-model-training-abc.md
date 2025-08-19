@@ -1,5 +1,5 @@
 ---
-title: "玩转大语言模型的微调训练 ABC"
+title: "玩转大语言模型的微调训练"
 slug: "large-language-model-training-abc"
 author: "Bin Hua"
 date: 2025-08-19T03:57:16Z
