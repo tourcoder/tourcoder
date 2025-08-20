@@ -259,6 +259,10 @@ sudo service sshd restart
   - [Lulu](https://github.com/objective-see/LuLu/releases)：Lulu 算是一款保护你隐私的应用，它检测网络链接的请求，并及时地通知。
  
   - [The Unarchiver](https://theunarchiver.com/)：我很喜欢的解压应用。
+
+  - [Thunderbird](https://www.thunderbird.net/)：邮件客户端，我以前并不喜欢在电脑上安装邮件客户端，但现在邮件账户有点多，就安装了 Thunderbird 客户端。为什么不用 macOS 自带的原生的 Mail？那破玩意结合 Siri 就是一个隐私收集器，各种信息被收集，更致命的是它还把信息通过 iCloud 同步，且不给拒绝同步的选项，我有发过[推文吐槽](https://x.com/tourcoder/status/1956225408208396354)。不用其它客户端是因为它们基本都内置了 AI 功能，我很讨厌。除了邮箱服务商提（比如：Google Workspace）供的 AI 功能，其它第三方的带有 AI 功能的邮件客户端，我一律不会使用。
+
+  - [nvim](https://neovim.io)：我是直接下载安装包，解压改名成 `.nvim-macos-arm64`，然后在 `~/.zshrc` 里增加 `export PATH="$HOME/.nvim-macos-arm64/bin:$PATH"`。
 	
 - 环境配置
 
@@ -305,8 +309,6 @@ sudo service sshd restart
     ```
       
     最后 `source ~/.zshrc` 使其生效即可。每次需要刷新 DNS 时，在终端中输入 `resetdns` 即可。
-
-  - [nvim](https://neovim.io)：我是直接下载安装包，解压改名成 `.nvim-macos-arm64`，然后在 `~/.zshrc` 里增加 `export PATH="$HOME/.nvim-macos-arm64/bin:$PATH"`。
 
   - 其它环境，主要有 go，python，node 和 git。macOS 15 已经默认自带 python3 和 git。而 go 和 node 的安装可以看上面开发机部分。
 		
