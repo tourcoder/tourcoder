@@ -4,7 +4,7 @@ slug: "ios-app-hua-delete-empty-albums"
 author: "Bin Hua"
 date: 2023-05-24T01:14:18Z
 tags: ["ios", "apple", "album"]
-draft: false
+draft: true
 ---
 
 一直以来非常讨厌 iOS 的相册中被莫名的生成一些空相册，昨天写了个简单的应用，目的只有一个，删除这些空相册。本以为会因为功能简单，被 Apple 拒绝上架。但现在看来是我多虑了。

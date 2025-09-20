@@ -1,5 +1,5 @@
 ---
-title: "[播客]菜小孩"
+title: "菜小孩"
 slug: "cxh"
 author: "Bin Hua"
 date: 2019-10-18 06:37:00
