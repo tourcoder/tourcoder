@@ -7,7 +7,7 @@ tags: ["Google", "Gemini", "Xcode", "AI", "Grok", "Twitter", "X"]
 draft: false
 ---
 
-## 起因:
+### 起因:
 
 我询问了 Gemini 一个问题：如何在 Xcode 26 里增加 Gemini 作为 AI provider？
 
@@ -57,7 +57,7 @@ iOS 19 是存在的。
 彻底幻觉了？我放弃了继续询问。
 
 
-## 感受
+### 感受
 
 从上面来说，我对 Gemini 这次的回答是很失望的，在过去使用 Gemini 的日子里，这类情况经常性发生。
 
