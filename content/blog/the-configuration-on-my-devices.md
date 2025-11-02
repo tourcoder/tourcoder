@@ -311,6 +311,8 @@ sudo service sshd restart
     最后 `source ~/.zshrc` 使其生效即可。每次需要刷新 DNS 时，在终端中输入 `resetdns` 即可。
 
   - 其它环境，主要有 go，python，node 和 git。macOS 15 已经默认自带 python3 和 git。而 go 和 node 的安装可以看上面开发机部分。
+ 
+  - 可选：fcrackzip/john-jumbo/hashcat，密码破解的命令行
 		
 ### iPhone 和 iPad Pro
 
