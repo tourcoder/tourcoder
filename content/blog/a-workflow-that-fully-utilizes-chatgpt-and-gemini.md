@@ -51,4 +51,6 @@ flowchart TD
     S --> T([下一步迭代 / 新需求])
 ```
 
+上面是 mermaid 的代码图表，自行渲染查看流程，也可以下载 [Markmaid](https://chromewebstore.google.com/detail/markmaid/lagiicegickbilpdalbbhnhdihlhogni) 这个 chrome 插件在线预览。
+
 希望抛砖引玉...
