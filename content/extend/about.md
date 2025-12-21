@@ -27,6 +27,8 @@ menu:
 
 ### 关于我
 
+![about me](https://storage.tourcoder.com/tcblog/20251221-153437-E6A269.jpg)
+
 曾经网名颇多，但近很多年都用的本名。
 
 除了写博客和代码，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder)。
