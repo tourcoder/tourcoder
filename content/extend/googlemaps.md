@@ -3,11 +3,8 @@ title: "打卡"
 slug: "google-maps"
 author: "Bin Hua"
 date: 2025-01-01T01:58:00Z
-tags: ["travel", "打卡", "desk setup"]
-menu:
-  main:
-    name: "打卡"
-    weight: 7
+tags: ["travel", "打卡", "desksetup"]
+draft: false
 ---
 
 创建在 Google Maps 上的一些照片，比较随意的拍，想起来了就会拍。
