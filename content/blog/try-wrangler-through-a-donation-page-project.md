@@ -48,7 +48,7 @@ wrangler login
 
 ### 初始化项目
 
-```bash
+```
 wrangler init demoworker
 cd demoworker
 ```
