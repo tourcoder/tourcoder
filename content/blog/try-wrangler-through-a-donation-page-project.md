@@ -2,9 +2,9 @@
 title: "通过一个捐赠页面项目学习 wrangler 的使用"
 slug: "try-wrangler-through-a-donation-page-project"
 author: "Bin Hua"
-date: 2026-01-04T21:12:39+08:00
+date: 2026-01-09T13:50:27Z
 tags: ["cloudflare", "wrangler"]
-draft: false 
+draft: false
 ---
 
 前几天写了个[捐赠页面](/)，想着基于 Cloudflare 的技术栈来搭建，顺道体验了下 Wrangler 这个我没怎么用过的工具。
