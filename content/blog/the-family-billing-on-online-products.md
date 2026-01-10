@@ -11,7 +11,7 @@ draft: false
 
 ### 2023 年
 
-我将主要的内容移动到了 Google Docs 里，看[这里](https://billing.tourcoder.com/))。
+我将主要的内容移动到了 Google Docs 里，看[这里](https://tourcoder.com/billing)。
 
 ### 2022 年
 
