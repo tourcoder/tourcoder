@@ -29,11 +29,11 @@ menu:
 
 曾经网名颇多，但近很多年都用的本名。
 
-除了写博客和代码，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder)。
+除了写博客和代码，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder?sub_confirmation=1)。
 
-我一般通过 [Twitter](https://twitter.com/tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
+我一般通过 [Twitter](https://twitter.com/intent/follow?screen_name=tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
 
-除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder.org](https://xcoder.org/@tourcoder)，[Twitter/X](https://x.com/tourcoder)。
+除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder](https://xcoder.org/@tourcoder)，[Twitter/X](https://x.com/intent/follow?screen_name=tourcoder)。
 
 我非常喜欢 [Email](mailto:code@TOURCODER.com)，它是和我联系的最好途径。
 
