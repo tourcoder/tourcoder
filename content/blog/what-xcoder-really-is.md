@@ -1,5 +1,5 @@
 ---
-title: Xcoder 是什么 "
+title: "Xcoder 是什么"
 slug: "what-xcoder-really-is"
 author: "Bin Hua"
 date: 2026-01-16T13:19:22+08:00
