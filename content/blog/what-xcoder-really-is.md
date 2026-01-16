@@ -43,7 +43,7 @@ draft: false
 
 代码部分：Gemini 写了 95%😂，而我写了 5%，主要集中在 objective-c 和修改错误。现在 Gemini 理解和处理 objc 的项目还差点意思（一拖 n 的开发方式 token 也消耗不起）。
 
-技术栈：cloudflare 全平台（pages/worker/d1/r2），react，tailwind css，vite，objective-c（iOS 版）
+技术关键词：cloudflare 全平台（pages/worker/d1/r2），react，tailwind css，vite，objective-c（iOS 版）， PWA
 
 至于用 Google 账户一键登录是因为我不想“涉及”用户密码的管理，而且能不能访问 Google 也是一道天然的屏障，挡住了一些非必要的东西。
 
