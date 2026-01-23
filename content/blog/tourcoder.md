@@ -11,7 +11,7 @@ draft: false
 
 差不多 2011 年的时候，高晓松在节目中说他母亲对的说过的话「生活不只是眼前的苟且，还有诗和远方」，2016 年的时候，高晓松词曲许巍演唱的歌曲《生活不止眼前的苟且》发布导致这句话爆火。
 
-![tourcoder](https://storage.tourcoder.com/tcblog/tourcoder.png)
+![tourcoder](https://storage.tourcoder.com/tcblog/tourcoder.jpg)
 
 作为一个伪文青，那时我在想，我的诗与远方是什么呢？在一次遛狗的下午，我突然想到我喜欢写代码，我喜欢旅行，这不正是我的「诗和远方」吗？？？！！！
 
