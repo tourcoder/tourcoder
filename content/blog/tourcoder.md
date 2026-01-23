@@ -1,5 +1,5 @@
 ---
-title: "Tourcoder"
+title: "代码和旅行即我的诗和远方"
 slug: "tourcoder"
 author: "Bin Hua"
 date: 2026-01-23T11:32:54+08:00
@@ -19,6 +19,6 @@ tour - 边写代码边旅游，用现在流行的话说「数字游民」。
 
 因为 codertour 品相不好看，敲起来不顺手，所以使用了更顺手的 tourcoder。
 
-时至今日，我才实现了一半的「诗与远方」，写了一些代码，玩了一些地方，这些都在我的 GitHub，YouTube 频道，Instagram 以及 Google Photos 里都有记录。
+时至今日，我才实现了一半的「诗与远方」，写了一些代码，玩了一些地方，这些都在我的 GitHub，Twitter(X)，YouTube 频道，Instagram 以及 Google Photos 里都有记录。
 
 眼看着自己已经 40+，大步迈向 50，是不是要实现另外的一半？不然一辈子不能实现自己的诗和远方，多少还是有点憋屈的。
