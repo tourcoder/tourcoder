@@ -111,7 +111,7 @@ docker run --name trojan-mariadb \
 -v /home/admin/mariadb:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=你的 root 用户密码 \
 -e MYSQL_DATABASE=你的数据表名 \
--d mariadb:10.2
+-d mariadb:10.6
 ```
 
 如上，至少把端口限制成宿主使用，修改下 root 密码和数据表名，这是最基本的！
