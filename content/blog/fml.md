@@ -7,13 +7,7 @@ tags: ["gfw", "翻墙"]
 draft: false
 ---
 
-我写这篇文章只是分享我是如何设置自己的 fml 服务的，~~没有将这篇文章放在我的博客是因为~~
-
-~~1. 这篇文章可能会刺激到一些人的 G 点，不想给自己的博客找麻烦。~~
-
-~~2. 放这里是个天然屏障，能让求知的人看到，同时也阻止了一些麻烦。~~
-
-我几周前将这篇文章写在了自己的 GitHub 上，但今天觉得还是放回自己的博客吧。
+我写这篇文章只是分享我是如何设置自己的 fml 服务的。
 
 ## 准备工作
 
@@ -261,9 +255,9 @@ draft: false
     }
     ```
   
-  - Trojan 和 Trojan-go
+  - Trojan-go
 
-    具体可以看[这里](https://tourcoder.com/how-to-install-trojan-bbr-plus-on-debian-10/)。
+    具体可以看[这里](https://hub.docker.com/r/tourcoder/trojan-go-fml)。
 
 ## 辅助内容
 
