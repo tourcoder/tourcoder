@@ -162,7 +162,7 @@ sudo service sshd restart
 
   - 菜单栏（控制中心）只放了时间和控制中心这两个图标，其他系统自带的图标一律放在控制中心里。
 
-  - 关闭 `Spotlight` 的快捷键，其之前的快捷键分配给自制的类似应用 `H9`。
+  - 关闭 `Spotlight` 的快捷键，其之前的快捷键分配给自制的类似应用 `H9`，从 macOS 26 开始，换回了 `Spotlight`，够用了。但关闭了一些外置硬盘等索引 `Settings -> Spotlight -> Search Privacy` 里添加不要索引的盘，命令行就是 `sudo mdutil -i off /Volumes/盘符名`，`sudo mdutil -E /Volumes/盘符名` 删除已有索引。
 
   - 辅助功能里，在`指针控制`中开启`触控板`的`三指拖拽`功能。
 
