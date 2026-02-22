@@ -1,8 +1,8 @@
 ---
-title: "博客"
+title: "文章"
 menu:
   main:
-    name: "博客"
+    name: "文章"
     url: "/blog"
     weight: 1
 ---
