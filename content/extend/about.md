@@ -29,7 +29,7 @@ menu:
 
 曾经网名颇多，但近很多年都用的本名。
 
-除了写博客和代码，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder?sub_confirmation=1)。
+除了写[文章](/blog)和[代码](https://github.com/tourcoder)，我还对一些事情感兴趣，比如[运动](/)，[阅读](/booklist)，看[电影](/booklist)，玩[游戏](/)和随手拍[视频](https://www.youtube.com/@tourcoder?sub_confirmation=1)。
 
 我一般通过 [Twitter](https://twitter.com/intent/follow?screen_name=tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
 
