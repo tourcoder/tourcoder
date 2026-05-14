@@ -1,0 +1,42 @@
+# 代码旅行 (tourcoder.com)
+
+> 代码旅行是 Bin Hua 的个人博客，记录编程学习笔记、技术实践、生活随想与媒体评论。内容以中文为主，兼有英文。所有内容均为本人手写，无 AI 参与写作。
+
+Bin Hua，独立开发者、博主、内容创作者。
+
+信仰永恒，无所畏惧 (Do Faith No Fear) 是他的座右铭。同时他还崇尚 “饿了就吃，困了就睡，累了就放弃”，
+
+## 关于本站
+
+- [关于](https://tourcoder.com/about): 作者简介、联系方式与版权声明
+- [隐私政策](https://tourcoder.com/privacy): 隐私政策，内容采用 CC BY-NC-ND 4.0 授权
+
+## 文章
+
+- [全部文章](https://tourcoder.com/blog): 从 2008 年起持续写了几百篇文章，涵盖技术、生活、旅行、影评、书评等主题
+
+### 主要话题
+
+- Web 开发（React、Node.js、npm、webpack 等）
+- iOS / Swift 开发
+- 服务器运维与 DevOps（GitHub Actions、VPS、Cloudflare、AWS）
+- AI 工具与工作流（ChatGPT、Gemini、Claude）
+- AI 项目实践（AI 陪伴、自杀预防服务、人格参数化）
+- 个人随笔与生活记录
+- 旅行见闻（全球各地等）
+- 电影、电视剧、书籍评论
+
+## 书单与观影记录
+
+- [书单 / 观影记录](https://tourcoder.com/booklist): 自 2014 年起持续记录的书单与观影列表
+
+## 社交
+
+- Xcoder: https://xcoder.org/@tourcoder
+- X/Twitter: https://x.com/tourcoder
+- GitHub: https://github.com/tourcoder
+- YouTube: https://www.youtube.com/@tourcoder
+
+## 版权
+
+本站所有原创内容采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权，转载须注明出处，禁止商业使用及演绎。
