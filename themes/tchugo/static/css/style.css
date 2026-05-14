@@ -89,9 +89,12 @@ del {
 }
 .blog-item time, span.summary {
   display: inline-block;
+  width: 3.2em;
   margin-right: 10px;
   font-size: 15px;
   color: rgba(255,255,255,0.6);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
 }
 .blogdetail {
   color: rgba(255,255,255,0.6);
