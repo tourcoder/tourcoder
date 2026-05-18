@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "term"]
   keywords = "代码旅行, tourcoder, 代码, 旅行, 推特, twitter, 播客, podcast, 博客, blog, blogger, youtube, github, 开源, opensource, 信仰永恒，无所畏惧, Do Faith No Fear"
   logo = "/imgs/logo.jpg"
   home_image = "/imgs/about.webp"
-  bio = "这是一位热爱分享、动手能力强、注重效率且有着丰富实战经验的博主。这个博客更像是他的一本公开的“技术错题本”、“经验备忘录”和“人生记录本”。<br />这个博主崇尚「饿了就吃，困了就睡，累了就放弃」，生活相对自由散漫了点，全球不定期刷新的 NPC。"
+  bio = "这是一位热爱分享、动手能力强、注重效率且有着丰富实战经验的博主。这个博客更像是他的一本公开的“技术错题本”、“经验备忘录”和“人生记录簿”。<br />这个博主崇尚「饿了就吃，困了就睡，累了就放弃」，生活相对自由散漫了点，全球不定期刷新的 NPC。"
   # 开启本地搜索
   fastSearch = true
   home_project_limit = 20
