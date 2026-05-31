@@ -25,6 +25,8 @@ draft: false
 
 注意：这里有个门槛，需要有 GitHub 的账号才能评论，但这也是一个很好的防 spam 的好门槛，不是吗？
 
+2026 年 5 月 31 日已经删除该评论系统...
+
 ### 资源
 
 [Utterances](https://utteranc.es/)
