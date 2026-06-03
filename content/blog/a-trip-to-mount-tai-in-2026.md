@@ -7,6 +7,8 @@ tags: ["旅游日记", "泰山", "三山五岳", "2026"]
 draft: false
 ---
 
+![](https://storage.tourcoder.com/tcblog/a-trip-to-mount-tai-in-2026.jpg)
+
 昨天爬了趟泰山，没什么感觉。
 
 说景色吧，也就是那么回事，说强度吧，也没累着我。
