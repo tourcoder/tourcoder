@@ -30,6 +30,7 @@ disableKinds = ["taxonomy", "term"]
   xcoder  = "https://xcoder.org/@tourcoder"
   x       = "https://x.com/tourcoder"
   github  = "https://github.com/tourcoder"
+  ganggang = "https://ganggang.org/@tourcoder"
   youtube = "https://www.youtube.com/@tourcoder"
   email   = "code@tourcoder.com"
 
