@@ -35,6 +35,20 @@ sudo sed -ri 's/^#?(PasswordAuthentication)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_co
 sudo service sshd restart
 ```
 
+如果是依旧用 .pem 文件登录的话，则需要对新用户名做一些权限调整，比如我用的是 Debian，它默认的用户是 admin，那么
+
+```
+# 在新用户下创建 .ssh 目录，并复制 admin 的授权公钥过去
+sudo mkdir -p /home/nerdone/.ssh
+sudo cp /home/admin/.ssh/authorized_keys /home/nerdone/.ssh/authorized_keys
+# 修正属主和权限
+sudo chown -R nerdone:nerdone /home/nerdone/.ssh
+sudo chmod 700 /home/nerdone/.ssh
+sudo chmod 600 /home/nerdone/.ssh/authorized_keys
+```
+
+这样，采用让 nerdone 用户通过默认的 .pem 文件登录，当然，也可以自行为 nerdone 用户创建一个登录的密钥文件。
+
 - 常用工具
 
   - Podman: 直接通过命令 `sudo apt install podman -y` 安装，比起 Docker，我现在基本用它。如果喜欢 Docker，可以通过 [Dockerman](https://github.com/tourcoder/dockerman) 安装。
