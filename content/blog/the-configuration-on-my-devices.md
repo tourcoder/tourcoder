@@ -47,7 +47,7 @@ sudo chmod 700 /home/nerdone/.ssh
 sudo chmod 600 /home/nerdone/.ssh/authorized_keys
 ```
 
-这样，采用让 nerdone 用户通过默认的 .pem 文件登录，当然，也可以自行为 nerdone 用户创建一个登录的密钥文件。
+这样，才能让 nerdone 用户通过默认的 .pem 文件登录，当然，也可以自行为 nerdone 用户创建一个登录的密钥文件。
 
 - 常用工具
 
