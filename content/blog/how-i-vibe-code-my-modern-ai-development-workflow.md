@@ -45,7 +45,7 @@ echo "为项目 [$PROJECT_NAME] 启动独立沙盒..."
 # 检查是否已经有运行的容器
 if podman ps --format "{{.Names}}" | grep -q "^${CONTAINER_NAME}$"; then
     echo "检测到现有容器，正在连接..."
-    podman exec -it "$CONTAINER_NAME" /bin/bash
+    podman exec -it "$CONTAINER_NAME" tmux new -A -s dev
 else
     # 新建容器
     if ! podman run -d \
@@ -72,7 +72,7 @@ else
     fi
 
     echo "容器已启动，正在进入..."
-    podman exec -it "$CONTAINER_NAME" /bin/bash
+    podman exec -it "$CONTAINER_NAME" tmux new -A -s dev
 fi
 ```
 
