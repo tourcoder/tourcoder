@@ -82,6 +82,8 @@ fi
 
 另外，我借助了 yeci 内置 yeci-notify 和 telegram bot 解决人离开屏幕后没有时间盯住 agent，无法和它对话的痛点。根据 [yeci-notify](https://notify.yeci.org) 官网所写的 `yeci-notify init` 完成配置即可。当我人离开屏幕后，有交互的问题会被发送到绑定的 telegram bot，通过这个 bot 可以继续指导 agent 继续编码等。
 
+![yeci-notify](https://storage.tourcoder.com/tcblog/how-i-vibe-code-my-modern-ai-development-workflow-001.jpg)
+
 其他，我还有一些其他的操作，比如环境变量的注入等，都是容器管理器（Podman/Docker）本身的方式方法。
 
 更多玩法可以参考:
