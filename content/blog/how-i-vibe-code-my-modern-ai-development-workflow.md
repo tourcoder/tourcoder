@@ -93,3 +93,13 @@ fi
 - YECI-NOTIFY：[yeci-notify](https://notify.yeci.org)
 
 - Podman：[podman.io](https://podman.io)
+
+### 一些注意点
+
+有读者给我写邮件问了我一些问题，这里统一回复下：
+
+1. podman 的特点是 rootless，这回导致容器在当前用户登出后被杀死，无法继续。最简单的处理办法是执行命令 `loginctl enable-linger <当前用户名>`。如果用的是 docker，基本问题不大，因为 docker 默认是 rootful。如果用的是 rootless 的时候，也同样执行一次命令即可。这里也可以通过 `podman generate systemd / Quadlet` 把容器注册成 systemd 服务来管理，但太复杂了，不建议。
+
+2. 在我上面的脚本 `devRun` 里有 `--rm` 参数，这里的参数可以去掉，我是为了方便管理 vps 的资源。如果做不到 vps 的稳定，我建议去掉。
+
+3. 环境变量的注入应该是通过容器的方式注入，用其他的方式保存在开发容器里，这个是错误的路子。
