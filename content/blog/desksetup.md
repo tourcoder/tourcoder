@@ -7,6 +7,28 @@ date: 2022-05-22T01:57:04Z
 tags: ["工作台", "workspace", "desk setup"]
 ---
 
+### 2024 - 2026
+
+小书房的桌子没有什么变化，桌子上的手办等都在，旧的设备也主要在这张桌子上。但升降桌放到了另外一个房间，也增加了些新东西，这两张照片是 2025 年 6 月份拍的，桌上东西变化挺大的。
+
+![](https://cdn.xcoder.org/32c9bb1c-f01f-400a-8fa9-d9a889fe5a52-1770955074176.jpg?width=600&quality=75)
+
+![](https://cdn.xcoder.org/e0578923-1cae-4d0b-87e1-d9024db58c32-1770955074184.jpg?width=600&quality=75)
+
+- Mac Mini(M4)：我在家的时候基本用它了
+
+- Dell S2725QS 显示器：说实在的真没有感觉出 4K 和高刷的强劲。
+
+- K3Max 84 键盘：敲着比较舒服的一个键盘，比之前的要爽多了，但和 Magic Keyboard 还是有点差距了。
+
+- Magic Trackpad
+
+- HP 笔记本：2015 年买的，安装了 Debian 后，依旧很能打，不过我用得少，主要是用来测试 Linux 上的情况
+
+其他的比如 MacBook Air（安装了 Windows 处理税务等问题），MacBook Pro（光荣下岗），老的键盘（比如图中的这个白色键盘）等都在小书房的另外一张桌子上。
+
+### 2024 前
+
 先上图，从 2016 年到现在，我书房主要用的桌子变化情况。
 
 ![](https://storage.tourcoder.com/tcblog/desk-setup-01.jpg)
