@@ -19,6 +19,9 @@ a {
 del {
   color: #3c3c3c;
 }
+hr {
+  border-top: 1px dotted #999;
+}
 .nav, .foot {
   display: flex;
   flex-wrap: wrap;
