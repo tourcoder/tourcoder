@@ -17,8 +17,8 @@ menu:
 
   现在阶段我关注的焦点是如何让 AI Agent 更好的服务金融交易。
 
-- EDC( 每天携带的东西 )，请看 [What's my stuff, EDC](/stuff)。
+- [EDC](/stuff)：日常携带的东西。
 
-- 工作台，请查看「[我的工作台](/desk-setup)」。
+- [工作台](/desk-setup)：在家办公环境。
 
-- 常用的软件，请看「[我常用设备的配置](/the-configuration-on-my-devices)」。
+- [设备配置及软件](/the-configuration-on-my-devices)：常用设备的配置及安装的软件。
