@@ -41,6 +41,8 @@ menu:
 
 博客 RSS 订阅：[https://tourcoder.com/index.xml](https://tourcoder.com/index.xml)
 
+Xcoder RSS 订阅：[https://xcoder.org/rss/tourcoder](https://xcoder.org/rss/tourcoder)
+
 播客 RSS 订阅：[https://tourcoder.com/podcasts.xml](https://tourcoder.com/podcasts.xml) 或 [Apple Podcasts](https://podcasts.apple.com/us/podcast/代码旅行/id1484052686)
 
 ### 其他
