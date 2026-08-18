@@ -111,7 +111,6 @@ def main() -> None:
                 fm, body = split_front_matter(old_text)
                 title = extract(fm, "title", stem)
                 author = extract(fm, "author", "")
-                orig_date = extract(fm, "date", "")
 
                 # 2024-05-01T12:30:45+08:00 -> 20240501-1230
                 stamp = iso_date[:16].replace("-", "").replace("T", "-").replace(":", "")
@@ -129,7 +128,6 @@ def main() -> None:
                     f"rev_hash: {commit_hash[:8]}\n"
                     f"rev_subject: {yaml_escape(subject)}\n"
                     f"author: {yaml_escape(author)}\n"
-                    f"orig_date: {yaml_escape(orig_date)}\n"
                     "_build:\n"
                     "  list: never\n"
                     "---\n\n" + body,

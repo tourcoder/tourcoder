@@ -15,8 +15,7 @@
     {{ .Content }}
     <hr class="break-line">
     <time>
-      本文由 {{ .Params.author | default site.Params.author }} 发表于
-      {{ with .Params.orig_date }}{{ dateFormat "2006-01-02 15:04:05" . }}{{ end }}，
+      本文由 {{ .Params.author | default site.Params.author }} 发表，
       此版本保存于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}
     </time>
   </div>
