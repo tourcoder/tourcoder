@@ -114,7 +114,7 @@ def main() -> None:
 
                 # 2024-05-01T12:30:45+08:00 -> 20240501-1230
                 stamp = iso_date[:16].replace("-", "").replace("T", "-").replace(":", "")
-                rev_url = f"{live_url}rev/{stamp}/"
+                rev_url = f"/rev/{page_slug}/{stamp}/"
 
                 dest = REV_DIR / slug / f"{stamp}.md"
                 dest.parent.mkdir(parents=True, exist_ok=True)
