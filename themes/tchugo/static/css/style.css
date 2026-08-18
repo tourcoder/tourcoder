@@ -410,6 +410,13 @@ h2, h3 {
 .foot a:hover {
   color: #58A6FF;
 }
+.revision-notice {
+  border-left: 3px solid #e0a000;
+  background: #fdf6e3;
+  padding: 0.8em 1em;
+  margin: 1.5em 0;
+  font-size: 0.9em;
+}
 @media screen and (max-width: 750px) {
   .nav .menu a {
     font-size: 1.0em;

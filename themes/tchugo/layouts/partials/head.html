@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
   <meta name="msvalidate.01" content="2FFF0F81BA9DDA58D61182CF6BFA087B" />
   <link rel="shortcut icon" href="/imgs/favicon.ico">
-  <title>{{ if not .IsHome }} {{ .Title }}@{{ end }}{{ .Site.Title }}{{ if .Site.Params.Slogan }} :: {{ .Site.Params.Slogan }} {{ end }}</title>
+  <title>{{ if not .IsHome }}{{ .Title }}{{ if eq .Type "revision" }}（{{ .Date.Format "2006-01-02" }} 版本）{{ end }}@{{ end }}{{ .Site.Title }}{{ if .Site.Params.Slogan }} :: {{ .Site.Params.Slogan }} {{ end }}</title>
   {{- if .Site.Params.description }}
   <meta name="description" content="{{ .Description | default .Site.Params.description }} ">
   {{- end }}
@@ -12,6 +12,11 @@
   <meta name="keywords" content="{{ default .Site.Params.keywords }}">
   {{- end }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-  <link rel="canonical" href="{{ .Permalink }}">
+  {{ if eq .Type "revision" }}
+    <meta name="robots" content="noindex,follow">
+    <link rel="canonical" href="{{ .Params.canonical | absURL }}">
+  {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+  {{ end }}
   <link rel="alternate" type="application/rss+xml" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" title="{{ .Site.Title }}">
 </head>

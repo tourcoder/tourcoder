@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{- partial "header.html" . -}}
+<div id="wrapper">
+<div class="blogdetail">
+  <header>
+    <h2>{{ .Title }}</h2>
+  </header>
+
+  <div class="revision-notice">
+    <p>你正在阅读的是本文 <strong>{{ .Date.Local | time.Format "2006-01-02 15:04:05" }}</strong> 的历史版本{{ with .Params.rev_subject }}（{{ . }}）{{ end }}，内容可能已经过时。</p>
+    <p><a href="{{ .Params.canonical }}">→ 阅读本文的最新版本</a></p>
+  </div>
+
+  <div class="blogcontent">
+    {{ .Content }}
+    <hr class="break-line">
+    <time>
+      本文由 {{ .Params.author | default site.Params.author }} 发表于
+      {{ with .Params.orig_date }}{{ dateFormat "2006-01-02 15:04:05" . }}{{ end }}，
+      此版本保存于 {{ .Date.Local | time.Format "2006-01-02 15:04:05" }}
+    </time>
+  </div>
+
+  <footer>
+    <hr class="break-line">
+    <div class="license">
+      <p>除特别注明外，所有文章均采用<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">Creative Commons BY-NC-ND 4.0（自由转载-保持署名-非商用-禁止演绎）协议</a>发布。并且纯人工手写，坚决杜绝 AI 参与写作，思考深度难免会有缺失，所以阅读时请多加思考。</p>
+      <p>更多说明，请看<a href="/about">关于本站</a>。</p>
+    </div>
+    <hr class="break-line">
+    <p><a href="{{ .Params.canonical }}">← 返回本文最新版本</a></p>
+  </footer>
+</div>
+</div>
+{{ end }}

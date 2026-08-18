@@ -2,3 +2,5 @@
 .DS_Store/
 public/
 public
+content/rev/
+data/history.json

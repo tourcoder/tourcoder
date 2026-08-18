@@ -62,6 +62,8 @@ disableKinds = ["taxonomy", "term"]
   tabSizeDefault = 4
   extensions = ["hardLineBreak", "tables", "noEmptyLineBeforeBlock", "definitionLists"]
 
+enableGitInfo = true
+
 [frontmatter]
   lastmod = ['lastmod', ':git', ':fileModTime', 'date', 'publishDate']
 
