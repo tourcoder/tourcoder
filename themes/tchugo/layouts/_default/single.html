@@ -20,17 +20,16 @@
   </div>
 
   {{ if eq .Type "blog" }}
-
+  <hr class="break-line">
   {{ with site.Data.history }}
     {{ with index . $.File.Path }}
       <section class="revisions">
-        <h4>修改记录</h4>
-        <p>
-          <span>{{ $.Lastmod.Format "2006-01-02 15:04" }}（当前版本）</span>
+        <dl>
+        <dt>历史版本：</dt>
           {{ range . }}
-            ,&nbsp;<a href="{{ .url }}" title="{{ .subject }}">{{ dateFormat "2006-01-02 15:04" .date }}</a>
+            <dd><a href="{{ .url }}" title="{{ .subject }}">{{ dateFormat "2006-01-02 15:04" .date }}</a></dd>
           {{ end }}
-        </p>
+        </dl>
       </section>
     {{ end }}
   {{ end }}
