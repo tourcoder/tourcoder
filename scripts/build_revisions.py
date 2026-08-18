@@ -8,8 +8,12 @@
   3. 写入 content/rev/... （构建产物，应加入 .gitignore）
   4. 同时写出 data/history.json，供当前文章页渲染「修改记录」列表
 
+URL 形态：
+  正文     /文章slug/
+  历史版本 /rev/文章slug/20240501-1230/
+
 用法：
-    git fetch --unshallow || true
+    if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then git fetch --unshallow; fi
     python3 scripts/build_revisions.py
     hugo --minify
 """
@@ -24,9 +28,8 @@ from pathlib import Path
 CONTENT = Path("content")
 REV_DIR = CONTENT / "rev"          # 历史版本页输出目录
 DATA_FILE = Path("data/history.json")
-TRACK = ["blog"]                  # 需要版本历史的 section
+TRACK = ["blog"]                   # 需要版本历史的 section
 MAX_REVISIONS = 0                  # 每篇最多保留几个历史版本，0 = 不限
-DATE_FMT_IN_URL = "%Y%m%d-%H%M"    # 决定历史版本的 URL 形态
 # ------------------------------------------------------------------
 
 
@@ -83,14 +86,17 @@ def main() -> None:
             continue
 
         for source in sorted(section_dir.rglob("*.md")):
-            # content/posts/my-post.md  ->  posts/my-post
-            key = str(source.relative_to(CONTENT))
-            stem = key[:-3]
-            # leaf bundle: content/posts/my-post/index.md -> posts/my-post
+            key = str(source.relative_to(CONTENT))          # blog/my-post.md
+            stem = key[:-3]                                 # blog/my-post
+            # leaf bundle: blog/my-post/index.md -> blog/my-post
             if stem.endswith("/index") or stem.endswith("/_index"):
                 stem = stem.rsplit("/", 1)[0]
-            live_url = f"/{stem}/"
-            slug = stem.replace("/", "--")
+
+            # 对齐 config.toml 里的 [permalinks] blog = "/:slug"
+            current_fm, _ = split_front_matter(source.read_text(encoding="utf-8"))
+            page_slug = extract(current_fm, "slug") or stem.rsplit("/", 1)[-1]
+            live_url = f"/{page_slug}/"                     # 正文地址
+            dir_slug = stem.replace("/", "--")              # 仅用于临时文件目录名
 
             history = commits_for(source)
             if len(history) < 2:
@@ -109,14 +115,14 @@ def main() -> None:
                     continue
 
                 fm, body = split_front_matter(old_text)
-                title = extract(fm, "title", stem)
+                title = extract(fm, "title", page_slug)
                 author = extract(fm, "author", "")
 
                 # 2024-05-01T12:30:45+08:00 -> 20240501-1230
                 stamp = iso_date[:16].replace("-", "").replace("T", "-").replace(":", "")
                 rev_url = f"/rev/{page_slug}/{stamp}/"
 
-                dest = REV_DIR / slug / f"{stamp}.md"
+                dest = REV_DIR / dir_slug / f"{stamp}.md"
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 dest.write_text(
                     "---\n"
