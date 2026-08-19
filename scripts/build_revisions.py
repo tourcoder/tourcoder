@@ -8,6 +8,8 @@
   3. 写入 content/rev/... （构建产物，应加入 .gitignore）
   4. 同时写出 data/history.json，供当前文章页渲染「修改记录」列表
 
+所有时间统一换算成 TZ 指定的时区后再写出。
+
 URL 形态：
   正文     /文章slug/
   历史版本 /rev/文章slug/20240501-1230/
@@ -22,7 +24,9 @@ import json
 import re
 import shutil
 import subprocess
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # ---------------------------------------------------------------- 配置
 CONTENT = Path("content")
@@ -30,6 +34,7 @@ REV_DIR = CONTENT / "rev"          # 历史版本页输出目录
 DATA_FILE = Path("data/history.json")
 TRACK = ["blog"]                   # 需要版本历史的 section
 MAX_REVISIONS = 0                  # 每篇最多保留几个历史版本，0 = 不限
+TZ = ZoneInfo("Asia/Singapore")    # 输出时间统一换算到这个时区
 # ------------------------------------------------------------------
 
 
@@ -57,21 +62,34 @@ def commits_for(path: Path):
     return result
 
 
-FRONT_MATTER = re.compile(r"\A---\n(.*?)\n---\n?", re.S)
+# 兼容 YAML(---) 与 TOML(+++) front matter，容忍 BOM 与 \r\n
+FM_PATTERNS = (
+    re.compile(r"\A\ufeff?---\r?\n(.*?)\r?\n---\r?\n?", re.S),
+    re.compile(r"\A\ufeff?\+\+\+\r?\n(.*?)\r?\n\+\+\+\r?\n?", re.S),
+)
 
 
 def split_front_matter(text: str):
-    m = FRONT_MATTER.match(text)
-    return (m.group(1), text[m.end():]) if m else ("", text)
+    for pat in FM_PATTERNS:
+        m = pat.match(text)
+        if m:
+            return m.group(1), text[m.end():]
+    return "", text
 
 
 def extract(front_matter: str, key: str, fallback: str = "") -> str:
-    m = re.search(rf'^{key}:\s*(.+)$', front_matter, re.M)
+    # 同时匹配 YAML 的 `key: v` 与 TOML 的 `key = "v"`
+    m = re.search(rf'^{key}\s*[:=]\s*(.+)$', front_matter, re.M)
     return m.group(1).strip().strip('"\'') if m else fallback
 
 
 def yaml_escape(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def to_local(iso: str) -> str:
+    """把 git 记录的时间（Codespaces / 网页端提交均为 UTC）换算成 TZ。"""
+    return datetime.fromisoformat(iso).astimezone(TZ).isoformat()
 
 
 def main() -> None:
@@ -103,12 +121,15 @@ def main() -> None:
                 continue  # 只有初版，没有「历史」可言
 
             entries = []
+            used_stamps: set[str] = set()
             # history[0] 是最新一次提交，其内容 == 当前页面，跳过
             older = history[1:]
             if MAX_REVISIONS:
                 older = older[:MAX_REVISIONS]
 
             for commit_hash, iso_date, subject, path_then in older:
+                iso_date = to_local(iso_date)
+
                 try:
                     old_text = git("show", f"{commit_hash}:{path_then}")
                 except subprocess.CalledProcessError:
@@ -120,6 +141,12 @@ def main() -> None:
 
                 # 2024-05-01T12:30:45+08:00 -> 20240501-1230
                 stamp = iso_date[:16].replace("-", "").replace("T", "-").replace(":", "")
+                if stamp in used_stamps:   # 同一分钟内多次提交，退化到秒
+                    stamp = iso_date[:19].replace("-", "").replace("T", "-").replace(":", "")
+                if stamp in used_stamps:   # 极端情况：同一秒
+                    stamp = f"{stamp}-{commit_hash[:6]}"
+                used_stamps.add(stamp)
+
                 rev_url = f"/rev/{page_slug}/{stamp}/"
 
                 dest = REV_DIR / dir_slug / f"{stamp}.md"
