@@ -136,6 +136,8 @@ def main() -> None:
                     continue
 
                 fm, body = split_front_matter(old_text)
+                if extract(fm, "draft").lower() == "true":
+                    continue
                 title = extract(fm, "title", page_slug)
                 author = extract(fm, "author", "")
 
