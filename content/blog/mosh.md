@@ -82,4 +82,6 @@ Host servB
 
 ### 注意点
 
-需要在服务器端开启 `60000-65535` 的入站端口，比如 aws 的 EC2 -> Security Group，GCP 的 VPC -> Firewall rules
+- 需要在服务器端开启 `60000-65535` 的入站端口，比如 aws 的 EC2 -> Security Group，GCP 的 VPC -> Firewall rules
+
+- 在 termius 这个 app 上用 mosh 登录，输入 `mosh-server new -s -c 256 -l LANG=en_US.UTF-8`。如果遇到 `mosh-server needs a UTF-8 native locale to run` 这样的报错，在服务器端执行 `sudo locale-gen en_US.UTF-8 && sudo update-locale LANG=en_US.UTF-8` 即可。
