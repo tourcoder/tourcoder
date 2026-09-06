@@ -82,6 +82,35 @@ Host servB
 
 ### 注意点
 
-- 需要在服务器端开启 `60000-65535` 的入站端口，比如 aws 的 EC2 -> Security Group，GCP 的 VPC -> Firewall rules
+- 需要在服务器端开启 `60000-65535` 的入站端口，比如 aws 的 EC2 -> Security Group，GCP 的 VPC -> Firewall rules。用 GCP 举例
+
+  创建一个 Firewall rule，大致步骤如下
+
+  ```
+  Name:
+  allow-mosh
+    
+  Direction:
+  Ingress
+    
+  Action:
+  Allow
+    
+  Targets:
+  Specified target tags
+    
+  Target tags:
+  mosh
+    
+  Protocols:
+  udp:60000-61000
+
+  Source:
+  0.0.0.0/0
+  ```
+
+  然后在要开启的 vm 的 networking 里增加 mosh 这个 tag 即可。
 
 - 在 termius 这个 app 上用 mosh 登录，输入 `mosh-server new -s -c 256 -l LANG=en_US.UTF-8`。如果遇到 `mosh-server needs a UTF-8 native locale to run` 这样的报错，在服务器端执行 `sudo locale-gen en_US.UTF-8 && sudo update-locale LANG=en_US.UTF-8` 即可。
+
+- 密钥基本是通过 `ssh-keygen -t ed25519 -f ~/.ssh/gcp_vm` 这样的名字来生成，至于如何移动到服务器，可以翻看我其他的博文。GCP 的 vm 可以在网页端编辑这个 vm，然后在 ssh key 的选项卡里填入 gcp_vm.pub 的内容即可，它会默认将最后的 comment 部分的 @ 前面作为登录用户名。
