@@ -33,6 +33,7 @@ disableKinds = ["taxonomy", "term"]
   ganggang = "https://ganggang.org/@tourcoder"
   youtube = "https://www.youtube.com/@tourcoder"
   podcasts = "https://podcasts.apple.com/podcast/id1484052686"
+  products = "https://binhua.org"
   email   = "code@tourcoder.com"
 
 [permalinks]
