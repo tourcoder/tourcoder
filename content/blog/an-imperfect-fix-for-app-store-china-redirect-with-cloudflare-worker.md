@@ -3,7 +3,7 @@ title: "用 Cloudflare Worker 不完美解决 App Store 链接的中国区重定
 slug: "an-imperfect-fix-for-app-store-china-redirect-with-cloudflare-worker"
 author: "Bin Hua"
 date: 2026-09-12T13:37:47Z
-tags: ["Cloudflare", "Workers", "App Store", "iOS"]
+tags: ["Cloudflare", "Workers", "AppStore", "iOS"]
 draft: false
 ---
 
