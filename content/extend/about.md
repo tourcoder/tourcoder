@@ -33,7 +33,7 @@ menu:
 
 我一般通过 [Twitter](https://twitter.com/intent/follow?screen_name=tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
 
-除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder](https://xcoder.org/@tourcoder)，[~~Twitter/X~~](https://x.com/intent/follow?screen_name=tourcoder)(极少登录了，上面的内容都是 Xcoder 上同步过去的)。
+除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder](https://xcoder.org/@tourcoder)，[~~Twitter/X~~](https://x.com/intent/follow?screen_name=tourcoder)~~(极少登录了，上面的内容都是 Xcoder 上同步过去的)~~。
 
 我非常喜欢 [Email](mailto:code@TOURCODER.com)，它是和我联系的最好途径。
 
