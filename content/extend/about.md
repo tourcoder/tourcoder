@@ -33,9 +33,21 @@ menu:
 
 我一般通过 [Twitter](https://twitter.com/intent/follow?screen_name=tourcoder) 自建的 List 和订阅 RSS 主动获取信息。
 
-除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder](https://xcoder.org/@tourcoder)，[Twitter/X](https://x.com/intent/follow?screen_name=tourcoder)。
+除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder](https://xcoder.org/@tourcoder)，[~~Twitter/X~~](https://x.com/intent/follow?screen_name=tourcoder)(极少登录了，上面的内容都是 Xcoder 上同步过去的)。
 
 我非常喜欢 [Email](mailto:code@TOURCODER.com)，它是和我联系的最好途径。
+
+- 当前的工作及关注的焦点
+
+  当前，我工作于一家 AI 驱动的金融分析公司，工作内容是 AI Agent 的开发（远程）。
+
+  现阶段，我关注的焦点是如何让 AI Agent 更好的服务金融交易（AI-Fi）。
+
+- [EDC](/stuff)：日常携带的东西。
+
+- [工作台](/desk-setup)：在家办公环境。
+
+- [设备配置及软件](/the-configuration-on-my-devices)：常用设备的配置及安装的软件。
 
 ### 订阅
 
