@@ -2,7 +2,7 @@
 
 > 代码旅行是 Bin Hua 的个人博客，记录编程学习笔记、技术实践、生活随想与媒体评论。内容以中文为主，兼有英文。所有内容均为本人手写，无 AI 参与写作。
 
-Bin Hua，独立开发者、博主、内容创作者。
+Bin Hua，开发者、博主、内容创作者。
 
 信仰永恒，无所畏惧 (Do Faith No Fear) 是他的座右铭。同时他还崇尚 “饿了就吃，困了就睡，累了就放弃”，是个全球不定期刷新的 NPC。
 
@@ -20,7 +20,7 @@ Bin Hua，独立开发者、博主、内容创作者。
 - Web 开发（React、Node.js、npm、webpack 等）
 - iOS / Swift 开发
 - 服务器运维与 DevOps（GitHub Actions、VPS、Cloudflare、AWS）
-- AI 工具与工作流（ChatGPT、Gemini、Claude）
+- AI 工具与工作流（ChatGPT、Gemini、Claude、Grok、TPU、GPU）
 - AI 项目实践（AI 陪伴、自杀预防服务、人格参数化）
 - 个人随笔与生活记录
 - 旅行见闻（全球各地等）
@@ -36,6 +36,9 @@ Bin Hua，独立开发者、博主、内容创作者。
 - X/Twitter: https://x.com/tourcoder
 - GitHub: https://github.com/tourcoder
 - YouTube: https://www.youtube.com/@tourcoder
+- GangGang: https://ganggang.org/@tourcoder
+- Podcast: https://podcasts.apple.com/podcast/id1484052686
+- Products: https://binhua.org
 
 ## 版权
 
