@@ -107,6 +107,11 @@ hr {
   font-size: 15px;
   margin: 11px 0;
 }
+.blogdetail .blogcontent blockquote {
+  color: rgba(255,255,255,0.85);
+  border-left: .25em solid rgba(255,255,255,0.85);
+  padding: 0 1em;
+}
 .blogdetail .blogcontent p, .releated-posts {
   line-height: 32px;
   display: block;
