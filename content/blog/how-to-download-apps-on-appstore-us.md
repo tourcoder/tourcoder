@@ -36,3 +36,13 @@ App Store 美国区一直是 App Store 中应用最全，质量最高的区，�
 最后，欢迎来到 AppStore 美国区！
 
 购买了应用后，如需要退款，登录 [https://reportaproblem.apple.com/](https://reportaproblem.apple.com/) ，请求即可。
+
+### 资源
+
+我在美国区和中国区都会绑定银行卡，除此之外的其他区域都不会绑定任何的支付方式，均为 Gift Card。几个区的购买渠道如下：
+
+美国区购买地址：[https://www.apple.com/shop/gift-cards/itunes-electronic](https://www.apple.com/shop/gift-cards/itunes-electronic)
+
+日本区购买地址：[https://www.apple.com/jp/shop/buy-giftcard/giftcard](https://www.apple.com/jp/shop/buy-giftcard/giftcard)
+
+英国区购买地址：[https://www.apple.com/uk/shop/buy-giftcard/giftcard](https://www.apple.com/uk/shop/buy-giftcard/giftcard)
