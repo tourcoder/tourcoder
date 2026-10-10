@@ -35,6 +35,8 @@ menu:
 
 除了这个博客，我也有其他絮絮叨叨的地方，比如 [Xcoder](https://xcoder.org/@tourcoder)，[~~Twitter/X~~](https://x.com/intent/follow?screen_name=tourcoder)~~(极少登录了，上面的内容都是 Xcoder 上同步过去的)~~。
 
+几年前做的一周总结的栏目 SOF (Ship on Fridays)，在 2026 年初移动到了[这里](https://xcoder.org/@tourcoder/tags/sof)。
+
 我非常喜欢 [Email](mailto:code@TOURCODER.com)，它是和我联系的最好途径。
 
 - 当前的工作及关注的焦点
