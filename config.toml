@@ -35,7 +35,7 @@ disableKinds = ["taxonomy", "term"]
   podcasts = "https://podcasts.apple.com/podcast/id1484052686"
   applemusic = ""
   products = "https://binhua.org"
-  email   = "code@tourcoder.com"
+  email   = ""
 
 [permalinks]
   blog = "/:slug"
