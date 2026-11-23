@@ -7,7 +7,7 @@ tags: ["ai", "openai", "chatgpt", "claude", "anthropic", "github", "gitlab"]
 draft: false
 ---
 
-前几日，Claude 的开发商 Anthropic 上市了，转头看看 OpenAI，我想起另外两家企业 GitLab 和 GitHub，感觉它们有点像，但后者更纯粹点。最早 GitLab 最早是 GitHub 上的一个开源项目，后来逐步壮大，迁出，然后被投资，独立上市。GitHub “错过”上市机会，最后被微软收购。
+前几日，Claude 的开发商 Anthropic 上市了，转头看看 OpenAI，我想起另外两家企业 GitLab 和 GitHub，感觉它们有点像，但后者更纯粹点。GitLab 最早是 GitHub 上的一个开源项目，后来逐步壮大，迁出，然后被投资，独立上市。GitHub “错过”上市机会，最后被微软收购。
 
 Anthropic 也“算是”来自 OpenAI 内部，然后一路走到 IPO，资本结构清晰。相比较而言 OpenAI 就有点“怪胎”了。
 
