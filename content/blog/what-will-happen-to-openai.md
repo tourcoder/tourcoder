@@ -1,5 +1,5 @@
 ---
-title: "What Will Happen to Openai"
+title: "关于 OpenAI 的几点杂想"
 slug: "what-will-happen-to-openai"
 author: "Bin Hua"
 date: 2026-11-23T03:44:48Z
